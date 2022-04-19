@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public bool ponchoToFly = false;
 
 
-    [HideInInspector]
+    
     public WorldState States;
     [HideInInspector]
     public WorldState PreviousState;
@@ -246,7 +246,7 @@ public class PlayerMovement : MonoBehaviour
 
             //check for ground version Phil
             bool Ground = false;
-            if (Colli.CheckGround() || Colli.CheckGround2())
+            if (Colli.CheckGround() /*|| Colli.CheckGround2()*/) // was removed because of wall slide
             {
                 Ground = true;
             }
