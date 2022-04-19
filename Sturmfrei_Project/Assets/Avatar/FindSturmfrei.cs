@@ -36,7 +36,7 @@ public class FindSturmfrei : MonoBehaviour
     IEnumerator Collecte(Collider other)
     {
         this.gameObject.GetComponent<AudioSource>().Play();
-        pono.GetComponent<PlayerMovement>().enabled = false;
+        StopMovingPono(other.GetComponent<PlayerCollisionSphere>().PlayerMov);
         collecte = true;
         yield return new WaitForSeconds(3.5f);
         sturmfreiAnim.SetBool("Collecte", true);
@@ -54,8 +54,16 @@ public class FindSturmfrei : MonoBehaviour
         other.GetComponent<PlayerCollisionSphere>().PlayerMov.RemoveFadeWhite();
         yield return new WaitForSeconds(1.0f);
 
-        pono.GetComponent<PlayerMovement>().enabled = false;
         customEvent.LookAtFlyingControl.Invoke();
 
+    }
+
+    public void StopMovingPono(PlayerMovement player)
+    {
+        player.ActSpeed = 0;
+        player.Anim.SetFloat("Moving", 0);
+        player.Rigid.transform.position = player.transform.position;
+        player.Rigid.velocity = Vector3.zero;
+        player.enabled = false;
     }
 }
