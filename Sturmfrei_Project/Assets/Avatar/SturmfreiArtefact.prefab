@@ -553,6 +553,9 @@ GameObject:
   - component: {fileID: 1874001308873310375}
   - component: {fileID: 211746049}
   - component: {fileID: 211746046}
+  - component: {fileID: 7720332553756241784}
+  - component: {fileID: 3034078795062198398}
+  - component: {fileID: 5867570376332829955}
   m_Layer: 11
   m_Name: SturmfreiArtefact
   m_TagString: Player
@@ -701,6 +704,59 @@ MonoBehaviour:
   pono: {fileID: 0}
   poncho1: {fileID: 0}
   poncho2: {fileID: 0}
+  customEvent: {fileID: 0}
+--- !u!114 &7720332553756241784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874001308873310378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1233376116b6feb4591530b5afc0a394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventName: Poncho_Idle
+  stopEvent: Poncho_Idle_Stop
+--- !u!114 &3034078795062198398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874001308873310378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fca08abb4b924278bf6e88c5651b761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!54 &5867570376332829955
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874001308873310378}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1936724206279743653
 GameObject:
   m_ObjectHideFlags: 0

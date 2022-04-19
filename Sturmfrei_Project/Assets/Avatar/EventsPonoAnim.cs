@@ -20,6 +20,8 @@ public class EventsPonoAnim : MonoBehaviour
     public string flyingStunned = "Flying_Stunned";
 
     public string fallRespawn = "Fall_Respawn";
+    public string purpleCloudStart = "PurpleCloud_Damage_Start";
+    public string purpleCloudStop = "PurpleCloud_Damage_Stop";
 
     public bool debugEnabled = false;
     public GameObject ponoAnim;
@@ -36,6 +38,17 @@ public class EventsPonoAnim : MonoBehaviour
     {
         AkSoundEngine.PostEvent(fallRespawn, gameObject);
         if (debugEnabled) { Debug.Log("respawn"); }
+    }
+
+    public void PurpleCloud_Damage_Start()
+    {
+        AkSoundEngine.PostEvent(purpleCloudStart, gameObject);
+        if (debugEnabled) { Debug.Log("toxicStart"); }
+    } 
+    public void PurpleCloud_Damage_Stop()
+    {
+        AkSoundEngine.PostEvent(purpleCloudStop, gameObject);
+        if (debugEnabled) { Debug.Log("toxicStop"); }
     }
 
     //On foot

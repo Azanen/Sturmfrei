@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public bool ponchoToFly = false;
 
 
-    
+    public GameObject pono;
     public WorldState States;
     [HideInInspector]
     public WorldState PreviousState;
@@ -1175,6 +1175,7 @@ public class PlayerMovement : MonoBehaviour
         dashLock = true;
         canDashFront = false;
         canDashUp = false;
+        pono.GetComponent<EventsPonoAnim>().PurpleCloud_Damage_Start();
     }
 
     //ajout Oli pour que player reste tainted tant que pono est dans toxic
@@ -1186,6 +1187,7 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator NotTainted()
     {
         yield return new WaitForSeconds(TaintedTimer);
+        pono.GetComponent<EventsPonoAnim>().PurpleCloud_Damage_Stop();
         isTainted = false;
         dashLock = false;
         canDashFront = true;

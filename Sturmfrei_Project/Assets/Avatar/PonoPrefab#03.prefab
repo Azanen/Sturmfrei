@@ -19729,8 +19729,7 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras:
-  - {fileID: 0}
+  m_Cameras: []
   m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
@@ -20418,6 +20417,7 @@ MonoBehaviour:
   frontDashAbility: 1
   purificationAbility: 1
   ponchoToFly: 1
+  pono: {fileID: 5257761968474809389}
   States: 0
   PreviousState: 0
   Cam: {fileID: 0}
@@ -22121,6 +22121,8 @@ MonoBehaviour:
   flyingLanding: Flying_Landing
   flyingStunned: Flying_Stunned
   fallRespawn: Fall_Respawn
+  purpleCloudStart: PurpleCloud_Damage_Start
+  purpleCloudStop: PurpleCloud_Damage_Stop
   debugEnabled: 1
   ponoAnim: {fileID: 0}
   anim: {fileID: 0}
