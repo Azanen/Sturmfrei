@@ -40,7 +40,7 @@ public class Ability_Unlock : MonoBehaviour
         camFolTar.lookingAtWall = true;
         camFolTar.Cam_Pos_Unlock = CameraPosition.transform.position;
         // Stop player control
-        player.enabled = false ;
+        StopMovingPono(player);
         //stop animation
         yield return new WaitForSeconds(tempsDeLookAt);
         // give back player control
@@ -48,5 +48,11 @@ public class Ability_Unlock : MonoBehaviour
         //Return cam
         camFolTar.lookingAtWall = false;
         Destroy(this.gameObject);
+    }
+
+
+    public void StopMovingPono(PlayerMovement player)
+    {
+        player.enabled = false;
     }
 }

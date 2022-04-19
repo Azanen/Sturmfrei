@@ -1374,4 +1374,5 @@ public class PlayerMovement : MonoBehaviour
     {
         purificationAbility = true;
     }
+
 }
