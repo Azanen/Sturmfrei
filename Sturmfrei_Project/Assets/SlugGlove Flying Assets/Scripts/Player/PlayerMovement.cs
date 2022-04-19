@@ -20,8 +20,11 @@ public class PlayerMovement : MonoBehaviour
     public bool purificationAbility = false;
     public bool ponchoToFly = false;
 
-
+    [HideInInspector]
+    public Save_System_Proto manager;
+    [HideInInspector]
     public GameObject pono;
+    [HideInInspector]
     public WorldState States;
     [HideInInspector]
     public WorldState PreviousState;
@@ -169,6 +172,7 @@ public class PlayerMovement : MonoBehaviour
         aether = this.transform.Find("Aether").gameObject.GetComponent<ParticleSystem>();
         CheckPointPos = transform.position;
 
+        manager = this.GetComponentInChildren<Save_System_Proto>();
         //setup this characters stats
         SetupCharacter();
         SetupValue();
@@ -488,7 +492,7 @@ public class PlayerMovement : MonoBehaviour
             HandleVelocity(delta, Spd, FlyAccel, YAmt);
 
             //flying controls
-            FlyingCtrl(delta, ActSpeed, _xMov, _zMov);
+            FlyingCtrl(delta, ActSpeed, _xMov, _zMov*manager.ReturnFlyingInverted());
 
         }
         else if (States == WorldState.Stunned)

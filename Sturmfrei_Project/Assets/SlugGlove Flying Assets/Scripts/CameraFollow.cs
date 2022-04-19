@@ -66,6 +66,8 @@ public class CameraFollow : MonoBehaviour
     public GameObject wallObject;
     private CameraFollowTarget camFolTar;
 
+    public PlayerMovement player;
+
     //setup objects
     void Awake()
     {
@@ -128,7 +130,8 @@ public class CameraFollow : MonoBehaviour
     public void Tick(float d)
     {
         float h = Input.GetAxis("Mouse X");
-        float v = Input.GetAxis("Mouse Y");
+        //float v = Input.GetAxis("Mouse Y");
+        float v = Input.GetAxis("Mouse Y") * player.manager.ReturnCamInverted();
 
         //reset auto input timer
         if (h != 0 || v != 0) 

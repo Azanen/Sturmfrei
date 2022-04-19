@@ -4,13 +4,13 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class Save_System 
 {
-    public static void SaveNumber(int number)
+    public static void Save(int number, bool InvertedCam, bool InvertedFlying)
     {
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "/nombre.fun";
         FileStream stream = new FileStream(path, FileMode.Create);
 
-        Save_Data_Proto data = new Save_Data_Proto(number);
+        Save_Data_Proto data = new Save_Data_Proto(number, InvertedCam, InvertedFlying);
 
         formatter.Serialize(stream, data);
         stream.Close();
