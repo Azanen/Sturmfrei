@@ -3,20 +3,16 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test_Event" ID="{34A5C91D-6128-417D-B86F-0E0956DC36DE}">
-					<ChildrenList>
-						<Action Name="" ID="{40101110-036A-4FF1-831A-4718CA9CC63C}" ShortID="195377638">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Test" ID="{0EEAB79B-294F-4DCF-9628-891B96D8C77E}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Test_Footstep" ID="{6970350F-492D-40A3-AA05-21762E29F963}">
 					<ChildrenList>
 						<Action Name="" ID="{2FC68C70-061B-43D6-A03A-0069B165FFEA}" ShortID="1003055602">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footstep_Test" ID="{6322810F-B2C3-4329-9EF5-CAB44245395D}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
@@ -303,7 +299,30 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Amb_Hub" ID="{8C05ECD7-1050-4317-825C-71574DA60B61}"/>
+						<Event Name="Amb_Hub" ID="{8C05ECD7-1050-4317-825C-71574DA60B61}">
+							<ChildrenList>
+								<Action Name="" ID="{2614BE38-2548-4C63-B4AE-4ECAC121695A}" ShortID="899774730">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Unequipped" ID="{3EDD2C56-E3D3-4BFF-807D-16C6F87A24A5}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2CF29427-8871-4031-A2B2-8DE4AADAB9AA}" ShortID="864550146">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Amb_Level1" ID="{09CB17ED-E8A6-476C-A196-D37441B95D7D}"/>
 						<Event Name="Amb_Level2" ID="{6717C21B-4E69-4A5E-885A-DE2D96D96DB0}"/>
 						<Event Name="Amb_Level3" ID="{93F945EB-6743-4F24-BF71-DFF69A4A6595}"/>
@@ -322,13 +341,107 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="PurpleCloud_Damage" ID="{F03EF3D5-3A7B-4B74-83F4-3321EA10BB1C}"/>
-						<Event Name="PurpleCloud_Idle" ID="{81C7AC9A-353B-4BD1-8ACB-B1D956B6CD55}"/>
-						<Event Name="Soul_Collect" ID="{9B844E38-E3B9-438D-A235-8C84545D2DD4}"/>
-						<Event Name="Soul_Idle" ID="{B294F2C5-893E-4604-B42E-785C8B7700BE}"/>
-						<Event Name="Magnet_Activate" ID="{E8E9AB05-1412-4D73-A599-C40B879FDB3A}"/>
-						<Event Name="Magnet_Release" ID="{6509D89A-9BCB-4870-915F-206DD863482E}"/>
-						<Event Name="Magnet_Idle" ID="{1E50D05C-64A5-4045-A696-5BE25EF8D1BD}"/>
+						<Event Name="PurpleCloud_Damage" ID="{F03EF3D5-3A7B-4B74-83F4-3321EA10BB1C}">
+							<ChildrenList>
+								<Action Name="" ID="{4689E025-35C7-4643-AE5D-16D546D27BC0}" ShortID="482271254">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlurpleCloud_Damage" ID="{DAB8384D-DA5E-442A-8811-77252FC76D5D}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PurpleCloud_Idle" ID="{81C7AC9A-353B-4BD1-8ACB-B1D956B6CD55}">
+							<ChildrenList>
+								<Action Name="" ID="{517B6B78-ECA8-4EC9-A3D4-EEAB179F410E}" ShortID="68913184">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PurpleCloud_Idle" ID="{EF9BE579-13A4-4EF3-BFF4-1BB13DFCAB27}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Soul_Collect" ID="{9B844E38-E3B9-438D-A235-8C84545D2DD4}">
+							<ChildrenList>
+								<Action Name="" ID="{E3DAA899-C212-4D5C-A76E-DBB68B885A27}" ShortID="717055758">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soul_Collect" ID="{9E6AF6EC-4430-462B-8217-211D97F60FA5}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9A8DDD15-03C2-41D9-9094-8749EAD6D5D5}" ShortID="1040745289">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soul_Idle" ID="{C0EF0C6D-1D79-407D-9181-FE6FFBD88C30}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Soul_Idle" ID="{B294F2C5-893E-4604-B42E-785C8B7700BE}">
+							<ChildrenList>
+								<Action Name="" ID="{95D402FD-60F0-4271-A337-4106B3B39054}" ShortID="843007878">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soul_Idle" ID="{C0EF0C6D-1D79-407D-9181-FE6FFBD88C30}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Magnet_Activate" ID="{E8E9AB05-1412-4D73-A599-C40B879FDB3A}">
+							<ChildrenList>
+								<Action Name="" ID="{DC7E5C02-A68B-4CE1-AEEA-013AD11BDA63}" ShortID="331032387">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magnet_Activate" ID="{728CD864-6633-44A5-B28D-3B410AC5EAE0}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Magnet_Release" ID="{6509D89A-9BCB-4870-915F-206DD863482E}">
+							<ChildrenList>
+								<Action Name="" ID="{D24FF0F4-776C-4A97-AB50-3EDCF3A9BB42}" ShortID="926122294">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="0"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magnet_Activate" ID="{728CD864-6633-44A5-B28D-3B410AC5EAE0}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E65A1705-14D3-444D-914D-CB8B8A4DC702}" ShortID="545768518">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magnet_Stop" ID="{9CA4C532-4D3D-48DE-B116-FD6AE79FCB82}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Magnet_Idle" ID="{1E50D05C-64A5-4045-A696-5BE25EF8D1BD}">
+							<ChildrenList>
+								<Action Name="" ID="{0335D709-D69F-4EF5-A58F-31A45C7A1BF5}" ShortID="279595931">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magnet_Idle_Loop" ID="{1985ACDF-28C1-43B4-91DF-1FB1CF359D92}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Sturmfrei_Recharge" ID="{8EA18413-DAE2-4733-A6A7-F7D43C9361E5}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="23"/>
@@ -344,10 +457,180 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Boss_Idle" ID="{9F6CD685-3AE8-4700-A6FE-09AFD51D73C6}"/>
-						<Event Name="Boss_Defeat" ID="{7E885446-B05E-466F-B67A-721B066A92C2}"/>
-						<Event Name="BreakWall_Stone" ID="{B0225E8E-DB1E-4642-87E0-E87D8DDA3016}"/>
-						<Event Name="BreakWall_Ice" ID="{F5F8921F-5405-4A30-9521-142FDC10AAD9}"/>
+						<Event Name="Boss_Idle" ID="{9F6CD685-3AE8-4700-A6FE-09AFD51D73C6}">
+							<ChildrenList>
+								<Action Name="" ID="{569653CA-F3BD-449C-8609-CFB617C650F1}" ShortID="283116659">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Idle" ID="{F7789795-ED57-4A5C-880D-4FCD040F6A98}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Boss_Defeat" ID="{7E885446-B05E-466F-B67A-721B066A92C2}">
+							<ChildrenList>
+								<Action Name="" ID="{EB866ACD-744A-4ACD-BB1F-E3044761F0E7}" ShortID="252089576">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Defeat" ID="{35C574D9-65D9-48E9-BC96-A4B1EFFE8354}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9A53E5A9-9180-4FD7-A030-C064B34F093B}" ShortID="934390696">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Idle_Rocks" ID="{67E2F3EA-E7DB-4249-933A-21B389DB7407}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AD473C67-D7D3-442B-9EC6-22DD79EB93B1}" ShortID="581119685">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Idle_Loop" ID="{BB8A63E0-D183-437E-9FC1-23CDABECB054}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3E2D6940-0C64-45C5-A2B8-47BBED82602A}" ShortID="287803825">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakWall_Stone" ID="{931B752D-ADF8-43D7-869E-26D8A5FC12E5}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BreakWall_Stone" ID="{B0225E8E-DB1E-4642-87E0-E87D8DDA3016}">
+							<ChildrenList>
+								<Action Name="" ID="{42448581-6E64-471F-9C52-371A51CBEFC9}" ShortID="626595732">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakWall_Stone" ID="{931B752D-ADF8-43D7-869E-26D8A5FC12E5}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BreakWall_Ice" ID="{F5F8921F-5405-4A30-9521-142FDC10AAD9}">
+							<ChildrenList>
+								<Action Name="" ID="{A2D996EC-946C-4AB2-9F2D-6489B31B9365}" ShortID="118915779">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakWall_Ice" ID="{1DBF29A2-34F1-428D-8D14-35ACFA010AE0}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Poncho_Collect" ID="{0C8BCEC4-AB99-4E8B-86F9-6833353BDF07}">
+							<ChildrenList>
+								<Action Name="" ID="{B1C10731-17F8-4433-8801-667674788BA9}" ShortID="970293698">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho_Collect" ID="{DEFE1505-3D35-4B98-A83F-6FBB973F256D}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E8DE6329-C0C2-4068-BD29-E532A16ED8EC}" ShortID="1014571828">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="0"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho_Idle" ID="{D5659A77-1C30-45F0-AC8F-C668C2F24812}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B4035466-33FD-4CE1-BA4C-C643AFD39D97}" ShortID="1018584732">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Equipped" ID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Poncho_Idle" ID="{03C3DF92-602A-4275-BCAC-0CAAA8B249A8}">
+							<ChildrenList>
+								<Action Name="" ID="{62706700-496B-4153-8E96-612FDCB5FBDE}" ShortID="990369693">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho_Idle" ID="{D5659A77-1C30-45F0-AC8F-C668C2F24812}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PurpleCloud_Stop" ID="{56C6E57B-32B7-4E3E-A0F1-E2C1E562CDD0}">
+							<ChildrenList>
+								<Action Name="" ID="{6C5171DB-A94D-4944-AB90-5A1CF0F7DE28}" ShortID="222005035">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlurpleCloud_Damage" ID="{DAB8384D-DA5E-442A-8811-77252FC76D5D}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Statue_Rebuild" ID="{9BD1A29E-00AE-4EFD-99CF-149BDD9DBD40}">
+							<ChildrenList>
+								<Action Name="" ID="{652CA074-E4A9-4A96-90EA-969D15C04274}" ShortID="413161806">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Statue_Rebuild" ID="{6F4CF552-9ADB-407C-B53C-5518B08A357D}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Statue_Idle" ID="{E39BA85B-C4D2-4F2A-A50B-147D2877AD28}">
+							<ChildrenList>
+								<Action Name="" ID="{D14AE045-AB6F-461D-80FA-10A86C8572D6}" ShortID="591299696">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Boss_ReturnHub" ID="{1D86669C-FFE4-48A5-999A-BFDCC86A7AB1}">
+							<ChildrenList>
+								<Action Name="" ID="{F6B1BDB4-8A49-49DD-B956-81D07288CD4D}" ShortID="184286506">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_ReturnHub" ID="{1E0F171D-5384-43FB-AFE7-BEF71145F779}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{375A72B8-354F-4760-A09F-5B483B32BE67}" ShortID="908351025">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Defeat" ID="{35C574D9-65D9-48E9-BC96-A4B1EFFE8354}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8C177A8D-FB32-464C-8DBA-E688AF208F1A}" ShortID="582140264">
