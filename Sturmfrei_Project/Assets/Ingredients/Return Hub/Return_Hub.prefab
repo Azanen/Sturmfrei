@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7234865709214741407}
   - component: {fileID: 7234865709214741400}
   - component: {fileID: 7234865709214741404}
+  - component: {fileID: 950449654}
   m_Layer: 6
   m_Name: Return_Hub
   m_TagString: CheckpointZone
@@ -110,3 +111,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camFolTar: {fileID: 0}
+--- !u!114 &950449654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7234865709214741401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3ca95f165e6e14fb7e65df4c44a64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventName: Boss_ReturnHub

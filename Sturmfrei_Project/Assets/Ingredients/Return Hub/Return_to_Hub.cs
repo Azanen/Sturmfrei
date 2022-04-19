@@ -16,6 +16,7 @@ public class Return_to_Hub : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            this.gameObject.GetComponent<ObjectSoundTrigger>().PlaySound();
             colliderPlayer = other.GetComponent<PlayerCollisionSphere>();
             colliderPlayer.PlayerMov.StartFadeWhite();
             //stop the cam moving
