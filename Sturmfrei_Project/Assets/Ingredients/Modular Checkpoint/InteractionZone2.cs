@@ -74,7 +74,7 @@ public class InteractionZone2 : MonoBehaviour
                 shrine.GetComponent<Animator>().SetTrigger("SetCheckpoint");
                 Instantiate(crystalToSpawn, spawnPoint.position, spawnPoint.rotation);
                 StartCoroutine(Aether());
-                StartCoroutine(RemoveLightBeam());
+                StartCoroutine(RemoveLightBeam(lightbeam));
                 if (!shrineActive) StartCoroutine(ActivateLook());
                 shrineActive = true;
             }
@@ -154,10 +154,14 @@ public IEnumerator RemoveFadeToWhite()
         }
     }
     }*/
+    public void ShrinkBeam(GameObject beam)
+    {
+        StartCoroutine(RemoveLightBeam(beam));
+    }
 
     private float progressScale = 1;
     private float elapsedTimeScale = 1;
-    IEnumerator RemoveLightBeam()
+    IEnumerator RemoveLightBeam(GameObject beam1)
     {
         while (progressScale > 0)
         {
@@ -165,7 +169,7 @@ public IEnumerator RemoveFadeToWhite()
             progressScale = elapsedTimeScale;
 
             Vector3 tempoScale = new Vector3(1, progressScale, 1);
-            lightbeam.transform.localScale = tempoScale;
+            beam1.transform.localScale = tempoScale;
             yield return null;
         }
 
