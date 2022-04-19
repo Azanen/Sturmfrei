@@ -49,9 +49,12 @@ private void Start()
             int flyup = Random.Range(5, 15);
             childObjects.GetComponent<Rigidbody>().AddForce(new Vector3 (0,flyup,0), ForceMode.Impulse);
             Debug.Log(flyup.ToString());
+           // childObjects.GetComponent<Material>().
         }
         //bedingbedang.Play();
         yield return new WaitForSeconds(1.3f);
+        Destroy(MurBrise, 7f);
     }
+
 
 }
