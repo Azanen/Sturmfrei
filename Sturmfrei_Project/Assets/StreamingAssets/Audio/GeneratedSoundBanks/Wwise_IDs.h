@@ -14,13 +14,16 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_CAVE = 3755979049U;
+        static const AkUniqueID AMB_CAVE_STOP = 2172799516U;
         static const AkUniqueID AMB_HUB = 3385283415U;
         static const AkUniqueID AMB_LEVEL1 = 4059733421U;
         static const AkUniqueID AMB_LEVEL2 = 4059733422U;
         static const AkUniqueID AMB_LEVEL3 = 4059733423U;
         static const AkUniqueID AMB_SKY = 3820074413U;
+        static const AkUniqueID AMB_SKY_STOP = 4206107360U;
         static const AkUniqueID BOSS_DEFEAT = 3026592080U;
         static const AkUniqueID BOSS_IDLE = 3167145899U;
+        static const AkUniqueID BOSS_IDLE_STOP = 1582029286U;
         static const AkUniqueID BOSS_RETURNHUB = 4157896688U;
         static const AkUniqueID BREAKWALL_ICE = 535719110U;
         static const AkUniqueID BREAKWALL_STONE = 3555376460U;
@@ -41,6 +44,7 @@ namespace AK
         static const AkUniqueID FOOT_WALK = 2176935827U;
         static const AkUniqueID MAGNET_ACTIVATE = 1640886257U;
         static const AkUniqueID MAGNET_IDLE = 1966150636U;
+        static const AkUniqueID MAGNET_IDLE_STOP = 1652472027U;
         static const AkUniqueID MAGNET_RELEASE = 1373415169U;
         static const AkUniqueID MENU_CLICK = 760777789U;
         static const AkUniqueID MENU_CLOSE = 626954121U;
@@ -59,23 +63,32 @@ namespace AK
         static const AkUniqueID MUS_START = 1973954843U;
         static const AkUniqueID PONCHO_COLLECT = 493504551U;
         static const AkUniqueID PONCHO_IDLE = 1422186037U;
+        static const AkUniqueID PONCHO_IDLE_STOP = 1717976792U;
         static const AkUniqueID PURPLECLOUD_DAMAGE = 2024919782U;
         static const AkUniqueID PURPLECLOUD_IDLE = 2600606019U;
+        static const AkUniqueID PURPLECLOUD_IDLE_STOP = 3351513518U;
         static const AkUniqueID PURPLECLOUD_STOP = 660005737U;
         static const AkUniqueID RIVER_IDLE = 3391124858U;
+        static const AkUniqueID RIVER_IDLE_STOP = 1212564489U;
         static const AkUniqueID SOUL_COLLECT = 1138063715U;
         static const AkUniqueID SOUL_IDLE = 1846985177U;
+        static const AkUniqueID SOUL_IDLE_STOP = 1854935980U;
         static const AkUniqueID START_GAME = 1114964412U;
         static const AkUniqueID STATUE_IDLE = 979468870U;
+        static const AkUniqueID STATUE_IDLE_STOP = 1859632405U;
         static const AkUniqueID STATUE_REBUILD = 3439923085U;
         static const AkUniqueID STINGER_FIRSTFLY = 353331381U;
         static const AkUniqueID STINGER_PONCHO = 1562262157U;
         static const AkUniqueID STURMFREI_RECHARGE = 4175312948U;
         static const AkUniqueID TEST_FOOTSTEP = 2649590838U;
         static const AkUniqueID TREE_IDLE = 291430954U;
-        static const AkUniqueID TUTORIAL_TIP = 2410930353U;
+        static const AkUniqueID TREE_IDLE_STOP = 1304417945U;
+        static const AkUniqueID WATERFALL_IDLE = 1840923026U;
+        static const AkUniqueID WATERFALL_IDLE_STOP = 1084993841U;
         static const AkUniqueID WIND_COLUMN = 3105165424U;
+        static const AkUniqueID WIND_COLUMN_STOP = 183339903U;
         static const AkUniqueID WIND_TURBINE = 2911411227U;
+        static const AkUniqueID WIND_TURBINE_STOP = 3015085494U;
     } // namespace EVENTS
 
     namespace STATES

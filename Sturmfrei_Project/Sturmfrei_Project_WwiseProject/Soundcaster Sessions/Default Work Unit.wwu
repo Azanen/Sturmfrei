@@ -80,10 +80,6 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Foot_Landing" ID="{DC89EA0D-BC0F-4AE5-B129-27A6AFF7AA91}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
-							<Position X="0" Y="3"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Flying_Dash" ID="{DFB133EF-A123-46F7-8799-0EE47A73F85D}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -94,10 +90,6 @@
 						<Module>
 							<ObjectRef Name="Foot_Idle" ID="{27FC7981-8F93-4D5C-9BAE-B0BA71C05D4A}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="1" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Foot_Walk" ID="{5E795AD9-3B56-4C4A-A958-4632ED0D2709}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
-							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Flying_Idle" ID="{0CAAFE01-3114-4976-98CD-94C9A2F7B1EF}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
@@ -123,11 +115,19 @@
 							<ObjectRef Name="Foot_Jump" ID="{36AA8B77-A011-47D9-B7F1-6F3D94AD5874}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="3" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Foot_Landing" ID="{DC89EA0D-BC0F-4AE5-B129-27A6AFF7AA91}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Foot_Walk" ID="{5E795AD9-3B56-4C4A-A958-4632ED0D2709}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}"/>
-							<Value>50</Value>
+							<Value>40</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
@@ -136,7 +136,7 @@
 						<CurrentStateRef Name="None" ID="{79C8C9C9-C580-4BAB-9655-74656E2A89F4}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Stone" ID="{C5112161-F393-4A1D-8649-501FCF4BECD2}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Ingredient" ID="{AE575B08-47C3-48CD-BB9E-9BF80C5B2FCF}">

@@ -10,6 +10,14 @@
 						<Property Name="QFactorBand2" Type="Real32" Value="0.7"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="New_Wwise_Parametric_EQ_01" ID="{F5EE26AF-D0EF-444B-9654-32B8098A4B1D}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="921"/>
+						<Property Name="GainBand1" Type="Real32" Value="-9.5"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="2.1"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

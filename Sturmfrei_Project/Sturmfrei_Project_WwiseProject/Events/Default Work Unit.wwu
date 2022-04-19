@@ -106,17 +106,31 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{1D7A0B2F-E34D-4E39-8A00-AC07AE658AF6}" ShortID="118328133">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="VO_Flying_Start" ID="{6FDCB1BD-F45C-483B-AEED-67BA4D684AE6}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{503FE4EA-AB23-49D5-A826-AC8659D2938F}" ShortID="72440096">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Poncho_Start" ID="{C5752B82-D471-4F3D-AF66-C7A945D90BA2}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6620D9C0-6831-4B10-8DDD-7AF407B85D69}" ShortID="952633295">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flying_Start_Wind" ID="{45A63DC1-7F5D-4713-90E5-28D617AC49A9}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{867821AD-D805-4981-834C-A8680339CFA4}" ShortID="766085379">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}" WorkUnitID="{ADBC13F4-B892-4A0C-9DCA-013F7C3DA6C8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -128,6 +142,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Poncho_Flying" ID="{9CB1B918-0799-416A-BCC7-203309EFA094}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{132D3387-4A01-4FFB-8BDA-6A862DCE70FB}" ShortID="714226299">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Flying_Idle" ID="{735AECC9-A689-4A74-AE87-4C10946328DD}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -211,6 +232,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{83CA6565-052F-4840-943C-63A75869570F}" ShortID="45807823">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Flying_Idle" ID="{735AECC9-A689-4A74-AE87-4C10946328DD}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A364313E-71A0-4C7B-AE29-0714E4AFF659}" ShortID="768178178">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flying_Start_Wind" ID="{45A63DC1-7F5D-4713-90E5-28D617AC49A9}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Flying_Stunned" ID="{52F97DA9-597E-4761-8478-342A159385AE}">
@@ -226,6 +267,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="VO_Flying_Stunned" ID="{FCFC8F72-F3FF-4412-B45A-E1C11D4466D4}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CA4F132F-1E86-4F6E-A5E5-D0627B32E28B}" ShortID="1029552083">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Flying_Idle" ID="{735AECC9-A689-4A74-AE87-4C10946328DD}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2F20B241-C16E-4D7A-846D-1B8C0D0C08F3}" ShortID="741108187">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flying_Start_Wind" ID="{45A63DC1-7F5D-4713-90E5-28D617AC49A9}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -268,6 +329,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{D63D5FCF-6361-4051-8AC2-F692725621D8}" ShortID="485474059">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Flying_Idle" ID="{735AECC9-A689-4A74-AE87-4C10946328DD}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9DEA0724-9EF4-4AA9-A919-33F5CF983FB2}" ShortID="392435301">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flying_Start_Wind" ID="{45A63DC1-7F5D-4713-90E5-28D617AC49A9}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Fall_Respawn" ID="{78AF31AA-11BE-403B-B732-7533A26F56EE}">
@@ -286,6 +367,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Player_Poncho" ID="{65E0D449-B028-4AEF-BCD3-8E535D4AD81E}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6FF68E17-B58F-4827-AE0A-7A5286CC78F1}" ShortID="56610446">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flying_Start_Wind" ID="{45A63DC1-7F5D-4713-90E5-28D617AC49A9}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -333,6 +424,18 @@
 						<Event Name="Bridge_Crack" ID="{87B77034-03E8-45D4-A814-2726F80F8B3B}"/>
 						<Event Name="Wind_Turbine" ID="{D3ED819A-0B46-40C1-9515-60D7420BF34E}"/>
 						<Event Name="Wind_Column" ID="{A44EBFF1-050F-482C-8F45-9DDB7CB7D128}"/>
+						<Folder Name="Idle_Stop" ID="{805D905D-C3ED-4A28-8DEB-20D991C05CD7}" ShortID="641825805">
+							<ChildrenList>
+								<Event Name="Amb_Cave_Stop" ID="{57E57DD8-6B1E-4D91-B3FB-9D4F4942AF72}"/>
+								<Event Name="Amb_Sky_Stop" ID="{565F38DC-C804-479E-954E-3A10BAC7985F}"/>
+								<Event Name="Tree_Idle_Stop" ID="{3B9D27C2-37E3-4858-8D3A-6B2459558348}"/>
+								<Event Name="River_Idle_Stop" ID="{9FD7EEF7-B3A7-4E3E-A728-0C7A1D3AD6C0}"/>
+								<Event Name="Waterfall_Idle_Stop" ID="{BC2C56C1-E076-4E5E-AEC4-370B54CDEF67}"/>
+								<Event Name="Wind_Turbine_Stop" ID="{8206BDD2-A7B6-4A23-BE55-DACB5CF50BB0}"/>
+								<Event Name="Wind_Column_Stop" ID="{B382933B-12BD-4472-8715-5CD1F3D43282}"/>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Waterfall_Idle" ID="{5E806E88-FDBA-4129-AFF1-79BF7B85C195}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="INGREDIENT" ID="{C932F243-6722-42DC-8568-9F1C1B452D43}" ShortID="602137840">
@@ -631,6 +734,16 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Idle_Stop" ID="{778E1F73-41C1-497C-9731-BFA39556BF77}" ShortID="606051956">
+							<ChildrenList>
+								<Event Name="PurpleCloud_Idle_Stop" ID="{CA8957E2-BB18-4CD1-AC14-960B8C2A6C28}"/>
+								<Event Name="Soul_Idle_Stop" ID="{8839D33D-5592-4FA8-A066-D7784B0AF91E}"/>
+								<Event Name="Magnet_Idle_Stop" ID="{D3F9A8E7-D011-4E2E-AA85-40B14CD3528F}"/>
+								<Event Name="Statue_Idle_Stop" ID="{845454A4-D355-433D-A653-2042AA0F7A67}"/>
+								<Event Name="Boss_Idle_Stop" ID="{492A4515-1D89-40A8-81E6-7ECACD8D3CBA}"/>
+								<Event Name="Poncho_Idle_Stop" ID="{5BB8CAA3-C22E-49EF-B20F-34FF12D7F23F}"/>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8C177A8D-FB32-464C-8DBA-E688AF208F1A}" ShortID="582140264">
@@ -643,7 +756,6 @@
 						<Event Name="Menu_Open" ID="{DF9FD397-4A6A-4261-9352-7317A5CF5394}"/>
 						<Event Name="Menu_Close" ID="{B29A4941-C936-4B97-8987-EDC76BB9DEA6}"/>
 						<Event Name="Start_Game" ID="{6E03F07A-B357-4C09-8B15-40526A512A2F}"/>
-						<Event Name="Tutorial_Tip" ID="{67472195-FD5A-48E2-A876-D51960DF4A8B}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MUSIC" ID="{63A558BB-BABE-4CEE-8515-DB0CF579CE25}" ShortID="982548981">

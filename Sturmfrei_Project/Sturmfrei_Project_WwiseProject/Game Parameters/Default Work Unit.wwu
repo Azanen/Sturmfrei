@@ -3,7 +3,14 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{ADBC13F4-B892-4A0C-9DCA-013F7C3DA6C8}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}"/>
+				<GameParameter Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}">
+					<PropertyList>
+						<Property Name="FilterTimeUp" Type="Real64" Value="4"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
