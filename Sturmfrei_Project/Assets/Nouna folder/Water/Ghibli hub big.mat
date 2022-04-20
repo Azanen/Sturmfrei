@@ -42,13 +42,13 @@ Material:
     - RippleDensity: 7
     - RippleSlimness: 5
     - RippleSpeed: 1
-    - Speed_X: 1
-    - Speed_y: 1
+    - Speed_X: 0.05
+    - Speed_y: 0.01
     - WaveSpeed: 0.2
     m_Colors:
     - BaseColor: {r: 0, g: 0.358356, b: 0.9803922, a: 0}
     - FoamColor: {r: 0, g: 0, b: 0, a: 0}
-    - FoamSpeed: {r: 1, g: 1, b: 0, a: 0}
-    - RippleColor: {r: 0.03921569, g: 1.505882, b: 1.85098, a: 0}
-    - Tiling: {r: 0, g: 0, b: 0, a: 0}
+    - FoamSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - RippleColor: {r: 1.2039311, g: 1.9677697, b: 2.1448183, a: 0}
+    - Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
