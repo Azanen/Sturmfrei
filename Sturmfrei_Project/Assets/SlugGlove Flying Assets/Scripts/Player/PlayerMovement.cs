@@ -154,6 +154,7 @@ public class PlayerMovement : MonoBehaviour
     public bool usingTriggerAxis = false;
 
 
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -346,6 +347,8 @@ public class PlayerMovement : MonoBehaviour
             ready = false;
             ResetPlayer();
         }
+
+
     }
 
     // Update is called once per frame

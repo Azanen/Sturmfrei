@@ -17,6 +17,9 @@ public class DetectCollision : MonoBehaviour
     public float WallDistance;
     private PlayerMovement playMove;
 
+    public string groundMaterial = "empty";
+    //public GameObject groundMaterialObject;
+
 
     public bool checkGround2;
     public void Start()
@@ -78,5 +81,15 @@ public class DetectCollision : MonoBehaviour
         Gizmos.color = Color.blue;
         Vector3 Pos3 = transform.position + (transform.forward * auDessusOffset);
         Gizmos.DrawSphere(Pos3, collisionRadiusDessus);
+    }
+
+    private void Update()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(this.transform.position, transform.TransformDirection(-Vector3.up), out hit, Mathf.Infinity))
+        {
+            //Debug.Log(hit.collider.gameObject.ToString());
+            groundMaterial = hit.collider.gameObject.tag.ToString();
+        }
     }
 }

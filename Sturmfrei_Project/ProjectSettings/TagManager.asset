@@ -11,6 +11,14 @@ TagManager:
   - Soul
   - Pollution
   - Poncho
+  - AudioTool
+  - Stone
+  - Dirt
+  - Water
+  - Grass
+  - Wood
+  - Snow
+  - Ice
   layers:
   - Default
   - TransparentFX

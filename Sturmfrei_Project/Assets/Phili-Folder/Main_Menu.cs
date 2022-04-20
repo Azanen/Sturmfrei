@@ -20,4 +20,9 @@ public void RemoveCursor()
         Cursor.lockState = CursorLockMode.Locked;
 
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
