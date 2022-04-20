@@ -20,6 +20,11 @@ public class PlayerMovement : MonoBehaviour
     public bool purificationAbility = false;
     public bool ponchoToFly = false;
 
+    public bool ponoShouldSitDown;
+
+    [HideInInspector]
+    public float timerBeforeSitting = 0;
+
     [HideInInspector]
     public Save_System_Proto manager;
     [HideInInspector]
@@ -408,6 +413,17 @@ public class PlayerMovement : MonoBehaviour
                 //we are not moving, lerp to a walk speed
                 LSpeed = 0f;
                 Accel = WalkSlowDownAcceleration;
+                timerBeforeSitting += Time.unscaledDeltaTime;
+                if(timerBeforeSitting >= 7f)
+                {
+                    ponoShouldSitDown = true;
+                    //play animation of Pono sitting down
+                }
+            }
+            else
+            {
+                ponoShouldSitDown = false;
+                timerBeforeSitting = 0;
             }
            //lerp our current speed
             if (ActSpeed > LSpeed - 0.5f || ActSpeed < LSpeed + 0.5f)
