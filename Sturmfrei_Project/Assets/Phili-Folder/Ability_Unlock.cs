@@ -39,6 +39,9 @@ public class Ability_Unlock : MonoBehaviour
         
         camFolTar.lookingAtWall = true;
         camFolTar.Cam_Pos_Unlock = CameraPosition.transform.position;
+        //son de unlock
+        this.gameObject.GetComponent<ObjectSoundTrigger>().PlaySound();
+
         // Stop player control
         StopMovingPono(player);
         //stop animation
