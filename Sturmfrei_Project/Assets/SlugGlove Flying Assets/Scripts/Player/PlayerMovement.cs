@@ -1272,7 +1272,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void ResetPlayer()
     {
-        Rigid.transform.position = playerResp.respawnPoint;
+        Rigid.transform.position = playerResp.respawnPoint.position;
+        //this.gameObject.transform.rotation.y = playerResp.transform.rotation.y;
+        float yRotation = playerResp.respawnPoint.rotation.y;
+        Debug.Log("tryingSomething");
+        this.gameObject.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x, yRotation, gameObject.transform.rotation.z);
+        /*Vector3 eulerRotation = transform.rotation.eulerAngles;
+        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(eulerRotation.x, eulerRotation.y, 0), Time.deltaTime * 1.5f);*/
         ActSpeed = 0;
         if (Anim)
             Anim.SetBool("Stunned", false);
