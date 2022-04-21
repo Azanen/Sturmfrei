@@ -27,6 +27,13 @@
 						<State Name="Unequipped" ID="{3EDD2C56-E3D3-4BFF-807D-16C6F87A24A5}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Mode" ID="{291781E0-4C51-4061-93BD-F1BE6ED37AF7}">
+					<ChildrenList>
+						<State Name="None" ID="{B8CEDCD5-2905-4EF5-BA7A-DEEABCE1E1FE}"/>
+						<State Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}"/>
+						<State Name="Flying" ID="{C13402BE-0345-47CF-9776-BABCCF4E289C}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

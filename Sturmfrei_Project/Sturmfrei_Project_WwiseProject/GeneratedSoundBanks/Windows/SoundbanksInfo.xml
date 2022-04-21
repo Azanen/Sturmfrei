@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2649503783">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2243164735">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2174102448">
+		<SoundBank Id="3161908922" Language="SFX" Hash="481059192">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -5523,7 +5523,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2600606019" Name="PurpleCloud_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\PurpleCloud_Idle" DurationType="Infinite">
+				<Event Id="2600606019" Name="PurpleCloud_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\PurpleCloud_Idle" MaxAttenuation="25." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="797088798" Language="SFX">
 							<ShortName>PurpleCloud\PurpleCloud_Idle_Low.wav</ShortName>
@@ -5640,6 +5640,15 @@
 							<Path>SFX/Statue_Idle_Sturmfrei_D1634464.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{53928564-EA65-49E8-8C9B-9AD56A94D4C0}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2D08394D-285E-4303-AB64-73C2384E659B}">
+							<Media>
+								<File Id="504223982"/>
+								<File Id="723665693"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1859632405" Name="Statue_Idle_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\Idle_Stop\Statue_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3439923085" Name="Statue_Rebuild" ObjectPath="\Events\Default Work Unit\INGREDIENT\Statue_Rebuild" DurationType="OneShot" DurationMin="4.943091" DurationMax="4.943091">
@@ -5649,6 +5658,9 @@
 							<Path>SFX/Statue_Rebuild_444F80D9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2917726846" Name="Activated" ObjectPath="\Switches\Default Work Unit\Statue\Activated"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="353331381" Name="Stinger_FirstFly" ObjectPath="\Events\Default Work Unit\MUSIC\Stinger_FirstFly" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1562262157" Name="Stinger_Poncho" ObjectPath="\Events\Default Work Unit\MUSIC\Stinger_Poncho" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -5701,6 +5713,12 @@
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="939730917" Name="Statue" ObjectPath="\Switches\Default Work Unit\Statue" GUID="{D4B64DFA-9D36-4D01-A481-8C2972B996F1}">
+					<Switches>
+						<Switch Id="2917726846" Name="Activated" ObjectPath="\Switches\Default Work Unit\Statue\Activated" GUID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>
+						<Switch Id="622383625" Name="Deactivated" ObjectPath="\Switches\Default Work Unit\Statue\Deactivated" GUID="{53928564-EA65-49E8-8C9B-9AD56A94D4C0}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{89AE5028-CE25-481A-8F39-454F10A0242D}">
 					<Switches>
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface\Stone" GUID="{C5112161-F393-4A1D-8649-501FCF4BECD2}"/>
@@ -5711,6 +5729,9 @@
 						<Switch Id="787898836" Name="Snow" ObjectPath="\Switches\Default Work Unit\Surface\Snow" GUID="{B350A0A8-3382-42F8-9E8C-5AEA6F02DDC3}"/>
 						<Switch Id="344481046" Name="Ice" ObjectPath="\Switches\Default Work Unit\Surface\Ice" GUID="{18AE0B58-48B5-4828-89F6-2417B453B37D}"/>
 					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2917726846" Name="Activated" ObjectPath="\Switches\Default Work Unit\Statue\Activated" GUID="{2D08394D-285E-4303-AB64-73C2384E659B}">
+					<Switches/>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>

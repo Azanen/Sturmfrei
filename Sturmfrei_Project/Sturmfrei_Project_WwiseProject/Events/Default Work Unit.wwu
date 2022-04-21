@@ -699,11 +699,44 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{A031357F-D40C-45F0-AFAF-126531A9E683}" ShortID="364069008">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}" WorkUnitID="{075FC43A-A5CB-4FE1-8FFE-546D82ACB279}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Statue_Idle" ID="{E39BA85B-C4D2-4F2A-A50B-147D2877AD28}">
 							<ChildrenList>
 								<Action Name="" ID="{D14AE045-AB6F-461D-80FA-10A86C8572D6}" ShortID="591299696">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Statue_Idle" ID="{CE1396D6-ED01-4613-94FB-CF087CA8A0CC}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{88816D2E-81C7-417E-9882-99CDEE2FF479}" ShortID="184556143">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{390B509B-31CA-4B3D-84D9-93B31DA52458}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="45"/>
+															<Property Name="Min" Type="Real64" Value="-45"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
@@ -736,12 +769,90 @@
 						</Event>
 						<Folder Name="Idle_Stop" ID="{778E1F73-41C1-497C-9731-BFA39556BF77}" ShortID="606051956">
 							<ChildrenList>
-								<Event Name="PurpleCloud_Idle_Stop" ID="{CA8957E2-BB18-4CD1-AC14-960B8C2A6C28}"/>
-								<Event Name="Soul_Idle_Stop" ID="{8839D33D-5592-4FA8-A066-D7784B0AF91E}"/>
-								<Event Name="Magnet_Idle_Stop" ID="{D3F9A8E7-D011-4E2E-AA85-40B14CD3528F}"/>
-								<Event Name="Statue_Idle_Stop" ID="{845454A4-D355-433D-A653-2042AA0F7A67}"/>
-								<Event Name="Boss_Idle_Stop" ID="{492A4515-1D89-40A8-81E6-7ECACD8D3CBA}"/>
-								<Event Name="Poncho_Idle_Stop" ID="{5BB8CAA3-C22E-49EF-B20F-34FF12D7F23F}"/>
+								<Event Name="PurpleCloud_Idle_Stop" ID="{CA8957E2-BB18-4CD1-AC14-960B8C2A6C28}">
+									<ChildrenList>
+										<Action Name="" ID="{E77A3ABE-F91C-4118-899F-5DBB35974804}" ShortID="151771669">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PurpleCloud_Idle" ID="{EF9BE579-13A4-4EF3-BFF4-1BB13DFCAB27}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Soul_Idle_Stop" ID="{8839D33D-5592-4FA8-A066-D7784B0AF91E}">
+									<ChildrenList>
+										<Action Name="" ID="{943B7A6D-592F-4312-BC70-BBADEFABFF74}" ShortID="605529287">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Soul_Idle" ID="{C0EF0C6D-1D79-407D-9181-FE6FFBD88C30}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Magnet_Idle_Stop" ID="{D3F9A8E7-D011-4E2E-AA85-40B14CD3528F}">
+									<ChildrenList>
+										<Action Name="" ID="{9ED87839-830B-4422-A1E6-6E306788A7E6}" ShortID="762531290">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magnet_Idle_Loop" ID="{1985ACDF-28C1-43B4-91DF-1FB1CF359D92}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Statue_Idle_Stop" ID="{845454A4-D355-433D-A653-2042AA0F7A67}">
+									<ChildrenList>
+										<Action Name="" ID="{2093B9BC-FF3D-48E1-B76E-7DAA9262B7CC}" ShortID="500753642">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Statue_Idle" ID="{CE1396D6-ED01-4613-94FB-CF087CA8A0CC}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Boss_Idle_Stop" ID="{492A4515-1D89-40A8-81E6-7ECACD8D3CBA}">
+									<ChildrenList>
+										<Action Name="" ID="{D943F29B-FDAC-4829-A26E-1C6DF5FB312A}" ShortID="1011408591">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Boss_Idle" ID="{F7789795-ED57-4A5C-880D-4FCD040F6A98}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Poncho_Idle_Stop" ID="{5BB8CAA3-C22E-49EF-B20F-34FF12D7F23F}">
+									<ChildrenList>
+										<Action Name="" ID="{D97A1DB9-5023-417F-AB29-9C352CDA2CA4}" ShortID="817597630">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Poncho_Idle" ID="{D5659A77-1C30-45F0-AC8F-C668C2F24812}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

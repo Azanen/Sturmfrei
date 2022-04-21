@@ -14,6 +14,15 @@
 						<Switch Name="Ice" ID="{18AE0B58-48B5-4828-89F6-2417B453B37D}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Statue" ID="{D4B64DFA-9D36-4D01-A481-8C2972B996F1}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>
+						<Switch Name="Deactivated" ID="{53928564-EA65-49E8-8C9B-9AD56A94D4C0}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -158,10 +158,6 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Statue_Rebuild" ID="{9BD1A29E-00AE-4EFD-99CF-149BDD9DBD40}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
-							<Position X="0" Y="4"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="PurpleCloud_Damage" ID="{F03EF3D5-3A7B-4B74-83F4-3321EA10BB1C}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -176,10 +172,6 @@
 						<Module>
 							<ObjectRef Name="Boss_Defeat" ID="{7E885446-B05E-466F-B67A-721B066A92C2}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="1" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Statue_Idle" ID="{E39BA85B-C4D2-4F2A-A50B-147D2877AD28}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
-							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="PurpleCloud_Stop" ID="{56C6E57B-32B7-4E3E-A0F1-E2C1E562CDD0}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
@@ -213,20 +205,38 @@
 							<ObjectRef Name="Boss_ReturnHub" ID="{1D86669C-FFE4-48A5-999A-BFDCC86A7AB1}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="3" Y="3"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="PurpleCloud_Idle_Stop" ID="{CA8957E2-BB18-4CD1-AC14-960B8C2A6C28}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Statue_Idle_Stop" ID="{845454A4-D355-433D-A653-2042AA0F7A67}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Statue_Rebuild" ID="{9BD1A29E-00AE-4EFD-99CF-149BDD9DBD40}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Statue_Idle" ID="{E39BA85B-C4D2-4F2A-A50B-147D2877AD28}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}"/>
-							<Value>49.9133448873484</Value>
+							<Value>59.9133448873484</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{B8CEDCD5-2905-4EF5-BA7A-DEEABCE1E1FE}"/>
 						<CurrentStateRef Name="None" ID="{362F49D5-B98D-4A01-9DD9-565618F8C672}"/>
-						<CurrentStateRef Name="Equipped" ID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}"/>
+						<CurrentStateRef Name="None" ID="{38FA9B61-1EE0-4F36-834E-3647FCE41EC0}"/>
 						<CurrentStateRef Name="None" ID="{79C8C9C9-C580-4BAB-9655-74656E2A89F4}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>
+						<CurrentSwitchRef Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

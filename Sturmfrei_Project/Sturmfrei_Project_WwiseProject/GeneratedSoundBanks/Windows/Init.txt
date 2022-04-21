@@ -1,6 +1,7 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1422468564	Poncho			\Default Work Unit\Poncho	
 	2782712965	Level			\Default Work Unit\Level	
+	3313201736	Mode			\Default Work Unit\Mode	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
@@ -12,6 +13,9 @@ State	ID	Name	State Group			Notes
 	1290008369	Level_1	Level			
 	1290008370	Level_2	Level			
 	1290008371	Level_3	Level			
+	748895195	None	Mode			
+	3031504797	Foot	Mode			
+	3827174396	Flying	Mode			
 	85412153	Ambience	Music			
 	748895195	None	Music			
 	1560169506	Boss	Music			

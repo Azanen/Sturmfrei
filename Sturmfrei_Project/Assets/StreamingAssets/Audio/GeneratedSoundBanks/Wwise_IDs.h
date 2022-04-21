@@ -107,6 +107,18 @@ namespace AK
             } // namespace STATE
         } // namespace LEVEL
 
+        namespace MODE
+        {
+            static const AkUniqueID GROUP = 3313201736U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FLYING = 3827174396U;
+                static const AkUniqueID FOOT = 3031504797U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MODE
+
         namespace MUSIC
         {
             static const AkUniqueID GROUP = 3991942870U;
@@ -136,6 +148,17 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace STATUE
+        {
+            static const AkUniqueID GROUP = 939730917U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ACTIVATED = 2917726846U;
+                static const AkUniqueID DEACTIVATED = 622383625U;
+            } // namespace SWITCH
+        } // namespace STATUE
+
         namespace SURFACE
         {
             static const AkUniqueID GROUP = 1834394558U;
