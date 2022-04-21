@@ -42,8 +42,8 @@ Material:
     - RippleDensity: 0
     - RippleSlimness: 0
     - RippleSpeed: 1.2
-    - Speed_X: 0.05
-    - Speed_y: 0.01
+    - Speed_X: 0.1
+    - Speed_y: 0.02
     - WaveSpeed: 0
     m_Colors:
     - BaseColor: {r: 0.09084173, g: 0.4125427, b: 0.65837497, a: 0}
