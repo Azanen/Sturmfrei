@@ -16,7 +16,7 @@ public class CheckPoint : MonoBehaviour
         if (other.transform.gameObject.tag == "Player")
         {
             //deathZone.respawnPoint = other.GetComponent<PlayerRespawn>().respawnPoint;
-            player.respawnPoint = this.transform.position;
+            player.respawnPoint = this.transform;
         }
     }
 }

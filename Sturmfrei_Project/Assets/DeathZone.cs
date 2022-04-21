@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DeathZone : MonoBehaviour
 {
-    public Vector3 respawnPoint;
+    public Transform respawnPoint;
     public Collider collider_Player;
     public CameraFollow camFol;
     //public Transform Death_Pos;
@@ -29,10 +29,15 @@ public class DeathZone : MonoBehaviour
         player.StartFade();
         yield return new WaitForSeconds(2);
         respawnPoint = player.gameObject.GetComponent<PlayerRespawn>().respawnPoint;
+
+        float yRotation = respawnPoint.rotation.y;
+        Debug.Log("tryingSomething");
+        player.gameObject.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x, yRotation+90, gameObject.transform.rotation.z);
+
         player.amDead = false;
         camFol.isDead = player.amDead;
         //Fade in instant
-        collider_Player.transform.position = respawnPoint;
+        collider_Player.transform.position = respawnPoint.position;
         yield return new WaitForSeconds(1f);
         player.RemoveFade();
     }

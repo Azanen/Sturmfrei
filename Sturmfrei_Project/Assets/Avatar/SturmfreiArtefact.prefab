@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2057004101538745894}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: spine.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2354762524103939295}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: forearm.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 413511794670105141}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: heel.02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 691863338116251120}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: thigh.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7314512730525929030}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Avant.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2620139311742074065}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: forearm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 994815854843615731}
   - component: {fileID: 4006610169027458789}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: poncho main.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9126850679326138535}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6779369060336606877}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4045981629129667523}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: heel.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 1389940012960575859}
   - component: {fileID: 5019864073855052553}
   - component: {fileID: 7925943791482224064}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Sturmfrei
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -519,7 +519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1874001307030890813}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Bird_Centre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,9 +556,9 @@ GameObject:
   - component: {fileID: 7720332553756241784}
   - component: {fileID: 3034078795062198398}
   - component: {fileID: 5867570376332829955}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: SturmfreiArtefact
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -766,7 +766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4940519785509254660}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Avant.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,7 +797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2763569802484220900}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: thigh.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -828,7 +828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6333159679082607776}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: hand.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -859,7 +859,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8575100109912352464}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: heel.02.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -889,7 +889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5005347494889976979}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: face
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8341718728294671895}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: foot.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -952,7 +952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8199362271860444429}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: upper_arm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -983,7 +983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8110781910365858274}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Cote.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1014,7 +1014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5923800598646568875}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: toe.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1044,7 +1044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3563119156709111808}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: toe.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1075,7 +1075,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3196939850985721202}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: foot.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1107,7 +1107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5321935122840141571}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: hand.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1137,7 +1137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2774337111944048478}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: toe.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1168,7 +1168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1030407479831537584}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Back.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1199,7 +1199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6872938493587860671}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: hand.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1230,7 +1230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2853060725951953767}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: spine.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1270,7 +1270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2922178776867596637}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Back.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1300,7 +1300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7349758678982741348}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: metarig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1331,7 +1331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1455254515870291823}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Back.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1362,7 +1362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6475259189761044091}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: hand.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1392,7 +1392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 665820468351613556}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Back.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1424,7 +1424,7 @@ GameObject:
   - component: {fileID: 5834005501808121294}
   - component: {fileID: 5834005501808121288}
   - component: {fileID: 5834005501808121295}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: AetherBurst
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6288,7 +6288,7 @@ GameObject:
   - component: {fileID: 5834005503356974344}
   - component: {fileID: 5834005503356974346}
   - component: {fileID: 5834005503356974345}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: AetherStatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11150,7 +11150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6090859290051202834}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: face_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11180,7 +11180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3204311056755184115}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Cote.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11210,7 +11210,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7774690373871855753}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Tail_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11240,7 +11240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2691153118589280639}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Avant.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11270,7 +11270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4713506783302701421}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: spine.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11301,7 +11301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9202275919219674914}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: spine.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11332,7 +11332,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4204042265354915348}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: heel.02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11364,7 +11364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1374509900661056131}
   - component: {fileID: 2014200620656433359}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: poncho 2.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11476,7 +11476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2154010793865987927}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: shin.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11507,7 +11507,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3777706498174555510}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Cote.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11537,7 +11537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4403157779205839652}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: shin.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11568,7 +11568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5540194192489220567}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Avant.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11598,7 +11598,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7514390362466997122}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: toe.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11628,7 +11628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1482383720251739345}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Poncho_Cote.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11659,7 +11659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7313878130308590034}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: upper_arm.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -5,7 +5,7 @@ public class PlayerRespawn : MonoBehaviour
 {
     private PlayerMovement playMove;
 
-    public Vector3 respawnPoint;
+    public Transform respawnPoint;
     private GameObject deathZone;
 
     //Start is called before the first frame update
@@ -13,7 +13,7 @@ public class PlayerRespawn : MonoBehaviour
     {
         //deathZone = GameObject.Find("/DeathZone");
         playMove = GetComponent<PlayerMovement>();
-        respawnPoint = transform.position;
+        respawnPoint = transform;
 
     }
 
@@ -27,7 +27,7 @@ public class PlayerRespawn : MonoBehaviour
     {
         if (fallingCollision.transform.gameObject.tag == "DeathZone")
         {
-            fallingCollision.transform.position = respawnPoint;
+            fallingCollision.transform.position = respawnPoint.position;
             playMove.amDead = false;
         }
     }
