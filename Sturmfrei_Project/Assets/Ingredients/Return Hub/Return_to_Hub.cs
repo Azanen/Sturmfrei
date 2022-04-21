@@ -7,6 +7,7 @@ public class Return_to_Hub : MonoBehaviour
 {
     private  PlayerCollisionSphere colliderPlayer;
     public CameraFollowTarget camFolTar;
+    public string NomDuProchainHub;
 
     private void Start()
     {
@@ -21,6 +22,14 @@ public class Return_to_Hub : MonoBehaviour
             colliderPlayer.PlayerMov.StartFadeWhite();
             //stop the cam moving
             camFolTar.ReturnHub = true;
+            StartCoroutine(LoadHub());
         }
+    }
+
+    IEnumerator LoadHub()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(NomDuProchainHub);
+
     }
 }
