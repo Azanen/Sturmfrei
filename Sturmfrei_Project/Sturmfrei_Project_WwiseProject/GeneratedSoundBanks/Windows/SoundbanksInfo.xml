@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2243164735">
+		<SoundBank Id="1355168291" Language="SFX" Hash="593506195">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="481059192">
+		<SoundBank Id="3161908922" Language="SFX" Hash="196034776">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -2176,19 +2176,19 @@
 					<IncludedMemoryFiles>
 						<File Id="11802040" Language="SFX">
 							<ShortName>high08.wav</ShortName>
-							<Path>SFX/high08_A26074DB.wem</Path>
+							<Path>SFX/high08_8AC860AD.wem</Path>
 						</File>
 						<File Id="116820437" Language="SFX">
 							<ShortName>high07.wav</ShortName>
-							<Path>SFX/high07_A26074DB.wem</Path>
+							<Path>SFX/high07_1930C6DB.wem</Path>
 						</File>
 						<File Id="165252916" Language="SFX">
 							<ShortName>high28.wav</ShortName>
-							<Path>SFX/high28_A26074DB.wem</Path>
+							<Path>SFX/high28_34064871.wem</Path>
 						</File>
 						<File Id="190430321" Language="SFX">
 							<ShortName>high02.wav</ShortName>
-							<Path>SFX/high02_A26074DB.wem</Path>
+							<Path>SFX/high02_44A5A2EE.wem</Path>
 						</File>
 						<File Id="236493759" Language="SFX">
 							<ShortName>high17.wav</ShortName>
@@ -2208,11 +2208,11 @@
 						</File>
 						<File Id="429800478" Language="SFX">
 							<ShortName>high01.wav</ShortName>
-							<Path>SFX/high01_A26074DB.wem</Path>
+							<Path>SFX/high01_5F23EF9C.wem</Path>
 						</File>
 						<File Id="462620402" Language="SFX">
 							<ShortName>high12.wav</ShortName>
-							<Path>SFX/high12_A26074DB.wem</Path>
+							<Path>SFX/high12_0F2264AB.wem</Path>
 						</File>
 						<File Id="484142301" Language="SFX">
 							<ShortName>Poncho_Start\Poncho_Start_03.wav</ShortName>
@@ -2252,7 +2252,7 @@
 						</File>
 						<File Id="601744678" Language="SFX">
 							<ShortName>high05.wav</ShortName>
-							<Path>SFX/high05_A26074DB.wem</Path>
+							<Path>SFX/high05_0327FB6C.wem</Path>
 						</File>
 						<File Id="638264283" Language="SFX">
 							<ShortName>high30.wav</ShortName>
@@ -2260,11 +2260,11 @@
 						</File>
 						<File Id="666325603" Language="SFX">
 							<ShortName>high13.wav</ShortName>
-							<Path>SFX/high13_A26074DB.wem</Path>
+							<Path>SFX/high13_E86B2BAC.wem</Path>
 						</File>
 						<File Id="694008508" Language="SFX">
 							<ShortName>high15.wav</ShortName>
-							<Path>SFX/high15_A26074DB.wem</Path>
+							<Path>SFX/high15_65F397AB.wem</Path>
 						</File>
 						<File Id="731429798" Language="SFX">
 							<ShortName>high34.wav</ShortName>
@@ -2276,7 +2276,7 @@
 						</File>
 						<File Id="806759278" Language="SFX">
 							<ShortName>high03.wav</ShortName>
-							<Path>SFX/high03_A26074DB.wem</Path>
+							<Path>SFX/high03_19ECFBE2.wem</Path>
 						</File>
 						<File Id="825813032" Language="SFX">
 							<ShortName>high31.wav</ShortName>
@@ -2292,15 +2292,15 @@
 						</File>
 						<File Id="871587016" Language="SFX">
 							<ShortName>high04.wav</ShortName>
-							<Path>SFX/high04_A26074DB.wem</Path>
+							<Path>SFX/high04_6816FD20.wem</Path>
 						</File>
 						<File Id="879732874" Language="SFX">
 							<ShortName>high11.wav</ShortName>
-							<Path>SFX/high11_A26074DB.wem</Path>
+							<Path>SFX/high11_CD87E6C4.wem</Path>
 						</File>
 						<File Id="881267687" Language="SFX">
 							<ShortName>high20.wav</ShortName>
-							<Path>SFX/high20_A26074DB.wem</Path>
+							<Path>SFX/high20_878BFEFD.wem</Path>
 						</File>
 						<File Id="904011431" Language="SFX">
 							<ShortName>Poncho_Start\Poncho_Start_02.wav</ShortName>
@@ -2312,7 +2312,7 @@
 						</File>
 						<File Id="947417861" Language="SFX">
 							<ShortName>high14.wav</ShortName>
-							<Path>SFX/high14_A26074DB.wem</Path>
+							<Path>SFX/high14_A42982A4.wem</Path>
 						</File>
 						<File Id="958557672" Language="SFX">
 							<ShortName>high16.wav</ShortName>
@@ -2324,7 +2324,7 @@
 						</File>
 						<File Id="1008385867" Language="SFX">
 							<ShortName>high10.wav</ShortName>
-							<Path>SFX/high10_A26074DB.wem</Path>
+							<Path>SFX/high10_6AF90401.wem</Path>
 						</File>
 						<File Id="1026468589" Language="SFX">
 							<ShortName>high19.wav</ShortName>
@@ -5459,9 +5459,1273 @@
 				<Event Id="3037851228" Name="MUS_Level2_Ambience" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Ambience" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3886197287" Name="MUS_Level2_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2318407373" Name="MUS_Level2_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2635524439" Name="MUS_Level3_Ambience" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Ambience" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="4244769408" Name="MUS_Level3_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3336347158" Name="MUS_Level3_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2635524439" Name="MUS_Level3_Ambience" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Ambience" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="7396132" Language="SFX">
+							<ShortName>L2_singlenotes_07.wav</ShortName>
+							<Path>SFX/L2_singlenotes_07_A26074DB.wem</Path>
+						</File>
+						<File Id="8065460" Language="SFX">
+							<ShortName>L2_high_03.wav</ShortName>
+							<Path>SFX/L2_high_03_A26074DB.wem</Path>
+						</File>
+						<File Id="8959056" Language="SFX">
+							<ShortName>L2_high_38.wav</ShortName>
+							<Path>SFX/L2_high_38_A26074DB.wem</Path>
+						</File>
+						<File Id="9416022" Language="SFX">
+							<ShortName>SingleNotes11.wav</ShortName>
+							<Path>SFX/SingleNotes11_A26074DB.wem</Path>
+						</File>
+						<File Id="11802040" Language="SFX">
+							<ShortName>high08.wav</ShortName>
+							<Path>SFX/high08_8AC860AD.wem</Path>
+						</File>
+						<File Id="26526218" Language="SFX">
+							<ShortName>mid06.wav</ShortName>
+							<Path>SFX/mid06_A26074DB.wem</Path>
+						</File>
+						<File Id="27173830" Language="SFX">
+							<ShortName>SingleNotes16.wav</ShortName>
+							<Path>SFX/SingleNotes16_A26074DB.wem</Path>
+						</File>
+						<File Id="30969407" Language="SFX">
+							<ShortName>L2_perc_06.wav</ShortName>
+							<Path>SFX/L2_perc_06_A26074DB.wem</Path>
+						</File>
+						<File Id="31418767" Language="SFX">
+							<ShortName>L2_high_25.wav</ShortName>
+							<Path>SFX/L2_high_25_A26074DB.wem</Path>
+						</File>
+						<File Id="31822655" Language="SFX">
+							<ShortName>L2_mid_02.wav</ShortName>
+							<Path>SFX/L2_mid_02_85FB6699.wem</Path>
+						</File>
+						<File Id="38040106" Language="SFX">
+							<ShortName>L2_singlenotes_17.wav</ShortName>
+							<Path>SFX/L2_singlenotes_17_FE910D0F.wem</Path>
+						</File>
+						<File Id="38912114" Language="SFX">
+							<ShortName>mid07.wav</ShortName>
+							<Path>SFX/mid07_11B367B0.wem</Path>
+						</File>
+						<File Id="42027175" Language="SFX">
+							<ShortName>mid24.wav</ShortName>
+							<Path>SFX/mid24_A26074DB.wem</Path>
+						</File>
+						<File Id="44842209" Language="SFX">
+							<ShortName>L2_low_07.wav</ShortName>
+							<Path>SFX/L2_low_07_87CFD297.wem</Path>
+						</File>
+						<File Id="48635343" Language="SFX">
+							<ShortName>mid18.wav</ShortName>
+							<Path>SFX/mid18_F8660603.wem</Path>
+						</File>
+						<File Id="48995606" Language="SFX">
+							<ShortName>low03.wav</ShortName>
+							<Path>SFX/low03_A26074DB.wem</Path>
+						</File>
+						<File Id="49380424" Language="SFX">
+							<ShortName>L2_high_14.wav</ShortName>
+							<Path>SFX/L2_high_14_A729E63B.wem</Path>
+						</File>
+						<File Id="59604068" Language="SFX">
+							<ShortName>L2_mid_19.wav</ShortName>
+							<Path>SFX/L2_mid_19_4334F8B6.wem</Path>
+						</File>
+						<File Id="66686668" Language="SFX">
+							<ShortName>L2_high_43.wav</ShortName>
+							<Path>SFX/L2_high_43_2FFF71FB.wem</Path>
+						</File>
+						<File Id="67064715" Language="SFX">
+							<ShortName>L1_FX_02.wav</ShortName>
+							<Path>SFX/L1_FX_02_4B05CEAD.wem</Path>
+						</File>
+						<File Id="71858187" Language="SFX">
+							<ShortName>L2_high_46.wav</ShortName>
+							<Path>SFX/L2_high_46_2584FB04.wem</Path>
+						</File>
+						<File Id="71938252" Language="SFX">
+							<ShortName>L2_mid_22.wav</ShortName>
+							<Path>SFX/L2_mid_22_0238A4BB.wem</Path>
+						</File>
+						<File Id="81379998" Language="SFX">
+							<ShortName>L2_widerange_08.wav</ShortName>
+							<Path>SFX/L2_widerange_08_7684A535.wem</Path>
+						</File>
+						<File Id="87594229" Language="SFX">
+							<ShortName>SingleNotes15.wav</ShortName>
+							<Path>SFX/SingleNotes15_A26074DB.wem</Path>
+						</File>
+						<File Id="89289113" Language="SFX">
+							<ShortName>L2_pianobass_F_high.wav</ShortName>
+							<Path>SFX/L2_pianobass_F_high_A26074DB.wem</Path>
+						</File>
+						<File Id="91943540" Language="SFX">
+							<ShortName>SingleNotes04.wav</ShortName>
+							<Path>SFX/SingleNotes04_A26074DB.wem</Path>
+						</File>
+						<File Id="94328879" Language="SFX">
+							<ShortName>L2_intervals_05.wav</ShortName>
+							<Path>SFX/L2_intervals_05_A26074DB.wem</Path>
+						</File>
+						<File Id="97942680" Language="SFX">
+							<ShortName>L2_widerange_14.wav</ShortName>
+							<Path>SFX/L2_widerange_14_A26074DB.wem</Path>
+						</File>
+						<File Id="104053150" Language="SFX">
+							<ShortName>mid08.wav</ShortName>
+							<Path>SFX/mid08_2D873739.wem</Path>
+						</File>
+						<File Id="116820437" Language="SFX">
+							<ShortName>high07.wav</ShortName>
+							<Path>SFX/high07_1930C6DB.wem</Path>
+						</File>
+						<File Id="126885975" Language="SFX">
+							<ShortName>mid03.wav</ShortName>
+							<Path>SFX/mid03_DD45D5A9.wem</Path>
+						</File>
+						<File Id="130907099" Language="SFX">
+							<ShortName>L2_mid_11.wav</ShortName>
+							<Path>SFX/L2_mid_11_A26074DB.wem</Path>
+						</File>
+						<File Id="132280842" Language="SFX">
+							<ShortName>6ths02.wav</ShortName>
+							<Path>SFX/6ths02_A26074DB.wem</Path>
+						</File>
+						<File Id="133308438" Language="SFX">
+							<ShortName>L2_widerange_06.wav</ShortName>
+							<Path>SFX/L2_widerange_06_17968933.wem</Path>
+						</File>
+						<File Id="134180214" Language="SFX">
+							<ShortName>L2_mid_25.wav</ShortName>
+							<Path>SFX/L2_mid_25_A26074DB.wem</Path>
+						</File>
+						<File Id="148850098" Language="SFX">
+							<ShortName>SingleNotes05.wav</ShortName>
+							<Path>SFX/SingleNotes05_A26074DB.wem</Path>
+						</File>
+						<File Id="150658131" Language="SFX">
+							<ShortName>L2_mid_05.wav</ShortName>
+							<Path>SFX/L2_mid_05_1D757FDC.wem</Path>
+						</File>
+						<File Id="165252916" Language="SFX">
+							<ShortName>high28.wav</ShortName>
+							<Path>SFX/high28_34064871.wem</Path>
+						</File>
+						<File Id="172939683" Language="SFX">
+							<ShortName>L1_SynthDrone_02.wav</ShortName>
+							<Path>SFX/L1_SynthDrone_02_A26A3599.wem</Path>
+						</File>
+						<File Id="185379676" Language="SFX">
+							<ShortName>SingleNotes06.wav</ShortName>
+							<Path>SFX/SingleNotes06_A26074DB.wem</Path>
+						</File>
+						<File Id="190430321" Language="SFX">
+							<ShortName>high02.wav</ShortName>
+							<Path>SFX/high02_44A5A2EE.wem</Path>
+						</File>
+						<File Id="194107871" Language="SFX">
+							<ShortName>L2_widerange_15.wav</ShortName>
+							<Path>SFX/L2_widerange_15_E76FC2A2.wem</Path>
+						</File>
+						<File Id="195575905" Language="SFX">
+							<ShortName>L2_mid_17.wav</ShortName>
+							<Path>SFX/L2_mid_17_CAF4B430.wem</Path>
+						</File>
+						<File Id="195697851" Language="SFX">
+							<ShortName>SingleNotes03.wav</ShortName>
+							<Path>SFX/SingleNotes03_A26074DB.wem</Path>
+						</File>
+						<File Id="197985886" Language="SFX">
+							<ShortName>L2_widerange_09.wav</ShortName>
+							<Path>SFX/L2_widerange_09_B36B5378.wem</Path>
+						</File>
+						<File Id="199853686" Language="SFX">
+							<ShortName>L2_mid_18.wav</ShortName>
+							<Path>SFX/L2_mid_18_BEFD9B9A.wem</Path>
+						</File>
+						<File Id="203848726" Language="SFX">
+							<ShortName>L1_pianobass_F_low.wav</ShortName>
+							<Path>SFX/L1_pianobass_F_low_A26074DB.wem</Path>
+						</File>
+						<File Id="210722771" Language="SFX">
+							<ShortName>L2_low_03.wav</ShortName>
+							<Path>SFX/L2_low_03_4CC8D2F5.wem</Path>
+						</File>
+						<File Id="210857473" Language="SFX">
+							<ShortName>L2_widerange_07.wav</ShortName>
+							<Path>SFX/L2_widerange_07_A26074DB.wem</Path>
+						</File>
+						<File Id="222327238" Language="SFX">
+							<ShortName>L2_FX_01.wav</ShortName>
+							<Path>SFX/L2_FX_01_9D51DFF6.wem</Path>
+						</File>
+						<File Id="227695455" Language="SFX">
+							<ShortName>low01.wav</ShortName>
+							<Path>SFX/low01_A26074DB.wem</Path>
+						</File>
+						<File Id="235797297" Language="SFX">
+							<ShortName>L2_high_35.wav</ShortName>
+							<Path>SFX/L2_high_35_A26074DB.wem</Path>
+						</File>
+						<File Id="236493759" Language="SFX">
+							<ShortName>high17.wav</ShortName>
+							<Path>SFX/high17_A26074DB.wem</Path>
+						</File>
+						<File Id="246087423" Language="SFX">
+							<ShortName>L2_FX_04.wav</ShortName>
+							<Path>SFX/L2_FX_04_7B69AE5F.wem</Path>
+						</File>
+						<File Id="250314799" Language="SFX">
+							<ShortName>L2_mid_06.wav</ShortName>
+							<Path>SFX/L2_mid_06_6037672A.wem</Path>
+						</File>
+						<File Id="251184483" Language="SFX">
+							<ShortName>L2_high_17.wav</ShortName>
+							<Path>SFX/L2_high_17_A26074DB.wem</Path>
+						</File>
+						<File Id="251969575" Language="SFX">
+							<ShortName>mid16.wav</ShortName>
+							<Path>SFX/mid16_A26074DB.wem</Path>
+						</File>
+						<File Id="252087568" Language="SFX">
+							<ShortName>Procedural_Test.mid</ShortName>
+							<Path>SFX/Procedural_Test_A10FB882.wmid</Path>
+						</File>
+						<File Id="262309289" Language="SFX">
+							<ShortName>L2_high_37.wav</ShortName>
+							<Path>SFX/L2_high_37_A26074DB.wem</Path>
+						</File>
+						<File Id="262950430" Language="SFX">
+							<ShortName>L2_high_12.wav</ShortName>
+							<Path>SFX/L2_high_12_FA493E34.wem</Path>
+						</File>
+						<File Id="270094856" Language="SFX">
+							<ShortName>L2_high_07.wav</ShortName>
+							<Path>SFX/L2_high_07_A26074DB.wem</Path>
+						</File>
+						<File Id="272550935" Language="SFX">
+							<ShortName>SingleNotes12.wav</ShortName>
+							<Path>SFX/SingleNotes12_A26074DB.wem</Path>
+						</File>
+						<File Id="273226785" Language="SFX">
+							<ShortName>high27.wav</ShortName>
+							<Path>SFX/high27_A26074DB.wem</Path>
+						</File>
+						<File Id="274429638" Language="SFX">
+							<ShortName>L2_high_08.wav</ShortName>
+							<Path>SFX/L2_high_08_DA5E1CB3.wem</Path>
+						</File>
+						<File Id="282275872" Language="SFX">
+							<ShortName>SingleNotes13.wav</ShortName>
+							<Path>SFX/SingleNotes13_A26074DB.wem</Path>
+						</File>
+						<File Id="298678368" Language="SFX">
+							<ShortName>L2_mid_16.wav</ShortName>
+							<Path>SFX/L2_mid_16_A26074DB.wem</Path>
+						</File>
+						<File Id="303309553" Language="SFX">
+							<ShortName>L2_high_40.wav</ShortName>
+							<Path>SFX/L2_high_40_A26074DB.wem</Path>
+						</File>
+						<File Id="303557107" Language="SFX">
+							<ShortName>L2_high_42.wav</ShortName>
+							<Path>SFX/L2_high_42_A26074DB.wem</Path>
+						</File>
+						<File Id="304118795" Language="SFX">
+							<ShortName>L2_pianobass_Eb_octave.wav</ShortName>
+							<Path>SFX/L2_pianobass_Eb_octave_A26074DB.wem</Path>
+						</File>
+						<File Id="304479425" Language="SFX">
+							<ShortName>L2_high_23.wav</ShortName>
+							<Path>SFX/L2_high_23_A26074DB.wem</Path>
+						</File>
+						<File Id="315871350" Language="SFX">
+							<ShortName>high35.wav</ShortName>
+							<Path>SFX/high35_A26074DB.wem</Path>
+						</File>
+						<File Id="319896928" Language="SFX">
+							<ShortName>L2_singlenotes_09.wav</ShortName>
+							<Path>SFX/L2_singlenotes_09_A26074DB.wem</Path>
+						</File>
+						<File Id="320676172" Language="SFX">
+							<ShortName>mid05.wav</ShortName>
+							<Path>SFX/mid05_A26074DB.wem</Path>
+						</File>
+						<File Id="329022179" Language="SFX">
+							<ShortName>L2_high_11.wav</ShortName>
+							<Path>SFX/L2_high_11_A26074DB.wem</Path>
+						</File>
+						<File Id="329906644" Language="SFX">
+							<ShortName>L2_FX_02.wav</ShortName>
+							<Path>SFX/L2_FX_02_E82321D7.wem</Path>
+						</File>
+						<File Id="331252592" Language="SFX">
+							<ShortName>L2_widerange_12.wav</ShortName>
+							<Path>SFX/L2_widerange_12_BA3F3FC8.wem</Path>
+						</File>
+						<File Id="337930529" Language="SFX">
+							<ShortName>L2_high_15.wav</ShortName>
+							<Path>SFX/L2_high_15_24DE665A.wem</Path>
+						</File>
+						<File Id="341491930" Language="SFX">
+							<ShortName>mid14.wav</ShortName>
+							<Path>SFX/mid14_FA8BBF17.wem</Path>
+						</File>
+						<File Id="346767564" Language="SFX">
+							<ShortName>L2_singlenotes_02.wav</ShortName>
+							<Path>SFX/L2_singlenotes_02_7EE4EEAC.wem</Path>
+						</File>
+						<File Id="348120599" Language="SFX">
+							<ShortName>L2_singlenotes_12.wav</ShortName>
+							<Path>SFX/L2_singlenotes_12_169FC95E.wem</Path>
+						</File>
+						<File Id="351144161" Language="SFX">
+							<ShortName>L2_high_04.wav</ShortName>
+							<Path>SFX/L2_high_04_A26074DB.wem</Path>
+						</File>
+						<File Id="355675912" Language="SFX">
+							<ShortName>mid15.wav</ShortName>
+							<Path>SFX/mid15_3D366E33.wem</Path>
+						</File>
+						<File Id="371866325" Language="SFX">
+							<ShortName>L2_intervals_02.wav</ShortName>
+							<Path>SFX/L2_intervals_02_B8A54CBE.wem</Path>
+						</File>
+						<File Id="374637273" Language="SFX">
+							<ShortName>L2_pianobass_C_low.wav</ShortName>
+							<Path>SFX/L2_pianobass_C_low_A26074DB.wem</Path>
+						</File>
+						<File Id="377683143" Language="SFX">
+							<ShortName>L2_high_21.wav</ShortName>
+							<Path>SFX/L2_high_21_A26074DB.wem</Path>
+						</File>
+						<File Id="383168044" Language="SFX">
+							<ShortName>high23.wav</ShortName>
+							<Path>SFX/high23_A26074DB.wem</Path>
+						</File>
+						<File Id="395801740" Language="SFX">
+							<ShortName>L2_mid_24.wav</ShortName>
+							<Path>SFX/L2_mid_24_7901942E.wem</Path>
+						</File>
+						<File Id="400714104" Language="SFX">
+							<ShortName>SingleNotes07.wav</ShortName>
+							<Path>SFX/SingleNotes07_A26074DB.wem</Path>
+						</File>
+						<File Id="407698838" Language="SFX">
+							<ShortName>L2_high_05.wav</ShortName>
+							<Path>SFX/L2_high_05_A26074DB.wem</Path>
+						</File>
+						<File Id="419454914" Language="SFX">
+							<ShortName>L2_mid_08.wav</ShortName>
+							<Path>SFX/L2_mid_08_DA2DB826.wem</Path>
+						</File>
+						<File Id="423447576" Language="SFX">
+							<ShortName>L2_high_47.wav</ShortName>
+							<Path>SFX/L2_high_47_A26074DB.wem</Path>
+						</File>
+						<File Id="424942377" Language="SFX">
+							<ShortName>L1_pianobass_F_high.wav</ShortName>
+							<Path>SFX/L1_pianobass_F_high_A26074DB.wem</Path>
+						</File>
+						<File Id="425545618" Language="SFX">
+							<ShortName>L2_pianobass_F_low.wav</ShortName>
+							<Path>SFX/L2_pianobass_F_low_A26074DB.wem</Path>
+						</File>
+						<File Id="429800478" Language="SFX">
+							<ShortName>high01.wav</ShortName>
+							<Path>SFX/high01_5F23EF9C.wem</Path>
+						</File>
+						<File Id="444722987" Language="SFX">
+							<ShortName>L2_singlenotes_13.wav</ShortName>
+							<Path>SFX/L2_singlenotes_13_A26074DB.wem</Path>
+						</File>
+						<File Id="445231590" Language="SFX">
+							<ShortName>L2_high_13.wav</ShortName>
+							<Path>SFX/L2_high_13_029F8931.wem</Path>
+						</File>
+						<File Id="450616895" Language="SFX">
+							<ShortName>L1_SynthDrone_01.wav</ShortName>
+							<Path>SFX/L1_SynthDrone_01_A26A3599.wem</Path>
+						</File>
+						<File Id="453337618" Language="SFX">
+							<ShortName>L2_high_34.wav</ShortName>
+							<Path>SFX/L2_high_34_A26074DB.wem</Path>
+						</File>
+						<File Id="462620402" Language="SFX">
+							<ShortName>high12.wav</ShortName>
+							<Path>SFX/high12_0F2264AB.wem</Path>
+						</File>
+						<File Id="500093489" Language="SFX">
+							<ShortName>high36.wav</ShortName>
+							<Path>SFX/high36_A26074DB.wem</Path>
+						</File>
+						<File Id="506345302" Language="SFX">
+							<ShortName>L2_high_20.wav</ShortName>
+							<Path>SFX/L2_high_20_A26074DB.wem</Path>
+						</File>
+						<File Id="507755628" Language="SFX">
+							<ShortName>L2_high_02.wav</ShortName>
+							<Path>SFX/L2_high_02_20E9EC35.wem</Path>
+						</File>
+						<File Id="508379136" Language="SFX">
+							<ShortName>L2_widerange_17.wav</ShortName>
+							<Path>SFX/L2_widerange_17_97C78114.wem</Path>
+						</File>
+						<File Id="513448246" Language="SFX">
+							<ShortName>L2_mid_10.wav</ShortName>
+							<Path>SFX/L2_mid_10_A26074DB.wem</Path>
+						</File>
+						<File Id="513541672" Language="SFX">
+							<ShortName>SingleNotes08.wav</ShortName>
+							<Path>SFX/SingleNotes08_A26074DB.wem</Path>
+						</File>
+						<File Id="516894983" Language="SFX">
+							<ShortName>L2_singlenotes_04.wav</ShortName>
+							<Path>SFX/L2_singlenotes_04_A26074DB.wem</Path>
+						</File>
+						<File Id="521668055" Language="SFX">
+							<ShortName>L2_intervals_06.wav</ShortName>
+							<Path>SFX/L2_intervals_06_C3281628.wem</Path>
+						</File>
+						<File Id="524313370" Language="SFX">
+							<ShortName>SingleNotes21.wav</ShortName>
+							<Path>SFX/SingleNotes21_A26074DB.wem</Path>
+						</File>
+						<File Id="529205856" Language="SFX">
+							<ShortName>L2_perc_03.wav</ShortName>
+							<Path>SFX/L2_perc_03_A26074DB.wem</Path>
+						</File>
+						<File Id="529209562" Language="SFX">
+							<ShortName>high29.wav</ShortName>
+							<Path>SFX/high29_A26074DB.wem</Path>
+						</File>
+						<File Id="535121457" Language="SFX">
+							<ShortName>high22.wav</ShortName>
+							<Path>SFX/high22_A26074DB.wem</Path>
+						</File>
+						<File Id="550854460" Language="SFX">
+							<ShortName>L2_high_27.wav</ShortName>
+							<Path>SFX/L2_high_27_A26074DB.wem</Path>
+						</File>
+						<File Id="550977374" Language="SFX">
+							<ShortName>L2_intervals_07.wav</ShortName>
+							<Path>SFX/L2_intervals_07_87262FF1.wem</Path>
+						</File>
+						<File Id="558334459" Language="SFX">
+							<ShortName>high24.wav</ShortName>
+							<Path>SFX/high24_A26074DB.wem</Path>
+						</File>
+						<File Id="563302861" Language="SFX">
+							<ShortName>high32.wav</ShortName>
+							<Path>SFX/high32_A26074DB.wem</Path>
+						</File>
+						<File Id="563947465" Language="SFX">
+							<ShortName>high33.wav</ShortName>
+							<Path>SFX/high33_A26074DB.wem</Path>
+						</File>
+						<File Id="566092133" Language="SFX">
+							<ShortName>L2_singlenotes_03.wav</ShortName>
+							<Path>SFX/L2_singlenotes_03_A26074DB.wem</Path>
+						</File>
+						<File Id="566128683" Language="SFX">
+							<ShortName>low02.wav</ShortName>
+							<Path>SFX/low02_A26074DB.wem</Path>
+						</File>
+						<File Id="566880474" Language="SFX">
+							<ShortName>L2_low_06.wav</ShortName>
+							<Path>SFX/L2_low_06_A26074DB.wem</Path>
+						</File>
+						<File Id="567770302" Language="SFX">
+							<ShortName>high09.wav</ShortName>
+							<Path>SFX/high09_A26074DB.wem</Path>
+						</File>
+						<File Id="570597899" Language="SFX">
+							<ShortName>mid01.wav</ShortName>
+							<Path>SFX/mid01_0A948870.wem</Path>
+						</File>
+						<File Id="574694283" Language="SFX">
+							<ShortName>L2_high_41.wav</ShortName>
+							<Path>SFX/L2_high_41_E8F2DAA7.wem</Path>
+						</File>
+						<File Id="579290041" Language="SFX">
+							<ShortName>L2_widerange_11.wav</ShortName>
+							<Path>SFX/L2_widerange_11_7945FFFC.wem</Path>
+						</File>
+						<File Id="579398620" Language="SFX">
+							<ShortName>L2_widerange_01.wav</ShortName>
+							<Path>SFX/L2_widerange_01_CD7B0413.wem</Path>
+						</File>
+						<File Id="583639403" Language="SFX">
+							<ShortName>mid28.wav</ShortName>
+							<Path>SFX/mid28_A26074DB.wem</Path>
+						</File>
+						<File Id="585182303" Language="SFX">
+							<ShortName>high25.wav</ShortName>
+							<Path>SFX/high25_A26074DB.wem</Path>
+						</File>
+						<File Id="587177463" Language="SFX">
+							<ShortName>L2_mid_03.wav</ShortName>
+							<Path>SFX/L2_mid_03_A26074DB.wem</Path>
+						</File>
+						<File Id="593425009" Language="SFX">
+							<ShortName>L2_widerange_10.wav</ShortName>
+							<Path>SFX/L2_widerange_10_6EA4B793.wem</Path>
+						</File>
+						<File Id="594611527" Language="SFX">
+							<ShortName>L2_intervals_08.wav</ShortName>
+							<Path>SFX/L2_intervals_08_EA8B1786.wem</Path>
+						</File>
+						<File Id="597592354" Language="SFX">
+							<ShortName>SingleNotes01.wav</ShortName>
+							<Path>SFX/SingleNotes01_A26074DB.wem</Path>
+						</File>
+						<File Id="598443754" Language="SFX">
+							<ShortName>L2_singlenotes_05.wav</ShortName>
+							<Path>SFX/L2_singlenotes_05_A26074DB.wem</Path>
+						</File>
+						<File Id="600765877" Language="SFX">
+							<ShortName>L2_mid_12.wav</ShortName>
+							<Path>SFX/L2_mid_12_3270F31A.wem</Path>
+						</File>
+						<File Id="601744678" Language="SFX">
+							<ShortName>high05.wav</ShortName>
+							<Path>SFX/high05_0327FB6C.wem</Path>
+						</File>
+						<File Id="602163402" Language="SFX">
+							<ShortName>mid19.wav</ShortName>
+							<Path>SFX/mid19_C582BFA7.wem</Path>
+						</File>
+						<File Id="617500669" Language="SFX">
+							<ShortName>L1_pianobass_Bb_high.wav</ShortName>
+							<Path>SFX/L1_pianobass_Bb_high_A26074DB.wem</Path>
+						</File>
+						<File Id="625241075" Language="SFX">
+							<ShortName>L2_high_33.wav</ShortName>
+							<Path>SFX/L2_high_33_A26074DB.wem</Path>
+						</File>
+						<File Id="638264283" Language="SFX">
+							<ShortName>high30.wav</ShortName>
+							<Path>SFX/high30_A26074DB.wem</Path>
+						</File>
+						<File Id="638882271" Language="SFX">
+							<ShortName>mid21.wav</ShortName>
+							<Path>SFX/mid21_A26074DB.wem</Path>
+						</File>
+						<File Id="640480811" Language="SFX">
+							<ShortName>L2_widerange_03.wav</ShortName>
+							<Path>SFX/L2_widerange_03_69A5C38F.wem</Path>
+						</File>
+						<File Id="642773075" Language="SFX">
+							<ShortName>L2_singlenotes_11.wav</ShortName>
+							<Path>SFX/L2_singlenotes_11_A26074DB.wem</Path>
+						</File>
+						<File Id="645137235" Language="SFX">
+							<ShortName>L2_perc_04.wav</ShortName>
+							<Path>SFX/L2_perc_04_A26074DB.wem</Path>
+						</File>
+						<File Id="651560519" Language="SFX">
+							<ShortName>L2_mid_01.wav</ShortName>
+							<Path>SFX/L2_mid_01_A26074DB.wem</Path>
+						</File>
+						<File Id="652127239" Language="SFX">
+							<ShortName>mid20.wav</ShortName>
+							<Path>SFX/mid20_A26074DB.wem</Path>
+						</File>
+						<File Id="652552967" Language="SFX">
+							<ShortName>L2_pianobass_Eb_high.wav</ShortName>
+							<Path>SFX/L2_pianobass_Eb_high_A26074DB.wem</Path>
+						</File>
+						<File Id="657864893" Language="SFX">
+							<ShortName>L2_high_36.wav</ShortName>
+							<Path>SFX/L2_high_36_A26074DB.wem</Path>
+						</File>
+						<File Id="666325603" Language="SFX">
+							<ShortName>high13.wav</ShortName>
+							<Path>SFX/high13_E86B2BAC.wem</Path>
+						</File>
+						<File Id="666733950" Language="SFX">
+							<ShortName>L2_intervals_10.wav</ShortName>
+							<Path>SFX/L2_intervals_10_FCAF2BE2.wem</Path>
+						</File>
+						<File Id="670848320" Language="SFX">
+							<ShortName>L2_low_05.wav</ShortName>
+							<Path>SFX/L2_low_05_99E6FAB4.wem</Path>
+						</File>
+						<File Id="673916884" Language="SFX">
+							<ShortName>L2_intervals_04.wav</ShortName>
+							<Path>SFX/L2_intervals_04_1129F290.wem</Path>
+						</File>
+						<File Id="679665888" Language="SFX">
+							<ShortName>L2_low_04.wav</ShortName>
+							<Path>SFX/L2_low_04_A26074DB.wem</Path>
+						</File>
+						<File Id="684227285" Language="SFX">
+							<ShortName>SingleNotes09.wav</ShortName>
+							<Path>SFX/SingleNotes09_A26074DB.wem</Path>
+						</File>
+						<File Id="684267644" Language="SFX">
+							<ShortName>L2_intervals_01.wav</ShortName>
+							<Path>SFX/L2_intervals_01_CA1E770D.wem</Path>
+						</File>
+						<File Id="684301207" Language="SFX">
+							<ShortName>L2_widerange_04.wav</ShortName>
+							<Path>SFX/L2_widerange_04_99BA7197.wem</Path>
+						</File>
+						<File Id="688692363" Language="SFX">
+							<ShortName>6ths03.wav</ShortName>
+							<Path>SFX/6ths03_A26074DB.wem</Path>
+						</File>
+						<File Id="691966506" Language="SFX">
+							<ShortName>mid10.wav</ShortName>
+							<Path>SFX/mid10_DB66F58E.wem</Path>
+						</File>
+						<File Id="692363720" Language="SFX">
+							<ShortName>SingleNotes20.wav</ShortName>
+							<Path>SFX/SingleNotes20_A26074DB.wem</Path>
+						</File>
+						<File Id="693851345" Language="SFX">
+							<ShortName>L2_intervals_09.wav</ShortName>
+							<Path>SFX/L2_intervals_09_3B5F22D6.wem</Path>
+						</File>
+						<File Id="694008508" Language="SFX">
+							<ShortName>high15.wav</ShortName>
+							<Path>SFX/high15_65F397AB.wem</Path>
+						</File>
+						<File Id="695630529" Language="SFX">
+							<ShortName>L2_singlenotes_08.wav</ShortName>
+							<Path>SFX/L2_singlenotes_08_A26074DB.wem</Path>
+						</File>
+						<File Id="699635344" Language="SFX">
+							<ShortName>L2_perc_07.wav</ShortName>
+							<Path>SFX/L2_perc_07_A26074DB.wem</Path>
+						</File>
+						<File Id="701528346" Language="SFX">
+							<ShortName>L2_mid_13.wav</ShortName>
+							<Path>SFX/L2_mid_13_A26074DB.wem</Path>
+						</File>
+						<File Id="704948979" Language="SFX">
+							<ShortName>L2_high_30.wav</ShortName>
+							<Path>SFX/L2_high_30_A26074DB.wem</Path>
+						</File>
+						<File Id="719890215" Language="SFX">
+							<ShortName>L2_high_19.wav</ShortName>
+							<Path>SFX/L2_high_19_A26074DB.wem</Path>
+						</File>
+						<File Id="722212644" Language="SFX">
+							<ShortName>SingleNotes14.wav</ShortName>
+							<Path>SFX/SingleNotes14_A26074DB.wem</Path>
+						</File>
+						<File Id="731429798" Language="SFX">
+							<ShortName>high34.wav</ShortName>
+							<Path>SFX/high34_A26074DB.wem</Path>
+						</File>
+						<File Id="741166371" Language="SFX">
+							<ShortName>mid02.wav</ShortName>
+							<Path>SFX/mid02_27BC12A0.wem</Path>
+						</File>
+						<File Id="741828107" Language="SFX">
+							<ShortName>high26.wav</ShortName>
+							<Path>SFX/high26_A26074DB.wem</Path>
+						</File>
+						<File Id="746904752" Language="SFX">
+							<ShortName>L2_FX_03.wav</ShortName>
+							<Path>SFX/L2_FX_03_D0B15B74.wem</Path>
+						</File>
+						<File Id="750631544" Language="SFX">
+							<ShortName>SingleNotes17.wav</ShortName>
+							<Path>SFX/SingleNotes17_A26074DB.wem</Path>
+						</File>
+						<File Id="751234030" Language="SFX">
+							<ShortName>L2_high_45.wav</ShortName>
+							<Path>SFX/L2_high_45_A26074DB.wem</Path>
+						</File>
+						<File Id="752860691" Language="SFX">
+							<ShortName>L2_high_26.wav</ShortName>
+							<Path>SFX/L2_high_26_A26074DB.wem</Path>
+						</File>
+						<File Id="753788053" Language="SFX">
+							<ShortName>L2_high_32.wav</ShortName>
+							<Path>SFX/L2_high_32_A26074DB.wem</Path>
+						</File>
+						<File Id="753817753" Language="SFX">
+							<ShortName>L1_pianobass_Bb_octave.wav</ShortName>
+							<Path>SFX/L1_pianobass_Bb_octave_A26074DB.wem</Path>
+						</File>
+						<File Id="754716283" Language="SFX">
+							<ShortName>L2_high_18.wav</ShortName>
+							<Path>SFX/L2_high_18_A26074DB.wem</Path>
+						</File>
+						<File Id="759114435" Language="SFX">
+							<ShortName>L2_mid_07.wav</ShortName>
+							<Path>SFX/L2_mid_07_CBBDB7E0.wem</Path>
+						</File>
+						<File Id="759378481" Language="SFX">
+							<ShortName>L2_high_06.wav</ShortName>
+							<Path>SFX/L2_high_06_A26074DB.wem</Path>
+						</File>
+						<File Id="765599723" Language="SFX">
+							<ShortName>mid13.wav</ShortName>
+							<Path>SFX/mid13_0EF19A49.wem</Path>
+						</File>
+						<File Id="777136871" Language="SFX">
+							<ShortName>L2_low_02.wav</ShortName>
+							<Path>SFX/L2_low_02_A26074DB.wem</Path>
+						</File>
+						<File Id="780329995" Language="SFX">
+							<ShortName>L2_high_28.wav</ShortName>
+							<Path>SFX/L2_high_28_A26074DB.wem</Path>
+						</File>
+						<File Id="781162920" Language="SFX">
+							<ShortName>L2_high_24.wav</ShortName>
+							<Path>SFX/L2_high_24_A26074DB.wem</Path>
+						</File>
+						<File Id="785247267" Language="SFX">
+							<ShortName>L1_pianobass_C_high.wav</ShortName>
+							<Path>SFX/L1_pianobass_C_high_A26074DB.wem</Path>
+						</File>
+						<File Id="786475906" Language="SFX">
+							<ShortName>L2_singlenotes_15.wav</ShortName>
+							<Path>SFX/L2_singlenotes_15_A26074DB.wem</Path>
+						</File>
+						<File Id="799418366" Language="SFX">
+							<ShortName>L2_mid_23.wav</ShortName>
+							<Path>SFX/L2_mid_23_A26074DB.wem</Path>
+						</File>
+						<File Id="804871224" Language="SFX">
+							<ShortName>L2_singlenotes_10.wav</ShortName>
+							<Path>SFX/L2_singlenotes_10_A26074DB.wem</Path>
+						</File>
+						<File Id="805931935" Language="SFX">
+							<ShortName>L2_pianobass_Eb_low.wav</ShortName>
+							<Path>SFX/L2_pianobass_Eb_low_A26074DB.wem</Path>
+						</File>
+						<File Id="806759278" Language="SFX">
+							<ShortName>high03.wav</ShortName>
+							<Path>SFX/high03_19ECFBE2.wem</Path>
+						</File>
+						<File Id="807296658" Language="SFX">
+							<ShortName>mid17.wav</ShortName>
+							<Path>SFX/mid17_50D9A5DE.wem</Path>
+						</File>
+						<File Id="809892778" Language="SFX">
+							<ShortName>6ths04.wav</ShortName>
+							<Path>SFX/6ths04_A26074DB.wem</Path>
+						</File>
+						<File Id="816537803" Language="SFX">
+							<ShortName>mid22.wav</ShortName>
+							<Path>SFX/mid22_A26074DB.wem</Path>
+						</File>
+						<File Id="820462811" Language="SFX">
+							<ShortName>L2_high_09.wav</ShortName>
+							<Path>SFX/L2_high_09_A26074DB.wem</Path>
+						</File>
+						<File Id="825813032" Language="SFX">
+							<ShortName>high31.wav</ShortName>
+							<Path>SFX/high31_A26074DB.wem</Path>
+						</File>
+						<File Id="829382749" Language="SFX">
+							<ShortName>L2_mid_21.wav</ShortName>
+							<Path>SFX/L2_mid_21_01AEB339.wem</Path>
+						</File>
+						<File Id="839449594" Language="SFX">
+							<ShortName>mid23.wav</ShortName>
+							<Path>SFX/mid23_A26074DB.wem</Path>
+						</File>
+						<File Id="842185957" Language="SFX">
+							<ShortName>mid09.wav</ShortName>
+							<Path>SFX/mid09_09F4E0A3.wem</Path>
+						</File>
+						<File Id="846686136" Language="SFX">
+							<ShortName>L2_mid_14.wav</ShortName>
+							<Path>SFX/L2_mid_14_E92D2A56.wem</Path>
+						</File>
+						<File Id="853861763" Language="SFX">
+							<ShortName>L2_widerange_02.wav</ShortName>
+							<Path>SFX/L2_widerange_02_3053E1B1.wem</Path>
+						</File>
+						<File Id="856249131" Language="SFX">
+							<ShortName>L2_pianobass_C_octave.wav</ShortName>
+							<Path>SFX/L2_pianobass_C_octave_A26074DB.wem</Path>
+						</File>
+						<File Id="860057354" Language="SFX">
+							<ShortName>L2_high_10.wav</ShortName>
+							<Path>SFX/L2_high_10_A26074DB.wem</Path>
+						</File>
+						<File Id="871587016" Language="SFX">
+							<ShortName>high04.wav</ShortName>
+							<Path>SFX/high04_6816FD20.wem</Path>
+						</File>
+						<File Id="872443413" Language="SFX">
+							<ShortName>L2_singlenotes_14.wav</ShortName>
+							<Path>SFX/L2_singlenotes_14_A26074DB.wem</Path>
+						</File>
+						<File Id="875683849" Language="SFX">
+							<ShortName>SingleNotes02.wav</ShortName>
+							<Path>SFX/SingleNotes02_A26074DB.wem</Path>
+						</File>
+						<File Id="879732874" Language="SFX">
+							<ShortName>high11.wav</ShortName>
+							<Path>SFX/high11_CD87E6C4.wem</Path>
+						</File>
+						<File Id="881267687" Language="SFX">
+							<ShortName>high20.wav</ShortName>
+							<Path>SFX/high20_878BFEFD.wem</Path>
+						</File>
+						<File Id="893589115" Language="SFX">
+							<ShortName>L2_singlenotes_06.wav</ShortName>
+							<Path>SFX/L2_singlenotes_06_A26074DB.wem</Path>
+						</File>
+						<File Id="894177052" Language="SFX">
+							<ShortName>L2_perc_02.wav</ShortName>
+							<Path>SFX/L2_perc_02_A26074DB.wem</Path>
+						</File>
+						<File Id="894246182" Language="SFX">
+							<ShortName>mid11.wav</ShortName>
+							<Path>SFX/mid11_A26074DB.wem</Path>
+						</File>
+						<File Id="897749394" Language="SFX">
+							<ShortName>mid27.wav</ShortName>
+							<Path>SFX/mid27_A26074DB.wem</Path>
+						</File>
+						<File Id="898363932" Language="SFX">
+							<ShortName>SingleNotes10.wav</ShortName>
+							<Path>SFX/SingleNotes10_A26074DB.wem</Path>
+						</File>
+						<File Id="913407173" Language="SFX">
+							<ShortName>L2_singlenotes_16.wav</ShortName>
+							<Path>SFX/L2_singlenotes_16_A26074DB.wem</Path>
+						</File>
+						<File Id="918825733" Language="SFX">
+							<ShortName>L1_pianobass_F_octave.wav</ShortName>
+							<Path>SFX/L1_pianobass_F_octave_A26074DB.wem</Path>
+						</File>
+						<File Id="919964925" Language="SFX">
+							<ShortName>L1_FX_01.wav</ShortName>
+							<Path>SFX/L1_FX_01_A26074DB.wem</Path>
+						</File>
+						<File Id="920502521" Language="SFX">
+							<ShortName>L2_perc_05.wav</ShortName>
+							<Path>SFX/L2_perc_05_A26074DB.wem</Path>
+						</File>
+						<File Id="921658397" Language="SFX">
+							<ShortName>high18.wav</ShortName>
+							<Path>SFX/high18_A26074DB.wem</Path>
+						</File>
+						<File Id="922776357" Language="SFX">
+							<ShortName>L2_mid_09.wav</ShortName>
+							<Path>SFX/L2_mid_09_DBBCDDA5.wem</Path>
+						</File>
+						<File Id="924765392" Language="SFX">
+							<ShortName>L2_mid_15.wav</ShortName>
+							<Path>SFX/L2_mid_15_E3B80B8D.wem</Path>
+						</File>
+						<File Id="935255294" Language="SFX">
+							<ShortName>L2_widerange_16.wav</ShortName>
+							<Path>SFX/L2_widerange_16_6147FB91.wem</Path>
+						</File>
+						<File Id="936056966" Language="SFX">
+							<ShortName>L2_high_44.wav</ShortName>
+							<Path>SFX/L2_high_44_7A8647BF.wem</Path>
+						</File>
+						<File Id="937598548" Language="SFX">
+							<ShortName>L2_high_01.wav</ShortName>
+							<Path>SFX/L2_high_01_AB6706C5.wem</Path>
+						</File>
+						<File Id="938305339" Language="SFX">
+							<ShortName>L1_pianobass_C_octave.wav</ShortName>
+							<Path>SFX/L1_pianobass_C_octave_A26074DB.wem</Path>
+						</File>
+						<File Id="947417861" Language="SFX">
+							<ShortName>high14.wav</ShortName>
+							<Path>SFX/high14_A42982A4.wem</Path>
+						</File>
+						<File Id="951892699" Language="SFX">
+							<ShortName>L2_mid_20.wav</ShortName>
+							<Path>SFX/L2_mid_20_AEEDA349.wem</Path>
+						</File>
+						<File Id="952766462" Language="SFX">
+							<ShortName>L2_widerange_13.wav</ShortName>
+							<Path>SFX/L2_widerange_13_A26074DB.wem</Path>
+						</File>
+						<File Id="958557672" Language="SFX">
+							<ShortName>high16.wav</ShortName>
+							<Path>SFX/high16_A26074DB.wem</Path>
+						</File>
+						<File Id="960653498" Language="SFX">
+							<ShortName>mid26.wav</ShortName>
+							<Path>SFX/mid26_EF5E04B6.wem</Path>
+						</File>
+						<File Id="965229194" Language="SFX">
+							<ShortName>L2_pianobass_C_high.wav</ShortName>
+							<Path>SFX/L2_pianobass_C_high_A26074DB.wem</Path>
+						</File>
+						<File Id="966281266" Language="SFX">
+							<ShortName>L2_high_39.wav</ShortName>
+							<Path>SFX/L2_high_39_C96809FD.wem</Path>
+						</File>
+						<File Id="970641643" Language="SFX">
+							<ShortName>L2_mid_04.wav</ShortName>
+							<Path>SFX/L2_mid_04_CB1CEF4E.wem</Path>
+						</File>
+						<File Id="973676324" Language="SFX">
+							<ShortName>SingleNotes19.wav</ShortName>
+							<Path>SFX/SingleNotes19_A26074DB.wem</Path>
+						</File>
+						<File Id="975512462" Language="SFX">
+							<ShortName>L2_low_01.wav</ShortName>
+							<Path>SFX/L2_low_01_A26074DB.wem</Path>
+						</File>
+						<File Id="989352885" Language="SFX">
+							<ShortName>L2_high_16.wav</ShortName>
+							<Path>SFX/L2_high_16_A26074DB.wem</Path>
+						</File>
+						<File Id="995232526" Language="SFX">
+							<ShortName>L2_perc_01.wav</ShortName>
+							<Path>SFX/L2_perc_01_A26074DB.wem</Path>
+						</File>
+						<File Id="997980687" Language="SFX">
+							<ShortName>L2_singlenotes_01.wav</ShortName>
+							<Path>SFX/L2_singlenotes_01_A26074DB.wem</Path>
+						</File>
+						<File Id="998698005" Language="SFX">
+							<ShortName>L2_pianobass_F_octave.wav</ShortName>
+							<Path>SFX/L2_pianobass_F_octave_A26074DB.wem</Path>
+						</File>
+						<File Id="1003302841" Language="SFX">
+							<ShortName>mid25.wav</ShortName>
+							<Path>SFX/mid25_A26074DB.wem</Path>
+						</File>
+						<File Id="1007599245" Language="SFX">
+							<ShortName>L2_mid_26.wav</ShortName>
+							<Path>SFX/L2_mid_26_0B93D90B.wem</Path>
+						</File>
+						<File Id="1008385867" Language="SFX">
+							<ShortName>high10.wav</ShortName>
+							<Path>SFX/high10_6AF90401.wem</Path>
+						</File>
+						<File Id="1026468589" Language="SFX">
+							<ShortName>high19.wav</ShortName>
+							<Path>SFX/high19_A26074DB.wem</Path>
+						</File>
+						<File Id="1032525904" Language="SFX">
+							<ShortName>6ths01.wav</ShortName>
+							<Path>SFX/6ths01_A26074DB.wem</Path>
+						</File>
+						<File Id="1036420497" Language="SFX">
+							<ShortName>high21.wav</ShortName>
+							<Path>SFX/high21_A26074DB.wem</Path>
+						</File>
+						<File Id="1038628369" Language="SFX">
+							<ShortName>high06.wav</ShortName>
+							<Path>SFX/high06_A26074DB.wem</Path>
+						</File>
+						<File Id="1039486133" Language="SFX">
+							<ShortName>L2_widerange_05.wav</ShortName>
+							<Path>SFX/L2_widerange_05_1715B133.wem</Path>
+						</File>
+						<File Id="1043813097" Language="SFX">
+							<ShortName>L2_intervals_03.wav</ShortName>
+							<Path>SFX/L2_intervals_03_77A3097B.wem</Path>
+						</File>
+						<File Id="1048324213" Language="SFX">
+							<ShortName>L2_high_31.wav</ShortName>
+							<Path>SFX/L2_high_31_A26074DB.wem</Path>
+						</File>
+						<File Id="1057635692" Language="SFX">
+							<ShortName>L2_high_29.wav</ShortName>
+							<Path>SFX/L2_high_29_A26074DB.wem</Path>
+						</File>
+						<File Id="1058183954" Language="SFX">
+							<ShortName>mid12.wav</ShortName>
+							<Path>SFX/mid12_AD352028.wem</Path>
+						</File>
+						<File Id="1061253620" Language="SFX">
+							<ShortName>SingleNotes18.wav</ShortName>
+							<Path>SFX/SingleNotes18_A26074DB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}">
+							<Children>
+								<SwitchContainer SwitchValue="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}">
+									<Media>
+										<File Id="9416022"/>
+										<File Id="11802040"/>
+										<File Id="26526218"/>
+										<File Id="27173830"/>
+										<File Id="38912114"/>
+										<File Id="42027175"/>
+										<File Id="48635343"/>
+										<File Id="48995606"/>
+										<File Id="67064715"/>
+										<File Id="87594229"/>
+										<File Id="91943540"/>
+										<File Id="104053150"/>
+										<File Id="116820437"/>
+										<File Id="126885975"/>
+										<File Id="132280842"/>
+										<File Id="148850098"/>
+										<File Id="165252916"/>
+										<File Id="172939683"/>
+										<File Id="185379676"/>
+										<File Id="190430321"/>
+										<File Id="195697851"/>
+										<File Id="203848726"/>
+										<File Id="227695455"/>
+										<File Id="236493759"/>
+										<File Id="251969575"/>
+										<File Id="252087568"/>
+										<File Id="272550935"/>
+										<File Id="273226785"/>
+										<File Id="282275872"/>
+										<File Id="315871350"/>
+										<File Id="320676172"/>
+										<File Id="341491930"/>
+										<File Id="355675912"/>
+										<File Id="383168044"/>
+										<File Id="400714104"/>
+										<File Id="424942377"/>
+										<File Id="429800478"/>
+										<File Id="450616895"/>
+										<File Id="462620402"/>
+										<File Id="500093489"/>
+										<File Id="513541672"/>
+										<File Id="524313370"/>
+										<File Id="529209562"/>
+										<File Id="535121457"/>
+										<File Id="558334459"/>
+										<File Id="563302861"/>
+										<File Id="563947465"/>
+										<File Id="566128683"/>
+										<File Id="567770302"/>
+										<File Id="570597899"/>
+										<File Id="583639403"/>
+										<File Id="585182303"/>
+										<File Id="597592354"/>
+										<File Id="601744678"/>
+										<File Id="602163402"/>
+										<File Id="617500669"/>
+										<File Id="638264283"/>
+										<File Id="638882271"/>
+										<File Id="652127239"/>
+										<File Id="666325603"/>
+										<File Id="684227285"/>
+										<File Id="688692363"/>
+										<File Id="691966506"/>
+										<File Id="692363720"/>
+										<File Id="694008508"/>
+										<File Id="722212644"/>
+										<File Id="731429798"/>
+										<File Id="741166371"/>
+										<File Id="741828107"/>
+										<File Id="750631544"/>
+										<File Id="753817753"/>
+										<File Id="765599723"/>
+										<File Id="785247267"/>
+										<File Id="806759278"/>
+										<File Id="807296658"/>
+										<File Id="809892778"/>
+										<File Id="816537803"/>
+										<File Id="825813032"/>
+										<File Id="839449594"/>
+										<File Id="842185957"/>
+										<File Id="871587016"/>
+										<File Id="875683849"/>
+										<File Id="879732874"/>
+										<File Id="881267687"/>
+										<File Id="894246182"/>
+										<File Id="897749394"/>
+										<File Id="898363932"/>
+										<File Id="918825733"/>
+										<File Id="919964925"/>
+										<File Id="921658397"/>
+										<File Id="938305339"/>
+										<File Id="947417861"/>
+										<File Id="958557672"/>
+										<File Id="960653498"/>
+										<File Id="973676324"/>
+										<File Id="1003302841"/>
+										<File Id="1008385867"/>
+										<File Id="1026468589"/>
+										<File Id="1032525904"/>
+										<File Id="1036420497"/>
+										<File Id="1038628369"/>
+										<File Id="1058183954"/>
+										<File Id="1061253620"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7AEAFD6D-9549-4464-B120-69DDB04C0F1A}">
+							<Children>
+								<SwitchContainer SwitchValue="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}">
+									<Media>
+										<File Id="7396132"/>
+										<File Id="8065460"/>
+										<File Id="8959056"/>
+										<File Id="30969407"/>
+										<File Id="31418767"/>
+										<File Id="31822655"/>
+										<File Id="38040106"/>
+										<File Id="44842209"/>
+										<File Id="49380424"/>
+										<File Id="59604068"/>
+										<File Id="66686668"/>
+										<File Id="71858187"/>
+										<File Id="71938252"/>
+										<File Id="81379998"/>
+										<File Id="89289113"/>
+										<File Id="94328879"/>
+										<File Id="97942680"/>
+										<File Id="130907099"/>
+										<File Id="133308438"/>
+										<File Id="134180214"/>
+										<File Id="150658131"/>
+										<File Id="194107871"/>
+										<File Id="195575905"/>
+										<File Id="197985886"/>
+										<File Id="199853686"/>
+										<File Id="210722771"/>
+										<File Id="210857473"/>
+										<File Id="222327238"/>
+										<File Id="235797297"/>
+										<File Id="246087423"/>
+										<File Id="250314799"/>
+										<File Id="251184483"/>
+										<File Id="252087568"/>
+										<File Id="262309289"/>
+										<File Id="262950430"/>
+										<File Id="270094856"/>
+										<File Id="274429638"/>
+										<File Id="298678368"/>
+										<File Id="303309553"/>
+										<File Id="303557107"/>
+										<File Id="304118795"/>
+										<File Id="304479425"/>
+										<File Id="319896928"/>
+										<File Id="329022179"/>
+										<File Id="329906644"/>
+										<File Id="331252592"/>
+										<File Id="337930529"/>
+										<File Id="346767564"/>
+										<File Id="348120599"/>
+										<File Id="351144161"/>
+										<File Id="371866325"/>
+										<File Id="374637273"/>
+										<File Id="377683143"/>
+										<File Id="395801740"/>
+										<File Id="407698838"/>
+										<File Id="419454914"/>
+										<File Id="423447576"/>
+										<File Id="425545618"/>
+										<File Id="444722987"/>
+										<File Id="445231590"/>
+										<File Id="453337618"/>
+										<File Id="506345302"/>
+										<File Id="507755628"/>
+										<File Id="508379136"/>
+										<File Id="513448246"/>
+										<File Id="516894983"/>
+										<File Id="521668055"/>
+										<File Id="529205856"/>
+										<File Id="550854460"/>
+										<File Id="550977374"/>
+										<File Id="566092133"/>
+										<File Id="566880474"/>
+										<File Id="574694283"/>
+										<File Id="579290041"/>
+										<File Id="579398620"/>
+										<File Id="587177463"/>
+										<File Id="593425009"/>
+										<File Id="594611527"/>
+										<File Id="598443754"/>
+										<File Id="600765877"/>
+										<File Id="625241075"/>
+										<File Id="640480811"/>
+										<File Id="642773075"/>
+										<File Id="645137235"/>
+										<File Id="651560519"/>
+										<File Id="652552967"/>
+										<File Id="657864893"/>
+										<File Id="666733950"/>
+										<File Id="670848320"/>
+										<File Id="673916884"/>
+										<File Id="679665888"/>
+										<File Id="684267644"/>
+										<File Id="684301207"/>
+										<File Id="693851345"/>
+										<File Id="695630529"/>
+										<File Id="699635344"/>
+										<File Id="701528346"/>
+										<File Id="704948979"/>
+										<File Id="719890215"/>
+										<File Id="746904752"/>
+										<File Id="751234030"/>
+										<File Id="752860691"/>
+										<File Id="753788053"/>
+										<File Id="754716283"/>
+										<File Id="759114435"/>
+										<File Id="759378481"/>
+										<File Id="777136871"/>
+										<File Id="780329995"/>
+										<File Id="781162920"/>
+										<File Id="786475906"/>
+										<File Id="799418366"/>
+										<File Id="804871224"/>
+										<File Id="805931935"/>
+										<File Id="820462811"/>
+										<File Id="829382749"/>
+										<File Id="846686136"/>
+										<File Id="853861763"/>
+										<File Id="856249131"/>
+										<File Id="860057354"/>
+										<File Id="872443413"/>
+										<File Id="893589115"/>
+										<File Id="894177052"/>
+										<File Id="913407173"/>
+										<File Id="920502521"/>
+										<File Id="922776357"/>
+										<File Id="924765392"/>
+										<File Id="935255294"/>
+										<File Id="936056966"/>
+										<File Id="937598548"/>
+										<File Id="951892699"/>
+										<File Id="952766462"/>
+										<File Id="965229194"/>
+										<File Id="966281266"/>
+										<File Id="970641643"/>
+										<File Id="975512462"/>
+										<File Id="989352885"/>
+										<File Id="995232526"/>
+										<File Id="997980687"/>
+										<File Id="998698005"/>
+										<File Id="1007599245"/>
+										<File Id="1039486133"/>
+										<File Id="1043813097"/>
+										<File Id="1048324213"/>
+										<File Id="1057635692"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
+						<ActionSetStateEntry Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\Level\Level_1"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4244769408" Name="MUS_Level3_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3336347158" Name="MUS_Level3_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="1973954843" Name="MUS_Start" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Start" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="493504551" Name="Poncho_Collect" ObjectPath="\Events\Default Work Unit\INGREDIENT\Poncho_Collect" DurationType="OneShot" DurationMin="10.976372" DurationMax="10.976372">
 					<IncludedMemoryFiles>
@@ -5702,7 +6966,16 @@
 				<GameParameter Id="1322591463" Name="Inclination" ObjectPath="\Game Parameters\Default Work Unit\Inclination"/>
 			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience" GUID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="646625282" Name="Hub" ObjectPath="\States\Default Work Unit\Level\Hub" GUID="{C66BE474-8691-4FB7-940B-9D539A992BC4}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\Level\Level_1" GUID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss" GUID="{53F18CA2-BA87-4DB6-8AD7-A4F2E1613F14}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="1780230126" Name="Equipped" ObjectPath="\States\Default Work Unit\Poncho\Equipped" GUID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}">
@@ -5710,6 +6983,26 @@
 				</StateGroup>
 				<StateGroup Id="2413814047" Name="Unequipped" ObjectPath="\States\Default Work Unit\Poncho\Unequipped" GUID="{3EDD2C56-E3D3-4BFF-807D-16C6F87A24A5}">
 					<States/>
+				</StateGroup>
+				<StateGroup Id="2782712965" Name="Level" ObjectPath="\States\Default Work Unit\Level" GUID="{94DC4A26-7B88-48CD-A2F3-0E2F50494BF5}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Level\None" GUID="{362F49D5-B98D-4A01-9DD9-565618F8C672}"/>
+						<State Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\Level\Level_1" GUID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}"/>
+						<State Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\Level\Level_2" GUID="{7AEAFD6D-9549-4464-B120-69DDB04C0F1A}"/>
+						<State Id="1290008371" Name="Level_3" ObjectPath="\States\Default Work Unit\Level\Level_3" GUID="{EEB84612-9773-43BE-8C4A-8C9C4C9336B9}"/>
+						<State Id="646625282" Name="Hub" ObjectPath="\States\Default Work Unit\Level\Hub" GUID="{C66BE474-8691-4FB7-940B-9D539A992BC4}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder" GUID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{1FFF2930-E4C0-4D9A-8B26-2D35E145462C}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{79C8C9C9-C580-4BAB-9655-74656E2A89F4}"/>
+						<State Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience" GUID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
+						<State Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder" GUID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}"/>
+						<State Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss" GUID="{53F18CA2-BA87-4DB6-8AD7-A4F2E1613F14}"/>
+					</States>
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>

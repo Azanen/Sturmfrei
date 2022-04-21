@@ -57,12 +57,14 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{B8CEDCD5-2905-4EF5-BA7A-DEEABCE1E1FE}"/>
 						<CurrentStateRef Name="None" ID="{362F49D5-B98D-4A01-9DD9-565618F8C672}"/>
 						<CurrentStateRef Name="Unequipped" ID="{3EDD2C56-E3D3-4BFF-807D-16C6F87A24A5}"/>
 						<CurrentStateRef Name="None" ID="{79C8C9C9-C580-4BAB-9655-74656E2A89F4}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>
+						<CurrentSwitchRef Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Player" ID="{0AC89FAC-C86B-4744-B879-847E93CE4129}">
@@ -131,12 +133,14 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{B8CEDCD5-2905-4EF5-BA7A-DEEABCE1E1FE}"/>
 						<CurrentStateRef Name="None" ID="{362F49D5-B98D-4A01-9DD9-565618F8C672}"/>
 						<CurrentStateRef Name="Unequipped" ID="{3EDD2C56-E3D3-4BFF-807D-16C6F87A24A5}"/>
 						<CurrentStateRef Name="None" ID="{79C8C9C9-C580-4BAB-9655-74656E2A89F4}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>
+						<CurrentSwitchRef Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Ingredient" ID="{AE575B08-47C3-48CD-BB9E-9BF80C5B2FCF}">
@@ -230,10 +234,85 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{B8CEDCD5-2905-4EF5-BA7A-DEEABCE1E1FE}"/>
-						<CurrentStateRef Name="None" ID="{362F49D5-B98D-4A01-9DD9-565618F8C672}"/>
+						<CurrentStateRef Name="Level_2" ID="{7AEAFD6D-9549-4464-B120-69DDB04C0F1A}"/>
 						<CurrentStateRef Name="None" ID="{38FA9B61-1EE0-4F36-834E-3647FCE41EC0}"/>
-						<CurrentStateRef Name="None" ID="{79C8C9C9-C580-4BAB-9655-74656E2A89F4}"/>
+						<CurrentStateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
 					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>
+						<CurrentSwitchRef Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{629AABF8-6226-4199-AC73-FBF0CEBBC783}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MUS_Level1_Ambience" ID="{22BCEA3C-AFA3-4403-85BB-998D43FA9A9E}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Level2_Ambience" ID="{934FCC82-5D60-48C7-BDB1-D7A1C06717E9}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Level3_Wonder" ID="{86D7B585-D8FC-41AF-B6FD-0D57FFE57112}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Hub_PostTuto" ID="{6A5DA9AD-2F56-4E75-920C-8E196687501A}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Level2_BossPuzzle" ID="{2D9B5425-DC31-401D-AA8F-3781BAAF12A2}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Start" ID="{BB5D6177-928F-484B-A580-D888200C2AA9}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Hub_PreTuto" ID="{AB57AE24-ECCF-4033-9016-E62A6655D4BC}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Level2_Wonder" ID="{89E30CD7-5303-4029-B5E2-EE002D35E317}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Hub_Village" ID="{741E736A-7C5E-4CE3-A5D8-DCB7C40147D3}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Level1_BossPuzzle" ID="{F28E7BD4-34F1-4EDC-AC7C-502423DAE8FE}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Level3_Ambience" ID="{E60ECAE7-43EB-4E6E-86D0-09E411601F5A}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stinger_FirstFly" ID="{BBE82E3A-9FD2-4AE1-913D-914B8E2CCAD1}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Level1_Wonder" ID="{441A15AF-9B03-4485-9DA9-C0074C57C026}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Level3_BossPuzzle" ID="{3BB24B2F-777A-4DCC-B7EF-214658CD15D2}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stinger_Poncho" ID="{318334EA-2DC2-4F2C-A365-D8F2E9A264CD}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}"/>
+							<Value>59.9133448873484</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>
 						<CurrentSwitchRef Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>
