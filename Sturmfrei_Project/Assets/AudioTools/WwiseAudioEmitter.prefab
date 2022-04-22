@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7789513782325763849}
   - component: {fileID: 8422236626403246701}
   - component: {fileID: 8422236626403246702}
+  - component: {fileID: 4926798342664757503}
   m_Layer: 17
   m_Name: WwiseAudioEmitter
   m_TagString: AudioTool
@@ -59,3 +60,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventName: default
   stopEvent: default
+--- !u!114 &4926798342664757503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3480346906169551807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fca08abb4b924278bf6e88c5651b761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1

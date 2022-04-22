@@ -26,11 +26,13 @@ public class EventsPonoAnim : MonoBehaviour
     public bool debugEnabled = false;
     public GameObject ponoAnim;
     public Animator anim;
+    public PlayerMovement pono;
 
     void Start()
     {
         AkSoundEngine.RegisterGameObj(gameObject);
         anim = this.gameObject.GetComponent<Animator>();
+        pono = this.gameObject.transform.root.gameObject.GetComponent<PlayerMovement>();
     }
     
     //Events
@@ -78,9 +80,8 @@ public class EventsPonoAnim : MonoBehaviour
 
     void Foot_Falling()
     {
-        AkSoundEngine.PostEvent(footFalling, gameObject);
-        if (debugEnabled) { Debug.Log("falling"); }
-
+            AkSoundEngine.PostEvent(footFalling, gameObject);
+            if (debugEnabled) { Debug.Log("falling"); }
     }
 
     void Foot_DashJump()
@@ -92,8 +93,11 @@ public class EventsPonoAnim : MonoBehaviour
 
     void Foot_Landing()
     {
-        AkSoundEngine.PostEvent(footLanging, gameObject);
-        if (debugEnabled) { Debug.Log("landingStraight"); }
+        if (pono.PlayFallingSound() == true)
+        {
+            AkSoundEngine.PostEvent(footLanging, gameObject);
+            if (debugEnabled) { Debug.Log("landingStraight"); }
+        }
     }
 
     //Flying
@@ -118,6 +122,10 @@ public class EventsPonoAnim : MonoBehaviour
 
     void Flying_Idle()
     {
+        //if (pono.Rigid.velocity.y < -3)
+        {
+
+        }
         AkSoundEngine.PostEvent(flyingForward, gameObject);
         if (debugEnabled) { Debug.Log("flying"); }
     }
@@ -136,8 +144,12 @@ public class EventsPonoAnim : MonoBehaviour
 
     void Flying_Landing()
     {
-        AkSoundEngine.PostEvent(flyingLanding, gameObject);
-        if (debugEnabled) { Debug.Log("landingRun"); }
+        if (pono.PlayFallingSound() == true)
+        {
+            AkSoundEngine.PostEvent(flyingLanding, gameObject);
+            if (debugEnabled) { Debug.Log("landingRun"); }
+        }
+
     }
 
     void Flying_Stunned()

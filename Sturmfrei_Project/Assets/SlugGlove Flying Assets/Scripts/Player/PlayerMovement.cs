@@ -1416,7 +1416,7 @@ public class PlayerMovement : MonoBehaviour
     public bool PlayFallingSound()
     {
         bool playSound = false;
-        playSound = tempsTomber >= 0.2f ? true : false;
+        playSound = tempsTomber >= 0.3f ? true : false;
         return playSound;
     }
 }
