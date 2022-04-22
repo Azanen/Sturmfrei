@@ -27258,7 +27258,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Att_25meters" ID="{9E41A6F8-5329-4995-9037-E6E9157CD3F5}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+											<ObjectRef Name="Att_50meters" ID="{9E41A6F8-5329-4995-9037-E6E9157CD3F5}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -28205,6 +28205,7 @@
 								</RandomSequenceContainer>
 								<BlendContainer Name="Soul_Idle" ID="{C0EF0C6D-1D79-407D-9181-FE6FFBD88C30}" ShortID="571179619">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -28213,6 +28214,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_25meters" ID="{B0393078-221D-4FE2-8CA5-474E6257F685}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
 										</Reference>
@@ -28463,7 +28467,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Att_25meters" ID="{9E41A6F8-5329-4995-9037-E6E9157CD3F5}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+											<ObjectRef Name="Att_50meters" ID="{9E41A6F8-5329-4995-9037-E6E9157CD3F5}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>

@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4119907350">
+		<SoundBank Id="3161908922" Language="SFX" Hash="835137708">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -6882,7 +6882,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1846985177" Name="Soul_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Soul_Idle" DurationType="Infinite">
+				<Event Id="1846985177" Name="Soul_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Soul_Idle" MaxAttenuation="25." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="398925161" Language="SFX">
 							<ShortName>Soul\Soul_Idle_Magic_01.wav</ShortName>
