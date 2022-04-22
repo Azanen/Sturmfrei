@@ -27220,6 +27220,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Poncho_Collect" ID="{DEFE1505-3D35-4B98-A83F-6FBB973F256D}" ShortID="104031624">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -27244,9 +27251,14 @@
 								</Sound>
 								<Sound Name="Poncho_Idle" ID="{D5659A77-1C30-45F0-AC8F-C668C2F24812}" ShortID="753596177">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Poncho" ID="{6FFD6709-6093-40EA-AE43-80A82D2F6793}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
 										</Reference>

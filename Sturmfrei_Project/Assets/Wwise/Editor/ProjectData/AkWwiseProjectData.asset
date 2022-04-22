@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585510001484775808
+    m_lastTime: -8585509989724775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -1253,7 +1253,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 92dfc3032a607542bcac0caaa8b249a8
       Path: Events/Default Work Unit/INGREDIENT/Poncho_Idle
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: Poncho_Idle_Stop
@@ -1423,7 +1423,7 @@ MonoBehaviour:
         guid: 384e849bb9e38d43a2358c84545d2dd4
       Path: Events/Default Work Unit/INGREDIENT/Soul_Collect
       maxAttenuation: 0
-      maxDuration: 2.161935
+      maxDuration: 2.360332
       minDuration: 1.037775
     - name: Soul_Idle
       guid: c5f294b23e890446b42e785c8b7700be

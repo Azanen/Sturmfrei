@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1404075038">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3473517035">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -58,7 +58,7 @@
 						</File>
 						<File Id="330161831" Language="SFX">
 							<ShortName>Boss\Boss_Defeat_Loop.wav</ShortName>
-							<Path>SFX/Boss/Boss_Defeat_Loop_2F5CC3F1.wem</Path>
+							<Path>SFX/Boss/Boss_Defeat_Loop_E6767601.wem</Path>
 						</File>
 						<File Id="332667524" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Rocks\BreakWall_Stone_Rocks_01.wav</ShortName>
@@ -82,7 +82,7 @@
 						</File>
 						<File Id="633465905" Language="SFX">
 							<ShortName>Boss\Boss_Defeat_Start.wav</ShortName>
-							<Path>SFX/Boss/Boss_Defeat_Start_93A418F5.wem</Path>
+							<Path>SFX/Boss/Boss_Defeat_Start_1CAD51F2.wem</Path>
 						</File>
 						<File Id="679810061" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Dirt_02.wav</ShortName>
@@ -6753,7 +6753,7 @@
 						<ActionSetStateEntry Id="1780230126" Name="Equipped" ObjectPath="\States\Default Work Unit\Poncho\Equipped"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1422186037" Name="Poncho_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Poncho_Idle" DurationType="Infinite">
+				<Event Id="1422186037" Name="Poncho_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Poncho_Idle" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="770827251" Language="SFX">
 							<ShortName>Poncho\Poncho_Idle.wav</ShortName>
