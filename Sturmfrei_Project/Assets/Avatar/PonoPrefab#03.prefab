@@ -20415,10 +20415,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d88905959d3fc4b964bc164a00bd2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upwardDashAbility: 1
-  frontDashAbility: 1
+  upwardDashAbility: 0
+  frontDashAbility: 0
   purificationAbility: 1
   ponchoToFly: 1
+  tempsTomber: 0
+  ponoShouldSitDown: 0
+  timerBeforeSitting: 0
   manager: {fileID: 0}
   pono: {fileID: 5257761968474809389}
   States: 0
@@ -20511,6 +20514,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 9
   WallDistance: 1
+  groundMaterial: empty
   checkGround2: 0
 --- !u!114 &5401864734109634383
 MonoBehaviour:
@@ -20703,7 +20707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f35e5df6e9aa0cd46aa5a6077a715ffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {x: 0, y: 0, z: 0}
+  respawnPoint: {fileID: 0}
 --- !u!114 &8442326331438352602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22173,7 +22177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footWalk: Foot_Walk
   footJump: Foot_Jump
-  footIdle: 'Foot_Idle '
+  footIdle: Foot_Idle
   footInteract: Foot_Interaction
   footFalling: Foot_Falling
   footDashJump: Foot_DashJump
@@ -22191,6 +22195,7 @@ MonoBehaviour:
   debugEnabled: 1
   ponoAnim: {fileID: 0}
   anim: {fileID: 0}
+  pono: {fileID: 0}
 --- !u!114 &987910514
 MonoBehaviour:
   m_ObjectHideFlags: 0

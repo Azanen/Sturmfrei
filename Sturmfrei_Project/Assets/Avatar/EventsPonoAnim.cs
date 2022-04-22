@@ -6,7 +6,7 @@ public class EventsPonoAnim : MonoBehaviour
 {
     public string footWalk = "Foot_Walk";
     public string footJump = "Foot_Jump";
-    public string footIdle = "Foot_Idle ";
+    public string footIdle = "Foot_Idle";
     public string footInteract = "Foot_Interaction";
     public string footFalling = "Foot_Falling";
     public string footDashJump = "Foot_DashJump";
