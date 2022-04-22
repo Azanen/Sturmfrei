@@ -5,15 +5,10 @@ using UnityEngine.UI;
 
 public class LoreManager : MonoBehaviour
 {
-
-
     public Text nameText;
     public Text loreText;
-
     public Animator animator;
-
     private Queue<string> sentences;
-
 
     // Start is called before the first frame update
     void Start()
@@ -23,23 +18,15 @@ public class LoreManager : MonoBehaviour
 
     public void StartLore (Lore lore)
     {
-        //Debug.Log("Starting lore of " + lore.name);
-
         animator.SetBool("IsOpen", true);
-
         nameText.text = lore.name;
-
-
         sentences.Clear();
 
         foreach (string sentence in lore.sentences)
         {
             sentences.Enqueue(sentence);
         }
-
-        
         //DisplayNextSentence();
-
     }
 
     public void DisplayNextSentence()
@@ -49,16 +36,12 @@ public class LoreManager : MonoBehaviour
             EndLore();
             return;
         }
-
         string sentence = sentences.Dequeue();
-            //Debug.Log(sentences);
-            loreText.text = sentence;
-
+        loreText.text = sentence;
     }
 
     public void EndLore()
     {
-        //Debug.Log("End of lore");
         animator.SetBool("IsOpen", false);
     }
   
