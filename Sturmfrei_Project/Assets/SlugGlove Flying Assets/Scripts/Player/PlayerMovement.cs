@@ -20,6 +20,9 @@ public class PlayerMovement : MonoBehaviour
     public bool purificationAbility = false;
     public bool ponchoToFly = false;
 
+    [Header("Falling Time")]
+    public float tempsTomber;
+
     public bool ponoShouldSitDown;
 
     [HideInInspector]
@@ -433,6 +436,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (States == WorldState.InAir)
         {
+            tempsTomber += Time.deltaTime;
             Anim.SetBool("Flying", false);
 
             //reduce air timer 
@@ -612,6 +616,7 @@ public class PlayerMovement : MonoBehaviour
 
         //turn off gravity
         Rigid.useGravity = true;
+        tempsTomber = 0;
 
     }
     //for when we start to fly
@@ -637,6 +642,7 @@ public class PlayerMovement : MonoBehaviour
 
         //turn on gravity
         Rigid.useGravity = false; // PB
+        tempsTomber = 0;
     }
     //stun our character
     public void Stunned(Vector3 PushDirection)
@@ -664,6 +670,7 @@ public class PlayerMovement : MonoBehaviour
         States = WorldState.Grappling;
         //turn on gravity
         Rigid.useGravity = false;
+        tempsTomber = 0;
     }
 
     #region Fonctions de controles
@@ -1406,4 +1413,10 @@ public class PlayerMovement : MonoBehaviour
         purificationAbility = true;
     }
 
+    public bool PlayFallingSound()
+    {
+        bool playSound = false;
+        playSound = tempsTomber >= 0.2f ? true : false;
+        return playSound;
+    }
 }
