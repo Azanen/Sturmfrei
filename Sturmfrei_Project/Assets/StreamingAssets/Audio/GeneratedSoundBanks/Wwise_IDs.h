@@ -50,16 +50,16 @@ namespace AK
         static const AkUniqueID MENU_CLICK = 760777789U;
         static const AkUniqueID MENU_CLOSE = 626954121U;
         static const AkUniqueID MENU_OPEN = 1287511387U;
-        static const AkUniqueID MUS_HUB_POSTTUTO = 171783953U;
-        static const AkUniqueID MUS_HUB_PRETUTO = 1081381930U;
+        static const AkUniqueID MUS_HUB_PREVILLAGE = 1468236648U;
+        static const AkUniqueID MUS_HUB_TUTO = 1946661255U;
         static const AkUniqueID MUS_HUB_VILLAGE = 1075809139U;
-        static const AkUniqueID MUS_LEVEL1_AMBIENCE = 1807777261U;
+        static const AkUniqueID MUS_LEVEL1_AMBIANCE = 3243133041U;
         static const AkUniqueID MUS_LEVEL1_BOSSPUZZLE = 3624297410U;
         static const AkUniqueID MUS_LEVEL1_WONDER = 1462442152U;
-        static const AkUniqueID MUS_LEVEL2_AMBIENCE = 3037851228U;
+        static const AkUniqueID MUS_LEVEL2_AMBIANCE = 2717839624U;
         static const AkUniqueID MUS_LEVEL2_BOSSPUZZLE = 3886197287U;
         static const AkUniqueID MUS_LEVEL2_WONDER = 2318407373U;
-        static const AkUniqueID MUS_LEVEL3_AMBIENCE = 2635524439U;
+        static const AkUniqueID MUS_LEVEL3_AMBIANCE = 1200065475U;
         static const AkUniqueID MUS_LEVEL3_BOSSPUZZLE = 4244769408U;
         static const AkUniqueID MUS_LEVEL3_WONDER = 3336347158U;
         static const AkUniqueID MUS_START = 1973954843U;
@@ -79,8 +79,6 @@ namespace AK
         static const AkUniqueID STATUE_IDLE = 979468870U;
         static const AkUniqueID STATUE_IDLE_STOP = 1859632405U;
         static const AkUniqueID STATUE_REBUILD = 3439923085U;
-        static const AkUniqueID STINGER_FIRSTFLY = 353331381U;
-        static const AkUniqueID STINGER_PONCHO = 1562262157U;
         static const AkUniqueID STURMFREI_RECHARGE = 4175312948U;
         static const AkUniqueID TEST_FOOTSTEP = 2649590838U;
         static const AkUniqueID TREE_IDLE = 291430954U;
@@ -95,6 +93,20 @@ namespace AK
 
     namespace STATES
     {
+        namespace HUB
+        {
+            static const AkUniqueID GROUP = 646625282U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PONCHO = 1422468564U;
+                static const AkUniqueID PREVILLAGE = 337434664U;
+                static const AkUniqueID TUTO = 3037000007U;
+                static const AkUniqueID VILLAGE = 3945572659U;
+            } // namespace STATE
+        } // namespace HUB
+
         namespace LEVEL
         {
             static const AkUniqueID GROUP = 2782712965U;
@@ -181,6 +193,8 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID ALTITUDE = 1141543723U;
+        static const AkUniqueID HUB_PONCHO_PROXIMITY = 758209454U;
         static const AkUniqueID INCLINATION = 1322591463U;
     } // namespace GAME_PARAMETERS
 

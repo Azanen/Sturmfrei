@@ -234,7 +234,8 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{B8CEDCD5-2905-4EF5-BA7A-DEEABCE1E1FE}"/>
-						<CurrentStateRef Name="None" ID="{362F49D5-B98D-4A01-9DD9-565618F8C672}"/>
+						<CurrentStateRef Name="Tuto" ID="{2B8A6238-899D-455D-9E8C-79CE0540DBDD}"/>
+						<CurrentStateRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}"/>
 						<CurrentStateRef Name="None" ID="{38FA9B61-1EE0-4F36-834E-3647FCE41EC0}"/>
 						<CurrentStateRef Name="None" ID="{79C8C9C9-C580-4BAB-9655-74656E2A89F4}"/>
 					</CurrentStateList>
@@ -246,11 +247,11 @@
 				<SoundcasterSession Name="Music" ID="{629AABF8-6226-4199-AC73-FBF0CEBBC783}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="MUS_Level1_Ambience" ID="{22BCEA3C-AFA3-4403-85BB-998D43FA9A9E}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<ObjectRef Name="MUS_Level1_Ambiance" ID="{22BCEA3C-AFA3-4403-85BB-998D43FA9A9E}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MUS_Level2_Ambience" ID="{934FCC82-5D60-48C7-BDB1-D7A1C06717E9}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<ObjectRef Name="MUS_Level2_Ambiance" ID="{934FCC82-5D60-48C7-BDB1-D7A1C06717E9}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
@@ -258,7 +259,7 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MUS_Hub_PostTuto" ID="{6A5DA9AD-2F56-4E75-920C-8E196687501A}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<ObjectRef Name="MUS_Hub_PreVillage" ID="{6A5DA9AD-2F56-4E75-920C-8E196687501A}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -270,7 +271,7 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MUS_Hub_PreTuto" ID="{AB57AE24-ECCF-4033-9016-E62A6655D4BC}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<ObjectRef Name="MUS_Hub_Tuto" ID="{AB57AE24-ECCF-4033-9016-E62A6655D4BC}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
@@ -286,11 +287,11 @@
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MUS_Level3_Ambience" ID="{E60ECAE7-43EB-4E6E-86D0-09E411601F5A}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<ObjectRef Name="MUS_Level3_Ambiance" ID="{E60ECAE7-43EB-4E6E-86D0-09E411601F5A}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stinger_FirstFly" ID="{BBE82E3A-9FD2-4AE1-913D-914B8E2CCAD1}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<ObjectRef Name="Poncho_Collect" ID="{0C8BCEC4-AB99-4E8B-86F9-6833353BDF07}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
@@ -301,18 +302,28 @@
 							<ObjectRef Name="MUS_Level3_BossPuzzle" ID="{3BB24B2F-777A-4DCC-B7EF-214658CD15D2}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="4" Y="1"/>
 						</Module>
-						<Module>
-							<ObjectRef Name="Stinger_Poncho" ID="{318334EA-2DC2-4F2C-A365-D8F2E9A264CD}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
-							<Position X="4" Y="2"/>
-						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}"/>
 							<Value>59.9133448873484</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Hub_Poncho_Proximity" ID="{E0460973-4D16-4D24-AC75-FDF0D6D4E4D6}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Altitude" ID="{CFA6C1AF-9FA9-4E1B-948B-AD35A1EFD10B}"/>
+							<Value>50</Value>
+						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}"/>
+						<CurrentStateRef Name="PreVillage" ID="{9A6CFBD5-D62D-49A8-8985-E341DEE55915}"/>
+						<CurrentStateRef Name="Level_3" ID="{EEB84612-9773-43BE-8C4A-8C9C4C9336B9}"/>
+						<CurrentStateRef Name="Equipped" ID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}"/>
+						<CurrentStateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>
 						<CurrentSwitchRef Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>

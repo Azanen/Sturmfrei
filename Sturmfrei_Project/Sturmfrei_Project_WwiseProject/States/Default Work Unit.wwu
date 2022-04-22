@@ -34,6 +34,15 @@
 						<State Name="Flying" ID="{C13402BE-0345-47CF-9776-BABCCF4E289C}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Hub" ID="{0DC93320-273F-422B-9905-FD76CA37718B}">
+					<ChildrenList>
+						<State Name="None" ID="{CFD78839-E04F-4E73-95E3-4B046F157D03}"/>
+						<State Name="Tuto" ID="{2B8A6238-899D-455D-9E8C-79CE0540DBDD}"/>
+						<State Name="PreVillage" ID="{9A6CFBD5-D62D-49A8-8985-E341DEE55915}"/>
+						<State Name="Village" ID="{EDC877EC-A601-481E-8D41-1FB18B4D8541}"/>
+						<State Name="Poncho" ID="{998AB218-EBEF-4DE7-AF20-E67F72015E0A}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

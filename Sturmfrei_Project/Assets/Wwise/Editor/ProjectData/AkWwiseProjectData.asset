@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585509989724775808
+    m_lastTime: -8585509902564775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -723,26 +723,6 @@ MonoBehaviour:
       maxDuration: 0.769326
       minDuration: 0.057186
     - name: Idle_Stop
-      guid: 5d905d80edc3284a8deb20d991c05cd7
-      id: 536635466
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: cedcc42e1e517c4c8888dbdd56061ae7
-      - ElementName: AMBIENCE
-        ObjectType: 4
-        guid: 7d205f63d823264492b03b1d5a09298f
-      - ElementName: Idle_Stop
-        ObjectType: 4
-        guid: 5d905d80edc3284a8deb20d991c05cd7
-      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Idle_Stop
       guid: 731f8e77c1417c499731bfa39556bf77
       id: 536635466
       PathAndIcons:
@@ -759,6 +739,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 731f8e77c1417c499731bfa39556bf77
       Path: Events/Default Work Unit/INGREDIENT/Idle_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Idle_Stop
+      guid: 5d905d80edc3284a8deb20d991c05cd7
+      id: 536635466
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cedcc42e1e517c4c8888dbdd56061ae7
+      - ElementName: AMBIENCE
+        ObjectType: 4
+        guid: 7d205f63d823264492b03b1d5a09298f
+      - ElementName: Idle_Stop
+        ObjectType: 4
+        guid: 5d905d80edc3284a8deb20d991c05cd7
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -922,9 +922,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: MUS_Hub_PostTuto
+    - name: MUS_Hub_PreVillage
       guid: ada95d6a562f754e920c8e196687501a
-      id: 171783953
+      id: 1468236648
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -935,16 +935,16 @@ MonoBehaviour:
       - ElementName: MUSIC
         ObjectType: 4
         guid: bb58a563bebaee4c8515db0cf579ce25
-      - ElementName: MUS_Hub_PostTuto
+      - ElementName: MUS_Hub_PreVillage
         ObjectType: 3
         guid: ada95d6a562f754e920c8e196687501a
-      Path: Events/Default Work Unit/MUSIC/MUS_Hub_PostTuto
+      Path: Events/Default Work Unit/MUSIC/MUS_Hub_PreVillage
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: MUS_Hub_PreTuto
+    - name: MUS_Hub_Tuto
       guid: 24ae57abcfec33409016e62a6655d4bc
-      id: 1081381930
+      id: 1946661255
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -955,10 +955,10 @@ MonoBehaviour:
       - ElementName: MUSIC
         ObjectType: 4
         guid: bb58a563bebaee4c8515db0cf579ce25
-      - ElementName: MUS_Hub_PreTuto
+      - ElementName: MUS_Hub_Tuto
         ObjectType: 3
         guid: 24ae57abcfec33409016e62a6655d4bc
-      Path: Events/Default Work Unit/MUSIC/MUS_Hub_PreTuto
+      Path: Events/Default Work Unit/MUSIC/MUS_Hub_Tuto
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -982,9 +982,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: MUS_Level1_Ambience
+    - name: MUS_Level1_Ambiance
       guid: 3ceabc22a3af034485bb998d43fa9a9e
-      id: 1807777261
+      id: 3243133041
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -995,10 +995,10 @@ MonoBehaviour:
       - ElementName: MUSIC
         ObjectType: 4
         guid: bb58a563bebaee4c8515db0cf579ce25
-      - ElementName: MUS_Level1_Ambience
+      - ElementName: MUS_Level1_Ambiance
         ObjectType: 3
         guid: 3ceabc22a3af034485bb998d43fa9a9e
-      Path: Events/Default Work Unit/MUSIC/MUS_Level1_Ambience
+      Path: Events/Default Work Unit/MUSIC/MUS_Level1_Ambiance
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1042,9 +1042,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: MUS_Level2_Ambience
+    - name: MUS_Level2_Ambiance
       guid: 82cc4f93605dc748bdb1d7a1c06717e9
-      id: 3037851228
+      id: 2717839624
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1055,10 +1055,10 @@ MonoBehaviour:
       - ElementName: MUSIC
         ObjectType: 4
         guid: bb58a563bebaee4c8515db0cf579ce25
-      - ElementName: MUS_Level2_Ambience
+      - ElementName: MUS_Level2_Ambiance
         ObjectType: 3
         guid: 82cc4f93605dc748bdb1d7a1c06717e9
-      Path: Events/Default Work Unit/MUSIC/MUS_Level2_Ambience
+      Path: Events/Default Work Unit/MUSIC/MUS_Level2_Ambiance
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1102,9 +1102,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: MUS_Level3_Ambience
+    - name: MUS_Level3_Ambiance
       guid: e7ca0ee6eb436e4e86d009e411601f5a
-      id: 2635524439
+      id: 1200065475
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1115,13 +1115,13 @@ MonoBehaviour:
       - ElementName: MUSIC
         ObjectType: 4
         guid: bb58a563bebaee4c8515db0cf579ce25
-      - ElementName: MUS_Level3_Ambience
+      - ElementName: MUS_Level3_Ambiance
         ObjectType: 3
         guid: e7ca0ee6eb436e4e86d009e411601f5a
-      Path: Events/Default Work Unit/MUSIC/MUS_Level3_Ambience
+      Path: Events/Default Work Unit/MUSIC/MUS_Level3_Ambiance
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: MUS_Level3_BossPuzzle
       guid: 2f4bb23b7a77cc4db7ef214658cd15d2
       id: 4244769408
@@ -1160,8 +1160,8 @@ MonoBehaviour:
         guid: 85b5d786fcd8af41b6fd0d57ffe57112
       Path: Events/Default Work Unit/MUSIC/MUS_Level3_Wonder
       maxAttenuation: 0
-      maxDuration: 207.42857
-      minDuration: 207.42857
+      maxDuration: 0
+      minDuration: 0
     - name: MUS_Start
       guid: 77615dbb8f924b48a580d888200c2aa9
       id: 1973954843
@@ -1180,8 +1180,8 @@ MonoBehaviour:
         guid: 77615dbb8f924b48a580d888200c2aa9
       Path: Events/Default Work Unit/MUSIC/MUS_Start
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: MUSIC
       guid: bb58a563bebaee4c8515db0cf579ce25
       id: 3991942870
@@ -1551,46 +1551,6 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 4.943091
       minDuration: 4.943091
-    - name: Stinger_FirstFly
-      guid: 3a2ee8bbd29fe14a913d914b8e2ccad1
-      id: 353331381
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: cedcc42e1e517c4c8888dbdd56061ae7
-      - ElementName: MUSIC
-        ObjectType: 4
-        guid: bb58a563bebaee4c8515db0cf579ce25
-      - ElementName: Stinger_FirstFly
-        ObjectType: 3
-        guid: 3a2ee8bbd29fe14a913d914b8e2ccad1
-      Path: Events/Default Work Unit/MUSIC/Stinger_FirstFly
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Stinger_Poncho
-      guid: ea348331c22d2c4fa365d8f2e9a264cd
-      id: 1562262157
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: cedcc42e1e517c4c8888dbdd56061ae7
-      - ElementName: MUSIC
-        ObjectType: 4
-        guid: bb58a563bebaee4c8515db0cf579ce25
-      - ElementName: Stinger_Poncho
-        ObjectType: 3
-        guid: ea348331c22d2c4fa365d8f2e9a264cd
-      Path: Events/Default Work Unit/MUSIC/Stinger_Poncho
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: Sturmfrei_Recharge
       guid: 1384a18ee2da3347a6a7f7d43c9361e5
       id: 4175312948
@@ -1829,8 +1789,36 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: f413bcad92b80c4a9dca013f7c3da6c8
     GuidInternal: 
-    m_lastTime: -8585512083434775808
+    m_lastTime: -8585509908384775808
     List:
+    - name: Altitude
+      guid: afc1a6cfa99f1b4e948bad35a1efd10b
+      id: 1141543723
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f413bcad92b80c4a9dca013f7c3da6c8
+      - ElementName: Altitude
+        ObjectType: 13
+        guid: afc1a6cfa99f1b4e948bad35a1efd10b
+      Path: Game Parameters/Default Work Unit/Altitude
+    - name: Hub_Poncho_Proximity
+      guid: 730946e0164d244dac75fdf0d6d4e4d6
+      id: 758209454
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f413bcad92b80c4a9dca013f7c3da6c8
+      - ElementName: Hub_Poncho_Proximity
+        ObjectType: 13
+        guid: 730946e0164d244dac75fdf0d6d4e4d6
+      Path: Game Parameters/Default Work Unit/Hub_Poncho_Proximity
     - name: Inclination
       guid: 5997570853d24d469cdd800e7a21c796
       id: 1322591463
@@ -1857,8 +1845,106 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 65cc8b185887034ab4e469bfd420466d
     GuidInternal: 
-    m_lastTime: -8585511782664775808
+    m_lastTime: -8585509948714775808
     List:
+    - name: Hub
+      guid: 2033c90d3f272b429905fd76ca37718b
+      id: 646625282
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 65cc8b185887034ab4e469bfd420466d
+      - ElementName: Hub
+        ObjectType: 9
+        guid: 2033c90d3f272b429905fd76ca37718b
+      Path: States/Default Work Unit/Hub
+      values:
+      - name: None
+        guid: 3988d7cf4fe0734e95e34b046f157d03
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 65cc8b185887034ab4e469bfd420466d
+        - ElementName: Hub
+          ObjectType: 9
+          guid: 2033c90d3f272b429905fd76ca37718b
+        - ElementName: None
+          ObjectType: 8
+          guid: 3988d7cf4fe0734e95e34b046f157d03
+      - name: Poncho
+        guid: 18b28a99efebe74daf20e67f72015e0a
+        id: 1422468564
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 65cc8b185887034ab4e469bfd420466d
+        - ElementName: Hub
+          ObjectType: 9
+          guid: 2033c90d3f272b429905fd76ca37718b
+        - ElementName: Poncho
+          ObjectType: 8
+          guid: 18b28a99efebe74daf20e67f72015e0a
+      - name: PreVillage
+        guid: d5fb6c9a2dd6a8498985e341dee55915
+        id: 337434664
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 65cc8b185887034ab4e469bfd420466d
+        - ElementName: Hub
+          ObjectType: 9
+          guid: 2033c90d3f272b429905fd76ca37718b
+        - ElementName: PreVillage
+          ObjectType: 8
+          guid: d5fb6c9a2dd6a8498985e341dee55915
+      - name: Tuto
+        guid: 38628a2b9d895d459e8c79ce0540dbdd
+        id: 3037000007
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 65cc8b185887034ab4e469bfd420466d
+        - ElementName: Hub
+          ObjectType: 9
+          guid: 2033c90d3f272b429905fd76ca37718b
+        - ElementName: Tuto
+          ObjectType: 8
+          guid: 38628a2b9d895d459e8c79ce0540dbdd
+      - name: Village
+        guid: ec77c8ed01a61e488d411fb18b4d8541
+        id: 3945572659
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 65cc8b185887034ab4e469bfd420466d
+        - ElementName: Hub
+          ObjectType: 9
+          guid: 2033c90d3f272b429905fd76ca37718b
+        - ElementName: Village
+          ObjectType: 8
+          guid: ec77c8ed01a61e488d411fb18b4d8541
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Level
       guid: 264adc94887bcd48a2f30e2f50494bf5
       id: 2782712965

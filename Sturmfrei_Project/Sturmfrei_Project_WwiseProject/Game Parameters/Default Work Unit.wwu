@@ -11,6 +11,8 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Altitude" ID="{CFA6C1AF-9FA9-4E1B-948B-AD35A1EFD10B}"/>
+				<GameParameter Name="Hub_Poncho_Proximity" ID="{E0460973-4D16-4D24-AC75-FDF0D6D4E4D6}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

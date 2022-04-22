@@ -1,10 +1,16 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	646625282	Hub			\Default Work Unit\Hub	
 	1422468564	Poncho			\Default Work Unit\Poncho	
 	2782712965	Level			\Default Work Unit\Level	
 	3313201736	Mode			\Default Work Unit\Mode	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
+	337434664	PreVillage	Hub			
+	748895195	None	Hub			
+	1422468564	Poncho	Hub			
+	3037000007	Tuto	Hub			
+	3945572659	Village	Hub			
 	748895195	None	Poncho			
 	1780230126	Equipped	Poncho			
 	2413814047	Unequipped	Poncho			

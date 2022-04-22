@@ -134,6 +134,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{63E52942-F8E9-4A24-8F4B-7E46C833083C}" ShortID="617177016">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flying" ID="{C13402BE-0345-47CF-9776-BABCCF4E289C}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Flying_Idle" ID="{0CAAFE01-3114-4976-98CD-94C9A2F7B1EF}">
@@ -252,6 +262,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{7E6FDF82-FECF-4630-90FC-828185BC9874}" ShortID="665179992">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Flying_Stunned" ID="{52F97DA9-597E-4761-8478-342A159385AE}">
@@ -287,6 +307,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Flying_Start_Wind" ID="{45A63DC1-7F5D-4713-90E5-28D617AC49A9}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3B6EE83A-EA8D-4082-AD94-772B547DCBAA}" ShortID="357717135">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -349,6 +379,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{2FC275AA-4BBB-43D0-BA19-BF472E7C3BA7}" ShortID="911864670">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Fall_Respawn" ID="{78AF31AA-11BE-403B-B732-7533A26F56EE}">
@@ -377,6 +417,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Flying_Start_Wind" ID="{45A63DC1-7F5D-4713-90E5-28D617AC49A9}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E0E1958B-9F1E-4315-A2F1-B02387BC2DC9}" ShortID="910119618">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -723,6 +773,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{34968F17-630C-4F94-8790-AEB92EFA1D5B}" ShortID="691977783">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho" ID="{998AB218-EBEF-4DE7-AF20-E67F72015E0A}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Poncho_Idle" ID="{03C3DF92-602A-4275-BCAC-0CAAA8B249A8}">
@@ -948,11 +1008,83 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="MUS_Start" ID="{BB5D6177-928F-484B-A580-D888200C2AA9}"/>
-						<Event Name="MUS_Hub_PreTuto" ID="{AB57AE24-ECCF-4033-9016-E62A6655D4BC}"/>
-						<Event Name="MUS_Hub_PostTuto" ID="{6A5DA9AD-2F56-4E75-920C-8E196687501A}"/>
-						<Event Name="MUS_Level1_BossPuzzle" ID="{F28E7BD4-34F1-4EDC-AC7C-502423DAE8FE}"/>
-						<Event Name="MUS_Level2_BossPuzzle" ID="{2D9B5425-DC31-401D-AA8F-3781BAAF12A2}"/>
+						<Event Name="MUS_Start" ID="{BB5D6177-928F-484B-A580-D888200C2AA9}">
+							<ChildrenList>
+								<Action Name="" ID="{0A85D551-D16E-41A2-A683-2DFA2CA0B58F}" ShortID="677514758">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Switch" ID="{E22C8E22-50D9-4441-878F-3552A19093EB}" WorkUnitID="{1F8F360E-7579-4F1F-A979-AB25E0722E84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Hub_Tuto" ID="{AB57AE24-ECCF-4033-9016-E62A6655D4BC}">
+							<ChildrenList>
+								<Action Name="" ID="{E18FA23B-F349-4592-ABF4-003925FA20BD}" ShortID="634748281">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A4BB9909-4553-477C-A68C-5C6F92CD2449}" ShortID="618403662">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tuto" ID="{2B8A6238-899D-455D-9E8C-79CE0540DBDD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Hub_PreVillage" ID="{6A5DA9AD-2F56-4E75-920C-8E196687501A}">
+							<ChildrenList>
+								<Action Name="" ID="{60A8D384-67AE-48B4-8DD7-FCAADD845A69}" ShortID="147841423">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PreVillage" ID="{9A6CFBD5-D62D-49A8-8985-E341DEE55915}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Level1_BossPuzzle" ID="{F28E7BD4-34F1-4EDC-AC7C-502423DAE8FE}">
+							<ChildrenList>
+								<Action Name="" ID="{A5FB2F2C-721D-4AAF-9196-74574DE925E9}" ShortID="936435533">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss" ID="{53F18CA2-BA87-4DB6-8AD7-A4F2E1613F14}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Level2_BossPuzzle" ID="{2D9B5425-DC31-401D-AA8F-3781BAAF12A2}">
+							<ChildrenList>
+								<Action Name="" ID="{CE8295E7-80A3-453F-994F-A2C1048D2A66}" ShortID="421871771">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss" ID="{53F18CA2-BA87-4DB6-8AD7-A4F2E1613F14}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="MUS_Level3_BossPuzzle" ID="{3BB24B2F-777A-4DCC-B7EF-214658CD15D2}">
 							<ChildrenList>
 								<Action Name="" ID="{1B800DBB-3695-4494-9C0C-409CF7217D7B}" ShortID="517139174">
@@ -967,8 +1099,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="MUS_Level1_Wonder" ID="{441A15AF-9B03-4485-9DA9-C0074C57C026}"/>
-						<Event Name="MUS_Level2_Wonder" ID="{89E30CD7-5303-4029-B5E2-EE002D35E317}"/>
+						<Event Name="MUS_Level1_Wonder" ID="{441A15AF-9B03-4485-9DA9-C0074C57C026}">
+							<ChildrenList>
+								<Action Name="" ID="{9D981E37-0C44-4230-82A4-62BFA63FB96E}" ShortID="233282443">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wonder" ID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Level2_Wonder" ID="{89E30CD7-5303-4029-B5E2-EE002D35E317}">
+							<ChildrenList>
+								<Action Name="" ID="{6B4DED09-9D4F-4570-8F8A-C8232D16242E}" ShortID="248684260">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wonder" ID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="MUS_Level3_Wonder" ID="{86D7B585-D8FC-41AF-B6FD-0D57FFE57112}">
 							<ChildrenList>
 								<Action Name="" ID="{931DE482-1989-40F3-8AE0-A935F0FE5931}" ShortID="954340352">
@@ -981,18 +1139,57 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{59008D02-0A84-4514-BBD4-DC97AB76374D}" ShortID="238251616">
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Level1_Ambiance" ID="{22BCEA3C-AFA3-4403-85BB-998D43FA9A9E}">
+							<ChildrenList>
+								<Action Name="" ID="{DB912A4B-77C1-4A88-968C-9B3860C2BE21}" ShortID="153541604">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Test_wonder" ID="{60DEFA02-3435-4C23-8DE4-1351357D774A}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+											<ObjectRef Name="Level_1" ID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9FEB3A2D-84B9-4A50-885F-B556BBBAF1E2}" ShortID="380047922">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="MUS_Level1_Ambience" ID="{22BCEA3C-AFA3-4403-85BB-998D43FA9A9E}"/>
-						<Event Name="MUS_Level2_Ambience" ID="{934FCC82-5D60-48C7-BDB1-D7A1C06717E9}"/>
-						<Event Name="MUS_Level3_Ambience" ID="{E60ECAE7-43EB-4E6E-86D0-09E411601F5A}">
+						<Event Name="MUS_Level2_Ambiance" ID="{934FCC82-5D60-48C7-BDB1-D7A1C06717E9}">
+							<ChildrenList>
+								<Action Name="" ID="{7C3F7EBB-D951-46BB-84A1-64E98F80E837}" ShortID="283456590">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_2" ID="{7AEAFD6D-9549-4464-B120-69DDB04C0F1A}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D2B5CAC4-2008-4869-B195-96437A6574A6}" ShortID="770990668">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Level3_Ambiance" ID="{E60ECAE7-43EB-4E6E-86D0-09E411601F5A}">
 							<ChildrenList>
 								<Action Name="" ID="{5D72F011-B569-4AFF-B7F1-0A193B00FBEC}" ShortID="163063958">
 									<PropertyList>
@@ -1000,7 +1197,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Level_1" ID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+											<ObjectRef Name="Level_3" ID="{EEB84612-9773-43BE-8C4A-8C9C4C9336B9}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1014,18 +1211,22 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{7E0B2551-CB1D-4F9B-AAE1-0E04FE88AD17}" ShortID="524702491">
+							</ChildrenList>
+						</Event>
+						<Event Name="MUS_Hub_Village" ID="{741E736A-7C5E-4CE3-A5D8-DCB7C40147D3}">
+							<ChildrenList>
+								<Action Name="" ID="{B3041AC9-CF0A-4D48-ADC4-954511388ACF}" ShortID="777115270">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_Switch" ID="{E22C8E22-50D9-4441-878F-3552A19093EB}" WorkUnitID="{1F8F360E-7579-4F1F-A979-AB25E0722E84}"/>
+											<ObjectRef Name="Village" ID="{EDC877EC-A601-481E-8D41-1FB18B4D8541}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stinger_Poncho" ID="{318334EA-2DC2-4F2C-A365-D8F2E9A264CD}"/>
-						<Event Name="Stinger_FirstFly" ID="{BBE82E3A-9FD2-4AE1-913D-914B8E2CCAD1}"/>
-						<Event Name="MUS_Hub_Village" ID="{741E736A-7C5E-4CE3-A5D8-DCB7C40147D3}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
