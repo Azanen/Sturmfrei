@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8826845991152831923}
   - component: {fileID: 8826845991152831932}
   - component: {fileID: 8826845991152831933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DeathZone
   m_TagString: FallDetector
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -109,4 +109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b8cc9c0c79653a49aa86f009d31a605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {x: 367.0601, y: 9.75, z: -997.1458}
+  respawnPoint: {fileID: 0}
+  collider_Player: {fileID: 0}
+  camFol: {fileID: 0}
