@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3002968245">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1404075038">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -58,7 +58,7 @@
 						</File>
 						<File Id="330161831" Language="SFX">
 							<ShortName>Boss\Boss_Defeat_Loop.wav</ShortName>
-							<Path>SFX/Boss/Boss_Defeat_Loop_A4D1D44F.wem</Path>
+							<Path>SFX/Boss/Boss_Defeat_Loop_2F5CC3F1.wem</Path>
 						</File>
 						<File Id="332667524" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Rocks\BreakWall_Stone_Rocks_01.wav</ShortName>
@@ -82,7 +82,7 @@
 						</File>
 						<File Id="633465905" Language="SFX">
 							<ShortName>Boss\Boss_Defeat_Start.wav</ShortName>
-							<Path>SFX/Boss/Boss_Defeat_Start_E4D6C294.wem</Path>
+							<Path>SFX/Boss/Boss_Defeat_Start_93A418F5.wem</Path>
 						</File>
 						<File Id="679810061" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Dirt_02.wav</ShortName>
@@ -114,7 +114,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3167145899" Name="Boss_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Boss_Idle" DurationType="Infinite">
+				<Event Id="3167145899" Name="Boss_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Boss_Idle" MaxAttenuation="250." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="153452567" Language="SFX">
 							<ShortName>Boss_Idle_Rocks_07.wav</ShortName>
@@ -167,7 +167,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="535719110" Name="BreakWall_Ice" ObjectPath="\Events\Default Work Unit\INGREDIENT\BreakWall_Ice" DurationType="OneShot" DurationMin="2.594807" DurationMax="3.926848">
+				<Event Id="4250271610" Name="BreakWall_EasterEgg" ObjectPath="\Events\Default Work Unit\INGREDIENT\BreakWall_EasterEgg" DurationType="OneShot" DurationMin="1.4935" DurationMax="1.4935">
+					<IncludedMemoryFiles>
+						<File Id="391520980" Language="SFX">
+							<ShortName>BreakWall_EasterEgg.wav</ShortName>
+							<Path>SFX/BreakWall_EasterEgg_A26074DB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="535719110" Name="BreakWall_Ice" ObjectPath="\Events\Default Work Unit\INGREDIENT\BreakWall_Ice" MaxAttenuation="60." DurationType="OneShot" DurationMin="2.594807" DurationMax="3.926848">
 					<IncludedMemoryFiles>
 						<File Id="146433451" Language="SFX">
 							<ShortName>BreakWall_Ice\BreakWall_Ice_Ice_06.wav</ShortName>
@@ -263,7 +271,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3555376460" Name="BreakWall_Stone" ObjectPath="\Events\Default Work Unit\INGREDIENT\BreakWall_Stone" DurationType="OneShot" DurationMin="2.506667" DurationMax="3.056508">
+				<Event Id="3555376460" Name="BreakWall_Stone" ObjectPath="\Events\Default Work Unit\INGREDIENT\BreakWall_Stone" MaxAttenuation="60." DurationType="OneShot" DurationMin="2.506667" DurationMax="3.056508">
 					<IncludedMemoryFiles>
 						<File Id="47448798" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Hybrid\BreakWall_Stone_Hybrid_01.wav</ShortName>
@@ -6810,75 +6818,75 @@
 				<Event Id="3351513518" Name="PurpleCloud_Idle_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\Idle_Stop\PurpleCloud_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3391124858" Name="River_Idle" ObjectPath="\Events\Default Work Unit\AMBIENCE\River_Idle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1212564489" Name="River_Idle_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\River_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1138063715" Name="Soul_Collect" ObjectPath="\Events\Default Work Unit\INGREDIENT\Soul_Collect" DurationType="OneShot" DurationMin="1.037775" DurationMax="2.161935">
+				<Event Id="1138063715" Name="Soul_Collect" ObjectPath="\Events\Default Work Unit\INGREDIENT\Soul_Collect" DurationType="OneShot" DurationMin="1.037775" DurationMax="2.360332">
 					<IncludedMemoryFiles>
 						<File Id="131206614" Language="SFX">
 							<ShortName>Soul_Collect_06.wav</ShortName>
-							<Path>SFX/Soul_Collect_06_F93D9F2F.wem</Path>
+							<Path>SFX/Soul_Collect_06_8E42F8BC.wem</Path>
 						</File>
 						<File Id="199585834" Language="SFX">
 							<ShortName>Soul_Collect_12.wav</ShortName>
-							<Path>SFX/Soul_Collect_12_9135BB95.wem</Path>
+							<Path>SFX/Soul_Collect_12_8D8A1788.wem</Path>
 						</File>
 						<File Id="202420548" Language="SFX">
 							<ShortName>Soul_Collect_11.wav</ShortName>
-							<Path>SFX/Soul_Collect_11_4F2398D8.wem</Path>
+							<Path>SFX/Soul_Collect_11_76E6AC35.wem</Path>
 						</File>
 						<File Id="252373094" Language="SFX">
 							<ShortName>Soul_Collect_01.wav</ShortName>
-							<Path>SFX/Soul_Collect_01_7A2D2F16.wem</Path>
+							<Path>SFX/Soul_Collect_01_5EA0B619.wem</Path>
 						</File>
 						<File Id="278426279" Language="SFX">
 							<ShortName>Soul_Collect_09.wav</ShortName>
-							<Path>SFX/Soul_Collect_09_483FB492.wem</Path>
+							<Path>SFX/Soul_Collect_09_FE503D7C.wem</Path>
 						</File>
 						<File Id="312292001" Language="SFX">
 							<ShortName>Soul_Collect_04.wav</ShortName>
-							<Path>SFX/Soul_Collect_04_4A586EB5.wem</Path>
+							<Path>SFX/Soul_Collect_04_DFD61556.wem</Path>
 						</File>
 						<File Id="315116498" Language="SFX">
 							<ShortName>Soul_Collect_15.wav</ShortName>
-							<Path>SFX/Soul_Collect_15_05AA7057.wem</Path>
+							<Path>SFX/Soul_Collect_15_BB7EA270.wem</Path>
 						</File>
 						<File Id="417289141" Language="SFX">
 							<ShortName>Soul_Collect_13.wav</ShortName>
-							<Path>SFX/Soul_Collect_13_AC275885.wem</Path>
+							<Path>SFX/Soul_Collect_13_CCC0258E.wem</Path>
 						</File>
 						<File Id="447236297" Language="SFX">
 							<ShortName>Soul_Collect_02.wav</ShortName>
-							<Path>SFX/Soul_Collect_02_BA931750.wem</Path>
+							<Path>SFX/Soul_Collect_02_EDA5996F.wem</Path>
 						</File>
 						<File Id="475444890" Language="SFX">
 							<ShortName>Soul_Collect_08.wav</ShortName>
-							<Path>SFX/Soul_Collect_08_BEDDB8DE.wem</Path>
+							<Path>SFX/Soul_Collect_08_1F9D6212.wem</Path>
 						</File>
 						<File Id="494758842" Language="SFX">
 							<ShortName>Soul_Collect_07.wav</ShortName>
-							<Path>SFX/Soul_Collect_07_C12D034B.wem</Path>
+							<Path>SFX/Soul_Collect_07_D0B71371.wem</Path>
 						</File>
 						<File Id="561966888" Language="SFX">
 							<ShortName>Soul_Collect_03.wav</ShortName>
-							<Path>SFX/Soul_Collect_03_1BA7332F.wem</Path>
+							<Path>SFX/Soul_Collect_03_3F393322.wem</Path>
 						</File>
 						<File Id="607091267" Language="SFX">
 							<ShortName>Soul_Collect_05.wav</ShortName>
-							<Path>SFX/Soul_Collect_05_31AFF71A.wem</Path>
+							<Path>SFX/Soul_Collect_05_5C5A44C8.wem</Path>
 						</File>
 						<File Id="724511575" Language="SFX">
 							<ShortName>Soul_Collect_16.wav</ShortName>
-							<Path>SFX/Soul_Collect_16_AD343151.wem</Path>
+							<Path>SFX/Soul_Collect_16_1FC505F6.wem</Path>
 						</File>
 						<File Id="808001911" Language="SFX">
 							<ShortName>Soul_Collect_14.wav</ShortName>
-							<Path>SFX/Soul_Collect_14_E3F1D975.wem</Path>
+							<Path>SFX/Soul_Collect_14_329171B7.wem</Path>
 						</File>
 						<File Id="928623884" Language="SFX">
 							<ShortName>Soul_Collect_10.wav</ShortName>
-							<Path>SFX/Soul_Collect_10_62D8675F.wem</Path>
+							<Path>SFX/Soul_Collect_10_5F0329A2.wem</Path>
 						</File>
 						<File Id="1048644368" Language="SFX">
 							<ShortName>Soul_Collect_17.wav</ShortName>
-							<Path>SFX/Soul_Collect_17_5E53F5C1.wem</Path>
+							<Path>SFX/Soul_Collect_17_52E54636.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

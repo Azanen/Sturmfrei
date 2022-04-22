@@ -501,8 +501,8 @@
 								<Action Name="" ID="{9A8DDD15-03C2-41D9-9094-8749EAD6D5D5}" ShortID="1040745289">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -616,6 +616,29 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{8959686B-C855-4DE4-8A09-8A544EC4135B}" ShortID="728405867">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F78F1BFE-7E8E-4379-9A0A-563AC3E926EF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Idle" ID="{F7789795-ED57-4A5C-880D-4FCD040F6A98}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Boss_Defeat" ID="{7E885446-B05E-466F-B67A-721B066A92C2}">
@@ -630,20 +653,11 @@
 								<Action Name="" ID="{9A53E5A9-9180-4FD7-A030-C064B34F093B}" ShortID="934390696">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Boss_Idle_Rocks" ID="{67E2F3EA-E7DB-4249-933A-21B389DB7407}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{AD473C67-D7D3-442B-9EC6-22DD79EB93B1}" ShortID="581119685">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Boss_Idle_Loop" ID="{BB8A63E0-D183-437E-9FC1-23CDABECB054}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+											<ObjectRef Name="Boss_Idle" ID="{F7789795-ED57-4A5C-880D-4FCD040F6A98}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -805,6 +819,7 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 										<Property Name="FadeTime" Type="Real64" Value="4"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -902,6 +917,17 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="BreakWall_EasterEgg" ID="{A5394D7F-A449-4D63-A194-8704108AC3E9}">
+							<ChildrenList>
+								<Action Name="" ID="{B2B1BB14-BDEF-412D-9F27-F2D8714C2183}" ShortID="716444979">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakWall_EasterEgg" ID="{5518067C-6B7F-4B68-866D-7E7F5DCCCB8B}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8C177A8D-FB32-464C-8DBA-E688AF208F1A}" ShortID="582140264">

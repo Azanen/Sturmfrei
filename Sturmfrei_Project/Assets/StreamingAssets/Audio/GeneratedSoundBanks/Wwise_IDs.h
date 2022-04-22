@@ -25,6 +25,7 @@ namespace AK
         static const AkUniqueID BOSS_IDLE = 3167145899U;
         static const AkUniqueID BOSS_IDLE_STOP = 1582029286U;
         static const AkUniqueID BOSS_RETURNHUB = 4157896688U;
+        static const AkUniqueID BREAKWALL_EASTEREGG = 4250271610U;
         static const AkUniqueID BREAKWALL_ICE = 535719110U;
         static const AkUniqueID BREAKWALL_STONE = 3555376460U;
         static const AkUniqueID BRIDGE_CRACK = 820586857U;

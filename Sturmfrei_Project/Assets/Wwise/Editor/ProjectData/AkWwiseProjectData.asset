@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585510070974775808
+    m_lastTime: -8585510001484775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -316,7 +316,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 85d66c9fe83a0047a6fe09afd51d73c6
       Path: Events/Default Work Unit/INGREDIENT/Boss_Idle
-      maxAttenuation: 0
+      maxAttenuation: 250
       maxDuration: -1
       minDuration: -1
     - name: Boss_Idle_Stop
@@ -362,6 +362,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 7.25
       minDuration: 7.25
+    - name: BreakWall_EasterEgg
+      guid: 7f4d39a549a4634da1948704108ac3e9
+      id: 4250271610
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cedcc42e1e517c4c8888dbdd56061ae7
+      - ElementName: INGREDIENT
+        ObjectType: 4
+        guid: 43f232c92267dc4285689f1c1b452d43
+      - ElementName: BreakWall_EasterEgg
+        ObjectType: 3
+        guid: 7f4d39a549a4634da1948704108ac3e9
+      Path: Events/Default Work Unit/INGREDIENT/BreakWall_EasterEgg
+      maxAttenuation: 0
+      maxDuration: 1.4935
+      minDuration: 1.4935
     - name: BreakWall_Ice
       guid: 1f92f8f50554304a9521142fdc10aad9
       id: 535719110
@@ -379,7 +399,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1f92f8f50554304a9521142fdc10aad9
       Path: Events/Default Work Unit/INGREDIENT/BreakWall_Ice
-      maxAttenuation: 0
+      maxAttenuation: 60
       maxDuration: 3.926848
       minDuration: 2.594807
     - name: BreakWall_Stone
@@ -399,7 +419,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8e5e22b01edb424687e0e87d8dda3016
       Path: Events/Default Work Unit/INGREDIENT/BreakWall_Stone
-      maxAttenuation: 0
+      maxAttenuation: 60
       maxDuration: 3.056508
       minDuration: 2.506667
     - name: Bridge_Crack
@@ -703,26 +723,6 @@ MonoBehaviour:
       maxDuration: 0.769326
       minDuration: 0.057186
     - name: Idle_Stop
-      guid: 731f8e77c1417c499731bfa39556bf77
-      id: 536635466
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: cedcc42e1e517c4c8888dbdd56061ae7
-      - ElementName: INGREDIENT
-        ObjectType: 4
-        guid: 43f232c92267dc4285689f1c1b452d43
-      - ElementName: Idle_Stop
-        ObjectType: 4
-        guid: 731f8e77c1417c499731bfa39556bf77
-      Path: Events/Default Work Unit/INGREDIENT/Idle_Stop
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Idle_Stop
       guid: 5d905d80edc3284a8deb20d991c05cd7
       id: 536635466
       PathAndIcons:
@@ -739,6 +739,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 5d905d80edc3284a8deb20d991c05cd7
       Path: Events/Default Work Unit/AMBIENCE/Idle_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Idle_Stop
+      guid: 731f8e77c1417c499731bfa39556bf77
+      id: 536635466
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cedcc42e1e517c4c8888dbdd56061ae7
+      - ElementName: INGREDIENT
+        ObjectType: 4
+        guid: 43f232c92267dc4285689f1c1b452d43
+      - ElementName: Idle_Stop
+        ObjectType: 4
+        guid: 731f8e77c1417c499731bfa39556bf77
+      Path: Events/Default Work Unit/INGREDIENT/Idle_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1528,7 +1548,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9ea2d19bae00fd4e99cf149bdd9dbd40
       Path: Events/Default Work Unit/INGREDIENT/Statue_Rebuild
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: 4.943091
       minDuration: 4.943091
     - name: Stinger_FirstFly
