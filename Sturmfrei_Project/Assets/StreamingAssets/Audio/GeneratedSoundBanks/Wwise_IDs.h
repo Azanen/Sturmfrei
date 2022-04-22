@@ -51,6 +51,7 @@ namespace AK
         static const AkUniqueID MENU_OPEN = 1287511387U;
         static const AkUniqueID MUS_HUB_POSTTUTO = 171783953U;
         static const AkUniqueID MUS_HUB_PRETUTO = 1081381930U;
+        static const AkUniqueID MUS_HUB_VILLAGE = 1075809139U;
         static const AkUniqueID MUS_LEVEL1_AMBIENCE = 1807777261U;
         static const AkUniqueID MUS_LEVEL1_BOSSPUZZLE = 3624297410U;
         static const AkUniqueID MUS_LEVEL1_WONDER = 1462442152U;

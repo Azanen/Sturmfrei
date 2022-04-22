@@ -716,7 +716,7 @@
 								<Action Name="" ID="{D14AE045-AB6F-461D-80FA-10A86C8572D6}" ShortID="591299696">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Statue_Idle" ID="{CE1396D6-ED01-4613-94FB-CF087CA8A0CC}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+											<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -819,7 +819,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Statue_Idle" ID="{CE1396D6-ED01-4613-94FB-CF087CA8A0CC}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+													<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -905,6 +905,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Wonder" ID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{59008D02-0A84-4514-BBD4-DC97AB76374D}" ShortID="238251616">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Test_wonder" ID="{60DEFA02-3435-4C23-8DE4-1351357D774A}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

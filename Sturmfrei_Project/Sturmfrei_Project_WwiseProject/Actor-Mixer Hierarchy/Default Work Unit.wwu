@@ -27248,6 +27248,7 @@
 							<ChildrenList>
 								<BlendContainer Name="PurpleCloud_Idle" ID="{EF9BE579-13A4-4EF3-BFF4-1BB13DFCAB27}" ShortID="883003179">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -28212,9 +28213,6 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Soul_Idle" ID="{773DCD55-1CD6-48EB-92CB-0D12E5192DDD}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
-										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
 										</Reference>
@@ -28442,138 +28440,40 @@
 										<ActiveSource Name="Statue_Rebuild" ID="{A58C5A46-30F0-43FF-9031-CAEF4E9B1880}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<SwitchContainer Name="Statue_Idle" ID="{CE1396D6-ED01-4613-94FB-CF087CA8A0CC}" ShortID="871322511">
+								<BlendContainer Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" ShortID="520270706">
 									<PropertyList>
-										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>36</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_25meters" ID="{9E41A6F8-5329-4995-9037-E6E9157CD3F5}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
-										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Deactivated" ID="{53928564-EA65-49E8-8C9B-9AD56A94D4C0}" WorkUnitID="{075FC43A-A5CB-4FE1-8FFE-546D82ACB279}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
 										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Statue" ID="{D4B64DFA-9D36-4D01-A481-8C2972B996F1}" WorkUnitID="{075FC43A-A5CB-4FE1-8FFE-546D82ACB279}"/>
-										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<BlendContainer Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" ShortID="520270706">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="Lowpass" Type="int16">
-													<ValueList>
-														<Value>36</Value>
-													</ValueList>
-												</Property>
-												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-												<Property Name="MaxSoundPerInstance" Type="int16">
-													<ValueList>
-														<Value>1</Value>
-													</ValueList>
-												</Property>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Att_25meters" ID="{9E41A6F8-5329-4995-9037-E6E9157CD3F5}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Statue_Idle_Magic" ID="{F373F814-DD22-46FE-8406-82C3F864B359}" ShortID="599732132">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Statue_Idle_Magic" ID="{69DE721C-8CA2-45BA-BB9D-E170EAAEE083}">
-															<PropertyList>
-																<Property Name="CrossfadeDuration" Type="Real64" Value="1816.523"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.964310443565181"/>
-																<Property Name="LoopBegin" Type="Real64" Value="1.52333099055949"/>
-																<Property Name="LoopEnd" Type="Real64" Value="9.9785167638484"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>Statue_Idle_Magic.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="504223982"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Statue_Idle_Magic" ID="{69DE721C-8CA2-45BA-BB9D-E170EAAEE083}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Statue_Idle_Sturmfrei" ID="{691C8AEF-2A30-49BC-91DC-95F511B152E7}" ShortID="825997901">
-													<PropertyList>
-														<Property Name="Highpass" Type="int16">
-															<ValueList>
-																<Value>32</Value>
-															</ValueList>
-														</Property>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>1</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Statue_Idle_Sturmfrei" ID="{2AB2F87D-2B8F-4128-ADDC-2B42A7F88414}">
-															<PropertyList>
-																<Property Name="CrossfadeDuration" Type="Real64" Value="753.618"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.629782440186959"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.654973737794437"/>
-																<Property Name="LoopEnd" Type="Real64" Value="9.43414095400065"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>Statue_Idle_Sturmfrei.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="723665693"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Statue_Idle_Sturmfrei" ID="{2AB2F87D-2B8F-4128-ADDC-2B42A7F88414}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<ObjectLists/>
-										</BlendContainer>
-										<Sound Name="Silence" ID="{6F80D8E1-8353-4FF4-B57C-24841F055B4E}" ShortID="27064273">
+										<Sound Name="Statue_Idle_Magic" ID="{F373F814-DD22-46FE-8406-82C3F864B359}" ShortID="599732132">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
@@ -28586,42 +28486,72 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SourcePlugin Name="Wwise Silence" ID="{66FF0C0E-AEDF-4C07-8DCF-E56196DA9C41}" ShortID="86167941" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+												<AudioFileSource Name="Statue_Idle_Magic" ID="{69DE721C-8CA2-45BA-BB9D-E170EAAEE083}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1816.523"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.964310443565181"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.52333099055949"/>
+														<Property Name="LoopEnd" Type="Real64" Value="9.9785167638484"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
-												</SourcePlugin>
+													<AudioFile>Statue_Idle_Magic.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="504223982"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="Wwise Silence" ID="{66FF0C0E-AEDF-4C07-8DCF-E56196DA9C41}" Platform="Linked"/>
+												<ActiveSource Name="Statue_Idle_Magic" ID="{69DE721C-8CA2-45BA-BB9D-E170EAAEE083}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Statue_Idle_Sturmfrei" ID="{691C8AEF-2A30-49BC-91DC-95F511B152E7}" ShortID="825997901">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>32</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Statue_Idle_Sturmfrei" ID="{2AB2F87D-2B8F-4128-ADDC-2B42A7F88414}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="753.618"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.629782440186959"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.654973737794437"/>
+														<Property Name="LoopEnd" Type="Real64" Value="9.43414095400065"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Statue_Idle_Sturmfrei.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="723665693"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Statue_Idle_Sturmfrei" ID="{2AB2F87D-2B8F-4128-ADDC-2B42A7F88414}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="Silence" ID="{6F80D8E1-8353-4FF4-B57C-24841F055B4E}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>
-												<ItemList>
-													<ItemRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Deactivated" ID="{53928564-EA65-49E8-8C9B-9AD56A94D4C0}"/>
-												<ItemList>
-													<ItemRef Name="Silence" ID="{6F80D8E1-8353-4FF4-B57C-24841F055B4E}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
+								</BlendContainer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
@@ -34464,6 +34394,13 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="L2_PianoBass" ID="{E10C430B-84A0-4526-9677-B1BB0C9119D5}" ShortID="818880111">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>63</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -35236,9 +35173,2972 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
+						<ActorMixer Name="Hub" ID="{03191150-88D1-4168-93E1-8451FDA2DF9A}" ShortID="502298176">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Hub_BowedXylo" ID="{ACB5F053-AFA0-437A-AC13-D34B87B643B7}" ShortID="780795878">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DCE5069E-2688-4876-85F0-7728D84893F2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D08C857C-7E4C-459B-BEE9-2EB969956407}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-11"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Hub_bowed xylophone01" ID="{A13931D9-F07B-42B0-BA94-C1D5AAF4D5D4}" ShortID="210408700">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hub_bowed xylophone01" ID="{8E3F8C6B-66C0-4D29-BFA6-403B85A7DCB2}">
+													<Language>SFX</Language>
+													<AudioFile>Hub_bowed xylophone01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="268511693"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Hub_bowed xylophone01" ID="{8E3F8C6B-66C0-4D29-BFA6-403B85A7DCB2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hub_bowed xylophone02" ID="{563896B7-DBA0-47BF-9266-620AF10C7A27}" ShortID="290137963">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hub_bowed xylophone02" ID="{4C68EF25-CFC1-4323-AD97-3D0355B4723C}">
+													<Language>SFX</Language>
+													<AudioFile>Hub_bowed xylophone02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="167283073"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Hub_bowed xylophone02" ID="{4C68EF25-CFC1-4323-AD97-3D0355B4723C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hub_bowed xylophone03" ID="{7AC494D9-4823-42C2-96D6-406D6F15AE6B}" ShortID="428612500">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hub_bowed xylophone03" ID="{9DDE9B14-95F5-4486-B9F4-41E8510EA79F}">
+													<Language>SFX</Language>
+													<AudioFile>Hub_bowed xylophone03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1070696707"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Hub_bowed xylophone03" ID="{9DDE9B14-95F5-4486-B9F4-41E8510EA79F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hub_bowed xylophone04" ID="{08B303F8-BF0D-4F54-9ED3-7940B803BCF9}" ShortID="200484362">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hub_bowed xylophone04" ID="{95A1B9C3-24A3-498D-AD7A-E0F616AB14FC}">
+													<Language>SFX</Language>
+													<AudioFile>Hub_bowed xylophone04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="341789411"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Hub_bowed xylophone04" ID="{95A1B9C3-24A3-498D-AD7A-E0F616AB14FC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Level_3" ID="{4F615B51-DB06-4D1B-9BAC-656F95712B15}" ShortID="1003938378">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="L3_Chord_High" ID="{04972C2C-85C7-4610-93DC-8242EB2EFD18}" ShortID="188585325">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_chord_high_01" ID="{D6875771-7CB5-4489-AD86-AADA6E14958F}" ShortID="274413538">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_01" ID="{2A1499F5-97C0-4422-B2DD-3973A3E5875C}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="992981017"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_01" ID="{2A1499F5-97C0-4422-B2DD-3973A3E5875C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_02" ID="{1C79E913-314C-4BEE-B217-4E4B540A7714}" ShortID="489142452">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_02" ID="{1DB365B4-D3BF-44D4-8310-20935526A260}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="404859819"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_02" ID="{1DB365B4-D3BF-44D4-8310-20935526A260}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_03" ID="{446429BA-D2F4-4A57-980C-B3C3C555BB1B}" ShortID="418782">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_03" ID="{A1F9519D-A27F-42BD-82BA-1527B90B8905}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="639901078"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_03" ID="{A1F9519D-A27F-42BD-82BA-1527B90B8905}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_04" ID="{764E8016-94EA-40A7-939F-B1BA5BF490D6}" ShortID="725625997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_04" ID="{D004663A-441B-44A5-90C9-3C64690052FE}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="767843360"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_04" ID="{D004663A-441B-44A5-90C9-3C64690052FE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_05" ID="{4529219E-F025-401B-8181-1F320AD95A21}" ShortID="11490094">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_05" ID="{BD445184-9905-4C35-AB77-2396D3166546}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="342243215"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_05" ID="{BD445184-9905-4C35-AB77-2396D3166546}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_06" ID="{9B4CFDF2-FC49-45B1-8057-11B10D13F7ED}" ShortID="257201320">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_06" ID="{7AEB71CD-FF4A-49FE-B591-460593D57EF5}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="989614969"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_06" ID="{7AEB71CD-FF4A-49FE-B591-460593D57EF5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_07" ID="{E88B2B58-4141-4B4C-A746-1F0E9D100E0E}" ShortID="294514219">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_07" ID="{E6C87E0E-43A1-45F5-AA41-5B1E86657D8A}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="813182563"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_07" ID="{E6C87E0E-43A1-45F5-AA41-5B1E86657D8A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_08" ID="{E4E4EB74-95D0-418A-88E1-6050A401240E}" ShortID="96775442">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_08" ID="{35E50183-B33E-4838-BB24-40E55E437CCB}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="60743127"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_08" ID="{35E50183-B33E-4838-BB24-40E55E437CCB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_09" ID="{288724C0-7A58-4A80-AAAB-809F24734B2E}" ShortID="190038557">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_09" ID="{9B599797-7D94-43E8-B638-67658E9F69BC}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="891237709"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_09" ID="{9B599797-7D94-43E8-B638-67658E9F69BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_10" ID="{13A71D4A-8280-44A6-8150-780F0F8F4114}" ShortID="438084347">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_10" ID="{48EC99D4-6825-42F9-8ED9-E0E30B70E0A2}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="278063365"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_10" ID="{48EC99D4-6825-42F9-8ED9-E0E30B70E0A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_11" ID="{0B6098A5-CFD9-4FBE-B194-099218D08B8D}" ShortID="778930795">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_11" ID="{1D4AFBC0-9E04-46B0-A6B3-1E20881A12E3}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="142605186"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_11" ID="{1D4AFBC0-9E04-46B0-A6B3-1E20881A12E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_12" ID="{2638B6EF-626C-4443-AB40-B815EAD72CB1}" ShortID="479489836">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_12" ID="{DF42C273-F325-4555-A0D6-E7E75F5523DD}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="693823468"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_12" ID="{DF42C273-F325-4555-A0D6-E7E75F5523DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_high_13" ID="{F5ACCCAF-B97D-46CC-A1E8-299F7466E745}" ShortID="641507338">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_high_13" ID="{6706379D-1A6D-49BF-A0AD-A27BBDC0B4C9}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_High\L3_chord_high_13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="463444908"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_high_13" ID="{6706379D-1A6D-49BF-A0AD-A27BBDC0B4C9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="L3_Chord_Mid" ID="{696C00EC-81A0-48CC-96AA-E2E0B02C5AD0}" ShortID="272196081">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_chord_mid_01" ID="{3D7798FB-97E4-4593-968E-64FFE685C239}" ShortID="123201225">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_mid_01" ID="{04CD87FE-1A3F-4CA3-9188-7A00139CB34D}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="706107370"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_mid_01" ID="{04CD87FE-1A3F-4CA3-9188-7A00139CB34D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_mid_02" ID="{460F78F7-7A13-4467-AFE9-6BA64F11800D}" ShortID="510819648">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_mid_02" ID="{74B0D368-FA21-4BBC-AC77-EA997A868ADC}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="914938688"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_mid_02" ID="{74B0D368-FA21-4BBC-AC77-EA997A868ADC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_mid_03" ID="{3B5418C8-4AA6-4369-A748-8E0C6323C61D}" ShortID="154186061">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_mid_03" ID="{35FA0886-4136-4795-B43A-9A4BE7102A87}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="996383537"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_mid_03" ID="{35FA0886-4136-4795-B43A-9A4BE7102A87}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_mid_04" ID="{1E0BE364-DE7F-4027-8A16-A970D6FD9CE6}" ShortID="555753169">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_mid_04" ID="{E735CC9C-C9C0-494F-B41D-97AB5F061FC3}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="409420128"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_mid_04" ID="{E735CC9C-C9C0-494F-B41D-97AB5F061FC3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_mid_05" ID="{9BBF02C6-A142-4F19-94C1-3FDDF75ABD6E}" ShortID="1572495">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_mid_05" ID="{8BFC340B-FC00-45FE-9447-54D6605EF921}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="337534716"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_mid_05" ID="{8BFC340B-FC00-45FE-9447-54D6605EF921}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_mid_06" ID="{D827EF68-CDBF-4963-BDC5-C8602A899CF2}" ShortID="12856068">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_mid_06" ID="{BDD7F119-20D9-4328-9244-61A2ED54BE6E}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="625993510"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_mid_06" ID="{BDD7F119-20D9-4328-9244-61A2ED54BE6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_mid_07" ID="{5984ECF8-1775-4391-91D4-6C07C369CD82}" ShortID="654175508">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_mid_07" ID="{BEE2163B-F837-41BA-A2EF-CF2E742378C9}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="727437189"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_mid_07" ID="{BEE2163B-F837-41BA-A2EF-CF2E742378C9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_chord_mid_08" ID="{CA577CAD-373E-4E62-B86D-5C64C078FBFC}" ShortID="961661841">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_chord_mid_08" ID="{3BA75264-B767-44E9-A238-ED972CD8A9D2}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="903066183"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_chord_mid_08" ID="{3BA75264-B767-44E9-A238-ED972CD8A9D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="L3_Intervals" ID="{17DAAE39-CF29-464D-9098-2883F3CE9EBD}" ShortID="196660564">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_intervals_01" ID="{9078E5E3-1B3D-42A9-9F54-77A5CDDF5A54}" ShortID="696810381">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_intervals_01" ID="{C654E545-7729-42E2-9748-F56AC281444C}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Intervals\L3_intervals_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="847409977"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_intervals_01" ID="{C654E545-7729-42E2-9748-F56AC281444C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_intervals_02" ID="{94E7E556-52E7-4F4F-A76F-5C118EEE3BEC}" ShortID="985633469">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_intervals_02" ID="{6E7233EA-E16E-40CF-BB22-C2FE66E6DD3B}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Intervals\L3_intervals_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="219974708"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_intervals_02" ID="{6E7233EA-E16E-40CF-BB22-C2FE66E6DD3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_intervals_03" ID="{F5E3BB28-F54E-40BD-935E-19B82CE38144}" ShortID="46219737">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_intervals_03" ID="{5F49F231-E71C-4D6D-BEA2-3547CAE79D56}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Intervals\L3_intervals_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="237770515"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_intervals_03" ID="{5F49F231-E71C-4D6D-BEA2-3547CAE79D56}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_intervals_04" ID="{D0CA2499-D2E9-4608-8D70-351F66C6DAFB}" ShortID="528328835">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_intervals_04" ID="{D070E2EC-D266-4F02-84F9-4E9D62417EDA}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Intervals\L3_intervals_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="365187414"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_intervals_04" ID="{D070E2EC-D266-4F02-84F9-4E9D62417EDA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_intervals_05" ID="{EC0F3AD5-9713-4E8C-876E-D53939DE8621}" ShortID="535944761">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_intervals_05" ID="{CFEA1965-4465-4B4B-9876-CC7AA15CBBA6}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Intervals\L3_intervals_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="902545708"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_intervals_05" ID="{CFEA1965-4465-4B4B-9876-CC7AA15CBBA6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_intervals_06" ID="{1C6AD201-FC66-400F-BC00-BE6A1841849E}" ShortID="25692616">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_intervals_06" ID="{25DCC2CE-E2B7-41C5-A0FB-2BB570A61EC3}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Intervals\L3_intervals_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="328014623"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_intervals_06" ID="{25DCC2CE-E2B7-41C5-A0FB-2BB570A61EC3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_intervals_07" ID="{30BEC6AE-9407-4397-AB7F-24F1359EAD03}" ShortID="120154671">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_intervals_07" ID="{E04B8BD3-54FC-4B9C-BEA6-22FC4D2E762B}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Intervals\L3_intervals_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="74806089"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_intervals_07" ID="{E04B8BD3-54FC-4B9C-BEA6-22FC4D2E762B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_intervals_08" ID="{E3390EAD-BDDD-4953-A1DA-EF423B219233}" ShortID="100069167">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_intervals_08" ID="{AD73DECF-B506-4F87-8539-B930D1B82621}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Intervals\L3_intervals_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="755207154"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_intervals_08" ID="{AD73DECF-B506-4F87-8539-B930D1B82621}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="L3_Phrase_High" ID="{2967B190-5EE2-45C7-88DA-100EEF1AFB07}" ShortID="1071663105">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_phrase_high_01" ID="{E52F862B-AF46-417E-90FB-0FE724140456}" ShortID="1024189331">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_01" ID="{EEA61501-76B3-45DE-94AF-6D73FDF3A685}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="376054055"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_01" ID="{EEA61501-76B3-45DE-94AF-6D73FDF3A685}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_02" ID="{67B82896-CB45-45C0-8117-D3326C1DE6E5}" ShortID="954331237">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_02" ID="{06AB5A09-D501-4CC5-BFA6-75DF66D5D0C0}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="107337020"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_02" ID="{06AB5A09-D501-4CC5-BFA6-75DF66D5D0C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_03" ID="{CE6C0292-BF06-4591-A5B7-DC00DD507E32}" ShortID="876267795">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_03" ID="{21090FF8-21AA-494F-8243-1692F74879FE}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="695349597"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_03" ID="{21090FF8-21AA-494F-8243-1692F74879FE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_04" ID="{ACF70985-B9DE-40C7-BCF6-F1BC0CFB11DC}" ShortID="165959417">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_04" ID="{80A85812-5CD6-4F5F-A3ED-22F82768FB48}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="507230777"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_04" ID="{80A85812-5CD6-4F5F-A3ED-22F82768FB48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_05" ID="{6A4B0FCA-8426-4D7E-BCCF-273184A92279}" ShortID="613072470">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_05" ID="{A3E4D9B6-AF76-4908-8928-99C539E89280}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="34812147"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_05" ID="{A3E4D9B6-AF76-4908-8928-99C539E89280}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_06" ID="{E61FD6F9-D202-40EC-B751-B241A3B36CFA}" ShortID="531467332">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_06" ID="{27E429EF-4E6D-4A4F-844C-7FF6F7F2216F}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="564360451"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_06" ID="{27E429EF-4E6D-4A4F-844C-7FF6F7F2216F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_07" ID="{1DAE3866-CDD8-42F2-B494-450A6167B665}" ShortID="724988511">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_07" ID="{7E4AB377-7CBA-4F65-99DE-29F6E49DF325}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="482463223"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_07" ID="{7E4AB377-7CBA-4F65-99DE-29F6E49DF325}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_08" ID="{6A26E9AB-49F4-455F-8492-0C492AE305C2}" ShortID="868564469">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_08" ID="{FC08A2EB-E299-403F-BC02-DAD4D05CB063}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="670839940"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_08" ID="{FC08A2EB-E299-403F-BC02-DAD4D05CB063}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_09" ID="{5F16C6A2-2560-4661-8432-684CBEB0E13B}" ShortID="565977375">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_09" ID="{13B3BB61-99AC-4530-A805-F629298EBE09}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="467431270"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_09" ID="{13B3BB61-99AC-4530-A805-F629298EBE09}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_10" ID="{D3D5D2C1-1B3D-4048-A359-02301388A45C}" ShortID="846055283">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_10" ID="{F446BB32-DD78-49DD-AB68-7A353DEC2227}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="732730824"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_10" ID="{F446BB32-DD78-49DD-AB68-7A353DEC2227}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_11" ID="{876C631D-F2C8-4DAE-8CAF-FADF79B0D869}" ShortID="437932020">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_11" ID="{8510BAB8-CB24-4245-A4B9-BD1D73BA1637}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="758771566"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_11" ID="{8510BAB8-CB24-4245-A4B9-BD1D73BA1637}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_12" ID="{E2F22C02-7270-440E-9E0E-20DEEB5A9AEB}" ShortID="1062663865">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_12" ID="{20D2BCCD-EC5E-4BD2-889A-6FA59F1C717F}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1011453682"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_12" ID="{20D2BCCD-EC5E-4BD2-889A-6FA59F1C717F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_13" ID="{10A761FA-78C5-4F3E-A8AB-81684AC4A8DC}" ShortID="728741906">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_13" ID="{F0CDEBE6-E66F-436B-B26E-F07215F91D07}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="976855521"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_13" ID="{F0CDEBE6-E66F-436B-B26E-F07215F91D07}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_14" ID="{C61415C0-BD34-45F7-9D25-5B4A8CCF0470}" ShortID="1056805899">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_14" ID="{37BDC1D8-707D-4021-B502-5F0A57227F77}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="933703960"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_14" ID="{37BDC1D8-707D-4021-B502-5F0A57227F77}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_15" ID="{165F35EE-36B1-4D19-9641-1C4CD85EF9F2}" ShortID="24746035">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_15" ID="{06F9790D-8CFA-414A-9949-358F8F2BEAC7}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="950258945"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_15" ID="{06F9790D-8CFA-414A-9949-358F8F2BEAC7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_16" ID="{C901ED0D-F2F7-4CCD-88D1-0EA4764693F9}" ShortID="206296118">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_16" ID="{655FFBB7-A996-48D1-BC5A-C9C037CD63F9}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_16.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="509327897"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_16" ID="{655FFBB7-A996-48D1-BC5A-C9C037CD63F9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_17" ID="{A2742635-3D32-48F9-9C6E-559A2E5C6ACB}" ShortID="767184508">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_17" ID="{5016A32D-A936-4CDF-8CB6-1EAA020E65D4}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_17.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="844840292"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_17" ID="{5016A32D-A936-4CDF-8CB6-1EAA020E65D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_18" ID="{F0DFEF10-8F2F-4C44-97DE-D007D3AD26F7}" ShortID="373820220">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_18" ID="{5132A9A9-875E-4246-A455-55A1F86BE7A8}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_18.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="128430240"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_18" ID="{5132A9A9-875E-4246-A455-55A1F86BE7A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_19" ID="{693A4949-48D6-43B6-897F-359B66A6FC75}" ShortID="22929314">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_19" ID="{0047DD7B-52CD-44D9-825B-DAE96CC1AE46}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_19.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="396154578"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_19" ID="{0047DD7B-52CD-44D9-825B-DAE96CC1AE46}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_20" ID="{3E6B6C50-6683-4F60-B406-C5B17145FD8A}" ShortID="153644376">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_20" ID="{372CBD54-77A4-481B-B1ED-83A4A884EE47}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_20.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="609386692"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_20" ID="{372CBD54-77A4-481B-B1ED-83A4A884EE47}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_21" ID="{07D8073F-65F4-4CE2-B567-D741E0F52CEC}" ShortID="482228618">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_21" ID="{38FFE7E4-BAD1-4901-8821-FCCB71052911}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_21.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="544291190"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_21" ID="{38FFE7E4-BAD1-4901-8821-FCCB71052911}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_22" ID="{33CB1247-529F-4A12-A13E-998F2888ADC2}" ShortID="36640685">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_22" ID="{A3E48555-59F7-4633-8CCF-57B77C652BF1}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_22.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="993545290"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_22" ID="{A3E48555-59F7-4633-8CCF-57B77C652BF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_23" ID="{A9CFF9F6-7B8A-4AD3-B863-84A9F7393312}" ShortID="661075616">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_23" ID="{017A2D00-CD74-4CCA-B276-54D678ECCAB0}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_23.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="743031493"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_23" ID="{017A2D00-CD74-4CCA-B276-54D678ECCAB0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_24" ID="{31BC7B9B-0DE0-4B34-94FD-54F3515ADADB}" ShortID="293805562">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_24" ID="{A8BE5ECC-4C34-468E-B094-83CBF83DC51B}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_24.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="313553640"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_24" ID="{A8BE5ECC-4C34-468E-B094-83CBF83DC51B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_25" ID="{034EF23A-14A7-4D99-B6C8-183197CF081D}" ShortID="855317184">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_25" ID="{1B3B849C-2BB6-454C-BFBC-D8D51773E079}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_25.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="192815864"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_25" ID="{1B3B849C-2BB6-454C-BFBC-D8D51773E079}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_26" ID="{61DDF863-DB60-4FA2-ADA8-0E3208124B99}" ShortID="428066422">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_26" ID="{E0A559B0-68B3-4966-AA58-F435A9BEAF81}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_26.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="670460860"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_26" ID="{E0A559B0-68B3-4966-AA58-F435A9BEAF81}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_27" ID="{84798E6A-411E-497F-B3D2-3DD631AB28E5}" ShortID="111820662">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_27" ID="{94D19032-AD2C-41D5-980A-03FD7D83DC63}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_27.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="703382347"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_27" ID="{94D19032-AD2C-41D5-980A-03FD7D83DC63}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_28" ID="{3543DB84-15CE-4713-AD20-71AC6B6155CE}" ShortID="903598917">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_28" ID="{4943F6B4-0EC1-4BF1-8EBA-027B2B4B8DB3}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_28.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="902440322"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_28" ID="{4943F6B4-0EC1-4BF1-8EBA-027B2B4B8DB3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_29" ID="{D839710C-7C42-4265-A367-C77949A428ED}" ShortID="889997309">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_29" ID="{D96EB9DC-20BC-4E15-A3F8-B0108FAAE78A}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_29.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="877795781"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_29" ID="{D96EB9DC-20BC-4E15-A3F8-B0108FAAE78A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_30" ID="{11ADAE78-88FC-46DE-917A-2DD276053050}" ShortID="469864433">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_30" ID="{DBEAF90A-1310-4B5B-A6F9-0898DB822BCA}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_30.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="941797062"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_30" ID="{DBEAF90A-1310-4B5B-A6F9-0898DB822BCA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_31" ID="{6DE11C9C-4775-4451-BBB7-06D997C5C7D6}" ShortID="552148509">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_31" ID="{58E4ED87-E726-4D04-ACE1-8B3BF456BAD0}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_31.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="777535762"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_31" ID="{58E4ED87-E726-4D04-ACE1-8B3BF456BAD0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_32" ID="{C2D9A670-E4D5-48A6-828A-5DB122605F54}" ShortID="604319881">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_32" ID="{7B8D6D28-2CC8-40A0-99E1-1E91840DF4A0}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_32.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="485610135"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_32" ID="{7B8D6D28-2CC8-40A0-99E1-1E91840DF4A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_33" ID="{94650588-31FD-45D3-AACF-0BC5330090F2}" ShortID="851205473">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_33" ID="{D418166F-F510-4FB5-A199-9CB83342581D}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_33.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="934171285"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_33" ID="{D418166F-F510-4FB5-A199-9CB83342581D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_34" ID="{D1585CFF-2A8F-470B-951E-0962452B4D52}" ShortID="849359205">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_34" ID="{49F93D7F-F580-4878-AE47-BC4A6100F819}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_34.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="546646865"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_34" ID="{49F93D7F-F580-4878-AE47-BC4A6100F819}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_35" ID="{960A80D0-6FD3-4EF1-AEA8-3412816A76CE}" ShortID="772240304">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_35" ID="{88D3A4C6-C807-4F48-B6CC-BC7AC087949F}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_35.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="731849578"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_35" ID="{88D3A4C6-C807-4F48-B6CC-BC7AC087949F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_36" ID="{37738156-2770-4DEA-AB39-74AA34818B45}" ShortID="869837144">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_36" ID="{29DEB47B-C894-4FAB-95A1-5D420D79D4B1}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_36.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="831216823"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_36" ID="{29DEB47B-C894-4FAB-95A1-5D420D79D4B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_37" ID="{FA0DC9DF-73ED-4BC7-9B67-DF78232FC8B9}" ShortID="638728002">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_37" ID="{0ACE5964-6E0C-4A15-9B61-B24EC6EC3FFC}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_37.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="593330592"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_37" ID="{0ACE5964-6E0C-4A15-9B61-B24EC6EC3FFC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_38" ID="{19DE6943-8379-46C1-A0DE-7021DCFF3494}" ShortID="844815345">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_38" ID="{2FE7078F-1763-458C-93EB-FF198919AD76}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_38.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="251183523"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_38" ID="{2FE7078F-1763-458C-93EB-FF198919AD76}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_39" ID="{13598C79-3657-46CA-8E71-6F721C2F180F}" ShortID="454943473">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_39" ID="{533B7120-70FC-4EBF-B071-175D705010B9}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_39.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="538296863"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_39" ID="{533B7120-70FC-4EBF-B071-175D705010B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_40" ID="{A5A56582-C683-4D40-91E3-A978DC06C3DD}" ShortID="103655789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_40" ID="{539B130A-5774-4DB0-B9B7-186A0C3B2740}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="146468782"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_40" ID="{539B130A-5774-4DB0-B9B7-186A0C3B2740}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_41" ID="{57E28B8A-6236-40F6-A01D-1C488B84A454}" ShortID="640513206">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_41" ID="{07EFEE8C-B93A-44AA-9B7B-E501A2F4247A}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_41.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="815130244"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_41" ID="{07EFEE8C-B93A-44AA-9B7B-E501A2F4247A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_42" ID="{59242380-EDE5-472C-A149-8CFA1709FB4A}" ShortID="730485684">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_42" ID="{CE818439-51F9-4B09-B75E-B3B8F0F42228}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_42.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="714782617"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_42" ID="{CE818439-51F9-4B09-B75E-B3B8F0F42228}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_high_43" ID="{84A03E8E-8FC0-4015-86FC-FAE568776E33}" ShortID="618632864">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_high_43" ID="{3CD7C64B-0BB8-4ADA-932D-5F53ACC708B0}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_43.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="785079905"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_high_43" ID="{3CD7C64B-0BB8-4ADA-932D-5F53ACC708B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="L3_Phrase_Mid" ID="{7922744E-2AF1-4DE3-927E-5A18C71BEDCB}" ShortID="46507238">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_phrase_mid_01" ID="{4627BD16-1C42-499B-A173-EE9E204F5013}" ShortID="974970310">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_mid_01" ID="{151E1895-7987-406A-A37D-D5945D923B75}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="636084655"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_mid_01" ID="{151E1895-7987-406A-A37D-D5945D923B75}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_mid_02" ID="{142E054F-F09D-426B-80C4-59EC00213E21}" ShortID="216075660">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_mid_02" ID="{A94CA8A7-DCA2-45A3-A611-4E0F2D361762}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="392236752"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_mid_02" ID="{A94CA8A7-DCA2-45A3-A611-4E0F2D361762}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_mid_03" ID="{5E5593D5-0135-4B8A-BCA1-BC8C404288D0}" ShortID="398284759">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_mid_03" ID="{BE2012ED-7741-4623-8BBD-62DEF9E8C56A}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="998354021"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_mid_03" ID="{BE2012ED-7741-4623-8BBD-62DEF9E8C56A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_mid_04" ID="{BB756E30-27E7-465D-B802-1E3C1EF51420}" ShortID="223872504">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_mid_04" ID="{AE43D6D0-A3A7-4B1E-B75B-FD9C63014530}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="982841823"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_mid_04" ID="{AE43D6D0-A3A7-4B1E-B75B-FD9C63014530}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_mid_05" ID="{7C896777-0A3E-485C-AAEA-B9EB986F9984}" ShortID="598108465">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_mid_05" ID="{A495702B-377C-40EC-8359-6C9A74C37421}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="698718325"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_mid_05" ID="{A495702B-377C-40EC-8359-6C9A74C37421}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_mid_06" ID="{5EB478C9-E818-4C2A-9459-70069426A6A8}" ShortID="411976983">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_mid_06" ID="{01CD3630-F5C2-4DC2-85DF-E8A99DA76685}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="430505035"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_mid_06" ID="{01CD3630-F5C2-4DC2-85DF-E8A99DA76685}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_mid_07" ID="{BA0838EE-AFE0-4D35-B1AA-CB518E8C4C11}" ShortID="1047267022">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_mid_07" ID="{27A4936B-6033-40DF-A258-B6B6E18FC79D}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="321402580"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_mid_07" ID="{27A4936B-6033-40DF-A258-B6B6E18FC79D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="L3_Single" ID="{FC6C544F-BC74-4224-A998-8A704A93B8D4}" ShortID="343787625">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_singlenote_01" ID="{377D2ABA-398D-451E-AE53-46BF66595684}" ShortID="353195528">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_01" ID="{390AAF55-6C09-451D-A66F-732BC8FD5289}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="270383119"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_01" ID="{390AAF55-6C09-451D-A66F-732BC8FD5289}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_02" ID="{B3E2335C-A651-4B5E-80FA-95195B1967FB}" ShortID="95364453">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_02" ID="{7C0291B2-5F9B-4409-8DB1-5BE5510DA2CD}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="720780282"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_02" ID="{7C0291B2-5F9B-4409-8DB1-5BE5510DA2CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_03" ID="{56609314-EBB7-4870-B1BB-3B9BAA64E962}" ShortID="492388191">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_03" ID="{30A8A8DA-34A5-413E-9546-785CCBCCC548}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="194887876"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_03" ID="{30A8A8DA-34A5-413E-9546-785CCBCCC548}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_04" ID="{85B7D417-8039-4326-A671-2AE0F767D8F0}" ShortID="953366684">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_04" ID="{B2B36ACD-D9F8-4715-918F-554478136B8E}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="29692940"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_04" ID="{B2B36ACD-D9F8-4715-918F-554478136B8E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_05" ID="{B3F10654-D1E0-4AC1-8CC1-80B344372F92}" ShortID="431119039">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_05" ID="{F8005404-D918-409A-8200-C69378754A64}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="625111393"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_05" ID="{F8005404-D918-409A-8200-C69378754A64}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_06" ID="{B9D3586C-D5D8-40A7-BA98-B014863806F3}" ShortID="142112876">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_06" ID="{9F6C03E1-F65D-4032-A6B7-1856309D4287}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="234590867"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_06" ID="{9F6C03E1-F65D-4032-A6B7-1856309D4287}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_07" ID="{75F806D8-F64F-4A29-9E94-9F2F968A7B20}" ShortID="998225237">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_07" ID="{7294CD9F-419F-47E0-8ACA-A37D943ACC68}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="500640156"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_07" ID="{7294CD9F-419F-47E0-8ACA-A37D943ACC68}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_08" ID="{6E61FC42-34FC-41B7-A80B-DAE58A0D3058}" ShortID="516996778">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_08" ID="{9A589BBB-80D4-4A9A-BD4B-1B3CF62E1941}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1072560498"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_08" ID="{9A589BBB-80D4-4A9A-BD4B-1B3CF62E1941}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_09" ID="{6929924E-8632-49CE-AF48-CD3E6BB42617}" ShortID="206398177">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_09" ID="{B8389A71-1428-4C5F-B912-D2AA35A4E423}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="354441386"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_09" ID="{B8389A71-1428-4C5F-B912-D2AA35A4E423}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_10" ID="{864AE689-DCAE-4492-A529-47CAB6402B19}" ShortID="349161060">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_10" ID="{CBDB9891-66E9-40A2-A417-13E9DE5C97D1}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="28918012"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_10" ID="{CBDB9891-66E9-40A2-A417-13E9DE5C97D1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_11" ID="{1532443B-0A73-4D64-BCE4-8FE650395BDA}" ShortID="243034617">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_11" ID="{65532DBF-01A7-442A-8013-9BAECB240EA3}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="505153702"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_11" ID="{65532DBF-01A7-442A-8013-9BAECB240EA3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_singlenote_12" ID="{9E56621B-D67B-4965-AB12-21A3EA0B5E09}" ShortID="292255239">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_singlenote_12" ID="{95342F2D-CA0B-45A1-8F14-CF4806E373B1}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\single notes\L3_singlenote_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="78160175"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_singlenote_12" ID="{95342F2D-CA0B-45A1-8F14-CF4806E373B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="L3_Phrase_WideRange" ID="{CC582D13-7447-42FE-83E1-6298A9E730F4}" ShortID="24444972">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_phrase_widerange_01" ID="{8BE8887F-41BF-4F97-9D4F-82E492323E1D}" ShortID="631198636">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_widerange_01" ID="{08E9AA95-87A6-405B-810E-61A7172AAABB}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="71302509"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_widerange_01" ID="{08E9AA95-87A6-405B-810E-61A7172AAABB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_widerange_02" ID="{E3098C85-3309-40B5-942B-19245856CAA5}" ShortID="273779621">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_widerange_02" ID="{7E23AFFF-4C75-4016-8858-7A2D192E1284}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="716664377"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_widerange_02" ID="{7E23AFFF-4C75-4016-8858-7A2D192E1284}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_widerange_03" ID="{5EDC0748-3767-4DCF-95EB-0D1C00134453}" ShortID="255042901">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_widerange_03" ID="{1E7924C6-10A6-4102-9140-0CC27961EEF7}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1008070626"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_widerange_03" ID="{1E7924C6-10A6-4102-9140-0CC27961EEF7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_widerange_04" ID="{DC2598FA-628B-4399-A049-225AC818A386}" ShortID="247114952">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_widerange_04" ID="{7FBDA277-89E9-4516-90F4-666A43ED67C7}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="849898795"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_widerange_04" ID="{7FBDA277-89E9-4516-90F4-666A43ED67C7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_widerange_05" ID="{63D9D4FB-2825-40BC-AAD3-7B05176F0452}" ShortID="189305667">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_widerange_05" ID="{98F1965B-9AE6-4F72-A5CA-8D42B6B25FB1}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="674817455"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_widerange_05" ID="{98F1965B-9AE6-4F72-A5CA-8D42B6B25FB1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_widerange_06" ID="{D863B3B1-662C-47A8-91CA-0CF62F4AFF24}" ShortID="977157081">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_widerange_06" ID="{24FEFABE-0A4D-46FE-9110-640E32BC24D3}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="537824780"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_widerange_06" ID="{24FEFABE-0A4D-46FE-9110-640E32BC24D3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_widerange_07" ID="{439F4557-05C6-4FFE-BDA9-7E07E1EA242C}" ShortID="283065729">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_widerange_07" ID="{30246FEC-A8E5-4164-9849-C9506F925052}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="387096211"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_widerange_07" ID="{30246FEC-A8E5-4164-9849-C9506F925052}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_widerange_08" ID="{1710310D-E3FA-4632-960D-4D02CE14479E}" ShortID="19383105">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_widerange_08" ID="{2329D683-8695-488D-B8EF-B63F5E06336B}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="614787960"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_widerange_08" ID="{2329D683-8695-488D-B8EF-B63F5E06336B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="L3_PianoBass" ID="{C719A66B-D395-483A-93B7-C661B6FA0898}" ShortID="869556597">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>63</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_pianobass_Bb_high" ID="{AB6CCC7D-46F6-4B12-9B54-459C4D012621}" ShortID="179141783">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_pianobass_Bb_high" ID="{9CBE8C4B-69C9-48E4-8D57-DD1949920000}">
+													<Language>SFX</Language>
+													<AudioFile>pianobass\L3_pianobass_Bb_high.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="939968695"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_pianobass_Bb_high" ID="{9CBE8C4B-69C9-48E4-8D57-DD1949920000}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_pianobass_Bb_low" ID="{E59C0859-6E02-43C5-8806-CD5FF1ED24E2}" ShortID="451519006">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_pianobass_Bb_low" ID="{38E544DF-66FA-45AA-8603-DEE906BF70AC}">
+													<Language>SFX</Language>
+													<AudioFile>pianobass\L3_pianobass_Bb_low.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="392337919"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_pianobass_Bb_low" ID="{38E544DF-66FA-45AA-8603-DEE906BF70AC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_pianobass_Bb_octave" ID="{8369DA23-24E0-4F4B-AE12-262F1ACCDACF}" ShortID="1065515258">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_pianobass_Bb_octave" ID="{525CD282-D88B-4EBF-9738-3D070C8E31F6}">
+													<Language>SFX</Language>
+													<AudioFile>pianobass\L3_pianobass_Bb_octave.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="560205693"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_pianobass_Bb_octave" ID="{525CD282-D88B-4EBF-9738-3D070C8E31F6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_pianobass_C_high" ID="{01990782-2178-4238-8935-8051C0526E9B}" ShortID="386777696">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_pianobass_C_high" ID="{48E330B9-3327-4043-9E6E-29838431C475}">
+													<Language>SFX</Language>
+													<AudioFile>pianobass\L3_pianobass_C_high.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="978568655"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_pianobass_C_high" ID="{48E330B9-3327-4043-9E6E-29838431C475}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_pianobass_C_low" ID="{603FC3A0-856A-4912-AD95-6B03C65583F7}" ShortID="102298824">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_pianobass_C_low" ID="{C772E45A-5587-4ECA-BCFD-2B4A6C5140F6}">
+													<Language>SFX</Language>
+													<AudioFile>pianobass\L3_pianobass_C_low.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="606243773"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_pianobass_C_low" ID="{C772E45A-5587-4ECA-BCFD-2B4A6C5140F6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_pianobass_Eb-high" ID="{BB27B7B9-9FE5-4039-8F17-D6E5F302B79D}" ShortID="770201936">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_pianobass_Eb-high" ID="{F8559F6E-F261-4151-87C3-F943463E1551}">
+													<Language>SFX</Language>
+													<AudioFile>pianobass\L3_pianobass_Eb-high.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="162623536"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_pianobass_Eb-high" ID="{F8559F6E-F261-4151-87C3-F943463E1551}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_pianobass_Eb_low" ID="{07710797-36FD-43EF-B4F3-A7B69DAA05E1}" ShortID="793606671">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_pianobass_Eb_low" ID="{8E017194-5C21-423B-8EF1-44C9FEC78FDF}">
+													<Language>SFX</Language>
+													<AudioFile>pianobass\L3_pianobass_Eb_low.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="557478525"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_pianobass_Eb_low" ID="{8E017194-5C21-423B-8EF1-44C9FEC78FDF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_pianobass_Eb_octave" ID="{E79589BA-4E38-4B3A-92EF-038F6D83682D}" ShortID="545435380">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_pianobass_Eb_octave" ID="{0FE31527-38F3-4A12-9857-2CB3CC575D14}">
+													<Language>SFX</Language>
+													<AudioFile>pianobass\L3_pianobass_Eb_octave.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="511243405"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_pianobass_Eb_octave" ID="{0FE31527-38F3-4A12-9857-2CB3CC575D14}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_pianobass_C_octave" ID="{A2651EE6-FE5A-4B99-B609-A25FAF41A829}" ShortID="298164403">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_pianobass_octave" ID="{EB068F46-5DAC-4955-A858-1D20E5DF29AA}">
+													<Language>SFX</Language>
+													<AudioFile>pianobass\L3_pianobass_octave.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="85156049"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_pianobass_octave" ID="{EB068F46-5DAC-4955-A858-1D20E5DF29AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="L3_Phrase_Low" ID="{1B2B8FA5-EBA3-4A59-86AE-A2B068F8C13D}" ShortID="267377794">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_phrase_low_01" ID="{E4DC62DE-1B9E-467C-8671-412A83C899E9}" ShortID="304500863">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_low_01" ID="{CF80504E-05C4-42BC-96D8-9B758521A446}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1045357432"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_low_01" ID="{CF80504E-05C4-42BC-96D8-9B758521A446}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_low_02" ID="{EBFAEDC7-727E-4E59-BE24-F9697C183C8E}" ShortID="940653823">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_low_02" ID="{C9320951-08A1-4F95-AFF7-CDC842E647B4}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1057154313"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_low_02" ID="{C9320951-08A1-4F95-AFF7-CDC842E647B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_low_03" ID="{BB88F7E7-63D8-4B1D-A488-905F85DC4156}" ShortID="720875839">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_low_03" ID="{9D7373D0-30D2-4576-956A-1EEE50B6AD8C}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="674847059"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_low_03" ID="{9D7373D0-30D2-4576-956A-1EEE50B6AD8C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_low_04" ID="{BC943B93-D0AD-4EB8-9CD9-3ED7B00E7025}" ShortID="885257857">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_low_04" ID="{7478B9FA-314B-4B96-A84F-C4A8F0E1D2BF}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="344329819"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_low_04" ID="{7478B9FA-314B-4B96-A84F-C4A8F0E1D2BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_low_05" ID="{F75F811C-08ED-4C1B-A23B-900CD2735100}" ShortID="560501741">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_low_05" ID="{1CF29EE7-8765-490A-AB0A-F291258D8D44}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="139127436"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_low_05" ID="{1CF29EE7-8765-490A-AB0A-F291258D8D44}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_phrase_low_06" ID="{2112E402-2B92-4950-B02F-B6140AF64F7B}" ShortID="483607770">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_phrase_low_06" ID="{A3EF0BBE-BB39-4B1D-8DA3-99D6712E0C9D}">
+													<Language>SFX</Language>
+													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="345729983"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_phrase_low_06" ID="{A3EF0BBE-BB39-4B1D-8DA3-99D6712E0C9D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<Sound Name="Test_wonder" ID="{60DEFA02-3435-4C23-8DE4-1351357D774A}" ShortID="593444581">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Alma(piano)" ID="{48D232B4-7EDD-4226-9949-6EB02D840382}">
+							<Language>SFX</Language>
+							<AudioFile>Alma(piano).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="238635459"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Alma(piano)" ID="{48D232B4-7EDD-4226-9949-6EB02D840382}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

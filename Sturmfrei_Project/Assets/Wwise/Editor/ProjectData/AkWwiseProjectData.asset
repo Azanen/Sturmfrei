@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585510782114775808
+    m_lastTime: -8585510156144775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -942,6 +942,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: MUS_Hub_Village
+      guid: 6a731e745e7ce34ca5d8dcb7c40147d3
+      id: 1075809139
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cedcc42e1e517c4c8888dbdd56061ae7
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: bb58a563bebaee4c8515db0cf579ce25
+      - ElementName: MUS_Hub_Village
+        ObjectType: 3
+        guid: 6a731e745e7ce34ca5d8dcb7c40147d3
+      Path: Events/Default Work Unit/MUSIC/MUS_Hub_Village
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: MUS_Level1_Ambience
       guid: 3ceabc22a3af034485bb998d43fa9a9e
       id: 1807777261
@@ -1080,8 +1100,8 @@ MonoBehaviour:
         guid: e7ca0ee6eb436e4e86d009e411601f5a
       Path: Events/Default Work Unit/MUSIC/MUS_Level3_Ambience
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: MUS_Level3_BossPuzzle
       guid: 2f4bb23b7a77cc4db7ef214658cd15d2
       id: 4244769408
@@ -1120,8 +1140,8 @@ MonoBehaviour:
         guid: 85b5d786fcd8af41b6fd0d57ffe57112
       Path: Events/Default Work Unit/MUSIC/MUS_Level3_Wonder
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 207.42857
+      minDuration: 207.42857
     - name: MUS_Start
       guid: 77615dbb8f924b48a580d888200c2aa9
       id: 1973954843
@@ -1465,7 +1485,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5ba89be3d2c42a4fa50b147d2877ad28
       Path: Events/Default Work Unit/INGREDIENT/Statue_Idle
-      maxAttenuation: 0
+      maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
     - name: Statue_Idle_Stop

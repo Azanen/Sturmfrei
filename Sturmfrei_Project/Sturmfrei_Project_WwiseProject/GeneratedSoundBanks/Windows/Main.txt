@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	761314172	Foot_Jump			\Default Work Unit\PLAYER\Foot_Jump	
 	820586857	Bridge_Crack			\Default Work Unit\AMBIENCE\Bridge_Crack	
 	979468870	Statue_Idle			\Default Work Unit\INGREDIENT\Statue_Idle	
+	1075809139	MUS_Hub_Village			\Default Work Unit\MUSIC\MUS_Hub_Village	
 	1081381930	MUS_Hub_PreTuto			\Default Work Unit\MUSIC\MUS_Hub_PreTuto	
 	1084993841	Waterfall_Idle_Stop			\Default Work Unit\AMBIENCE\Idle_Stop\Waterfall_Idle_Stop	
 	1114964412	Start_Game			\Default Work Unit\UI\Start_Game	
@@ -77,12 +78,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	4244769408	MUS_Level3_BossPuzzle			\Default Work Unit\MUSIC\MUS_Level3_BossPuzzle	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	939730917	Statue			\Default Work Unit\Statue	
 	1834394558	Surface			\Default Work Unit\Surface	
 
 Switch	ID	Name	Switch Group			Notes
-	622383625	Deactivated	Statue			
-	2917726846	Activated	Statue			
 	344481046	Ice	Surface			
 	787898836	Snow	Surface			
 	1216965916	Stone	Surface			
@@ -146,7 +144,6 @@ Effect plug-ins	ID	Name	Type				Notes
 	4180247629	New_Wwise_Parametric_EQ	Wwise Parametric EQ			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	86167941	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\Statue\Statue_Idle\Silence\Wwise Silence	
 	415610964	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps_Landing\Footsteps_Ice\Footsteps_Ice_Crackle\Silence\Wwise Silence	
 	792800528	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Ice\Footsteps_Ice_Crackle\Silence\Wwise Silence	
 	1020555681	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_VO\VO_Flying\VO_Flying_Idle\Silence\Wwise Silence	
@@ -311,6 +308,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	236393477	PurpleCloud_Damage_Start_Obscure_03	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\PurpleCloud\PurpleCloud_Damage_Start_Obscure\PurpleCloud_Damage_Start_Obscure_03_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\PurpleCloud\PlurpleCloud_Damage\PurpleCloud_Damage_Start\PurpleCloud_Damage_Start_Obscure\PurpleCloud_Damage_Start_Obscure_03		25445
 	236493759	high17	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\high17_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_1\L1_High\high17		85762
 	237556973	Footsteps_Water_30	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Footsteps_Water\Footsteps_Water_30_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Water\Footsteps_Water_30		6876
+	238635459	Test_wonder	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Alma(piano)_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test_wonder		2104617
 	240047969	Footstep_Dirt_1	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Footsteps_Dirt\Footstep_Dirt_1_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Dirt\Footstep_Dirt_1		2865
 	242277510	Footstep_Grass_6	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Footsteps_Grass\Footstep_Grass_6_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Grass\Footstep_Grass_6		2921
 	242563291	Footstep_Stone_10	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Footsteps_Stone\Footstep_Stone_10_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Stone\Footstep_Stone_10		5324
@@ -502,7 +500,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	503180800	VO_Foot_Jump_6	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\VO_Foot_Jump\VO_Foot_Jump_6_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_VO\VO_Foot\VO_Foot_Jump\VO_Foot_Jump_6		3379
 	503280943	Footsteps_Ice_26	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Footsteps_Ice\Footsteps_Ice_26_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Ice\Footsteps_Ice\Footsteps_Ice_26		4971
 	503997169	PurpleCloud_Damage_Start_Acid	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\PurpleCloud\PurpleCloud_Damage_Start_Acid_DB8F03CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\PurpleCloud\PlurpleCloud_Damage\PurpleCloud_Damage_Start\PurpleCloud_Damage_Start_Acid		48800
-	504223982	Statue_Idle_Magic	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Statue_Idle_Magic_E7DD39E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\Statue\Statue_Idle\Statue_Idle\Statue_Idle_Magic		169092
+	504223982	Statue_Idle_Magic	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Statue_Idle_Magic_E7DD39E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\Statue\Statue_Idle\Statue_Idle_Magic		169092
 	505548736	VO_Flying_Dash_13	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\VO_Flying_Dash\VO_Flying_Dash_13_4C4CFB9A.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_VO\VO_Flying\VO_Flying_Dash\VO_Flying_Dash_13		7625
 	506345302	L2_high_20	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\L2_high_20_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_2\L2_High\L2_high_20		40286
 	507755628	L2_high_02	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\L2_high_02_20E9EC35.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_2\L2_High\L2_high_02		60200
@@ -676,7 +674,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	721169108	VO_Foot_Dash_Jump_10	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\VO_Foot_DashJump\VO_Foot_Dash_Jump_10_3E78A23F.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_VO\VO_Foot\VO_Foot_DashJump\VO_Foot_Dash_Jump_10		9506
 	722212644	SingleNotes14	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\SingleNotes14_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_1\L1_Single\SingleNotes14		66283
 	722446281	Energy_Dash_06	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Sturmfrei_Energy\Energy_Dash\Energy_Dash_06_DD5D8514.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Sturmfrei_Energy\Energy_Dash\Energy_Dash\Energy_Dash_06		51886
-	723665693	Statue_Idle_Sturmfrei	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Statue_Idle_Sturmfrei_D1634464.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\Statue\Statue_Idle\Statue_Idle\Statue_Idle_Sturmfrei		126845
+	723665693	Statue_Idle_Sturmfrei	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Statue_Idle_Sturmfrei_D1634464.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\Statue\Statue_Idle\Statue_Idle_Sturmfrei		126845
 	724511575	Soul_Collect_16	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Soul_Collect_16_AD343151.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\Soul\Soul_Collect\Soul_Collect_16		17901
 	727171762	VO_Foot_Falling_3	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\VO_Foot_Falling\VO_Foot_Falling_3_C8248E2E.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_VO\VO_Foot\VO_Foot_Falling\VO_Foot_Falling_3		25840
 	729402688	Footsteps_Ice_22	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Footsteps_Ice\Footsteps_Ice_22_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Ice\Footsteps_Ice\Footsteps_Ice_22		3324
