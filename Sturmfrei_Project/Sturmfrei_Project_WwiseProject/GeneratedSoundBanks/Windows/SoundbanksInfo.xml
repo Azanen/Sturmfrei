@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="835137708">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1940740694">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -6754,7 +6754,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1717976792" Name="Poncho_Idle_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\Idle_Stop\Poncho_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2024919782" Name="PurpleCloud_Damage" ObjectPath="\Events\Default Work Unit\INGREDIENT\PurpleCloud_Damage" DurationType="Infinite">
+				<Event Id="1560627439" Name="PurpleCloud_Damage_Start" ObjectPath="\Events\Default Work Unit\INGREDIENT\PurpleCloud_Damage_Start" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="31252171" Language="SFX">
 							<ShortName>PurpleCloud\PurpleCloud_Damage_Loop.wav</ShortName>
@@ -6794,6 +6794,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="217063157" Name="PurpleCloud_Damage_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\PurpleCloud_Damage_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2600606019" Name="PurpleCloud_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\PurpleCloud_Idle" MaxAttenuation="50." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="797088798" Language="SFX">
@@ -6807,7 +6808,6 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3351513518" Name="PurpleCloud_Idle_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\Idle_Stop\PurpleCloud_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="660005737" Name="PurpleCloud_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\PurpleCloud_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3391124858" Name="River_Idle" ObjectPath="\Events\Default Work Unit\AMBIENCE\River_Idle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1212564489" Name="River_Idle_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\River_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1138063715" Name="Soul_Collect" ObjectPath="\Events\Default Work Unit\INGREDIENT\Soul_Collect" DurationType="OneShot" DurationMin="1.037775" DurationMax="2.161935">

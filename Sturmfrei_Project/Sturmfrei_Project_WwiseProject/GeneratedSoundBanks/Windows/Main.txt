@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	19599888	Foot_DashJump			\Default Work Unit\PLAYER\Foot_DashJump	
 	171783953	MUS_Hub_PostTuto			\Default Work Unit\MUSIC\MUS_Hub_PostTuto	
 	183339903	Wind_Column_Stop			\Default Work Unit\AMBIENCE\Idle_Stop\Wind_Column_Stop	
+	217063157	PurpleCloud_Damage_Stop			\Default Work Unit\INGREDIENT\PurpleCloud_Damage_Stop	
 	254470037	Foot_Falling			\Default Work Unit\PLAYER\Foot_Falling	
 	291430954	Tree_Idle			\Default Work Unit\AMBIENCE\Tree_Idle	
 	353331381	Stinger_FirstFly			\Default Work Unit\MUSIC\Stinger_FirstFly	
@@ -9,7 +10,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	535719110	BreakWall_Ice			\Default Work Unit\INGREDIENT\BreakWall_Ice	
 	621155176	Flying_Landing			\Default Work Unit\PLAYER\Flying_Landing	
 	626954121	Menu_Close			\Default Work Unit\UI\Menu_Close	
-	660005737	PurpleCloud_Stop			\Default Work Unit\INGREDIENT\PurpleCloud_Stop	
 	760777789	Menu_Click			\Default Work Unit\UI\Menu_Click	
 	761314172	Foot_Jump			\Default Work Unit\PLAYER\Foot_Jump	
 	820586857	Bridge_Crack			\Default Work Unit\AMBIENCE\Bridge_Crack	
@@ -26,6 +26,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1422186037	Poncho_Idle			\Default Work Unit\INGREDIENT\Poncho_Idle	
 	1462442152	MUS_Level1_Wonder			\Default Work Unit\MUSIC\MUS_Level1_Wonder	
 	1556990097	Flying_Start			\Default Work Unit\PLAYER\Flying_Start	
+	1560627439	PurpleCloud_Damage_Start			\Default Work Unit\INGREDIENT\PurpleCloud_Damage_Start	
 	1562262157	Stinger_Poncho			\Default Work Unit\MUSIC\Stinger_Poncho	
 	1582029286	Boss_Idle_Stop			\Default Work Unit\INGREDIENT\Idle_Stop\Boss_Idle_Stop	
 	1633218881	Foot_Landing			\Default Work Unit\PLAYER\Foot_Landing	
@@ -40,7 +41,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1859632405	Statue_Idle_Stop			\Default Work Unit\INGREDIENT\Idle_Stop\Statue_Idle_Stop	
 	1966150636	Magnet_Idle			\Default Work Unit\INGREDIENT\Magnet_Idle	
 	1973954843	MUS_Start			\Default Work Unit\MUSIC\MUS_Start	
-	2024919782	PurpleCloud_Damage			\Default Work Unit\INGREDIENT\PurpleCloud_Damage	
 	2172799516	Amb_Cave_Stop			\Default Work Unit\AMBIENCE\Idle_Stop\Amb_Cave_Stop	
 	2176935827	Foot_Walk			\Default Work Unit\PLAYER\Foot_Walk	
 	2201597904	Foot_Interaction			\Default Work Unit\PLAYER\Foot_Interaction	

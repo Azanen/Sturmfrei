@@ -65,10 +65,10 @@ namespace AK
         static const AkUniqueID PONCHO_COLLECT = 493504551U;
         static const AkUniqueID PONCHO_IDLE = 1422186037U;
         static const AkUniqueID PONCHO_IDLE_STOP = 1717976792U;
-        static const AkUniqueID PURPLECLOUD_DAMAGE = 2024919782U;
+        static const AkUniqueID PURPLECLOUD_DAMAGE_START = 1560627439U;
+        static const AkUniqueID PURPLECLOUD_DAMAGE_STOP = 217063157U;
         static const AkUniqueID PURPLECLOUD_IDLE = 2600606019U;
         static const AkUniqueID PURPLECLOUD_IDLE_STOP = 3351513518U;
-        static const AkUniqueID PURPLECLOUD_STOP = 660005737U;
         static const AkUniqueID RIVER_IDLE = 3391124858U;
         static const AkUniqueID RIVER_IDLE_STOP = 1212564489U;
         static const AkUniqueID SOUL_COLLECT = 1138063715U;

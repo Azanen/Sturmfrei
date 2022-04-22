@@ -162,7 +162,7 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="PurpleCloud_Damage" ID="{F03EF3D5-3A7B-4B74-83F4-3321EA10BB1C}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<ObjectRef Name="PurpleCloud_Damage_Start" ID="{F03EF3D5-3A7B-4B74-83F4-3321EA10BB1C}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -178,7 +178,7 @@
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="PurpleCloud_Stop" ID="{56C6E57B-32B7-4E3E-A0F1-E2C1E562CDD0}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<ObjectRef Name="PurpleCloud_Damage_Stop" ID="{56C6E57B-32B7-4E3E-A0F1-E2C1E562CDD0}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>

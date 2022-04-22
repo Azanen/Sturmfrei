@@ -444,7 +444,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="PurpleCloud_Damage" ID="{F03EF3D5-3A7B-4B74-83F4-3321EA10BB1C}">
+						<Event Name="PurpleCloud_Damage_Start" ID="{F03EF3D5-3A7B-4B74-83F4-3321EA10BB1C}">
 							<ChildrenList>
 								<Action Name="" ID="{4689E025-35C7-4643-AE5D-16D546D27BC0}" ShortID="482271254">
 									<ReferenceList>
@@ -458,6 +458,29 @@
 						<Event Name="PurpleCloud_Idle" ID="{81C7AC9A-353B-4BD1-8ACB-B1D956B6CD55}">
 							<ChildrenList>
 								<Action Name="" ID="{517B6B78-ECA8-4EC9-A3D4-EEAB179F410E}" ShortID="68913184">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PurpleCloud_Idle" ID="{EF9BE579-13A4-4EF3-BFF4-1BB13DFCAB27}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FC7F30C6-B830-42DB-9217-94BAD14C625A}" ShortID="884498707">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E2BF7EAF-43EC-4CB8-BD41-250F21A93C7A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="PurpleCloud_Idle" ID="{EF9BE579-13A4-4EF3-BFF4-1BB13DFCAB27}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
@@ -493,6 +516,29 @@
 						<Event Name="Soul_Idle" ID="{B294F2C5-893E-4604-B42E-785C8B7700BE}">
 							<ChildrenList>
 								<Action Name="" ID="{95D402FD-60F0-4271-A337-4106B3B39054}" ShortID="843007878">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soul_Idle" ID="{C0EF0C6D-1D79-407D-9181-FE6FFBD88C30}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E5DFDD01-4923-42B9-A361-872ED0D9337A}" ShortID="592617367">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5D71DEAD-B5BE-4365-92C3-1F6503B6BBF3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Soul_Idle" ID="{C0EF0C6D-1D79-407D-9181-FE6FFBD88C30}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
@@ -676,7 +722,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="PurpleCloud_Stop" ID="{56C6E57B-32B7-4E3E-A0F1-E2C1E562CDD0}">
+						<Event Name="PurpleCloud_Damage_Stop" ID="{56C6E57B-32B7-4E3E-A0F1-E2C1E562CDD0}">
 							<ChildrenList>
 								<Action Name="" ID="{6C5171DB-A94D-4944-AB90-5A1CF0F7DE28}" ShortID="222005035">
 									<PropertyList>

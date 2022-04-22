@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585510085194775808
+    m_lastTime: -8585510070974775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -1259,9 +1259,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: PurpleCloud_Damage
+    - name: PurpleCloud_Damage_Start
       guid: d5f33ef07b3a744b83f43321ea10bb1c
-      id: 2024919782
+      id: 1560627439
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1272,13 +1272,33 @@ MonoBehaviour:
       - ElementName: INGREDIENT
         ObjectType: 4
         guid: 43f232c92267dc4285689f1c1b452d43
-      - ElementName: PurpleCloud_Damage
+      - ElementName: PurpleCloud_Damage_Start
         ObjectType: 3
         guid: d5f33ef07b3a744b83f43321ea10bb1c
-      Path: Events/Default Work Unit/INGREDIENT/PurpleCloud_Damage
+      Path: Events/Default Work Unit/INGREDIENT/PurpleCloud_Damage_Start
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PurpleCloud_Damage_Stop
+      guid: 7be5c656b7323e4ea0f1e2c1e562cdd0
+      id: 217063157
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cedcc42e1e517c4c8888dbdd56061ae7
+      - ElementName: INGREDIENT
+        ObjectType: 4
+        guid: 43f232c92267dc4285689f1c1b452d43
+      - ElementName: PurpleCloud_Damage_Stop
+        ObjectType: 3
+        guid: 7be5c656b7323e4ea0f1e2c1e562cdd0
+      Path: Events/Default Work Unit/INGREDIENT/PurpleCloud_Damage_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: PurpleCloud_Idle
       guid: 9aacc7813b35d14b8acbb1d956b6cd55
       id: 2600606019
@@ -1319,26 +1339,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: e25789ca18bbd14cac14960b8c2a6c28
       Path: Events/Default Work Unit/INGREDIENT/Idle_Stop/PurpleCloud_Idle_Stop
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: PurpleCloud_Stop
-      guid: 7be5c656b7323e4ea0f1e2c1e562cdd0
-      id: 660005737
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: cedcc42e1e517c4c8888dbdd56061ae7
-      - ElementName: INGREDIENT
-        ObjectType: 4
-        guid: 43f232c92267dc4285689f1c1b452d43
-      - ElementName: PurpleCloud_Stop
-        ObjectType: 3
-        guid: 7be5c656b7323e4ea0f1e2c1e562cdd0
-      Path: Events/Default Work Unit/INGREDIENT/PurpleCloud_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
