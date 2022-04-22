@@ -1116,8 +1116,6 @@ public class PlayerMovement : MonoBehaviour
         {
             Anim.SetTrigger("isDashing");
             tempoSpeed = ActSpeed;
-
-            //Smaller collider 
             Rigid.GetComponent<SphereCollider>().radius = 0.3f;
             canDashFront = false;
             elapsedTime = 0;
@@ -1306,7 +1304,6 @@ public class PlayerMovement : MonoBehaviour
             Fade.color = c;
             yield return null;
         }
-        ///OPTIONNEL
         Color finalBlack = Fade.color;
         finalBlack.a = 1;
         Fade.color = finalBlack;
@@ -1340,7 +1337,6 @@ public class PlayerMovement : MonoBehaviour
         {
             elapsedTimeFadeWhite += Time.unscaledDeltaTime;
             progressFadeWhite = elapsedTimeFadeWhite / 2;
-
             Color c = FadeWhite.color;
             c.a = progressFadeWhite;
             FadeWhite.color = c;
@@ -1350,7 +1346,6 @@ public class PlayerMovement : MonoBehaviour
         finalWhite.a = 1;
         FadeWhite.color = finalWhite;
         yield return new WaitForSeconds(1);
-        //SceneManager.LoadScene("Hub#02");
     }
 
     public void StartFadeWhite()
@@ -1364,18 +1359,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Fade != null)
         {
-            /*
-            Color blanc = FadeWhite.color;
-            blanc.a = 0;
-            FadeWhite.color = blanc;*/
             elapsedTimeFadeWhite = 0;
             progressFadeWhite = 0;
            progressRemoveFadeWhite = 1;
              elapsedTimeRemoveFadeWhite = 1;
             StartCoroutine(RemoveFadeToWhite());
         }
-
-        // try to remove with fadeout
     }
 
     private float progressRemoveFadeWhite = 1;
