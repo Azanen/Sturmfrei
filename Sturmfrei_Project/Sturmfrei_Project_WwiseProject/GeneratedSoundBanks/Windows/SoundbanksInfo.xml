@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1940740694">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3002968245">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -6913,7 +6913,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1859632405" Name="Statue_Idle_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\Idle_Stop\Statue_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3439923085" Name="Statue_Rebuild" ObjectPath="\Events\Default Work Unit\INGREDIENT\Statue_Rebuild" DurationType="OneShot" DurationMin="4.943091" DurationMax="4.943091">
+				<Event Id="3439923085" Name="Statue_Rebuild" ObjectPath="\Events\Default Work Unit\INGREDIENT\Statue_Rebuild" MaxAttenuation="50." DurationType="OneShot" DurationMin="4.943091" DurationMax="4.943091">
 					<IncludedMemoryFiles>
 						<File Id="318479091" Language="SFX">
 							<ShortName>Statue_Rebuild.wav</ShortName>

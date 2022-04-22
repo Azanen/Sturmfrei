@@ -28411,6 +28411,8 @@
 							<ChildrenList>
 								<Sound Name="Statue_Rebuild" ID="{6F4CF552-9ADB-407C-B53C-5518B08A357D}" ShortID="607621298">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>5</Value>
@@ -28418,6 +28420,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Statue_Rebuild" ID="{18E3EFD3-7CFD-4BB1-B5EE-7509337228D2}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
 										</Reference>
@@ -28467,7 +28472,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Att_Statue" ID="{06446D73-09FB-4561-ABA3-31217AC7CF31}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+											<ObjectRef Name="Att_Statue_Idle" ID="{06446D73-09FB-4561-ABA3-31217AC7CF31}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
