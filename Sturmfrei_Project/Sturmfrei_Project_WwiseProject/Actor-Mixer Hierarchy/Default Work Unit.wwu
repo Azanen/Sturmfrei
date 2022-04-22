@@ -24925,7 +24925,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<ActorMixer Name="Wind_Column" ID="{F6E3FFE8-6BC7-48CA-B775-D563BDC6B0C5}" ShortID="954037286">
+						<ActorMixer Name="WindColumn_Idle" ID="{F6E3FFE8-6BC7-48CA-B775-D563BDC6B0C5}" ShortID="954037286">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -24942,8 +24942,10 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<BlendContainer Name="Wind_Column" ID="{0704491B-BDCE-41F5-9069-F409D005BE6E}" ShortID="847063644">
+								<BlendContainer Name="WindColumn_Idle" ID="{0704491B-BDCE-41F5-9069-F409D005BE6E}" ShortID="847063644">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>12</Value>
@@ -24951,6 +24953,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_WindColumn" ID="{14BFF4C7-C9D2-4853-A3BD-1EF9A094D3B7}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
 										</Reference>
@@ -24960,6 +24965,21 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="Wind_Column_Spooky" ID="{41B70B53-F953-45B6-9B56-5A975C5304D0}" ShortID="372862891">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F3FDAD10-F443-49EC-9205-52772A9440A7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="253"/>
+																	<Property Name="Min" Type="Real64" Value="-253"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -24985,6 +25005,7 @@
 														<AudioFileSource Name="Wind_Column_Spooky_02" ID="{354AE831-9371-4733-89D6-9922DA9AC193}">
 															<PropertyList>
 																<Property Name="CrossfadeDuration" Type="Real64" Value="1737.61"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.866797846352712"/>
 																<Property Name="LoopBegin" Type="Real64" Value="1.02176657268342"/>
 																<Property Name="LoopEnd" Type="Real64" Value="27.4888168263861"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -25069,6 +25090,21 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Wind_Column_High" ID="{320BBD1D-1976-4BC5-A262-FC92FEE2965D}" ShortID="642370746">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6148920D-ABFC-46E0-87C1-C910FACF6C38}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="253"/>
+																	<Property Name="Min" Type="Real64" Value="-253"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -25114,6 +25150,11 @@
 												<Sound Name="Wind_Column_High_02" ID="{232AB0A1-2C5D-433B-87CC-8D870E5F54E4}" ShortID="430297032">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>16</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -25147,6 +25188,21 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Wind_Column_Normal" ID="{8CB7DEA1-11C6-429F-912D-530FECEF2219}" ShortID="831791495">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2AE65311-5119-4E58-85B9-50836D9DB44F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="253"/>
+																	<Property Name="Min" Type="Real64" Value="-253"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -25224,6 +25280,37 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<Sound Name="Wind_Column_Base" ID="{01C1DF1E-F231-48AA-9E7B-A25E734E5719}" ShortID="363063002">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>21</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>31</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C96347DC-780C-4167-A8B7-BAFA4F005478}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="253"/>
+																	<Property Name="Min" Type="Real64" Value="-253"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -25234,6 +25321,14 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Wind_Column_Base_01" ID="{E93D92E4-06CF-47A5-A786-BCA902763C13}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1873.829"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.934749745308752"/>
+														<Property Name="LoopBegin" Type="Real64" Value="2.65468927667685"/>
+														<Property Name="LoopEnd" Type="Real64" Value="29.4633119721318"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.710409806434651"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Wind_Column\Wind_Column_Base_01.wav</AudioFile>
 													<MediaIDList>
@@ -25252,6 +25347,1175 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
+						<BlendContainer Name="WindTurbine_Idle" ID="{888F6DC5-0399-4749-AB07-2357D8B77CA2}" ShortID="786976594">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Att_WindTurbine" ID="{28A2BBF5-2193-4C9B-8D46-FB6141D606FF}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="WindTurbine_Squeak" ID="{142AD2D3-1E15-4831-BF67-336B06A78E14}" ShortID="390506297">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>21</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3D6CAD66-5B01-46E3-B898-BA062B46C62A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="354"/>
+															<Property Name="Min" Type="Real64" Value="-505"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8A9BC58F-D6A8-4FD4-8858-F43E5C107474}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6EC82DEB-528D-4602-95DE-0EB0C8A29CBE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="8"/>
+															<Property Name="Min" Type="Real64" Value="-11"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WindTurbine_Squeak_01" ID="{5B3C4B40-51FC-4A7F-88E7-2D6835CF7B1F}" ShortID="145943968">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Squeak_01" ID="{CD2147E2-FE7C-47ED-954F-EEC49D30EA84}">
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Squeak\WindTurbine_Squeak_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="853793604"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Squeak_01" ID="{CD2147E2-FE7C-47ED-954F-EEC49D30EA84}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Squeak_02" ID="{C259F3EC-9817-4D6C-9D6F-A9F625E94833}" ShortID="604323554">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Squeak_02" ID="{6F081283-6363-4735-853D-07A20AC6B1BD}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.679803969897137"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.72675945096235"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Squeak\WindTurbine_Squeak_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="750077134"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Squeak_02" ID="{6F081283-6363-4735-853D-07A20AC6B1BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Squeak_03" ID="{BCEBF2E4-7E98-42AF-971F-1A6C7FEFF75E}" ShortID="795880494">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Squeak_03" ID="{1F4B2DC6-EB98-4081-9552-3E5C8921A9D4}">
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Squeak\WindTurbine_Squeak_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="192826433"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Squeak_03" ID="{1F4B2DC6-EB98-4081-9552-3E5C8921A9D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Squeak_04" ID="{81763795-D6E3-4844-B775-A89E80EA923F}" ShortID="81860259">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Squeak_04" ID="{153FDB11-9D02-47AC-839E-5894E5523569}">
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Squeak\WindTurbine_Squeak_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="413747930"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Squeak_04" ID="{153FDB11-9D02-47AC-839E-5894E5523569}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silence" ID="{BFFD3B26-88A7-4401-81DB-C725A204894F}" ShortID="984713947">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>70</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{99E79C20-B4AF-4E7A-90AB-C3BA06E09E6A}" ShortID="765048824" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{99E79C20-B4AF-4E7A-90AB-C3BA06E09E6A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WindTurbine_Wind_High" ID="{BA62EEB9-0ABE-4CA8-9967-6E219BC05516}" ShortID="213573113">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{94ACAFA8-1EA3-4B48-8A4C-A57DA233A300}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="253"/>
+															<Property Name="Min" Type="Real64" Value="-227"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WindTurbine_Wind_High_01" ID="{34D1E560-D151-48D3-A414-D80735B09256}" ShortID="764265124">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_High_01" ID="{A944F1FB-593C-4BE4-B116-B9A2DB8D9A6B}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="5113.989"/>
+														<Property Name="LoopBegin" Type="Real64" Value="3.977"/>
+														<Property Name="LoopEnd" Type="Real64" Value="66.677690821256"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_High\WindTurbine_Wind_High_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="383202964"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_High_01" ID="{A944F1FB-593C-4BE4-B116-B9A2DB8D9A6B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_High_02" ID="{8CA3A9D7-7FC8-4FC3-B23B-F086992E982B}" ShortID="551430421">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_High_02" ID="{C70C718A-02DB-41F0-8B01-DD22B21A0087}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="5113.989"/>
+														<Property Name="LoopBegin" Type="Real64" Value="3.977"/>
+														<Property Name="LoopEnd" Type="Real64" Value="49.156609046195"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_High\WindTurbine_Wind_High_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="387330887"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_High_02" ID="{C70C718A-02DB-41F0-8B01-DD22B21A0087}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_High_03" ID="{283E5254-170B-420C-9482-36B65F0D168E}" ShortID="304474702">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_High_03" ID="{B7BDA455-A93F-4F2C-8F0B-D8E9D77748C5}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="5113.989"/>
+														<Property Name="LoopBegin" Type="Real64" Value="3.977"/>
+														<Property Name="LoopEnd" Type="Real64" Value="53.981"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_High\WindTurbine_Wind_High_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="132571400"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_High_03" ID="{B7BDA455-A93F-4F2C-8F0B-D8E9D77748C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_High_04" ID="{BD784920-009B-40AA-B928-3F2D3BFF4726}" ShortID="987435936">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_High_04" ID="{353BF026-F3A4-4B2D-A463-1808F4877EA4}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="5113.989"/>
+														<Property Name="LoopBegin" Type="Real64" Value="3.977"/>
+														<Property Name="LoopEnd" Type="Real64" Value="72.2708880180091"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_High\WindTurbine_Wind_High_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="975703986"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_High_04" ID="{353BF026-F3A4-4B2D-A463-1808F4877EA4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WindTurbine_Wind_Low" ID="{5C77E06C-FD3B-4970-A69D-344EAE018AF2}" ShortID="616474813">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AF2EE525-15B3-4F2D-A2B5-53B553A99E03}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="253"/>
+															<Property Name="Min" Type="Real64" Value="-227"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WindTurbine_Wind_Low_01" ID="{8928274E-9613-4555-9763-0037A77AD4E7}" ShortID="609499977">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Low_01" ID="{BE1884CF-EA4B-459B-96F1-6C55163E16DB}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="7051.072"/>
+														<Property Name="LoopBegin" Type="Real64" Value="8.79103799007526"/>
+														<Property Name="LoopEnd" Type="Real64" Value="85.9943844413772"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Low\WindTurbine_Wind_Low_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="323272387"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Low_01" ID="{BE1884CF-EA4B-459B-96F1-6C55163E16DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Low_02" ID="{DE7B1B0B-0D07-4211-9072-0B6F968526F3}" ShortID="455331639">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Low_02" ID="{8139A3A0-6633-4E3B-8D28-707876DC8F5E}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="7051.072"/>
+														<Property Name="LoopBegin" Type="Real64" Value="7.37041202471327"/>
+														<Property Name="LoopEnd" Type="Real64" Value="77.5450391895889"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Low\WindTurbine_Wind_Low_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="667727443"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Low_02" ID="{8139A3A0-6633-4E3B-8D28-707876DC8F5E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Low_03" ID="{643F7816-F0CE-49AC-AA49-298FE47CA6EB}" ShortID="272674970">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Low_03" ID="{06CD07EE-3F29-4196-BA5A-0154B22433D0}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="7051.072"/>
+														<Property Name="LoopBegin" Type="Real64" Value="6.17781688520819"/>
+														<Property Name="LoopEnd" Type="Real64" Value="53.3204433544754"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Low\WindTurbine_Wind_Low_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="190677646"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Low_03" ID="{06CD07EE-3F29-4196-BA5A-0154B22433D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Low_04" ID="{87D0FF37-1630-44BD-A554-1EE503D65066}" ShortID="572458435">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Low_04" ID="{79737AA1-A9E9-40A2-AB13-C4D99CEC1DCD}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="7051.072"/>
+														<Property Name="LoopBegin" Type="Real64" Value="9.50833201879786"/>
+														<Property Name="LoopEnd" Type="Real64" Value="67.2108567211103"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Low\WindTurbine_Wind_Low_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="751287762"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Low_04" ID="{79737AA1-A9E9-40A2-AB13-C4D99CEC1DCD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WindTurbine_Wind_Mid" ID="{1CE4066A-C217-4181-B1CB-7A5C8438C46B}" ShortID="611415640">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{76DA6CE2-8AAC-4EFD-8CA5-173B540829E7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="253"/>
+															<Property Name="Min" Type="Real64" Value="-227"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WindTurbine_Wind_Mid_01" ID="{C9FA7513-CC7B-443C-81C0-F2139153A8A5}" ShortID="302596037">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Mid_01" ID="{172F103F-DE18-47B8-976B-B4825901DB24}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6053.12"/>
+														<Property Name="LoopBegin" Type="Real64" Value="4.47458148476782"/>
+														<Property Name="LoopEnd" Type="Real64" Value="62.8098660269261"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="237537880"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Mid_01" ID="{172F103F-DE18-47B8-976B-B4825901DB24}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Mid_02" ID="{3771E0F3-CF35-4ABC-B3E4-3B5AA6C962A9}" ShortID="572258856">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Mid_02" ID="{41A05393-7ED4-4182-B4D5-828FF24407BF}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6053.12"/>
+														<Property Name="LoopBegin" Type="Real64" Value="4.96661986372649"/>
+														<Property Name="LoopEnd" Type="Real64" Value="53.8915319541665"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="669617485"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Mid_02" ID="{41A05393-7ED4-4182-B4D5-828FF24407BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Mid_03" ID="{775927D9-0ED1-4961-B9A8-7E9278225B02}" ShortID="666610520">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Mid_03" ID="{07617EA1-BA9E-452C-BE1E-1789B07EB01F}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6053.12"/>
+														<Property Name="LoopBegin" Type="Real64" Value="4.6917368299977"/>
+														<Property Name="LoopEnd" Type="Real64" Value="45.1271002990568"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="453479583"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Mid_03" ID="{07617EA1-BA9E-452C-BE1E-1789B07EB01F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Mid_04" ID="{5BCED33F-7DBD-4DB5-A6D2-FFA38D092694}" ShortID="298674851">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Mid_04" ID="{AC1B551C-FC8A-46B3-BB07-AAE113E12B09}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6053.12"/>
+														<Property Name="LoopBegin" Type="Real64" Value="9.17378515013091"/>
+														<Property Name="LoopEnd" Type="Real64" Value="70.4932964167954"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="662163527"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Mid_04" ID="{AC1B551C-FC8A-46B3-BB07-AAE113E12B09}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Mid_05" ID="{C181866B-2453-40F7-A05A-10D30B5D2C15}" ShortID="747750107">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Mid_05" ID="{951C1AD0-8F3A-4C48-A44A-AA6AB9C54723}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6053.12"/>
+														<Property Name="LoopBegin" Type="Real64" Value="5.56246864285167"/>
+														<Property Name="LoopEnd" Type="Real64" Value="46.5938549848281"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="214345631"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Mid_05" ID="{951C1AD0-8F3A-4C48-A44A-AA6AB9C54723}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Mid_06" ID="{2C5C85DF-9A74-4F28-9DA5-8CD2F3254C67}" ShortID="455501045">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Mid_06" ID="{391C6C29-7B6E-40E4-9AAA-6A7B46205C15}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6053.12"/>
+														<Property Name="LoopBegin" Type="Real64" Value="12.67189161655"/>
+														<Property Name="LoopEnd" Type="Real64" Value="80.2917270531401"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="160867581"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Mid_06" ID="{391C6C29-7B6E-40E4-9AAA-6A7B46205C15}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Mid_07" ID="{5D85C805-6E6B-442E-AE29-B867D7612E5B}" ShortID="549920567">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Mid_07" ID="{00E81783-DAD6-4B84-90AE-07075D3A5BD8}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6053.12"/>
+														<Property Name="LoopBegin" Type="Real64" Value="9.19964781403705"/>
+														<Property Name="LoopEnd" Type="Real64" Value="65.6854853922245"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1036267158"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Mid_07" ID="{00E81783-DAD6-4B84-90AE-07075D3A5BD8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_Mid_08" ID="{432213DD-D7F2-4F3F-8129-6E682128F576}" ShortID="426520083">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_Mid_08" ID="{1A86A0C9-6A63-48BE-A7AE-357F0A6BB5E7}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6053.12"/>
+														<Property Name="LoopBegin" Type="Real64" Value="11.4004087383746"/>
+														<Property Name="LoopEnd" Type="Real64" Value="63.6301883072069"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027007566"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_Mid_08" ID="{1A86A0C9-6A63-48BE-A7AE-357F0A6BB5E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WindTurbine_Wind_VeryHigh" ID="{D552F788-5853-4D1E-A470-707A9E432423}" ShortID="964774905">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0EE23F41-E525-4AFF-B495-6788A4B097EA}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WindTurbine_Wind_VeryHigh_01" ID="{85AF7861-7F9B-453B-B09C-5C9FE0D8C159}" ShortID="189153356">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_VeryHigh_01" ID="{CAA4E608-585A-43CB-9C3D-9E1A1B09BF91}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="7857.027"/>
+														<Property Name="LoopBegin" Type="Real64" Value="8.27713847535794"/>
+														<Property Name="LoopEnd" Type="Real64" Value="59.9068141137292"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_VeryHigh\WindTurbine_Wind_VeryHigh_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="462148708"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_VeryHigh_01" ID="{CAA4E608-585A-43CB-9C3D-9E1A1B09BF91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindTurbine_Wind_VeryHigh_02" ID="{BAB475EB-CB5B-48DF-B0E8-FF4307A73FED}" ShortID="984170093">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindTurbine_Wind_VeryHigh_02" ID="{F9B92197-58EF-44D2-B858-772FEFBB1474}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="7678.555"/>
+														<Property Name="LoopBegin" Type="Real64" Value="11.3851483781919"/>
+														<Property Name="LoopEnd" Type="Real64" Value="63.7929742460591"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WindTurbine_Idle\WindTurbine_Wind_VeryHigh\WindTurbine_Wind_VeryHigh_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="113725990"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="WindTurbine_Wind_VeryHigh_02" ID="{F9B92197-58EF-44D2-B858-772FEFBB1474}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<Sound Name="WindTurbine_Blades_01" ID="{B59D150E-211C-49D6-A141-787845A2207C}" ShortID="992420582">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Parametric EQ (Custom)" ID="{FCAFBA75-0364-4E61-9847-A7DA1AB1B932}" ShortID="105122947" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FrequencyBand3" Type="Real32" Value="4230"/>
+														<Property Name="GainBand3" Type="Real32" Value="3"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WindTurbine_Blades_01" ID="{D727AC6F-2484-42AA-AC0B-A0DB03155D8A}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2754.246"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.66621578099839"/>
+												<Property Name="LoopEnd" Type="Real64" Value="45.6198389694042"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WindTurbine_Idle\WindTurbine_Blades_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493878743"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WindTurbine_Blades_01" ID="{D727AC6F-2484-42AA-AC0B-A0DB03155D8A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WindTurbine_Blades_Fast" ID="{CE13B99E-C2F5-41AE-9BBD-7A3F3CF8694B}" ShortID="1054401756">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F8368D99-CBAE-4177-9C89-DB007F0196E5}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WindTurbine_Blades_02" ID="{75FEEF55-C9DB-4512-A16A-C89F93EC1170}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2866.526"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.394666600939892"/>
+												<Property Name="LoopBegin" Type="Real64" Value="28.2186619672023"/>
+												<Property Name="LoopEnd" Type="Real64" Value="52.951102292769"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="26.3768844961495"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WindTurbine_Idle\WindTurbine_Blades_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="608780633"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WindTurbine_Blades_02" ID="{75FEEF55-C9DB-4512-A16A-C89F93EC1170}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WindTurbine_Body" ID="{9117B8C8-C07A-47BB-A158-77638152704E}" ShortID="555681273">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FDE26633-8BB9-464D-8D8E-67B27437201D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="101"/>
+															<Property Name="Min" Type="Real64" Value="-152"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WindTurbine_Body" ID="{12680D05-EDAC-4DE3-A8C2-532DD3B99589}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="16638.945"/>
+												<Property Name="LoopBegin" Type="Real64" Value="20.9450905386309"/>
+												<Property Name="LoopEnd" Type="Real64" Value="169.742504573488"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WindTurbine_Idle\WindTurbine_Body.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="447549929"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WindTurbine_Body" ID="{12680D05-EDAC-4DE3-A8C2-532DD3B99589}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WindTurbine_Gears" ID="{E0AD863E-56CA-46B0-979D-D6BC0A69197C}" ShortID="1016179915">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{88905972-3BFA-4283-AF85-4750BC411A00}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-152"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WindTurbine_Gears" ID="{4706CEF9-8BDB-48C6-9DC5-95C5754D8838}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2405.908"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.4722140063755"/>
+												<Property Name="LoopEnd" Type="Real64" Value="18.525359580225"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WindTurbine_Idle\WindTurbine_Gears.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="89751334"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WindTurbine_Gears" ID="{4706CEF9-8BDB-48C6-9DC5-95C5754D8838}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WindTurbine_Mechanism" ID="{623380C9-DD5B-4B4A-B7E5-EE3FF2FF9CFC}" ShortID="74425258">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{19293AFD-F4DC-44D5-AE30-E4CC45A64F09}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="126"/>
+															<Property Name="Min" Type="Real64" Value="-126"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WindTurbine_Mechanism" ID="{3523459E-3B63-46D6-9DDA-D4940EDF8401}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1052.166"/>
+												<Property Name="LoopBegin" Type="Real64" Value="3.62158631568569"/>
+												<Property Name="LoopEnd" Type="Real64" Value="38.1956636760985"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WindTurbine_Idle\WindTurbine_Mechanism.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="907628838"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WindTurbine_Mechanism" ID="{3523459E-3B63-46D6-9DDA-D4940EDF8401}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

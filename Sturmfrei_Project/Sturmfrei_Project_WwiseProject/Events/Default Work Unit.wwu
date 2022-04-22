@@ -472,8 +472,74 @@
 						<Event Name="Tree_Idle" ID="{8CF48BA3-E5AC-4030-932C-8042D2BA9E54}"/>
 						<Event Name="River_Idle" ID="{5C79CBB8-7EFB-45FA-B657-B2E44A283978}"/>
 						<Event Name="Bridge_Crack" ID="{87B77034-03E8-45D4-A814-2726F80F8B3B}"/>
-						<Event Name="Wind_Turbine" ID="{D3ED819A-0B46-40C1-9515-60D7420BF34E}"/>
-						<Event Name="Wind_Column" ID="{A44EBFF1-050F-482C-8F45-9DDB7CB7D128}"/>
+						<Event Name="Wind_Turbine" ID="{D3ED819A-0B46-40C1-9515-60D7420BF34E}">
+							<ChildrenList>
+								<Action Name="" ID="{991D4006-415E-49AD-B411-4158256E85C9}" ShortID="1001474835">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WindTurbine_Idle" ID="{888F6DC5-0399-4749-AB07-2357D8B77CA2}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2B84BDE9-0F78-489A-A302-5ABB7CA670EB}" ShortID="429851755">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8EFF9264-D92F-4FF3-96CA-99D9F390995B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WindColumn_Idle" ID="{0704491B-BDCE-41F5-9069-F409D005BE6E}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Wind_Column" ID="{A44EBFF1-050F-482C-8F45-9DDB7CB7D128}">
+							<ChildrenList>
+								<Action Name="" ID="{473DF532-B5A4-4391-9BEC-413D68DB06E3}" ShortID="475281219">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WindColumn_Idle" ID="{0704491B-BDCE-41F5-9069-F409D005BE6E}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C3B33476-67BA-46FE-A911-7F57E4AF6F10}" ShortID="589219180">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{801DD612-1088-48E6-8DC4-72A173561F9C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WindColumn_Idle" ID="{0704491B-BDCE-41F5-9069-F409D005BE6E}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Folder Name="Idle_Stop" ID="{805D905D-C3ED-4A28-8DEB-20D991C05CD7}" ShortID="641825805">
 							<ChildrenList>
 								<Event Name="Amb_Cave_Stop" ID="{57E57DD8-6B1E-4D91-B3FB-9D4F4942AF72}"/>

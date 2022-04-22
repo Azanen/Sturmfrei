@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585509902564775808
+    m_lastTime: -8585509805254775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -1549,8 +1549,8 @@ MonoBehaviour:
         guid: 9ea2d19bae00fd4e99cf149bdd9dbd40
       Path: Events/Default Work Unit/INGREDIENT/Statue_Rebuild
       maxAttenuation: 50
-      maxDuration: 4.943091
-      minDuration: 4.943091
+      maxDuration: 5.804131
+      minDuration: 4.209786
     - name: Sturmfrei_Recharge
       guid: 1384a18ee2da3347a6a7f7d43c9361e5
       id: 4175312948
@@ -1708,9 +1708,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f1bf4ea40f052c488f459ddb7cb7d128
       Path: Events/Default Work Unit/AMBIENCE/Wind_Column
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 70
+      maxDuration: -1
+      minDuration: -1
     - name: Wind_Column_Stop
       guid: 3b9382b3bd12724487155cd1f3d43282
       id: 183339903
@@ -1751,9 +1751,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9a81edd3460bc140951560d7420bf34e
       Path: Events/Default Work Unit/AMBIENCE/Wind_Turbine
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 80
+      maxDuration: -1
+      minDuration: -1
     - name: Wind_Turbine_Stop
       guid: d2bd0682b6a7234abe55dacb5cf50bb0
       id: 3015085494
