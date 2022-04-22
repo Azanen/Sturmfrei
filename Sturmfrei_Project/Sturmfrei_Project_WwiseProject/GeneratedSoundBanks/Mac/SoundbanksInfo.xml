@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2312608105">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4119907350">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -6794,7 +6794,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2600606019" Name="PurpleCloud_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\PurpleCloud_Idle" MaxAttenuation="25." DurationType="Infinite">
+				<Event Id="2600606019" Name="PurpleCloud_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\PurpleCloud_Idle" MaxAttenuation="50." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="797088798" Language="SFX">
 							<ShortName>PurpleCloud\PurpleCloud_Idle_Low.wav</ShortName>
@@ -6882,7 +6882,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1846985177" Name="Soul_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Soul_Idle" MaxAttenuation="100." DurationType="Infinite">
+				<Event Id="1846985177" Name="Soul_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Soul_Idle" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="398925161" Language="SFX">
 							<ShortName>Soul\Soul_Idle_Magic_01.wav</ShortName>
@@ -6900,7 +6900,7 @@
 				</Event>
 				<Event Id="1854935980" Name="Soul_Idle_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\Idle_Stop\Soul_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1114964412" Name="Start_Game" ObjectPath="\Events\Default Work Unit\UI\Start_Game" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="979468870" Name="Statue_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Statue_Idle" MaxAttenuation="25." DurationType="Infinite">
+				<Event Id="979468870" Name="Statue_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Statue_Idle" MaxAttenuation="50." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="504223982" Language="SFX">
 							<ShortName>Statue_Idle_Magic.wav</ShortName>
