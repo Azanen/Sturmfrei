@@ -27,6 +27,7 @@ public class EventsPonoAnim : MonoBehaviour
     public GameObject ponoAnim;
     public Animator anim;
     public PlayerMovement pono;
+    public bool hasRespawned = true;
 
     void Start()
     {
@@ -34,24 +35,71 @@ public class EventsPonoAnim : MonoBehaviour
         anim = this.gameObject.GetComponent<Animator>();
         pono = this.gameObject.transform.root.gameObject.GetComponent<PlayerMovement>();
     }
-    
+
     //Events
     public void Fall_Respawn()
     {
-        AkSoundEngine.PostEvent(fallRespawn, gameObject);
-        if (debugEnabled) { Debug.Log("respawn"); }
+        if (hasRespawned == true)
+        {
+            AkSoundEngine.PostEvent(fallRespawn, gameObject);
+            if (debugEnabled) { Debug.Log("respawn"); }
+            hasRespawned = false;
+        }
     }
 
     public void PurpleCloud_Damage_Start()
     {
         AkSoundEngine.PostEvent(purpleCloudStart, gameObject);
         if (debugEnabled) { Debug.Log("toxicStart"); }
-    } 
+    }
     public void PurpleCloud_Damage_Stop()
     {
         AkSoundEngine.PostEvent(purpleCloudStop, gameObject);
         if (debugEnabled) { Debug.Log("toxicStop"); }
     }
+
+    //Landing
+    /*void Foot_Landing()
+    {
+        if (pono.PlayFallingSound() == true)
+        {
+            AkSoundEngine.PostEvent(footLanging, gameObject);
+            if (debugEnabled) { Debug.Log("landingStraight"); }
+            hasRespawned = true;
+        }
+    }
+    void Flying_Landing()
+    {
+        if (pono.PlayFallingSound() == true)
+        {
+            AkSoundEngine.PostEvent(flyingLanding, gameObject);
+            if (debugEnabled) { Debug.Log("landingRun"); }
+            hasRespawned = true;
+        }
+
+    }*/
+    public void Landing()
+    {
+        if (pono.tempsTomber >= 1f)
+        {
+            if (pono.PlayFallingSound() == true)
+            {
+                AkSoundEngine.PostEvent(flyingLanding, gameObject);
+                if (debugEnabled) { Debug.Log("landingRun"); }
+                hasRespawned = true;
+            }
+        }
+        else
+        {
+            if (pono.PlayFallingSound() == true)
+            {
+                AkSoundEngine.PostEvent(footLanging, gameObject);
+                if (debugEnabled) { Debug.Log("landingStraight"); }
+                hasRespawned = true;
+            }
+        }
+    }
+    
 
     //On foot
     void Foot_Walk()
@@ -68,8 +116,11 @@ public class EventsPonoAnim : MonoBehaviour
 
     void Foot_Idle()
     {
-        AkSoundEngine.PostEvent(footIdle, gameObject);
-        if (debugEnabled) { Debug.Log("idling"); }
+        if (pono.ponoShouldSitDown == true)
+        {
+            AkSoundEngine.PostEvent(footIdle, gameObject);
+            if (debugEnabled) { Debug.Log("idling"); }
+        }
     }
 
     public void Foot_Interaction()
@@ -89,15 +140,6 @@ public class EventsPonoAnim : MonoBehaviour
         AkSoundEngine.PostEvent(footDashJump, gameObject);
         if (debugEnabled) { Debug.Log("dashingUp"); }
 
-    }
-
-    void Foot_Landing()
-    {
-        if (pono.PlayFallingSound() == true)
-        {
-            AkSoundEngine.PostEvent(footLanging, gameObject);
-            if (debugEnabled) { Debug.Log("landingStraight"); }
-        }
     }
 
     //Flying
@@ -140,16 +182,6 @@ public class EventsPonoAnim : MonoBehaviour
     {
         AkSoundEngine.PostEvent(flyingDash, gameObject);
         if (debugEnabled) { Debug.Log("flyingDash"); }
-    }
-
-    void Flying_Landing()
-    {
-        if (pono.PlayFallingSound() == true)
-        {
-            AkSoundEngine.PostEvent(flyingLanding, gameObject);
-            if (debugEnabled) { Debug.Log("landingRun"); }
-        }
-
     }
 
     void Flying_Stunned()
