@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FindSturmfrei : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class FindSturmfrei : MonoBehaviour
     public Transform poncho2;
     private bool collecte = false;
     public Event_Custom customEvent;
+    public GameObject beaver;
 
     private void Awake()
     {
@@ -40,10 +42,11 @@ public class FindSturmfrei : MonoBehaviour
         collecte = true;
         yield return new WaitForSeconds(3.5f);
         sturmfreiAnim.SetBool("Collecte", true);
-        yield return new WaitForSeconds(1.9f);
+        //yield return new WaitForSeconds(1.9f);
         sturmfrei.SetActive(false);
 
         // Around here for the cinematic I guess 
+        beaver.SetActive(true);
 
 
         customEvent.RaiseIsland.Invoke();
@@ -51,6 +54,8 @@ public class FindSturmfrei : MonoBehaviour
         yield return new WaitForSeconds(1.2f);
         poncho1.GetComponent<SkinnedMeshRenderer>().enabled = true;
         poncho2.GetComponent<SkinnedMeshRenderer>().enabled = true;
+        yield return new WaitForSeconds(8.8f);
+        beaver.SetActive(false);
         other.GetComponent<PlayerCollisionSphere>().PlayerMov.RemoveFadeWhite();
         yield return new WaitForSeconds(1.0f);
 

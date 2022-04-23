@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class DustDevilAscenseur : MonoBehaviour
 {
-    //private Rigidbody quiMonte;
-    //public float hauteur;
-
     private PlayerCollisionSphere quiMonte;
     private Rigidbody quiMonteRigid;
     private GameObject colliderPlayer;
@@ -42,25 +39,6 @@ public class DustDevilAscenseur : MonoBehaviour
             }
         }
     }
-
-    //desactive la gravite pour que eviter conflit avec vector3 up
-    /*private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            quiMonteRigid.useGravity = false;
-            if (player.States == PlayerMovement.WorldState.InAir)
-            {
-                quiMonteRigid.AddForce(transform.up * 2f);
-            }
-            else if (player.States == PlayerMovement.WorldState.Flying)
-            {
-                //quiMonteRigid.AddForce(transform.up * 2000f);
-                //Remove effect when flying trough dust devil
-                //quiMonteRigid.AddForce((Vector3.up * 50f),ForceMode.Impulse);
-            }
-        }
-    }*/
 
     private void OnTriggerExit(Collider other)
     {
