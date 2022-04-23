@@ -10,7 +10,7 @@ public class DustDevilAscenseur : MonoBehaviour
     private PlayerCollisionSphere quiMonte;
     private Rigidbody quiMonteRigid;
     private GameObject colliderPlayer;
-    private PlayerMovement player;
+    public PlayerMovement player;
     public Animator anim;
     public GameObject pono;
 
@@ -21,6 +21,7 @@ public class DustDevilAscenseur : MonoBehaviour
         {
             anim = pono.GetComponentInChildren<Animator>();
         }
+        player = pono.GetComponent<PlayerMovement>();
     }
 
     //donne une velocite verticale
@@ -31,10 +32,14 @@ public class DustDevilAscenseur : MonoBehaviour
         {
             quiMonte = colliderPlayer.GetComponent<PlayerCollisionSphere>();
             quiMonteRigid = quiMonte.GetComponent<Rigidbody>();
-            quiMonteRigid.velocity = Vector3.up * 8f;
             player = quiMonte.PlayerMov;
-            player.inDustDevil = true;
-            anim.SetBool("InDustDevil", true);
+
+            if (player.States == PlayerMovement.WorldState.InAir || player.States == PlayerMovement.WorldState.Grounded)
+            {
+                quiMonteRigid.velocity = Vector3.up * 8f;
+                player.inDustDevil = true;
+                anim.SetBool("InDustDevil", true);
+            }
         }
     }
 
