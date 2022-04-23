@@ -6,6 +6,13 @@
 				<MusicSwitchContainer Name="Music_Switch" ID="{E22C8E22-50D9-4441-878F-3552A19093EB}" ShortID="144995266">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>

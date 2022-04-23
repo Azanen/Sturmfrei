@@ -258,7 +258,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{B8CEDCD5-2905-4EF5-BA7A-DEEABCE1E1FE}"/>
+						<CurrentStateRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}"/>
 						<CurrentStateRef Name="Tuto" ID="{2B8A6238-899D-455D-9E8C-79CE0540DBDD}"/>
 						<CurrentStateRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}"/>
 						<CurrentStateRef Name="None" ID="{38FA9B61-1EE0-4F36-834E-3647FCE41EC0}"/>

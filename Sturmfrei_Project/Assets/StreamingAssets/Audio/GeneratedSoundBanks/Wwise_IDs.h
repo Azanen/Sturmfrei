@@ -37,6 +37,7 @@ namespace AK
         static const AkUniqueID FLYING_STOP = 2961275275U;
         static const AkUniqueID FLYING_STUNNED = 2840002408U;
         static const AkUniqueID FOOT_DASHJUMP = 19599888U;
+        static const AkUniqueID FOOT_ELEVATOR = 3895277278U;
         static const AkUniqueID FOOT_FALLING = 254470037U;
         static const AkUniqueID FOOT_IDLE = 3791781342U;
         static const AkUniqueID FOOT_INTERACTION = 2201597904U;

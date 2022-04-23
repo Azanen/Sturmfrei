@@ -1016,21 +1016,22 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{3E2D6940-0C64-45C5-A2B8-47BBED82602A}" ShortID="287803825">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakWall_Stone_Boss" ID="{F30A9CBB-2EE8-417A-8470-660CCBF802B2}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{9A53E5A9-9180-4FD7-A030-C064B34F093B}" ShortID="934390696">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Boss_Idle" ID="{F7789795-ED57-4A5C-880D-4FCD040F6A98}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{3E2D6940-0C64-45C5-A2B8-47BBED82602A}" ShortID="287803825">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="BreakWall_Stone_Boss" ID="{F30A9CBB-2EE8-417A-8470-660CCBF802B2}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1096,6 +1097,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Poncho" ID="{998AB218-EBEF-4DE7-AF20-E67F72015E0A}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4213D8B9-A0FD-473B-9012-15F7B74C9B3A}" ShortID="865283235">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Equipped" ID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1354,6 +1365,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Tuto" ID="{2B8A6238-899D-455D-9E8C-79CE0540DBDD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{562FDEA1-3591-4DB8-92F3-986E0EE19C6D}" ShortID="483587586">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Unequipped" ID="{3EDD2C56-E3D3-4BFF-807D-16C6F87A24A5}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

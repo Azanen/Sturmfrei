@@ -24093,6 +24093,13 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Energy_Dash_Rev" ID="{31EF945A-6E05-4174-9B71-91AC3B8E4E03}" ShortID="691432724">
 											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6AF63DC4-FA8C-40EF-AB65-3A28D6D5A8CA}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-13</Value>
@@ -27731,7 +27738,7 @@
 								<RandomSequenceContainer Name="Boss_Defeat" ID="{35C574D9-65D9-48E9-BC96-A4B1EFFE8354}" ShortID="890085559">
 									<PropertyList>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 									</PropertyList>
@@ -27765,7 +27772,7 @@
 												<AudioFileSource Name="Boss_Defeat_Loop" ID="{647B8B1F-BD91-4CF0-B2E4-5E5D63CE29A4}">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="853.951"/>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.155986008217441"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0661855917657878"/>
 														<Property Name="LoopBegin" Type="Real64" Value="0.536741592924962"/>
 														<Property Name="LoopEnd" Type="Real64" Value="5.02011254559229"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -27784,15 +27791,19 @@
 										</Sound>
 										<Sound Name="Boss_Defeat_Start" ID="{36AED632-3166-466C-B52D-DB6FACC57A32}" ShortID="801814124">
 											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
@@ -27801,12 +27812,12 @@
 											<ChildrenList>
 												<AudioFileSource Name="Boss_Defeat_Start" ID="{7E67E541-6AC1-422C-B219-BD5E887E549D}">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.365097588978186"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.489092996555683"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.244760645536549"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.676818628324636"/>
 														<Property Name="FadeOutShape" Type="int16" Value="2"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.509758897818599"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.64530729116235"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.632502580129068"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.81137227311181"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Boss\Boss_Defeat_Start.wav</AudioFile>
@@ -29327,7 +29338,18 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-380</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -41560,6 +41582,9 @@
 							<StateGroupInfo>
 								<StateGroupRef Name="Level" ID="{94DC4A26-7B88-48CD-A2F3-0E2F50494BF5}"/>
 							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="Music" ID="{1FFF2930-E4C0-4D9A-8B26-2D35E145462C}"/>
+							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
 							<CustomState>
@@ -41571,8 +41596,24 @@
 								<CustomState Name="" ID="{928D2E61-1B2A-408B-A314-3383468B1ED2}" ShortID="168176139"/>
 							</CustomState>
 							<CustomState>
+								<StateRef Name="Wonder" ID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}"/>
+								<CustomState Name="" ID="{1A564079-4EA6-4DC3-9FCA-791EFBEBB89F}" ShortID="189328240"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
+								<CustomState Name="" ID="{ED5299F1-59CD-4D36-A491-C84BDC8833E1}" ShortID="731021368"/>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="Level_1" ID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}"/>
 								<CustomState Name="" ID="{7543E417-D00C-4F4A-970B-1AA2884AF729}" ShortID="1031720397"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Boss" ID="{53F18CA2-BA87-4DB6-8AD7-A4F2E1613F14}"/>
+								<CustomState Name="" ID="{3100B0AA-8486-49C6-B3EB-D3C9409DC806}" ShortID="124287718">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}"/>

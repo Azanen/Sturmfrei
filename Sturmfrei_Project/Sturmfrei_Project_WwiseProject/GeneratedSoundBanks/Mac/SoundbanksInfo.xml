@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="856268616">
+		<SoundBank Id="3161908922" Language="SFX" Hash="941256463">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -58,7 +58,7 @@
 						</File>
 						<File Id="330161831" Language="SFX">
 							<ShortName>Boss\Boss_Defeat_Loop.wav</ShortName>
-							<Path>SFX/Boss/Boss_Defeat_Loop_E6767601.wem</Path>
+							<Path>SFX/Boss/Boss_Defeat_Loop_3A1787FF.wem</Path>
 						</File>
 						<File Id="332667524" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Rocks\BreakWall_Stone_Rocks_01.wav</ShortName>
@@ -82,7 +82,7 @@
 						</File>
 						<File Id="633465905" Language="SFX">
 							<ShortName>Boss\Boss_Defeat_Start.wav</ShortName>
-							<Path>SFX/Boss/Boss_Defeat_Start_1CAD51F2.wem</Path>
+							<Path>SFX/Boss/Boss_Defeat_Start_63AA7EEE.wem</Path>
 						</File>
 						<File Id="679810061" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Dirt_02.wav</ShortName>
@@ -2404,7 +2404,7 @@
 						</File>
 						<File Id="52718925" Language="SFX">
 							<ShortName>Thud\Player_Thud_8.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_8_49A379AF.wem</Path>
+							<Path>SFX/Thud/Player_Thud_8_830EB94C.wem</Path>
 						</File>
 						<File Id="78233610" Language="SFX">
 							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_5.wav</ShortName>
@@ -2448,7 +2448,7 @@
 						</File>
 						<File Id="235563188" Language="SFX">
 							<ShortName>Thud\Player_Thud_1.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_1_80C96CAF.wem</Path>
+							<Path>SFX/Thud/Player_Thud_1_D98EC952.wem</Path>
 						</File>
 						<File Id="235964161" Language="SFX">
 							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_19.wav</ShortName>
@@ -2472,7 +2472,7 @@
 						</File>
 						<File Id="293867283" Language="SFX">
 							<ShortName>Thud\Player_Thud_9.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_9_8A7A0795.wem</Path>
+							<Path>SFX/Thud/Player_Thud_9_1F9B8A0A.wem</Path>
 						</File>
 						<File Id="312016354" Language="SFX">
 							<ShortName>Thud\Player_Thud_21.wav</ShortName>
@@ -2552,7 +2552,7 @@
 						</File>
 						<File Id="574503962" Language="SFX">
 							<ShortName>Thud\Player_Thud_5.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_5_B312005C.wem</Path>
+							<Path>SFX/Thud/Player_Thud_5_5B1CF98D.wem</Path>
 						</File>
 						<File Id="584228766" Language="SFX">
 							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_41.wav</ShortName>
@@ -2588,7 +2588,7 @@
 						</File>
 						<File Id="660837896" Language="SFX">
 							<ShortName>Thud\Player_Thud_4.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_4_EF5E4852.wem</Path>
+							<Path>SFX/Thud/Player_Thud_4_9F86DBDE.wem</Path>
 						</File>
 						<File Id="686431332" Language="SFX">
 							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_21.wav</ShortName>
@@ -2612,7 +2612,7 @@
 						</File>
 						<File Id="756411143" Language="SFX">
 							<ShortName>Thud\Player_Thud_3.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_3_298D4AD4.wem</Path>
+							<Path>SFX/Thud/Player_Thud_3_F64F351E.wem</Path>
 						</File>
 						<File Id="758038126" Language="SFX">
 							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_43.wav</ShortName>
@@ -2628,7 +2628,7 @@
 						</File>
 						<File Id="787481108" Language="SFX">
 							<ShortName>Thud\Player_Thud_2.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_2_39B5B035.wem</Path>
+							<Path>SFX/Thud/Player_Thud_2_FCBC0DB0.wem</Path>
 						</File>
 						<File Id="814836700" Language="SFX">
 							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_28.wav</ShortName>
@@ -2636,7 +2636,7 @@
 						</File>
 						<File Id="859661650" Language="SFX">
 							<ShortName>Thud\Player_Thud_7.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_7_5D8C68FA.wem</Path>
+							<Path>SFX/Thud/Player_Thud_7_D59771BB.wem</Path>
 						</File>
 						<File Id="883834372" Language="SFX">
 							<ShortName>Thud\Player_Thud_12.wav</ShortName>
@@ -2875,6 +2875,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3895277278" Name="Foot_Elevator" ObjectPath="\Events\Default Work Unit\PLAYER\Foot_Elevator" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="254470037" Name="Foot_Falling" ObjectPath="\Events\Default Work Unit\PLAYER\Foot_Falling" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3791781342" Name="Foot_Idle" ObjectPath="\Events\Default Work Unit\PLAYER\Foot_Idle" DurationType="OneShot" DurationMin="0.31318" DurationMax="1.478817">
 					<IncludedMemoryFiles>
@@ -2892,7 +2893,7 @@
 						</File>
 						<File Id="579461670" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_02.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_02_6ADAAA2F.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_02_7752937D.wem</Path>
 						</File>
 						<File Id="713445510" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_05.wav</ShortName>
@@ -2900,35 +2901,101 @@
 						</File>
 						<File Id="740710244" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_08.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_08_D9BF3939.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_08_3A59205E.wem</Path>
 						</File>
 						<File Id="810276945" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_17.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_17_31BCDCC2.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_17_80045BCC.wem</Path>
 						</File>
 						<File Id="816792904" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_16.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_16_6ECC8D74.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_16_902B920F.wem</Path>
 						</File>
 						<File Id="924155743" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_14.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_14_BF174E53.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_14_9B34035E.wem</Path>
 						</File>
 						<File Id="961462778" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_11.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_11_7E2A9F09.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_11_61DADD54.wem</Path>
 						</File>
 						<File Id="995042320" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_13.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_13_1C9CA319.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_13_2B1A6582.wem</Path>
 						</File>
 						<File Id="1003100437" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_18.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_18_2314E5A3.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_18_67DDE2D8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="3031504797" Name="Foot" ObjectPath="\States\Default Work Unit\Mode\Foot"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2201597904" Name="Foot_Interaction" ObjectPath="\Events\Default Work Unit\PLAYER\Foot_Interaction" DurationType="OneShot" DurationMin="0.786349" DurationMax="1.717755">
+					<IncludedMemoryFiles>
+						<File Id="2258515" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_11.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_11_A26074DB.wem</Path>
+						</File>
+						<File Id="9674437" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_03.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_03_A26074DB.wem</Path>
+						</File>
+						<File Id="93988153" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_08.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_08_A26074DB.wem</Path>
+						</File>
+						<File Id="128904934" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_10.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_10_A26074DB.wem</Path>
+						</File>
+						<File Id="166836860" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_09.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_09_A26074DB.wem</Path>
+						</File>
+						<File Id="200012015" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_12.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_12_A26074DB.wem</Path>
+						</File>
+						<File Id="213142974" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_14.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_14_A26074DB.wem</Path>
+						</File>
+						<File Id="278261696" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_15.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_15_A26074DB.wem</Path>
+						</File>
+						<File Id="399598698" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_13.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_13_A26074DB.wem</Path>
+						</File>
+						<File Id="432852372" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_04.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_04_A26074DB.wem</Path>
+						</File>
+						<File Id="495463782" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_02.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_02_A26074DB.wem</Path>
+						</File>
+						<File Id="663353062" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_07.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_07_A26074DB.wem</Path>
+						</File>
+						<File Id="781101364" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_01.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_01_A26074DB.wem</Path>
+						</File>
+						<File Id="869732726" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_06.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_06_A26074DB.wem</Path>
+						</File>
+						<File Id="1051129307" Language="SFX">
+							<ShortName>VO_Foot_Interaction_Wonder\VO_Foot_Interaction_Wonder_05.wav</ShortName>
+							<Path>SFX/VO_Foot_Interaction_Wonder/VO_Foot_Interaction_Wonder_05_A26074DB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2201597904" Name="Foot_Interaction" ObjectPath="\Events\Default Work Unit\PLAYER\Foot_Interaction" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="761314172" Name="Foot_Jump" ObjectPath="\Events\Default Work Unit\PLAYER\Foot_Jump" DurationType="OneShot" DurationMin="0.259569" DurationMax="0.329819">
 					<IncludedMemoryFiles>
 						<File Id="27585708" Language="SFX">
@@ -5667,6 +5734,7 @@
 				<Event Id="1946661255" Name="MUS_Hub_Tuto" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_Tuto" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetState>
 						<ActionSetStateEntry Id="646625282" Name="Hub" ObjectPath="\States\Default Work Unit\Level\Hub"/>
+						<ActionSetStateEntry Id="2413814047" Name="Unequipped" ObjectPath="\States\Default Work Unit\Poncho\Unequipped"/>
 						<ActionSetStateEntry Id="3037000007" Name="Tuto" ObjectPath="\States\Default Work Unit\Hub\Tuto"/>
 					</ActionSetState>
 				</Event>
@@ -5727,7 +5795,7 @@
 					<IncludedMemoryFiles>
 						<File Id="7396132" Language="SFX">
 							<ShortName>L2_singlenotes_07.wav</ShortName>
-							<Path>SFX/L2_singlenotes_07_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_07_A5CA16D4.wem</Path>
 						</File>
 						<File Id="8065460" Language="SFX">
 							<ShortName>L2_high_03.wav</ShortName>
@@ -5779,7 +5847,7 @@
 						</File>
 						<File Id="38040106" Language="SFX">
 							<ShortName>L2_singlenotes_17.wav</ShortName>
-							<Path>SFX/L2_singlenotes_17_FE910D0F.wem</Path>
+							<Path>SFX/L2_singlenotes_17_3E34F511.wem</Path>
 						</File>
 						<File Id="38912114" Language="SFX">
 							<ShortName>mid07.wav</ShortName>
@@ -6139,7 +6207,7 @@
 						</File>
 						<File Id="319896928" Language="SFX">
 							<ShortName>L2_singlenotes_09.wav</ShortName>
-							<Path>SFX/L2_singlenotes_09_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_09_A5CA16D4.wem</Path>
 						</File>
 						<File Id="320676172" Language="SFX">
 							<ShortName>mid05.wav</ShortName>
@@ -6199,11 +6267,11 @@
 						</File>
 						<File Id="346767564" Language="SFX">
 							<ShortName>L2_singlenotes_02.wav</ShortName>
-							<Path>SFX/L2_singlenotes_02_7EE4EEAC.wem</Path>
+							<Path>SFX/L2_singlenotes_02_A5CA16D4.wem</Path>
 						</File>
 						<File Id="348120599" Language="SFX">
 							<ShortName>L2_singlenotes_12.wav</ShortName>
-							<Path>SFX/L2_singlenotes_12_169FC95E.wem</Path>
+							<Path>SFX/L2_singlenotes_12_A5CA16D4.wem</Path>
 						</File>
 						<File Id="351144161" Language="SFX">
 							<ShortName>L2_high_04.wav</ShortName>
@@ -6319,7 +6387,7 @@
 						</File>
 						<File Id="444722987" Language="SFX">
 							<ShortName>L2_singlenotes_13.wav</ShortName>
-							<Path>SFX/L2_singlenotes_13_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_13_A5CA16D4.wem</Path>
 						</File>
 						<File Id="445231590" Language="SFX">
 							<ShortName>L2_high_13.wav</ShortName>
@@ -6357,9 +6425,17 @@
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_07.wav</ShortName>
 							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_07_A5CA16D4.wem</Path>
 						</File>
+						<File Id="482696101" Language="SFX">
+							<ShortName>L2_Synthdrone_01.wav</ShortName>
+							<Path>SFX/L2_Synthdrone_01_A26A3599.wem</Path>
+						</File>
 						<File Id="485610135" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_32.wav</ShortName>
 							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_32_A5CA16D4.wem</Path>
+						</File>
+						<File Id="486727282" Language="SFX">
+							<ShortName>L3_SynthDrone_02.wav</ShortName>
+							<Path>SFX/L3_SynthDrone_02_A26A3599.wem</Path>
 						</File>
 						<File Id="500093489" Language="SFX">
 							<ShortName>high36.wav</ShortName>
@@ -6407,7 +6483,7 @@
 						</File>
 						<File Id="516894983" Language="SFX">
 							<ShortName>L2_singlenotes_04.wav</ShortName>
-							<Path>SFX/L2_singlenotes_04_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_04_A5CA16D4.wem</Path>
 						</File>
 						<File Id="521668055" Language="SFX">
 							<ShortName>L2_intervals_06.wav</ShortName>
@@ -6479,7 +6555,7 @@
 						</File>
 						<File Id="566092133" Language="SFX">
 							<ShortName>L2_singlenotes_03.wav</ShortName>
-							<Path>SFX/L2_singlenotes_03_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_03_A5CA16D4.wem</Path>
 						</File>
 						<File Id="566128683" Language="SFX">
 							<ShortName>low02.wav</ShortName>
@@ -6539,7 +6615,7 @@
 						</File>
 						<File Id="598443754" Language="SFX">
 							<ShortName>L2_singlenotes_05.wav</ShortName>
-							<Path>SFX/L2_singlenotes_05_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_05_A5CA16D4.wem</Path>
 						</File>
 						<File Id="600765877" Language="SFX">
 							<ShortName>L2_mid_12.wav</ShortName>
@@ -6603,7 +6679,7 @@
 						</File>
 						<File Id="642773075" Language="SFX">
 							<ShortName>L2_singlenotes_11.wav</ShortName>
-							<Path>SFX/L2_singlenotes_11_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_11_A5CA16D4.wem</Path>
 						</File>
 						<File Id="645137235" Language="SFX">
 							<ShortName>L2_perc_04.wav</ShortName>
@@ -6707,7 +6783,7 @@
 						</File>
 						<File Id="695630529" Language="SFX">
 							<ShortName>L2_singlenotes_08.wav</ShortName>
-							<Path>SFX/L2_singlenotes_08_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_08_A5CA16D4.wem</Path>
 						</File>
 						<File Id="698718325" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_05.wav</ShortName>
@@ -6859,7 +6935,11 @@
 						</File>
 						<File Id="786475906" Language="SFX">
 							<ShortName>L2_singlenotes_15.wav</ShortName>
-							<Path>SFX/L2_singlenotes_15_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_15_A5CA16D4.wem</Path>
+						</File>
+						<File Id="795997332" Language="SFX">
+							<ShortName>L3_SynthDrone_01.wav</ShortName>
+							<Path>SFX/L3_SynthDrone_01_A26A3599.wem</Path>
 						</File>
 						<File Id="799418366" Language="SFX">
 							<ShortName>L2_mid_23.wav</ShortName>
@@ -6867,7 +6947,7 @@
 						</File>
 						<File Id="804871224" Language="SFX">
 							<ShortName>L2_singlenotes_10.wav</ShortName>
-							<Path>SFX/L2_singlenotes_10_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_10_A5CA16D4.wem</Path>
 						</File>
 						<File Id="805931935" Language="SFX">
 							<ShortName>L2_pianobass_Eb_low.wav</ShortName>
@@ -6959,7 +7039,7 @@
 						</File>
 						<File Id="872443413" Language="SFX">
 							<ShortName>L2_singlenotes_14.wav</ShortName>
-							<Path>SFX/L2_singlenotes_14_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_14_A5CA16D4.wem</Path>
 						</File>
 						<File Id="875683849" Language="SFX">
 							<ShortName>SingleNotes02.wav</ShortName>
@@ -6983,7 +7063,7 @@
 						</File>
 						<File Id="893589115" Language="SFX">
 							<ShortName>L2_singlenotes_06.wav</ShortName>
-							<Path>SFX/L2_singlenotes_06_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_06_A5CA16D4.wem</Path>
 						</File>
 						<File Id="894177052" Language="SFX">
 							<ShortName>L2_perc_02.wav</ShortName>
@@ -7023,7 +7103,7 @@
 						</File>
 						<File Id="913407173" Language="SFX">
 							<ShortName>L2_singlenotes_16.wav</ShortName>
-							<Path>SFX/L2_singlenotes_16_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_16_A5CA16D4.wem</Path>
 						</File>
 						<File Id="914938688" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_02.wav</ShortName>
@@ -7179,7 +7259,7 @@
 						</File>
 						<File Id="997980687" Language="SFX">
 							<ShortName>L2_singlenotes_01.wav</ShortName>
-							<Path>SFX/L2_singlenotes_01_A26074DB.wem</Path>
+							<Path>SFX/L2_singlenotes_01_A5CA16D4.wem</Path>
 						</File>
 						<File Id="998354021" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_03.wav</ShortName>
@@ -7232,6 +7312,10 @@
 						<File Id="1043813097" Language="SFX">
 							<ShortName>L2_intervals_03.wav</ShortName>
 							<Path>SFX/L2_intervals_03_77A3097B.wem</Path>
+						</File>
+						<File Id="1043886516" Language="SFX">
+							<ShortName>L3_SynthDrone_03.wav</ShortName>
+							<Path>SFX/L3_SynthDrone_03_A26A3599.wem</Path>
 						</File>
 						<File Id="1045357432" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_01.wav</ShortName>
@@ -7528,6 +7612,7 @@
 												<File Id="444722987"/>
 												<File Id="445231590"/>
 												<File Id="453337618"/>
+												<File Id="482696101"/>
 												<File Id="506345302"/>
 												<File Id="507755628"/>
 												<File Id="508379136"/>
@@ -7667,6 +7752,7 @@
 												<File Id="467431270"/>
 												<File Id="482463223"/>
 												<File Id="485610135"/>
+												<File Id="486727282"/>
 												<File Id="500640156"/>
 												<File Id="505153702"/>
 												<File Id="507230777"/>
@@ -7708,6 +7794,7 @@
 												<File Id="767843360"/>
 												<File Id="777535762"/>
 												<File Id="785079905"/>
+												<File Id="795997332"/>
 												<File Id="813182563"/>
 												<File Id="815130244"/>
 												<File Id="831216823"/>
@@ -7735,6 +7822,7 @@
 												<File Id="998354021"/>
 												<File Id="1008070626"/>
 												<File Id="1011453682"/>
+												<File Id="1043886516"/>
 												<File Id="1045357432"/>
 												<File Id="1057154313"/>
 												<File Id="1072560498"/>
@@ -7926,7 +8014,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1859632405" Name="Statue_Idle_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\Idle_Stop\Statue_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3439923085" Name="Statue_Rebuild" ObjectPath="\Events\Default Work Unit\INGREDIENT\Statue_Rebuild" MaxAttenuation="50." DurationType="OneShot" DurationMin="4.209786" DurationMax="5.804131">
+				<Event Id="3439923085" Name="Statue_Rebuild" ObjectPath="\Events\Default Work Unit\INGREDIENT\Statue_Rebuild" MaxAttenuation="50." DurationType="OneShot" DurationMin="4.209786" DurationMax="4.943091">
 					<IncludedMemoryFiles>
 						<File Id="318479091" Language="SFX">
 							<ShortName>Statue_Rebuild.wav</ShortName>
@@ -8012,7 +8100,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="183339903" Name="Wind_Column_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\Wind_Column_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2911411227" Name="Wind_Turbine" ObjectPath="\Events\Default Work Unit\AMBIENCE\Wind_Turbine" MaxAttenuation="80." DurationType="Infinite">
+				<Event Id="2911411227" Name="Wind_Turbine" ObjectPath="\Events\Default Work Unit\AMBIENCE\Wind_Turbine" MaxAttenuation="70." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="89751334" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Gears.wav</ShortName>
