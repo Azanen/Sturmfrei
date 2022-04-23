@@ -319,7 +319,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}"/>
-							<Value>59.9133448873484</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Hub_Poncho_Proximity" ID="{E0460973-4D16-4D24-AC75-FDF0D6D4E4D6}"/>
@@ -335,9 +335,9 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}"/>
-						<CurrentStateRef Name="Village" ID="{EDC877EC-A601-481E-8D41-1FB18B4D8541}"/>
-						<CurrentStateRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}"/>
+						<CurrentStateRef Name="Flying" ID="{C13402BE-0345-47CF-9776-BABCCF4E289C}"/>
+						<CurrentStateRef Name="Poncho" ID="{998AB218-EBEF-4DE7-AF20-E67F72015E0A}"/>
+						<CurrentStateRef Name="Level_1" ID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}"/>
 						<CurrentStateRef Name="Equipped" ID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}"/>
 						<CurrentStateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
 					</CurrentStateList>

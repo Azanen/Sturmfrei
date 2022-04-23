@@ -985,7 +985,7 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="RadiusMax" Type="Real64" Value="80"/>
+						<Property Name="RadiusMax" Type="Real64" Value="70"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -1001,18 +1001,18 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>9.11393</XPos>
+											<XPos>7.97468875</XPos>
 											<YPos>-1.54448</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>34.89791</XPos>
-											<YPos>-12.73056</YPos>
+											<XPos>30.53567125</XPos>
+											<YPos>-14.35411</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>80</XPos>
+											<XPos>70</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1039,17 +1039,17 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>40.81792</XPos>
+											<XPos>35.71568</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>54.99514</XPos>
+											<XPos>48.1207475</XPos>
 											<YPos>22</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>80</XPos>
+											<XPos>70</XPos>
 											<YPos>37</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1070,17 +1070,17 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>10.04869</XPos>
+											<XPos>8.79260375</XPos>
 											<YPos>17</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>39.96105</XPos>
+											<XPos>34.96591875</XPos>
 											<YPos>17</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>80</XPos>
+											<XPos>70</XPos>
 											<YPos>27</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1101,17 +1101,17 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>18.81438</XPos>
+											<XPos>16.4625825</XPos>
 											<YPos>100</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>34.51895</XPos>
+											<XPos>30.20408125</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>80</XPos>
+											<XPos>70</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>

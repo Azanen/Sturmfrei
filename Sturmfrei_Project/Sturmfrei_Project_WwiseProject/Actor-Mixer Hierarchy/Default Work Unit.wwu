@@ -25261,6 +25261,11 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -25388,7 +25393,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-7</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -25488,6 +25493,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -25594,7 +25604,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-1</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -29303,6 +29313,7 @@
 								<BlendContainer Name="BreakWall_Stone_Boss" ID="{F30A9CBB-2EE8-417A-8470-660CCBF802B2}" ShortID="414713357">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -31521,6 +31532,9 @@
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+							<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
@@ -34175,6 +34189,13 @@
 							<ObjectLists/>
 						</ActorMixer>
 						<ActorMixer Name="Level_2" ID="{A96C19F9-1771-433B-9C53-828CDD3EC213}" ShortID="1052156872">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -34667,7 +34688,7 @@
 										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>77</Value>
+												<Value>56</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
@@ -37689,6 +37710,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_01" ID="{32D5DB23-BFE5-47FF-9E37-F1E0953451B5}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_01.wav</AudioFile>
 													<MediaIDList>
@@ -37713,7 +37737,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_02" ID="{8FF9078E-2C51-4B11-A09A-02D932F165BD}">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0120550930898675"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
 														<Property Name="LoopBegin" Type="Real64" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
@@ -37740,6 +37764,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_03" ID="{9A8C0902-8FB3-49B8-9C27-BA4024B57E60}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_03.wav</AudioFile>
 													<MediaIDList>
@@ -37763,6 +37790,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_04" ID="{AA3AE408-D763-4838-AC20-E99552BB2A5C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_04.wav</AudioFile>
 													<MediaIDList>
@@ -37786,6 +37816,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_05" ID="{A1F13723-CE61-4366-ACEF-EFA7A832545A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_05.wav</AudioFile>
 													<MediaIDList>
@@ -37809,6 +37842,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_06" ID="{D9BEA8CB-A9C9-434B-AC82-3A90C6AB4DCF}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_06.wav</AudioFile>
 													<MediaIDList>
@@ -37832,6 +37868,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_07" ID="{E3CF6B6F-F8A9-4272-8E08-C89EA565D65E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_07.wav</AudioFile>
 													<MediaIDList>
@@ -37855,6 +37894,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_08" ID="{CDEA6DBD-B75F-4659-BB3C-AE420C600F62}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_08.wav</AudioFile>
 													<MediaIDList>
@@ -37878,6 +37920,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_09" ID="{C4F3DD0B-7524-45CE-AB07-8DD066CC83F2}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_09.wav</AudioFile>
 													<MediaIDList>
@@ -37901,6 +37946,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_10" ID="{A88D05BB-7757-43A0-A1A6-BEC73D96346B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_10.wav</AudioFile>
 													<MediaIDList>
@@ -37924,6 +37972,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_11" ID="{8533EAE8-0B53-425C-83DE-09435A23C4EC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_11.wav</AudioFile>
 													<MediaIDList>
@@ -37948,7 +37999,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_12" ID="{E3FB0DCD-79D8-4CFF-9F5C-7CA0D57DAC10}">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0050904940923738"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
 														<Property Name="LoopBegin" Type="Real64" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
@@ -37975,6 +38026,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_13" ID="{1CE0911F-F30B-4499-AC67-F3B72C75DEAB}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_13.wav</AudioFile>
 													<MediaIDList>
@@ -37998,6 +38052,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_14" ID="{CFB1DE8B-5BAC-4B88-93BC-135F56EFC878}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_14.wav</AudioFile>
 													<MediaIDList>
@@ -38021,6 +38078,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_15" ID="{CF94B5C2-7717-45B6-B7C8-B55288BD735A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_15.wav</AudioFile>
 													<MediaIDList>
@@ -38044,6 +38104,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_16" ID="{78BC8FAC-A2E7-4737-B25C-0CD656697335}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L2_singlenotes_16.wav</AudioFile>
 													<MediaIDList>
@@ -38068,7 +38131,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="L2_singlenotes_17" ID="{B7B5A3B3-5B08-47C3-B2D1-F2D6E61FC92B}">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.00666693519513069"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.02"/>
 														<Property Name="LoopBegin" Type="Real64" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
@@ -38246,6 +38309,13 @@
 							<ObjectLists/>
 						</ActorMixer>
 						<ActorMixer Name="Level_3" ID="{4F615B51-DB06-4D1B-9BAC-656F95712B15}" ShortID="1003938378">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -41364,6 +41434,97 @@
 											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="L3_phrase_low_06" ID="{A3EF0BBE-BB39-4B1D-8DA3-99D6712E0C9D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="L3_FX" ID="{FF97DEB8-1FBC-45FB-B22D-3C66BF9B3796}" ShortID="398274429">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="L3_FX_01" ID="{27436567-2BE3-4F8A-B54A-6E8D04A4A7D5}" ShortID="559818202">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_FX_01" ID="{72C056F4-2C9B-405C-9261-E085CB9FC8DF}">
+													<Language>SFX</Language>
+													<AudioFile>L3_FX_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="264007403"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_FX_01" ID="{72C056F4-2C9B-405C-9261-E085CB9FC8DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_FX_02" ID="{3E0152AB-ECE7-4BEC-ACA0-02858A928D96}" ShortID="679012774">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_FX_02" ID="{8950AB5E-7660-4B9D-B288-45ECAD63821B}">
+													<Language>SFX</Language>
+													<AudioFile>L3_FX_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="723114"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_FX_02" ID="{8950AB5E-7660-4B9D-B288-45ECAD63821B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="L3_FX_03" ID="{B6F242F0-2685-477D-933B-20B17CDD5707}" ShortID="645678928">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="L3_FX_03" ID="{30BBB657-088E-4A37-BB3D-8A050C587E71}">
+													<Language>SFX</Language>
+													<AudioFile>L3_FX_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="677771697"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="L3_FX_03" ID="{30BBB657-088E-4A37-BB3D-8A050C587E71}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

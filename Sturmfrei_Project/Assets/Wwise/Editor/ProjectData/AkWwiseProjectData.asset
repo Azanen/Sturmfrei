@@ -877,8 +877,8 @@ MonoBehaviour:
         guid: a88ccbb6c95bc34e9acd1088f8314fde
       Path: Events/Default Work Unit/Map_Load
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Menu_Click
       guid: 55074980fcb7d24eba5638a371820aa8
       id: 760777789
@@ -1251,8 +1251,8 @@ MonoBehaviour:
         guid: c4ce8b0c99ab8b4e86f96833353bdf07
       Path: Events/Default Work Unit/INGREDIENT/Poncho_Collect
       maxAttenuation: 0
-      maxDuration: 10.976372
-      minDuration: 10.976372
+      maxDuration: 10.360314
+      minDuration: 10.360314
     - name: Poncho_Idle
       guid: 92dfc3032a607542bcac0caaa8b249a8
       id: 1422186037
@@ -1768,7 +1768,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f1bf4ea40f052c488f459ddb7cb7d128
       Path: Events/Default Work Unit/AMBIENCE/Wind_Column
-      maxAttenuation: 70
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Wind_Column_Stop
