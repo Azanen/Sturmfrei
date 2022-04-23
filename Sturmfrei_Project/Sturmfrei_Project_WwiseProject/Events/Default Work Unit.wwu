@@ -48,6 +48,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{436807FB-B736-4921-A331-F427005813FE}" ShortID="406857817">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2F37010D-2302-413F-A74A-B2A815D945C0}" ShortID="788801183">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Flying_Stunned" ID="{FCFC8F72-F3FF-4412-B45A-E1C11D4466D4}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Foot_Walk" ID="{5E795AD9-3B56-4C4A-A958-4632ED0D2709}">
@@ -94,6 +114,13 @@
 						</Event>
 						<Event Name="Foot_Interaction" ID="{F71B9DAA-2CBB-41E8-BA99-226F6F8BFA65}">
 							<ChildrenList>
+								<Action Name="" ID="{890A1824-8153-4ABB-A9FA-F408A0D175E4}" ShortID="935919015">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Foot_Interaction_Wonder" ID="{0C086F57-6E4A-406F-A435-83028E79275A}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{101A92DB-F480-4A3B-81F7-EA25DF769714}" ShortID="946973794">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
@@ -193,6 +220,13 @@
 						</Event>
 						<Event Name="Flying_Idle" ID="{0CAAFE01-3114-4976-98CD-94C9A2F7B1EF}">
 							<ChildrenList>
+								<Action Name="" ID="{132D3387-4A01-4FFB-8BDA-6A862DCE70FB}" ShortID="714226299">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Flying_Idle" ID="{735AECC9-A689-4A74-AE87-4C10946328DD}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{C250FBE2-9E73-4FFE-B394-059904650A63}" ShortID="256119039">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -200,10 +234,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{132D3387-4A01-4FFB-8BDA-6A862DCE70FB}" ShortID="714226299">
+								<Action Name="" ID="{582C5E05-5C2E-4452-A4B7-9536C81CB344}" ShortID="718878405">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{65C7ED16-4313-4DAE-8D06-E38910E21DD8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="VO_Flying_Idle" ID="{735AECC9-A689-4A74-AE87-4C10946328DD}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+											<ObjectRef Name="Poncho_Flying" ID="{9CB1B918-0799-416A-BCC7-203309EFA094}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -257,16 +307,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{C06EF73D-E3D7-47AE-A720-2A9D7A6D1ECF}" ShortID="1058915679">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Poncho_Flying" ID="{9CB1B918-0799-416A-BCC7-203309EFA094}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{37415BE7-CE4A-43A4-AC26-1C4DF7AA5534}" ShortID="392825310">
 									<PropertyList>
 										<Property Name="Delay" Type="Real64" Value="0.1"/>
@@ -284,6 +324,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Player_Footsteps_Landing" ID="{B129E110-F174-41D0-B9A4-4171804B4A1F}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7E6FDF82-FECF-4630-90FC-828185BC9874}" ShortID="665179992">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C06EF73D-E3D7-47AE-A720-2A9D7A6D1ECF}" ShortID="1058915679">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho_Flying" ID="{9CB1B918-0799-416A-BCC7-203309EFA094}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -307,33 +367,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{7E6FDF82-FECF-4630-90FC-828185BC9874}" ShortID="665179992">
+								<Action Name="" ID="{0D6CD275-A0B5-4C8A-8B7C-62E38E192A32}" ShortID="738651883">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="22"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{0FC10A70-F814-4B0A-B467-E0865F32BC03}" ShortID="765242933">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="5"/>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="VO_Flying_Stunned" ID="{FCFC8F72-F3FF-4412-B45A-E1C11D4466D4}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{FA28D096-6DD2-49DA-B133-87C01F7FF531}" ShortID="243849401">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Player_Thud" ID="{2B9470F2-39C5-4474-8058-E98467123B73}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -352,6 +392,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="VO_Flying_Stunned" ID="{FCFC8F72-F3FF-4412-B45A-E1C11D4466D4}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3B6EE83A-EA8D-4082-AD94-772B547DCBAA}" ShortID="357717135">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -375,35 +425,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{3B6EE83A-EA8D-4082-AD94-772B547DCBAA}" ShortID="357717135">
+								<Action Name="" ID="{A18BBAAF-F0CE-4B40-964F-D2FF1C205F8B}" ShortID="934630250">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="22"/>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{B91C7796-8763-40CC-A12A-10DF0289C2EB}" ShortID="900060353">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="4"/>
-										<Property Name="Delay" Type="Real64" Value="3"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="VO_Flying_Stunned" ID="{FCFC8F72-F3FF-4412-B45A-E1C11D4466D4}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{12E3219D-8C92-408D-859E-4C26934712F7}" ShortID="1030962303">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="4"/>
-										<Property Name="Delay" Type="Real64" Value="2.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Player_Thud" ID="{2B9470F2-39C5-4474-8058-E98467123B73}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+											<ObjectRef Name="Poncho_Flying" ID="{9CB1B918-0799-416A-BCC7-203309EFA094}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -445,23 +473,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{4F79DE30-D1F8-426B-9B3D-1E4DC20F9B02}" ShortID="873451432">
+								<Action Name="" ID="{E4D333EE-5229-48E4-AF20-702D11D2DC21}" ShortID="848125001">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="5"/>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="VO_Flying_Stunned" ID="{FCFC8F72-F3FF-4412-B45A-E1C11D4466D4}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{76417B7D-04E9-4FBF-B2DD-733339CCEDEC}" ShortID="129694720">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Player_Thud" ID="{2B9470F2-39C5-4474-8058-E98467123B73}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -473,6 +491,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Poncho_Stop" ID="{1908FDB6-9460-433B-9FE1-F14EA74A226F}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2FC275AA-4BBB-43D0-BA19-BF472E7C3BA7}" ShortID="911864670">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -493,16 +521,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Flying_Start_Wind" ID="{45A63DC1-7F5D-4713-90E5-28D617AC49A9}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{2FC275AA-4BBB-43D0-BA19-BF472E7C3BA7}" ShortID="911864670">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="22"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -557,9 +575,9 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{728FE8AD-1A45-45CD-AF4E-39E06143A70C}" ShortID="352941182">
+								<Action Name="" ID="{9665AD71-847C-404A-A48C-77FB7A1FEF23}" ShortID="222612519">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="5"/>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -567,18 +585,9 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{921CD5AF-C232-4B3A-BCCF-44120570C4C9}" ShortID="845403020">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Player_Thud" ID="{2B9470F2-39C5-4474-8058-E98467123B73}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Foot_Elevator" ID="{DB1A9F8B-D262-4B62-8E4B-230366BF1D36}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="AMBIENCE" ID="{635F207D-23D8-4426-92B0-3B1D5A09298F}" ShortID="385877395">
@@ -681,7 +690,76 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="WindColumn_Idle" ID="{0704491B-BDCE-41F5-9069-F409D005BE6E}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+											<ObjectRef Name="Wind_Column_High" ID="{320BBD1D-1976-4BC5-A262-FC92FEE2965D}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9824CAD1-FC3A-4890-A525-CB44407B3EDE}" ShortID="929245899">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A0E156E6-DD1F-4707-8170-1D4354F4D8EE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Column_Normal" ID="{8CB7DEA1-11C6-429F-912D-530FECEF2219}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AB782A42-9F34-486D-B32F-A66B65F5340C}" ShortID="112431515">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AF8E563F-9C0C-44B4-B337-2758618BC158}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Column_Spooky" ID="{41B70B53-F953-45B6-9B56-5A975C5304D0}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D6D9FD43-3555-4878-8DC4-9520990D4D0A}" ShortID="48114707">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D266D644-C807-42CE-9F53-2B989342AEAD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Column_Base" ID="{01C1DF1E-F231-48AA-9E7B-A25E734E5719}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -7349,7 +7349,7 @@
 																									</Point>
 																									<Point>
 																										<XPos>3.71282</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
@@ -7468,7 +7468,7 @@
 																									</Point>
 																									<Point>
 																										<XPos>3.69396</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
@@ -7587,7 +7587,7 @@
 																									</Point>
 																									<Point>
 																										<XPos>3.67791</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
@@ -13693,10 +13693,11 @@
 																			<Local>
 																				<MusicClip Name="Hub_Tuto_Celeste" ID="{D06EE208-151D-45B9-A0FA-656E5CE77029}">
 																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="2000"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="3000"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="38500"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="649.618582171647"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-2500"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Hub_Tuto_Celeste" ID="{F8D30125-7BF5-44B8-808B-CE54E98327D8}"/>
 																					<PropertyCurveList>
@@ -13707,7 +13708,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>2</XPos>
+																										<XPos>3</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -13726,7 +13727,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>2</XPos>
+																										<XPos>3</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -13745,7 +13746,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>2</XPos>
+																										<XPos>3</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -13803,10 +13804,11 @@
 																			<Local>
 																				<MusicClip Name="Hub_Tuto_Pad" ID="{17689201-3F1B-47B7-9426-8BAF0C0851E5}">
 																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="2000"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="3000"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="35000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="613.528660939889"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-2500"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Hub_Tuto_Pad" ID="{A9196953-7C7B-499F-ADFC-AF1E81F44B83}"/>
 																					<PropertyCurveList>
@@ -13817,7 +13819,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>2</XPos>
+																										<XPos>3</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -13836,7 +13838,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>2</XPos>
+																										<XPos>3</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -13855,7 +13857,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>2</XPos>
+																										<XPos>3</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -13913,10 +13915,11 @@
 																			<Local>
 																				<MusicClip Name="Hub_Tuto_ReversedMallets" ID="{C0821E1E-5889-47EF-AA34-83DA6FF67F84}">
 																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="2000"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="3000"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="31500"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="541.348818476373"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-2500"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Hub_Tuto_ReversedMallets" ID="{C6F043AD-2DD6-4864-B0BF-743DAF8CE6D0}"/>
 																					<PropertyCurveList>
@@ -13927,7 +13930,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>2</XPos>
+																										<XPos>3</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -13946,7 +13949,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>2</XPos>
+																										<XPos>3</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -13965,8 +13968,8 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>2</XPos>
-																										<YPos>-0</YPos>
+																										<XPos>3</XPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -14016,7 +14019,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -14035,6 +14037,7 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="30000"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="6929.26487649756"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="6730.7703097229"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-2500"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Hub_Tuto_Strings" ID="{F84962ED-611E-4110-A1DB-052C5DA83C03}"/>
 																					<PropertyCurveList>
@@ -14149,7 +14152,7 @@
 																					<PropertyList>
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="1965.85418901589"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="3684.56079484806"/>
-																						<Property Name="PlayAt" Type="Real64" Value="5034.14581098411"/>
+																						<Property Name="PlayAt" Type="Real64" Value="2534.14581098411"/>
 																					</PropertyList>
 																					<MidiSourceRef Name="Procedural_Test_02" ID="{B4F54447-4451-4C76-ACD0-1455FEF4390A}"/>
 																				</MusicClipMidi>
@@ -14161,7 +14164,7 @@
 																					<PropertyList>
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="1965.85418901589"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="3684.56079484806"/>
-																						<Property Name="PlayAt" Type="Real64" Value="15534.1458109841"/>
+																						<Property Name="PlayAt" Type="Real64" Value="13034.1458109841"/>
 																					</PropertyList>
 																					<MidiSourceRef Name="Procedural_Test_02" ID="{B4F54447-4451-4C76-ACD0-1455FEF4390A}"/>
 																				</MusicClipMidi>
@@ -14173,7 +14176,7 @@
 																					<PropertyList>
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="1965.85418901589"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="3684.56079484806"/>
-																						<Property Name="PlayAt" Type="Real64" Value="22534.1458109841"/>
+																						<Property Name="PlayAt" Type="Real64" Value="20034.1458109841"/>
 																					</PropertyList>
 																					<MidiSourceRef Name="Procedural_Test_02" ID="{B4F54447-4451-4C76-ACD0-1455FEF4390A}"/>
 																				</MusicClipMidi>
@@ -14194,7 +14197,7 @@
 												<Local>
 													<MusicCue Name="Entry Cue" ID="{51749E8A-D96F-4D52-8BAB-5DD3731C9C59}">
 														<PropertyList>
-															<Property Name="TimeMs" Type="Real64" Value="3500"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -14204,7 +14207,7 @@
 													<MusicCue Name="Exit Cue" ID="{83704B3F-E9FB-4959-B73D-4BA43BECD3A7}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="31500"/>
+															<Property Name="TimeMs" Type="Real64" Value="29000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -15570,7 +15573,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>2</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>

@@ -145,7 +145,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Flying" ID="{C13402BE-0345-47CF-9776-BABCCF4E289C}"/>
+						<CurrentStateRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}"/>
 						<CurrentStateRef Name="None" ID="{CFD78839-E04F-4E73-95E3-4B046F157D03}"/>
 						<CurrentStateRef Name="None" ID="{362F49D5-B98D-4A01-9DD9-565618F8C672}"/>
 						<CurrentStateRef Name="None" ID="{38FA9B61-1EE0-4F36-834E-3647FCE41EC0}"/>
@@ -243,6 +243,18 @@
 						<RTPCValue>
 							<GameParameterRef Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}"/>
 							<Value>59.9133448873484</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Hub_Poncho_Proximity" ID="{E0460973-4D16-4D24-AC75-FDF0D6D4E4D6}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Altitude" ID="{CFA6C1AF-9FA9-4E1B-948B-AD35A1EFD10B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Foot_Idle_Wait" ID="{77AF80A5-38B1-4F9D-96CB-218EBFE38C45}"/>
+							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
