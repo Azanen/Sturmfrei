@@ -30010,6 +30010,11 @@
 							<ChildrenList>
 								<Sound Name="Poncho_Collect" ID="{DEFE1505-3D35-4B98-A83F-6FBB973F256D}" ShortID="104031624">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-12</Value>

@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="657818033">
+		<SoundBank Id="3161908922" Language="SFX" Hash="856268616">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -6125,6 +6125,10 @@
 							<ShortName>L2_high_23.wav</ShortName>
 							<Path>SFX/L2_high_23_A26074DB.wem</Path>
 						</File>
+						<File Id="311895758" Language="SFX">
+							<ShortName>Hub_PreVillage_Croatales.wav</ShortName>
+							<Path>SFX/Hub_PreVillage_Croatales_A26A3599.wem</Path>
+						</File>
 						<File Id="313553640" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_24.wav</ShortName>
 							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_24_A5CA16D4.wem</Path>
@@ -6169,6 +6173,10 @@
 							<ShortName>L2_high_15.wav</ShortName>
 							<Path>SFX/L2_high_15_24DE665A.wem</Path>
 						</File>
+						<File Id="338129130" Language="SFX">
+							<ShortName>Hub_PreVillage_Harp.wav</ShortName>
+							<Path>SFX/Hub_PreVillage_Harp_A26A3599.wem</Path>
+						</File>
 						<File Id="341491930" Language="SFX">
 							<ShortName>mid14.wav</ShortName>
 							<Path>SFX/mid14_FA8BBF17.wem</Path>
@@ -6201,6 +6209,10 @@
 							<ShortName>L2_high_04.wav</ShortName>
 							<Path>SFX/L2_high_04_A26074DB.wem</Path>
 						</File>
+						<File Id="353037393" Language="SFX">
+							<ShortName>Hub_PreVillage_Violoncelle.wav</ShortName>
+							<Path>SFX/Hub_PreVillage_Violoncelle_A26A3599.wem</Path>
+						</File>
 						<File Id="354441386" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_09.wav</ShortName>
 							<Path>SFX/Piano fragments/single notes/L3_singlenote_09_A5CA16D4.wem</Path>
@@ -6208,6 +6220,10 @@
 						<File Id="355675912" Language="SFX">
 							<ShortName>mid15.wav</ShortName>
 							<Path>SFX/mid15_3D366E33.wem</Path>
+						</File>
+						<File Id="356490874" Language="SFX">
+							<ShortName>Hub_PreVillage_PianoBells.wav</ShortName>
+							<Path>SFX/Hub_PreVillage_PianoBells_A26A3599.wem</Path>
 						</File>
 						<File Id="360052033" Language="SFX">
 							<ShortName>Hub_Village\Hub_Village_Violin I.wav</ShortName>
@@ -6296,6 +6312,10 @@
 						<File Id="430505035" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_06.wav</ShortName>
 							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_06_A5CA16D4.wem</Path>
+						</File>
+						<File Id="441751204" Language="SFX">
+							<ShortName>Hub_PreVillage_Contrebasse.wav</ShortName>
+							<Path>SFX/Hub_PreVillage_Contrebasse_A26A3599.wem</Path>
 						</File>
 						<File Id="444722987" Language="SFX">
 							<ShortName>L2_singlenotes_13.wav</ShortName>
@@ -6921,10 +6941,6 @@
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_04.wav</ShortName>
 							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_04_A5CA16D4.wem</Path>
 						</File>
-						<File Id="850461724" Language="SFX">
-							<ShortName>Hub_PostTutorial.wav</ShortName>
-							<Path>SFX/Hub_PostTutorial_A26A3599.wem</Path>
-						</File>
 						<File Id="853861763" Language="SFX">
 							<ShortName>L2_widerange_02.wav</ShortName>
 							<Path>SFX/L2_widerange_02_3053E1B1.wem</Path>
@@ -7000,6 +7016,10 @@
 						<File Id="903066183" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_08.wav</ShortName>
 							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_08_A5CA16D4.wem</Path>
+						</File>
+						<File Id="909877520" Language="SFX">
+							<ShortName>Hub_PreVillage_FluteBells.wav</ShortName>
+							<Path>SFX/Hub_PreVillage_FluteBells_A26A3599.wem</Path>
 						</File>
 						<File Id="913407173" Language="SFX">
 							<ShortName>L2_singlenotes_16.wav</ShortName>
@@ -7295,7 +7315,12 @@
 									<Children>
 										<SwitchContainer SwitchValue="{9A6CFBD5-D62D-49A8-8985-E341DEE55915}">
 											<Media>
-												<File Id="850461724"/>
+												<File Id="311895758"/>
+												<File Id="338129130"/>
+												<File Id="353037393"/>
+												<File Id="356490874"/>
+												<File Id="441751204"/>
+												<File Id="909877520"/>
 											</Media>
 										</SwitchContainer>
 									</Children>
@@ -7721,7 +7746,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="493504551" Name="Poncho_Collect" ObjectPath="\Events\Default Work Unit\INGREDIENT\Poncho_Collect" DurationType="OneShot" DurationMin="10.976372" DurationMax="10.976372">
+				<Event Id="493504551" Name="Poncho_Collect" ObjectPath="\Events\Default Work Unit\INGREDIENT\Poncho_Collect" DurationType="OneShot" DurationMin="10.360314" DurationMax="10.360314">
 					<IncludedMemoryFiles>
 						<File Id="467596883" Language="SFX">
 							<ShortName>Poncho\Poncho_Collect.wav</ShortName>
