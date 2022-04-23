@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1890384859">
+		<SoundBank Id="3161908922" Language="SFX" Hash="657818033">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -5945,6 +5945,10 @@
 							<ShortName>L1_SynthDrone_02.wav</ShortName>
 							<Path>SFX/L1_SynthDrone_02_A26A3599.wem</Path>
 						</File>
+						<File Id="177428060" Language="SFX">
+							<ShortName>Hub_Tuto\Hub_Tuto_Strings.wav</ShortName>
+							<Path>SFX/Hub_Tuto/Hub_Tuto_Strings_A26A3599.wem</Path>
+						</File>
 						<File Id="185379676" Language="SFX">
 							<ShortName>SingleNotes06.wav</ShortName>
 							<Path>SFX/SingleNotes06_A26074DB.wem</Path>
@@ -6060,6 +6064,10 @@
 						<File Id="262950430" Language="SFX">
 							<ShortName>L2_high_12.wav</ShortName>
 							<Path>SFX/L2_high_12_FA493E34.wem</Path>
+						</File>
+						<File Id="267469076" Language="SFX">
+							<ShortName>Hub_Tuto\Hub_Tuto_Contrebasse.wav</ShortName>
+							<Path>SFX/Hub_Tuto/Hub_Tuto_Contrebasse_A26A3599.wem</Path>
 						</File>
 						<File Id="268511693" Language="SFX">
 							<ShortName>Hub_bowed xylophone01.wav</ShortName>
@@ -6209,10 +6217,6 @@
 							<ShortName>Piano fragments\Intervals\L3_intervals_04.wav</ShortName>
 							<Path>SFX/Piano fragments/Intervals/L3_intervals_04_A5CA16D4.wem</Path>
 						</File>
-						<File Id="365309736" Language="SFX">
-							<ShortName>Hub_piano.wav</ShortName>
-							<Path>SFX/Hub_piano_A26A3599.wem</Path>
-						</File>
 						<File Id="371866325" Language="SFX">
 							<ShortName>L2_intervals_02.wav</ShortName>
 							<Path>SFX/L2_intervals_02_B8A54CBE.wem</Path>
@@ -6293,10 +6297,6 @@
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_06.wav</ShortName>
 							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_06_A5CA16D4.wem</Path>
 						</File>
-						<File Id="443705768" Language="SFX">
-							<ShortName>Hub_strings01.wav</ShortName>
-							<Path>SFX/Hub_strings01_A26A3599.wem</Path>
-						</File>
 						<File Id="444722987" Language="SFX">
 							<ShortName>L2_singlenotes_13.wav</ShortName>
 							<Path>SFX/L2_singlenotes_13_A26074DB.wem</Path>
@@ -6321,6 +6321,10 @@
 							<ShortName>high12.wav</ShortName>
 							<Path>SFX/high12_0F2264AB.wem</Path>
 						</File>
+						<File Id="463010338" Language="SFX">
+							<ShortName>Hub_Tuto\Hub_Tuto_ReversedMallets.wav</ShortName>
+							<Path>SFX/Hub_Tuto/Hub_Tuto_ReversedMallets_A26A3599.wem</Path>
+						</File>
 						<File Id="463444908" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_13.wav</ShortName>
 							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_13_A5CA16D4.wem</Path>
@@ -6328,10 +6332,6 @@
 						<File Id="467431270" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_09.wav</ShortName>
 							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_09_A5CA16D4.wem</Path>
-						</File>
-						<File Id="472184040" Language="SFX">
-							<ShortName>Hub_Xylophone.wav</ShortName>
-							<Path>SFX/Hub_Xylophone_A26A3599.wem</Path>
 						</File>
 						<File Id="482463223" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_07.wav</ShortName>
@@ -6589,6 +6589,10 @@
 							<ShortName>L2_perc_04.wav</ShortName>
 							<Path>SFX/L2_perc_04_A26074DB.wem</Path>
 						</File>
+						<File Id="649647919" Language="SFX">
+							<ShortName>Hub_Tuto\Hub_Tuto_Celeste.wav</ShortName>
+							<Path>SFX/Hub_Tuto/Hub_Tuto_Celeste_A26A3599.wem</Path>
+						</File>
 						<File Id="651560519" Language="SFX">
 							<ShortName>L2_mid_01.wav</ShortName>
 							<Path>SFX/L2_mid_01_A26074DB.wem</Path>
@@ -6692,10 +6696,6 @@
 						<File Id="699635344" Language="SFX">
 							<ShortName>L2_perc_07.wav</ShortName>
 							<Path>SFX/L2_perc_07_A26074DB.wem</Path>
-						</File>
-						<File Id="701155480" Language="SFX">
-							<ShortName>Hub_Contrebasse.wav</ShortName>
-							<Path>SFX/Hub_Contrebasse_A26A3599.wem</Path>
 						</File>
 						<File Id="701528346" Language="SFX">
 							<ShortName>L2_mid_13.wav</ShortName>
@@ -7105,6 +7105,10 @@
 							<ShortName>SingleNotes19.wav</ShortName>
 							<Path>SFX/SingleNotes19_A26074DB.wem</Path>
 						</File>
+						<File Id="975336973" Language="SFX">
+							<ShortName>Hub_Tuto\Hub_Tuto_Pad.wav</ShortName>
+							<Path>SFX/Hub_Tuto/Hub_Tuto_Pad_A26A3599.wem</Path>
+						</File>
 						<File Id="975512462" Language="SFX">
 							<ShortName>L2_low_01.wav</ShortName>
 							<Path>SFX/L2_low_01_A26074DB.wem</Path>
@@ -7237,6 +7241,10 @@
 							<ShortName>Hub_bowed xylophone03.wav</ShortName>
 							<Path>SFX/Hub_bowed xylophone03_A26074DB.wem</Path>
 						</File>
+						<File Id="1072000622" Language="SFX">
+							<ShortName>Hub_Tuto\Hub_Tuto_Woodblock.wav</ShortName>
+							<Path>SFX/Hub_Tuto/Hub_Tuto_Woodblock_A26A3599.wem</Path>
+						</File>
 						<File Id="1072560498" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_08.wav</ShortName>
 							<Path>SFX/Piano fragments/single notes/L3_singlenote_08_A5CA16D4.wem</Path>
@@ -7250,14 +7258,16 @@
 										<SwitchContainer SwitchValue="{2B8A6238-899D-455D-9E8C-79CE0540DBDD}">
 											<Media>
 												<File Id="167283073"/>
+												<File Id="177428060"/>
 												<File Id="252087568"/>
+												<File Id="267469076"/>
 												<File Id="268511693"/>
 												<File Id="341789411"/>
-												<File Id="365309736"/>
-												<File Id="443705768"/>
-												<File Id="472184040"/>
-												<File Id="701155480"/>
+												<File Id="463010338"/>
+												<File Id="649647919"/>
+												<File Id="975336973"/>
 												<File Id="1070696707"/>
+												<File Id="1072000622"/>
 											</Media>
 										</SwitchContainer>
 									</Children>
