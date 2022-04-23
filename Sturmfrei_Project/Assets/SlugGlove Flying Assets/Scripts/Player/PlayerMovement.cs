@@ -420,12 +420,14 @@ public class PlayerMovement : MonoBehaviour
                 if(timerBeforeSitting >= 7f)
                 {
                     ponoShouldSitDown = true;
+                    Anim.SetBool("IdleWait", true);
                     //play animation of Pono sitting down
                 }
             }
             else
             {
                 ponoShouldSitDown = false;
+                Anim.SetBool("IdleWait", false);
                 timerBeforeSitting = 0;
             }
            //lerp our current speed
