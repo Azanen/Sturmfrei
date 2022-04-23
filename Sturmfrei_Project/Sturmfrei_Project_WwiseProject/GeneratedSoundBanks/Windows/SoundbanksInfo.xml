@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="900814165">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3182212062">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3848432845">
+		<SoundBank Id="3161908922" Language="SFX" Hash="321934009">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -344,31 +344,31 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="820586857" Name="Bridge_Crack" ObjectPath="\Events\Default Work Unit\AMBIENCE\Bridge_Crack" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1661316371" Name="Fall_Respawn" ObjectPath="\Events\Default Work Unit\PLAYER\Fall_Respawn" DurationType="OneShot" DurationMin="1.941792" DurationMax="2.711539">
+				<Event Id="1661316371" Name="Fall_Respawn" ObjectPath="\Events\Default Work Unit\PLAYER\Fall_Respawn" DurationType="OneShot" DurationMin="4.882313" DurationMax="6.176304">
 					<IncludedMemoryFiles>
-						<File Id="85095602" Language="SFX">
-							<ShortName>VO_Foot_Falling\VO_Foot_Falling_5.wav</ShortName>
-							<Path>SFX/VO_Foot_Falling/VO_Foot_Falling_5_D982BFE4.wem</Path>
+						<File Id="278736147" Language="SFX">
+							<ShortName>VO_Foot_Falling_V2_5.wav</ShortName>
+							<Path>SFX/VO_Foot_Falling_V2_5_A26074DB.wem</Path>
 						</File>
-						<File Id="607705586" Language="SFX">
-							<ShortName>VO_Foot_Falling\VO_Foot_Falling_2.wav</ShortName>
-							<Path>SFX/VO_Foot_Falling/VO_Foot_Falling_2_B9EEA621.wem</Path>
+						<File Id="754125781" Language="SFX">
+							<ShortName>VO_Foot_Falling_V2_4.wav</ShortName>
+							<Path>SFX/VO_Foot_Falling_V2_4_A26074DB.wem</Path>
 						</File>
-						<File Id="649675450" Language="SFX">
-							<ShortName>VO_Foot_Falling\VO_Foot_Falling_1.wav</ShortName>
-							<Path>SFX/VO_Foot_Falling/VO_Foot_Falling_1_2B10506B.wem</Path>
+						<File Id="777899412" Language="SFX">
+							<ShortName>VO_Foot_Falling_V2_6.wav</ShortName>
+							<Path>SFX/VO_Foot_Falling_V2_6_A26074DB.wem</Path>
 						</File>
-						<File Id="650558809" Language="SFX">
-							<ShortName>VO_Foot_Falling\VO_Foot_Falling_4.wav</ShortName>
-							<Path>SFX/VO_Foot_Falling/VO_Foot_Falling_4_ABC3A69C.wem</Path>
+						<File Id="918758931" Language="SFX">
+							<ShortName>VO_Foot_Falling_V2_3.wav</ShortName>
+							<Path>SFX/VO_Foot_Falling_V2_3_A26074DB.wem</Path>
 						</File>
-						<File Id="727171762" Language="SFX">
-							<ShortName>VO_Foot_Falling\VO_Foot_Falling_3.wav</ShortName>
-							<Path>SFX/VO_Foot_Falling/VO_Foot_Falling_3_C8248E2E.wem</Path>
+						<File Id="1014621262" Language="SFX">
+							<ShortName>VO_Foot_Falling_V2_2.wav</ShortName>
+							<Path>SFX/VO_Foot_Falling_V2_2_A26074DB.wem</Path>
 						</File>
-						<File Id="730058123" Language="SFX">
-							<ShortName>VO_Foot_Falling\VO_Foot_Falling_6.wav</ShortName>
-							<Path>SFX/VO_Foot_Falling/VO_Foot_Falling_6_64B45108.wem</Path>
+						<File Id="1037168219" Language="SFX">
+							<ShortName>VO_Foot_Falling_V2_1.wav</ShortName>
+							<Path>SFX/VO_Foot_Falling_V2_1_A26074DB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionSetState>
@@ -2380,15 +2380,63 @@
 						<ActionSetStateEntry Id="3031504797" Name="Foot" ObjectPath="\States\Default Work Unit\Mode\Foot"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2840002408" Name="Flying_Stunned" ObjectPath="\Events\Default Work Unit\PLAYER\Flying_Stunned" DurationType="OneShot" DurationMin="0.142707" DurationMax="0.40296">
+				<Event Id="2840002408" Name="Flying_Stunned" ObjectPath="\Events\Default Work Unit\PLAYER\Flying_Stunned" DurationType="OneShot" DurationMin="1.468209" DurationMax="3.084376">
 					<IncludedMemoryFiles>
+						<File Id="14951847" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_23.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_23_A26074DB.wem</Path>
+						</File>
+						<File Id="26387827" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_36.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_36_A26074DB.wem</Path>
+						</File>
+						<File Id="26797674" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_44.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_44_A26074DB.wem</Path>
+						</File>
+						<File Id="34483763" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_16.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_16_A26074DB.wem</Path>
+						</File>
+						<File Id="50668177" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_1.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_1_A26074DB.wem</Path>
+						</File>
 						<File Id="52718925" Language="SFX">
 							<ShortName>Thud\Player_Thud_8.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_8_A26074DB.wem</Path>
+							<Path>SFX/Thud/Player_Thud_8_49A379AF.wem</Path>
 						</File>
-						<File Id="215942011" Language="SFX">
-							<ShortName>Thud\Player_Thud_16.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_16_A26074DB.wem</Path>
+						<File Id="78233610" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_5.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_5_A26074DB.wem</Path>
+						</File>
+						<File Id="86044917" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_10.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_10_A26074DB.wem</Path>
+						</File>
+						<File Id="118158725" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_26.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_26_4146C8FC.wem</Path>
+						</File>
+						<File Id="127755620" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_45.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_45_A26074DB.wem</Path>
+						</File>
+						<File Id="128148906" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_3.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_3_EF8576E9.wem</Path>
+						</File>
+						<File Id="166384457" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_29.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_29_6B085DF0.wem</Path>
+						</File>
+						<File Id="168320176" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_24.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_24_A26074DB.wem</Path>
+						</File>
+						<File Id="203933106" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_2.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_2_A26074DB.wem</Path>
 						</File>
 						<File Id="222768813" Language="SFX">
 							<ShortName>Thud\Player_Thud_14.wav</ShortName>
@@ -2400,27 +2448,163 @@
 						</File>
 						<File Id="235563188" Language="SFX">
 							<ShortName>Thud\Player_Thud_1.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_1_FCDB0225.wem</Path>
+							<Path>SFX/Thud/Player_Thud_1_80C96CAF.wem</Path>
+						</File>
+						<File Id="235964161" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_19.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_19_A26074DB.wem</Path>
+						</File>
+						<File Id="258803538" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_4.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_4_A26074DB.wem</Path>
+						</File>
+						<File Id="261205482" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_38.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_38_A26074DB.wem</Path>
+						</File>
+						<File Id="270202130" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_22.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_22_1FA2854C.wem</Path>
+						</File>
+						<File Id="276431849" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_47.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_47_A26074DB.wem</Path>
 						</File>
 						<File Id="293867283" Language="SFX">
 							<ShortName>Thud\Player_Thud_9.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_9_A26074DB.wem</Path>
+							<Path>SFX/Thud/Player_Thud_9_8A7A0795.wem</Path>
 						</File>
 						<File Id="312016354" Language="SFX">
 							<ShortName>Thud\Player_Thud_21.wav</ShortName>
 							<Path>SFX/Thud/Player_Thud_21_A26074DB.wem</Path>
 						</File>
+						<File Id="320199565" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_14.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_14_A26074DB.wem</Path>
+						</File>
+						<File Id="332438287" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_10.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_10_A26074DB.wem</Path>
+						</File>
+						<File Id="355748005" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_4.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_4_A26074DB.wem</Path>
+						</File>
+						<File Id="371257373" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_3.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_3_A26074DB.wem</Path>
+						</File>
+						<File Id="380876600" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_7.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_7_A26074DB.wem</Path>
+						</File>
+						<File Id="381421430" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_27.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_27_A26074DB.wem</Path>
+						</File>
+						<File Id="389847820" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_20.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_20_A26074DB.wem</Path>
+						</File>
+						<File Id="390467905" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_42.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_42_A26074DB.wem</Path>
+						</File>
+						<File Id="467469311" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_22.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_22_31437A5F.wem</Path>
+						</File>
+						<File Id="499400759" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_15.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_15_A26074DB.wem</Path>
+						</File>
 						<File Id="502939781" Language="SFX">
 							<ShortName>Thud\Player_Thud_10.wav</ShortName>
 							<Path>SFX/Thud/Player_Thud_10_A26074DB.wem</Path>
 						</File>
+						<File Id="505041532" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_48.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_48_A26074DB.wem</Path>
+						</File>
+						<File Id="507719476" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_35.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_35_A26074DB.wem</Path>
+						</File>
+						<File Id="520488204" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_7.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_7_A26074DB.wem</Path>
+						</File>
+						<File Id="541978363" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_39.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_39_A26074DB.wem</Path>
+						</File>
+						<File Id="548614045" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_9.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_9_A26074DB.wem</Path>
+						</File>
+						<File Id="555792120" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_31.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_31_A26074DB.wem</Path>
+						</File>
+						<File Id="573933403" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_14.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_14_A26074DB.wem</Path>
+						</File>
 						<File Id="574503962" Language="SFX">
 							<ShortName>Thud\Player_Thud_5.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_5_A26074DB.wem</Path>
+							<Path>SFX/Thud/Player_Thud_5_B312005C.wem</Path>
+						</File>
+						<File Id="584228766" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_41.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_41_A26074DB.wem</Path>
+						</File>
+						<File Id="612473087" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_37.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_37_A26074DB.wem</Path>
+						</File>
+						<File Id="612758420" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_40.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_40_A26074DB.wem</Path>
+						</File>
+						<File Id="613001214" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_25.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_25_A26074DB.wem</Path>
+						</File>
+						<File Id="615618685" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_18.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_18_A26074DB.wem</Path>
+						</File>
+						<File Id="651240318" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_9.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_9_A26074DB.wem</Path>
+						</File>
+						<File Id="653055512" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_11.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_11_A26074DB.wem</Path>
+						</File>
+						<File Id="657229208" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_29.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_29_216ACAEF.wem</Path>
 						</File>
 						<File Id="660837896" Language="SFX">
 							<ShortName>Thud\Player_Thud_4.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_4_A26074DB.wem</Path>
+							<Path>SFX/Thud/Player_Thud_4_EF5E4852.wem</Path>
+						</File>
+						<File Id="686431332" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_21.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_21_A26074DB.wem</Path>
+						</File>
+						<File Id="693198143" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_11.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_11_A26074DB.wem</Path>
+						</File>
+						<File Id="709709609" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_30.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_30_46F4CA1B.wem</Path>
+						</File>
+						<File Id="754155588" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_17.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_17_A26074DB.wem</Path>
 						</File>
 						<File Id="755567490" Language="SFX">
 							<ShortName>Thud\Player_Thud_13.wav</ShortName>
@@ -2428,39 +2612,63 @@
 						</File>
 						<File Id="756411143" Language="SFX">
 							<ShortName>Thud\Player_Thud_3.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_3_A26074DB.wem</Path>
+							<Path>SFX/Thud/Player_Thud_3_298D4AD4.wem</Path>
+						</File>
+						<File Id="758038126" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_43.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_43_A26074DB.wem</Path>
+						</File>
+						<File Id="767930592" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_13.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_13_A26074DB.wem</Path>
+						</File>
+						<File Id="784332516" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_2.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_2_26070D30.wem</Path>
 						</File>
 						<File Id="787481108" Language="SFX">
 							<ShortName>Thud\Player_Thud_2.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_2_A26074DB.wem</Path>
+							<Path>SFX/Thud/Player_Thud_2_39B5B035.wem</Path>
 						</File>
-						<File Id="810793967" Language="SFX">
-							<ShortName>Thud\Player_Thud_6.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_6_A26074DB.wem</Path>
+						<File Id="814836700" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_28.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_28_B71F502E.wem</Path>
 						</File>
 						<File Id="859661650" Language="SFX">
 							<ShortName>Thud\Player_Thud_7.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_7_A26074DB.wem</Path>
-						</File>
-						<File Id="862616212" Language="SFX">
-							<ShortName>Thud\Player_Thud_11.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_11_A26074DB.wem</Path>
+							<Path>SFX/Thud/Player_Thud_7_5D8C68FA.wem</Path>
 						</File>
 						<File Id="883834372" Language="SFX">
 							<ShortName>Thud\Player_Thud_12.wav</ShortName>
 							<Path>SFX/Thud/Player_Thud_12_A26074DB.wem</Path>
 						</File>
+						<File Id="894381931" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_26.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_26_A4B6FBF8.wem</Path>
+						</File>
+						<File Id="921046405" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_8.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_8_A26074DB.wem</Path>
+						</File>
+						<File Id="921249568" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_8.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_8_A26074DB.wem</Path>
+						</File>
 						<File Id="934263559" Language="SFX">
 							<ShortName>Thud\Player_Thud_17.wav</ShortName>
 							<Path>SFX/Thud/Player_Thud_17_A26074DB.wem</Path>
 						</File>
-						<File Id="974141347" Language="SFX">
-							<ShortName>Thud\Player_Thud_15.wav</ShortName>
-							<Path>SFX/Thud/Player_Thud_15_A26074DB.wem</Path>
-						</File>
 						<File Id="1008185520" Language="SFX">
 							<ShortName>Thud\Player_Thud_19.wav</ShortName>
 							<Path>SFX/Thud/Player_Thud_19_A26074DB.wem</Path>
+						</File>
+						<File Id="1008945848" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Loop\VO_Flying_Stunned_Loop_12.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Loop/VO_Flying_Stunned_Loop_12_A26074DB.wem</Path>
+						</File>
+						<File Id="1033658980" Language="SFX">
+							<ShortName>VO_Flying_Stunned_Start\VO_Flying_Stunned_Start_46.wav</ShortName>
+							<Path>SFX/VO_Flying_Stunned_Start/VO_Flying_Stunned_Start_46_A26074DB.wem</Path>
 						</File>
 						<File Id="1048866207" Language="SFX">
 							<ShortName>Thud\Player_Thud_22.wav</ShortName>
@@ -2668,19 +2876,11 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="254470037" Name="Foot_Falling" ObjectPath="\Events\Default Work Unit\PLAYER\Foot_Falling" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3791781342" Name="Foot_Idle" ObjectPath="\Events\Default Work Unit\PLAYER\Foot_Idle" DurationType="Infinite">
+				<Event Id="3791781342" Name="Foot_Idle" ObjectPath="\Events\Default Work Unit\PLAYER\Foot_Idle" DurationType="OneShot" DurationMin="0.31318" DurationMax="1.478817">
 					<IncludedMemoryFiles>
 						<File Id="66830182" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_01.wav</ShortName>
 							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_01_AADD7136.wem</Path>
-						</File>
-						<File Id="131154102" Language="SFX">
-							<ShortName>VO_Foot_Idle\VO_Foot_Idle_12.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_12_A26074DB.wem</Path>
-						</File>
-						<File Id="180333179" Language="SFX">
-							<ShortName>VO_Foot_Idle\VO_Foot_Idle_06.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_06_98DA713B.wem</Path>
 						</File>
 						<File Id="223893657" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_04.wav</ShortName>
@@ -2690,57 +2890,41 @@
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_09.wav</ShortName>
 							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_09_A26074DB.wem</Path>
 						</File>
-						<File Id="427974998" Language="SFX">
-							<ShortName>VO_Foot_Idle\VO_Foot_Idle_10.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_10_A26074DB.wem</Path>
-						</File>
 						<File Id="579461670" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_02.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_02_6A378AF0.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_02_6ADAAA2F.wem</Path>
 						</File>
 						<File Id="713445510" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_05.wav</ShortName>
 							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_05_EFEE4D79.wem</Path>
 						</File>
-						<File Id="718872220" Language="SFX">
-							<ShortName>VO_Foot_Idle\VO_Foot_Idle_07.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_07_05E25994.wem</Path>
-						</File>
 						<File Id="740710244" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_08.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_08_0979E176.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_08_D9BF3939.wem</Path>
 						</File>
 						<File Id="810276945" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_17.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_17_A26074DB.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_17_31BCDCC2.wem</Path>
 						</File>
 						<File Id="816792904" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_16.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_16_A26074DB.wem</Path>
-						</File>
-						<File Id="873480173" Language="SFX">
-							<ShortName>VO_Foot_Idle\VO_Foot_Idle_03.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_03_CCDD28B9.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_16_6ECC8D74.wem</Path>
 						</File>
 						<File Id="924155743" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_14.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_14_A26074DB.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_14_BF174E53.wem</Path>
 						</File>
 						<File Id="961462778" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_11.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_11_A26074DB.wem</Path>
-						</File>
-						<File Id="990040791" Language="SFX">
-							<ShortName>VO_Foot_Idle\VO_Foot_Idle_15.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_15_56658B76.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_11_7E2A9F09.wem</Path>
 						</File>
 						<File Id="995042320" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_13.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_13_A26074DB.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_13_1C9CA319.wem</Path>
 						</File>
 						<File Id="1003100437" Language="SFX">
 							<ShortName>VO_Foot_Idle\VO_Foot_Idle_18.wav</ShortName>
-							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_18_A26074DB.wem</Path>
+							<Path>SFX/VO_Foot_Idle/VO_Foot_Idle_18_2314E5A3.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -5570,11 +5754,11 @@
 						</File>
 						<File Id="28918012" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_10.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_10_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_10_A5CA16D4.wem</Path>
 						</File>
 						<File Id="29692940" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_04.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_04_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_04_A5CA16D4.wem</Path>
 						</File>
 						<File Id="30969407" Language="SFX">
 							<ShortName>L2_perc_06.wav</ShortName>
@@ -5590,7 +5774,7 @@
 						</File>
 						<File Id="34812147" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_05_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_05_A5CA16D4.wem</Path>
 						</File>
 						<File Id="38040106" Language="SFX">
 							<ShortName>L2_singlenotes_17.wav</ShortName>
@@ -5626,7 +5810,7 @@
 						</File>
 						<File Id="60743127" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_08.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_08_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_08_A5CA16D4.wem</Path>
 						</File>
 						<File Id="66686668" Language="SFX">
 							<ShortName>L2_high_43.wav</ShortName>
@@ -5638,7 +5822,7 @@
 						</File>
 						<File Id="71302509" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_01_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_01_A5CA16D4.wem</Path>
 						</File>
 						<File Id="71858187" Language="SFX">
 							<ShortName>L2_high_46.wav</ShortName>
@@ -5650,11 +5834,11 @@
 						</File>
 						<File Id="74806089" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_07.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_07_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_07_A5CA16D4.wem</Path>
 						</File>
 						<File Id="78160175" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_12.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_12_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_12_A5CA16D4.wem</Path>
 						</File>
 						<File Id="81379998" Language="SFX">
 							<ShortName>L2_widerange_08.wav</ShortName>
@@ -5666,7 +5850,7 @@
 						</File>
 						<File Id="85156049" Language="SFX">
 							<ShortName>pianobass\L3_pianobass_octave.wav</ShortName>
-							<Path>SFX/pianobass/L3_pianobass_octave_A26074DB.wem</Path>
+							<Path>SFX/pianobass/L3_pianobass_octave_A5CA16D4.wem</Path>
 						</File>
 						<File Id="87594229" Language="SFX">
 							<ShortName>SingleNotes15.wav</ShortName>
@@ -5694,7 +5878,7 @@
 						</File>
 						<File Id="107337020" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_02_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_02_A5CA16D4.wem</Path>
 						</File>
 						<File Id="116820437" Language="SFX">
 							<ShortName>high07.wav</ShortName>
@@ -5706,7 +5890,7 @@
 						</File>
 						<File Id="128430240" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_18.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_18_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_18_A5CA16D4.wem</Path>
 						</File>
 						<File Id="130907099" Language="SFX">
 							<ShortName>L2_mid_11.wav</ShortName>
@@ -5726,15 +5910,15 @@
 						</File>
 						<File Id="139127436" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_05_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_05_A5CA16D4.wem</Path>
 						</File>
 						<File Id="142605186" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_11.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_11_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_11_A5CA16D4.wem</Path>
 						</File>
 						<File Id="146468782" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_40.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_40_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_40_A5CA16D4.wem</Path>
 						</File>
 						<File Id="148850098" Language="SFX">
 							<ShortName>SingleNotes05.wav</ShortName>
@@ -5746,7 +5930,7 @@
 						</File>
 						<File Id="162623536" Language="SFX">
 							<ShortName>pianobass\L3_pianobass_Eb-high.wav</ShortName>
-							<Path>SFX/pianobass/L3_pianobass_Eb-high_A26074DB.wem</Path>
+							<Path>SFX/pianobass/L3_pianobass_Eb-high_A5CA16D4.wem</Path>
 						</File>
 						<File Id="165252916" Language="SFX">
 							<ShortName>high28.wav</ShortName>
@@ -5770,7 +5954,7 @@
 						</File>
 						<File Id="192815864" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_25.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_25_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_25_A5CA16D4.wem</Path>
 						</File>
 						<File Id="194107871" Language="SFX">
 							<ShortName>L2_widerange_15.wav</ShortName>
@@ -5778,7 +5962,7 @@
 						</File>
 						<File Id="194887876" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_03.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_03_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_03_A5CA16D4.wem</Path>
 						</File>
 						<File Id="195575905" Language="SFX">
 							<ShortName>L2_mid_17.wav</ShortName>
@@ -5818,7 +6002,7 @@
 						</File>
 						<File Id="219974708" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_02_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_02_A5CA16D4.wem</Path>
 						</File>
 						<File Id="222327238" Language="SFX">
 							<ShortName>L2_FX_01.wav</ShortName>
@@ -5830,7 +6014,7 @@
 						</File>
 						<File Id="234590867" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_06.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_06_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_06_A5CA16D4.wem</Path>
 						</File>
 						<File Id="235797297" Language="SFX">
 							<ShortName>L2_high_35.wav</ShortName>
@@ -5842,7 +6026,7 @@
 						</File>
 						<File Id="237770515" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_03_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_03_A5CA16D4.wem</Path>
 						</File>
 						<File Id="246087423" Language="SFX">
 							<ShortName>L2_FX_04.wav</ShortName>
@@ -5854,7 +6038,7 @@
 						</File>
 						<File Id="251183523" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_38.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_38_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_38_A5CA16D4.wem</Path>
 						</File>
 						<File Id="251184483" Language="SFX">
 							<ShortName>L2_high_17.wav</ShortName>
@@ -5886,7 +6070,7 @@
 						</File>
 						<File Id="270383119" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_01.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_01_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_01_A5CA16D4.wem</Path>
 						</File>
 						<File Id="272550935" Language="SFX">
 							<ShortName>SingleNotes12.wav</ShortName>
@@ -5902,7 +6086,7 @@
 						</File>
 						<File Id="278063365" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_10.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_10_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_10_A5CA16D4.wem</Path>
 						</File>
 						<File Id="282275872" Language="SFX">
 							<ShortName>SingleNotes13.wav</ShortName>
@@ -5934,7 +6118,7 @@
 						</File>
 						<File Id="313553640" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_24.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_24_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_24_A5CA16D4.wem</Path>
 						</File>
 						<File Id="315871350" Language="SFX">
 							<ShortName>high35.wav</ShortName>
@@ -5950,11 +6134,11 @@
 						</File>
 						<File Id="321402580" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_07.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_07_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_07_A5CA16D4.wem</Path>
 						</File>
 						<File Id="328014623" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_06_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_06_A5CA16D4.wem</Path>
 						</File>
 						<File Id="329022179" Language="SFX">
 							<ShortName>L2_high_11.wav</ShortName>
@@ -5970,7 +6154,7 @@
 						</File>
 						<File Id="337534716" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_05_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_05_A5CA16D4.wem</Path>
 						</File>
 						<File Id="337930529" Language="SFX">
 							<ShortName>L2_high_15.wav</ShortName>
@@ -5986,15 +6170,15 @@
 						</File>
 						<File Id="342243215" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_05_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_05_A5CA16D4.wem</Path>
 						</File>
 						<File Id="344329819" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_04_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_04_A5CA16D4.wem</Path>
 						</File>
 						<File Id="345729983" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_06_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_06_A5CA16D4.wem</Path>
 						</File>
 						<File Id="346767564" Language="SFX">
 							<ShortName>L2_singlenotes_02.wav</ShortName>
@@ -6010,7 +6194,7 @@
 						</File>
 						<File Id="354441386" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_09.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_09_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_09_A5CA16D4.wem</Path>
 						</File>
 						<File Id="355675912" Language="SFX">
 							<ShortName>mid15.wav</ShortName>
@@ -6022,7 +6206,7 @@
 						</File>
 						<File Id="365187414" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_04_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_04_A5CA16D4.wem</Path>
 						</File>
 						<File Id="365309736" Language="SFX">
 							<ShortName>Hub_piano.wav</ShortName>
@@ -6038,7 +6222,7 @@
 						</File>
 						<File Id="376054055" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_01_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_01_A5CA16D4.wem</Path>
 						</File>
 						<File Id="377683143" Language="SFX">
 							<ShortName>L2_high_21.wav</ShortName>
@@ -6050,15 +6234,15 @@
 						</File>
 						<File Id="387096211" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_07.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_07_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_07_A5CA16D4.wem</Path>
 						</File>
 						<File Id="392236752" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_02_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_02_A5CA16D4.wem</Path>
 						</File>
 						<File Id="392337919" Language="SFX">
 							<ShortName>pianobass\L3_pianobass_Bb_low.wav</ShortName>
-							<Path>SFX/pianobass/L3_pianobass_Bb_low_A26074DB.wem</Path>
+							<Path>SFX/pianobass/L3_pianobass_Bb_low_A5CA16D4.wem</Path>
 						</File>
 						<File Id="395801740" Language="SFX">
 							<ShortName>L2_mid_24.wav</ShortName>
@@ -6066,7 +6250,7 @@
 						</File>
 						<File Id="396154578" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_19.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_19_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_19_A5CA16D4.wem</Path>
 						</File>
 						<File Id="400714104" Language="SFX">
 							<ShortName>SingleNotes07.wav</ShortName>
@@ -6074,7 +6258,7 @@
 						</File>
 						<File Id="404859819" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_02_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_02_A5CA16D4.wem</Path>
 						</File>
 						<File Id="407698838" Language="SFX">
 							<ShortName>L2_high_05.wav</ShortName>
@@ -6082,7 +6266,7 @@
 						</File>
 						<File Id="409420128" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_04_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_04_A5CA16D4.wem</Path>
 						</File>
 						<File Id="419454914" Language="SFX">
 							<ShortName>L2_mid_08.wav</ShortName>
@@ -6106,7 +6290,7 @@
 						</File>
 						<File Id="430505035" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_06_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_06_A5CA16D4.wem</Path>
 						</File>
 						<File Id="443705768" Language="SFX">
 							<ShortName>Hub_strings01.wav</ShortName>
@@ -6138,11 +6322,11 @@
 						</File>
 						<File Id="463444908" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_13.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_13_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_13_A5CA16D4.wem</Path>
 						</File>
 						<File Id="467431270" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_09.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_09_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_09_A5CA16D4.wem</Path>
 						</File>
 						<File Id="472184040" Language="SFX">
 							<ShortName>Hub_Xylophone.wav</ShortName>
@@ -6150,11 +6334,11 @@
 						</File>
 						<File Id="482463223" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_07.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_07_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_07_A5CA16D4.wem</Path>
 						</File>
 						<File Id="485610135" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_32.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_32_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_32_A5CA16D4.wem</Path>
 						</File>
 						<File Id="500093489" Language="SFX">
 							<ShortName>high36.wav</ShortName>
@@ -6162,11 +6346,11 @@
 						</File>
 						<File Id="500640156" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_07.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_07_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_07_A5CA16D4.wem</Path>
 						</File>
 						<File Id="505153702" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_11.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_11_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_11_A5CA16D4.wem</Path>
 						</File>
 						<File Id="506345302" Language="SFX">
 							<ShortName>L2_high_20.wav</ShortName>
@@ -6174,7 +6358,7 @@
 						</File>
 						<File Id="507230777" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_04_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_04_A5CA16D4.wem</Path>
 						</File>
 						<File Id="507755628" Language="SFX">
 							<ShortName>L2_high_02.wav</ShortName>
@@ -6186,11 +6370,11 @@
 						</File>
 						<File Id="509327897" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_16.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_16_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_16_A5CA16D4.wem</Path>
 						</File>
 						<File Id="511243405" Language="SFX">
 							<ShortName>pianobass\L3_pianobass_Eb_octave.wav</ShortName>
-							<Path>SFX/pianobass/L3_pianobass_Eb_octave_A26074DB.wem</Path>
+							<Path>SFX/pianobass/L3_pianobass_Eb_octave_A5CA16D4.wem</Path>
 						</File>
 						<File Id="513448246" Language="SFX">
 							<ShortName>L2_mid_10.wav</ShortName>
@@ -6226,19 +6410,19 @@
 						</File>
 						<File Id="537824780" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_06_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_06_A5CA16D4.wem</Path>
 						</File>
 						<File Id="538296863" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_39.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_39_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_39_A5CA16D4.wem</Path>
 						</File>
 						<File Id="544291190" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_21.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_21_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_21_A5CA16D4.wem</Path>
 						</File>
 						<File Id="546646865" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_34.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_34_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_34_A5CA16D4.wem</Path>
 						</File>
 						<File Id="550854460" Language="SFX">
 							<ShortName>L2_high_27.wav</ShortName>
@@ -6250,7 +6434,7 @@
 						</File>
 						<File Id="557478525" Language="SFX">
 							<ShortName>pianobass\L3_pianobass_Eb_low.wav</ShortName>
-							<Path>SFX/pianobass/L3_pianobass_Eb_low_A26074DB.wem</Path>
+							<Path>SFX/pianobass/L3_pianobass_Eb_low_A5CA16D4.wem</Path>
 						</File>
 						<File Id="558334459" Language="SFX">
 							<ShortName>high24.wav</ShortName>
@@ -6258,7 +6442,7 @@
 						</File>
 						<File Id="560205693" Language="SFX">
 							<ShortName>pianobass\L3_pianobass_Bb_octave.wav</ShortName>
-							<Path>SFX/pianobass/L3_pianobass_Bb_octave_A26074DB.wem</Path>
+							<Path>SFX/pianobass/L3_pianobass_Bb_octave_A5CA16D4.wem</Path>
 						</File>
 						<File Id="563302861" Language="SFX">
 							<ShortName>high32.wav</ShortName>
@@ -6270,7 +6454,7 @@
 						</File>
 						<File Id="564360451" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_06_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_06_A5CA16D4.wem</Path>
 						</File>
 						<File Id="566092133" Language="SFX">
 							<ShortName>L2_singlenotes_03.wav</ShortName>
@@ -6318,7 +6502,7 @@
 						</File>
 						<File Id="593330592" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_37.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_37_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_37_A5CA16D4.wem</Path>
 						</File>
 						<File Id="593425009" Language="SFX">
 							<ShortName>L2_widerange_10.wav</ShortName>
@@ -6350,15 +6534,15 @@
 						</File>
 						<File Id="606243773" Language="SFX">
 							<ShortName>pianobass\L3_pianobass_C_low.wav</ShortName>
-							<Path>SFX/pianobass/L3_pianobass_C_low_A26074DB.wem</Path>
+							<Path>SFX/pianobass/L3_pianobass_C_low_A5CA16D4.wem</Path>
 						</File>
 						<File Id="609386692" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_20.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_20_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_20_A5CA16D4.wem</Path>
 						</File>
 						<File Id="614787960" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_08.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_08_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_08_A5CA16D4.wem</Path>
 						</File>
 						<File Id="617500669" Language="SFX">
 							<ShortName>L1_pianobass_Bb_high.wav</ShortName>
@@ -6366,7 +6550,7 @@
 						</File>
 						<File Id="625111393" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_05.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_05_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_05_A5CA16D4.wem</Path>
 						</File>
 						<File Id="625241075" Language="SFX">
 							<ShortName>L2_high_33.wav</ShortName>
@@ -6374,11 +6558,11 @@
 						</File>
 						<File Id="625993510" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_06_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_06_A5CA16D4.wem</Path>
 						</File>
 						<File Id="636084655" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_01_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_01_A5CA16D4.wem</Path>
 						</File>
 						<File Id="638264283" Language="SFX">
 							<ShortName>high30.wav</ShortName>
@@ -6390,7 +6574,7 @@
 						</File>
 						<File Id="639901078" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_03_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_03_A5CA16D4.wem</Path>
 						</File>
 						<File Id="640480811" Language="SFX">
 							<ShortName>L2_widerange_03.wav</ShortName>
@@ -6430,11 +6614,11 @@
 						</File>
 						<File Id="670460860" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_26.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_26_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_26_A5CA16D4.wem</Path>
 						</File>
 						<File Id="670839940" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_08.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_08_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_08_A5CA16D4.wem</Path>
 						</File>
 						<File Id="670848320" Language="SFX">
 							<ShortName>L2_low_05.wav</ShortName>
@@ -6446,11 +6630,11 @@
 						</File>
 						<File Id="674817455" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_05_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_05_A5CA16D4.wem</Path>
 						</File>
 						<File Id="674847059" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_03_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_03_A5CA16D4.wem</Path>
 						</File>
 						<File Id="679665888" Language="SFX">
 							<ShortName>L2_low_04.wav</ShortName>
@@ -6482,7 +6666,7 @@
 						</File>
 						<File Id="693823468" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_12.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_12_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_12_A5CA16D4.wem</Path>
 						</File>
 						<File Id="693851345" Language="SFX">
 							<ShortName>L2_intervals_09.wav</ShortName>
@@ -6494,7 +6678,7 @@
 						</File>
 						<File Id="695349597" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_03_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_03_A5CA16D4.wem</Path>
 						</File>
 						<File Id="695630529" Language="SFX">
 							<ShortName>L2_singlenotes_08.wav</ShortName>
@@ -6502,7 +6686,7 @@
 						</File>
 						<File Id="698718325" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_05_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_05_A5CA16D4.wem</Path>
 						</File>
 						<File Id="699635344" Language="SFX">
 							<ShortName>L2_perc_07.wav</ShortName>
@@ -6518,7 +6702,7 @@
 						</File>
 						<File Id="703382347" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_27.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_27_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_27_A5CA16D4.wem</Path>
 						</File>
 						<File Id="704948979" Language="SFX">
 							<ShortName>L2_high_30.wav</ShortName>
@@ -6526,15 +6710,15 @@
 						</File>
 						<File Id="706107370" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_01_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_01_A5CA16D4.wem</Path>
 						</File>
 						<File Id="714782617" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_42.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_42_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_42_A5CA16D4.wem</Path>
 						</File>
 						<File Id="716664377" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_02_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_02_A5CA16D4.wem</Path>
 						</File>
 						<File Id="719890215" Language="SFX">
 							<ShortName>L2_high_19.wav</ShortName>
@@ -6542,7 +6726,7 @@
 						</File>
 						<File Id="720780282" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_02.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_02_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_02_A5CA16D4.wem</Path>
 						</File>
 						<File Id="722212644" Language="SFX">
 							<ShortName>SingleNotes14.wav</ShortName>
@@ -6550,7 +6734,7 @@
 						</File>
 						<File Id="727437189" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_07.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_07_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_07_A5CA16D4.wem</Path>
 						</File>
 						<File Id="731429798" Language="SFX">
 							<ShortName>high34.wav</ShortName>
@@ -6558,11 +6742,11 @@
 						</File>
 						<File Id="731849578" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_35.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_35_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_35_A5CA16D4.wem</Path>
 						</File>
 						<File Id="732730824" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_10.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_10_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_10_A5CA16D4.wem</Path>
 						</File>
 						<File Id="741166371" Language="SFX">
 							<ShortName>mid02.wav</ShortName>
@@ -6574,7 +6758,7 @@
 						</File>
 						<File Id="743031493" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_23.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_23_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_23_A5CA16D4.wem</Path>
 						</File>
 						<File Id="746904752" Language="SFX">
 							<ShortName>L2_FX_03.wav</ShortName>
@@ -6606,11 +6790,11 @@
 						</File>
 						<File Id="755207154" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_08.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_08_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_08_A5CA16D4.wem</Path>
 						</File>
 						<File Id="758771566" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_11.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_11_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_11_A5CA16D4.wem</Path>
 						</File>
 						<File Id="759114435" Language="SFX">
 							<ShortName>L2_mid_07.wav</ShortName>
@@ -6626,7 +6810,7 @@
 						</File>
 						<File Id="767843360" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_04_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_04_A5CA16D4.wem</Path>
 						</File>
 						<File Id="777136871" Language="SFX">
 							<ShortName>L2_low_02.wav</ShortName>
@@ -6634,7 +6818,7 @@
 						</File>
 						<File Id="777535762" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_31.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_31_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_31_A5CA16D4.wem</Path>
 						</File>
 						<File Id="780329995" Language="SFX">
 							<ShortName>L2_high_28.wav</ShortName>
@@ -6646,7 +6830,7 @@
 						</File>
 						<File Id="785079905" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_43.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_43_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_43_A5CA16D4.wem</Path>
 						</File>
 						<File Id="785247267" Language="SFX">
 							<ShortName>L1_pianobass_C_high.wav</ShortName>
@@ -6682,7 +6866,7 @@
 						</File>
 						<File Id="813182563" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_07.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_07_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_07_A5CA16D4.wem</Path>
 						</File>
 						<File Id="814931522" Language="SFX">
 							<ShortName>Hub_Village\Hub_Village_Flute.wav</ShortName>
@@ -6690,7 +6874,7 @@
 						</File>
 						<File Id="815130244" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_41.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_41_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_41_A5CA16D4.wem</Path>
 						</File>
 						<File Id="816537803" Language="SFX">
 							<ShortName>mid22.wav</ShortName>
@@ -6710,7 +6894,7 @@
 						</File>
 						<File Id="831216823" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_36.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_36_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_36_A5CA16D4.wem</Path>
 						</File>
 						<File Id="839449594" Language="SFX">
 							<ShortName>mid23.wav</ShortName>
@@ -6722,7 +6906,7 @@
 						</File>
 						<File Id="844840292" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_17.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_17_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_17_A5CA16D4.wem</Path>
 						</File>
 						<File Id="846686136" Language="SFX">
 							<ShortName>L2_mid_14.wav</ShortName>
@@ -6730,11 +6914,11 @@
 						</File>
 						<File Id="847409977" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_01_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_01_A5CA16D4.wem</Path>
 						</File>
 						<File Id="849898795" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_04_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_04_A5CA16D4.wem</Path>
 						</File>
 						<File Id="850461724" Language="SFX">
 							<ShortName>Hub_PostTutorial.wav</ShortName>
@@ -6766,7 +6950,7 @@
 						</File>
 						<File Id="877795781" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_29.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_29_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_29_A5CA16D4.wem</Path>
 						</File>
 						<File Id="879732874" Language="SFX">
 							<ShortName>high11.wav</ShortName>
@@ -6778,7 +6962,7 @@
 						</File>
 						<File Id="891237709" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_09.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_09_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_09_A5CA16D4.wem</Path>
 						</File>
 						<File Id="893589115" Language="SFX">
 							<ShortName>L2_singlenotes_06.wav</ShortName>
@@ -6806,15 +6990,15 @@
 						</File>
 						<File Id="902440322" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_28.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_28_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_28_A5CA16D4.wem</Path>
 						</File>
 						<File Id="902545708" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_05_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_05_A5CA16D4.wem</Path>
 						</File>
 						<File Id="903066183" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_08.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_08_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_08_A5CA16D4.wem</Path>
 						</File>
 						<File Id="913407173" Language="SFX">
 							<ShortName>L2_singlenotes_16.wav</ShortName>
@@ -6822,7 +7006,7 @@
 						</File>
 						<File Id="914938688" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_02_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_02_A5CA16D4.wem</Path>
 						</File>
 						<File Id="918825733" Language="SFX">
 							<ShortName>L1_pianobass_F_octave.wav</ShortName>
@@ -6850,11 +7034,11 @@
 						</File>
 						<File Id="933703960" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_14.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_14_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_14_A5CA16D4.wem</Path>
 						</File>
 						<File Id="934171285" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_33.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_33_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_33_A5CA16D4.wem</Path>
 						</File>
 						<File Id="935255294" Language="SFX">
 							<ShortName>L2_widerange_16.wav</ShortName>
@@ -6874,11 +7058,11 @@
 						</File>
 						<File Id="939968695" Language="SFX">
 							<ShortName>pianobass\L3_pianobass_Bb_high.wav</ShortName>
-							<Path>SFX/pianobass/L3_pianobass_Bb_high_A26074DB.wem</Path>
+							<Path>SFX/pianobass/L3_pianobass_Bb_high_A5CA16D4.wem</Path>
 						</File>
 						<File Id="941797062" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_30.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_30_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_30_A5CA16D4.wem</Path>
 						</File>
 						<File Id="947417861" Language="SFX">
 							<ShortName>high14.wav</ShortName>
@@ -6886,7 +7070,7 @@
 						</File>
 						<File Id="950258945" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_15.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_15_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_15_A5CA16D4.wem</Path>
 						</File>
 						<File Id="951892699" Language="SFX">
 							<ShortName>L2_mid_20.wav</ShortName>
@@ -6926,15 +7110,15 @@
 						</File>
 						<File Id="976855521" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_13.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_13_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_13_A5CA16D4.wem</Path>
 						</File>
 						<File Id="978568655" Language="SFX">
 							<ShortName>pianobass\L3_pianobass_C_high.wav</ShortName>
-							<Path>SFX/pianobass/L3_pianobass_C_high_A26074DB.wem</Path>
+							<Path>SFX/pianobass/L3_pianobass_C_high_A5CA16D4.wem</Path>
 						</File>
 						<File Id="982841823" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_04_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_04_A5CA16D4.wem</Path>
 						</File>
 						<File Id="988719595" Language="SFX">
 							<ShortName>Hub_Village\Hub_Village_Harp.wav</ShortName>
@@ -6946,15 +7130,15 @@
 						</File>
 						<File Id="989614969" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_06_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_06_A5CA16D4.wem</Path>
 						</File>
 						<File Id="992981017" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_01_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_High/L3_chord_high_01_A5CA16D4.wem</Path>
 						</File>
 						<File Id="993545290" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_22.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_22_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_22_A5CA16D4.wem</Path>
 						</File>
 						<File Id="994612340" Language="SFX">
 							<ShortName>Hub_Transition\Hub_Transition_Violin II.wav</ShortName>
@@ -6966,7 +7150,7 @@
 						</File>
 						<File Id="996383537" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_03_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_03_A5CA16D4.wem</Path>
 						</File>
 						<File Id="997980687" Language="SFX">
 							<ShortName>L2_singlenotes_01.wav</ShortName>
@@ -6974,7 +7158,7 @@
 						</File>
 						<File Id="998354021" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_03_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_mid_03_A5CA16D4.wem</Path>
 						</File>
 						<File Id="998698005" Language="SFX">
 							<ShortName>L2_pianobass_F_octave.wav</ShortName>
@@ -6990,7 +7174,7 @@
 						</File>
 						<File Id="1008070626" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_03_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_03_A5CA16D4.wem</Path>
 						</File>
 						<File Id="1008385867" Language="SFX">
 							<ShortName>high10.wav</ShortName>
@@ -6998,7 +7182,7 @@
 						</File>
 						<File Id="1011453682" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_12.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_12_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_12_A5CA16D4.wem</Path>
 						</File>
 						<File Id="1026468589" Language="SFX">
 							<ShortName>high19.wav</ShortName>
@@ -7026,7 +7210,7 @@
 						</File>
 						<File Id="1045357432" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_01_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_01_A5CA16D4.wem</Path>
 						</File>
 						<File Id="1048324213" Language="SFX">
 							<ShortName>L2_high_31.wav</ShortName>
@@ -7034,7 +7218,7 @@
 						</File>
 						<File Id="1057154313" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_02_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_02_A5CA16D4.wem</Path>
 						</File>
 						<File Id="1057635692" Language="SFX">
 							<ShortName>L2_high_29.wav</ShortName>
@@ -7054,7 +7238,7 @@
 						</File>
 						<File Id="1072560498" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_08.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_08_A26074DB.wem</Path>
+							<Path>SFX/Piano fragments/single notes/L3_singlenote_08_A5CA16D4.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -7746,7 +7930,7 @@
 					<IncludedMemoryFiles>
 						<File Id="354235380" Language="SFX">
 							<ShortName>Torch_Idle.wav</ShortName>
-							<Path>SFX/Torch_Idle_F659A755.wem</Path>
+							<Path>SFX/Torch_Idle_6A9294D3.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -7767,7 +7951,7 @@
 						</File>
 						<File Id="422859238" Language="SFX">
 							<ShortName>Wind_Column\Wind_Column_Base_01.wav</ShortName>
-							<Path>SFX/Wind_Column/Wind_Column_Base_01_46DE4DED.wem</Path>
+							<Path>SFX/Wind_Column/Wind_Column_Base_01_0EE59B29.wem</Path>
 						</File>
 						<File Id="765173638" Language="SFX">
 							<ShortName>Wind_Column\Wind_Column_High_03.wav</ShortName>
@@ -7779,7 +7963,7 @@
 						</File>
 						<File Id="817698538" Language="SFX">
 							<ShortName>Wind_Column\Wind_Column_Spooky_02.wav</ShortName>
-							<Path>SFX/Wind_Column/Wind_Column_Spooky_02_4AB55587.wem</Path>
+							<Path>SFX/Wind_Column/Wind_Column_Spooky_02_4FB3E4B2.wem</Path>
 						</File>
 						<File Id="819883938" Language="SFX">
 							<ShortName>Wind_Column\Wind_Column_Normal_1_04.wav</ShortName>
@@ -7796,7 +7980,7 @@
 					<IncludedMemoryFiles>
 						<File Id="89751334" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Gears.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Gears_0D72E69F.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Gears_5733C436.wem</Path>
 						</File>
 						<File Id="132571400" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_High\WindTurbine_Wind_High_03.wav</ShortName>
@@ -7812,19 +7996,19 @@
 						</File>
 						<File Id="214345631" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_05.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_05_81434173.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_05_45A27F16.wem</Path>
 						</File>
 						<File Id="237537880" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_01.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_01_52B7C2EA.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_01_FD457566.wem</Path>
 						</File>
 						<File Id="383202964" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_High\WindTurbine_Wind_High_01.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_High/WindTurbine_Wind_High_01_4F48AE97.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_High/WindTurbine_Wind_High_01_F137A84E.wem</Path>
 						</File>
 						<File Id="387330887" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_High\WindTurbine_Wind_High_02.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_High/WindTurbine_Wind_High_02_75234232.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_High/WindTurbine_Wind_High_02_50060103.wem</Path>
 						</File>
 						<File Id="413747930" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Squeak\WindTurbine_Squeak_04.wav</ShortName>
@@ -7832,27 +8016,27 @@
 						</File>
 						<File Id="447549929" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Body.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Body_0E20EF87.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Body_CE2D1536.wem</Path>
 						</File>
 						<File Id="453479583" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_03.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_03_A9EC128D.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_03_7C98B5C9.wem</Path>
 						</File>
 						<File Id="493878743" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Blades_01.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Blades_01_E07654A9.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Blades_01_184AB540.wem</Path>
 						</File>
 						<File Id="662163527" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_04.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_04_3DADAD94.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_04_2CA833A2.wem</Path>
 						</File>
 						<File Id="669617485" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_02.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_02_E279DD28.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_02_5A1EEC75.wem</Path>
 						</File>
 						<File Id="750077134" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Squeak\WindTurbine_Squeak_02.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Squeak/WindTurbine_Squeak_02_F9A9798D.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Squeak/WindTurbine_Squeak_02_506F2C2E.wem</Path>
 						</File>
 						<File Id="853793604" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Squeak\WindTurbine_Squeak_01.wav</ShortName>
@@ -7860,25 +8044,26 @@
 						</File>
 						<File Id="907628838" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Mechanism.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Mechanism_A7EC4D80.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Mechanism_7D8F46B1.wem</Path>
 						</File>
 						<File Id="975703986" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_High\WindTurbine_Wind_High_04.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_High/WindTurbine_Wind_High_04_55FA99C1.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_High/WindTurbine_Wind_High_04_7A998E33.wem</Path>
 						</File>
 						<File Id="1027007566" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_08.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_08_30225189.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_08_172A2DD7.wem</Path>
 						</File>
 						<File Id="1036267158" Language="SFX">
 							<ShortName>WindTurbine_Idle\WindTurbine_Wind_Mid\WindTurbine_Wind_Mid_07.wav</ShortName>
-							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_07_7C415D1D.wem</Path>
+							<Path>SFX/WindTurbine_Idle/WindTurbine_Wind_Mid/WindTurbine_Wind_Mid_07_1053BF33.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3015085494" Name="Wind_Turbine_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\Wind_Turbine_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="417177826" Name="Foot_Idle_Wait" ObjectPath="\Game Parameters\Default Work Unit\Foot_Idle_Wait"/>
 				<GameParameter Id="1322591463" Name="Inclination" ObjectPath="\Game Parameters\Default Work Unit\Inclination"/>
 			</GameParameters>
 			<StateGroups>

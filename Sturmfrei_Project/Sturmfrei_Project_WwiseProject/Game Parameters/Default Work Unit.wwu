@@ -13,6 +13,7 @@
 				</GameParameter>
 				<GameParameter Name="Altitude" ID="{CFA6C1AF-9FA9-4E1B-948B-AD35A1EFD10B}"/>
 				<GameParameter Name="Hub_Poncho_Proximity" ID="{E0460973-4D16-4D24-AC75-FDF0D6D4E4D6}"/>
+				<GameParameter Name="Foot_Idle_Wait" ID="{77AF80A5-38B1-4F9D-96CB-218EBFE38C45}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

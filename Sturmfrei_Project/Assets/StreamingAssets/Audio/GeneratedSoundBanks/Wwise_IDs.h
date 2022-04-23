@@ -196,6 +196,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID ALTITUDE = 1141543723U;
+        static const AkUniqueID FOOT_IDLE_WAIT = 417177826U;
         static const AkUniqueID HUB_PONCHO_PROXIMITY = 758209454U;
         static const AkUniqueID INCLINATION = 1322591463U;
     } // namespace GAME_PARAMETERS

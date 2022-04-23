@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585509745924775808
+    m_lastTime: -8585509307844775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -460,8 +460,8 @@ MonoBehaviour:
         guid: aa31af78be113b40b7327533a26f56ee
       Path: Events/Default Work Unit/PLAYER/Fall_Respawn
       maxAttenuation: 0
-      maxDuration: 2.711539
-      minDuration: 1.941792
+      maxDuration: 6.176304
+      minDuration: 4.882313
     - name: Flying_Dash
       guid: ef33b1df23a1f74687990ee47a73f85d
       id: 3122584051
@@ -580,8 +580,8 @@ MonoBehaviour:
         guid: a97df9527e5961478478342a159385ae
       Path: Events/Default Work Unit/PLAYER/Flying_Stunned
       maxAttenuation: 0
-      maxDuration: 0.40296
-      minDuration: 0.142707
+      maxDuration: 3.084376
+      minDuration: 1.468209
     - name: Foot_DashJump
       guid: 0587cbae5873fa44a09b304f3af98658
       id: 19599888
@@ -640,8 +640,8 @@ MonoBehaviour:
         guid: 8179fc27938f5c4d9baeb0ba71c05d4a
       Path: Events/Default Work Unit/PLAYER/Foot_Idle
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.478817
+      minDuration: 0.31318
     - name: Foot_Interaction
       guid: aa9d1bf7bb2ce841ba99226f6f8bfa65
       id: 2201597904
@@ -1832,7 +1832,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: f413bcad92b80c4a9dca013f7c3da6c8
     GuidInternal: 
-    m_lastTime: -8585509908384775808
+    m_lastTime: -8585509387714775808
     List:
     - name: Altitude
       guid: afc1a6cfa99f1b4e948bad35a1efd10b
@@ -1848,6 +1848,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: afc1a6cfa99f1b4e948bad35a1efd10b
       Path: Game Parameters/Default Work Unit/Altitude
+    - name: Foot_Idle_Wait
+      guid: a580af77b1389d4f96cb218ebfe38c45
+      id: 417177826
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f413bcad92b80c4a9dca013f7c3da6c8
+      - ElementName: Foot_Idle_Wait
+        ObjectType: 13
+        guid: a580af77b1389d4f96cb218ebfe38c45
+      Path: Game Parameters/Default Work Unit/Foot_Idle_Wait
     - name: Hub_Poncho_Proximity
       guid: 730946e0164d244dac75fdf0d6d4e4d6
       id: 758209454
