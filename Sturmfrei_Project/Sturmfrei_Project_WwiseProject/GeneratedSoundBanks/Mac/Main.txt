@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	535719110	BreakWall_Ice			\Default Work Unit\INGREDIENT\BreakWall_Ice	
 	621155176	Flying_Landing			\Default Work Unit\PLAYER\Flying_Landing	
 	626954121	Menu_Close			\Default Work Unit\UI\Menu_Close	
+	668518050	Torch_Idle			\Default Work Unit\AMBIENCE\Torch_Idle	
 	760777789	Menu_Click			\Default Work Unit\UI\Menu_Click	
 	761314172	Foot_Jump			\Default Work Unit\PLAYER\Foot_Jump	
 	820586857	Bridge_Crack			\Default Work Unit\AMBIENCE\Bridge_Crack	
@@ -29,6 +30,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1582029286	Boss_Idle_Stop			\Default Work Unit\INGREDIENT\Idle_Stop\Boss_Idle_Stop	
 	1633218881	Foot_Landing			\Default Work Unit\PLAYER\Foot_Landing	
 	1640886257	Magnet_Activate			\Default Work Unit\INGREDIENT\Magnet_Activate	
+	1641179489	Torch_Idle_Stop			\Default Work Unit\AMBIENCE\Idle_Stop\Torch_Idle_Stop	
 	1652472027	Magnet_Idle_Stop			\Default Work Unit\INGREDIENT\Idle_Stop\Magnet_Idle_Stop	
 	1661316371	Fall_Respawn			\Default Work Unit\PLAYER\Fall_Respawn	
 	1717976792	Poncho_Idle_Stop			\Default Work Unit\INGREDIENT\Idle_Stop\Poncho_Idle_Stop	
@@ -462,6 +464,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	349467088	Footstep_Grass_50	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Mac\SFX\Footsteps_Grass\Footstep_Grass_50_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Grass\Footstep_Grass_50		4961
 	351144161	L2_high_04	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Mac\SFX\L2_high_04_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_2\L2_High\L2_high_04		35597
 	352962485	VO_Foot_Dash_Jump_16	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Mac\SFX\VO_Foot_DashJump\VO_Foot_Dash_Jump_16_27A657B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_VO\VO_Foot\VO_Foot_DashJump\VO_Foot_Dash_Jump_16		9187
+	354235380	Torch_Idle	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Mac\SFX\Torch_Idle_F659A755.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMBIENCE\Torch_Idle		166104
 	354441386	L3_singlenote_09	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Mac\SFX\Piano fragments\single notes\L3_singlenote_09_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_3\L3_Single\L3_singlenote_09		58010
 	355170752	Footsteps_Snow_22	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Mac\SFX\Footsteps_Snow\Footsteps_Snow_22_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Snow\Footsteps_Snow_22		4997
 	355675912	mid15	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Mac\SFX\mid15_3D366E33.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_1\L1_Mid\mid15		103713

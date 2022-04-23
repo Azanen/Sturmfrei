@@ -549,9 +549,34 @@
 								<Event Name="Waterfall_Idle_Stop" ID="{BC2C56C1-E076-4E5E-AEC4-370B54CDEF67}"/>
 								<Event Name="Wind_Turbine_Stop" ID="{8206BDD2-A7B6-4A23-BE55-DACB5CF50BB0}"/>
 								<Event Name="Wind_Column_Stop" ID="{B382933B-12BD-4472-8715-5CD1F3D43282}"/>
+								<Event Name="Torch_Idle_Stop" ID="{7302AD6D-64B4-4679-AFD1-073E59598936}">
+									<ChildrenList>
+										<Action Name="" ID="{2BA45CF2-727E-4B65-9786-90E81923E455}" ShortID="781621216">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Idle" ID="{1B2EAF57-6BEF-4484-B969-80BD629AC306}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Event Name="Waterfall_Idle" ID="{5E806E88-FDBA-4129-AFF1-79BF7B85C195}"/>
+						<Event Name="Torch_Idle" ID="{51B2ADEF-EB37-48A9-8CAB-C2F90302820A}">
+							<ChildrenList>
+								<Action Name="" ID="{048FFA86-467F-4EBC-94CB-D923657FB008}" ShortID="1012744191">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Torch_Idle" ID="{1B2EAF57-6BEF-4484-B969-80BD629AC306}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="INGREDIENT" ID="{C932F243-6722-42DC-8568-9F1C1B452D43}" ShortID="602137840">

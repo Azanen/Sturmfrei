@@ -26278,6 +26278,11 @@
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -26287,7 +26292,9 @@
 											<Custom>
 												<Effect Name="Wwise Parametric EQ (Custom)" ID="{FCAFBA75-0364-4E61-9847-A7DA1AB1B932}" ShortID="105122947" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<PropertyList>
+														<Property Name="FrequencyBand1" Type="Real32" Value="304"/>
 														<Property Name="FrequencyBand3" Type="Real32" Value="4230"/>
+														<Property Name="GainBand1" Type="Real32" Value="8.5"/>
 														<Property Name="GainBand3" Type="Real32" Value="3"/>
 													</PropertyList>
 												</Effect>
@@ -26381,7 +26388,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -26431,7 +26438,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -26481,7 +26488,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -26516,6 +26523,732 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</BlendContainer>
+						<BlendContainer Name="Waterfall_Idle" ID="{DAD20FB1-1ABB-483F-A7C9-69CB477B491E}" ShortID="850206325">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Waterfall_Far" ID="{7ACDA798-6C06-405F-B8A3-41C812FC4372}" ShortID="1013342272">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Waterfall_Far" ID="{BAFDB51B-9A86-437B-BDAB-07D1E62DB0EA}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Waterfall_Far" ID="{EEA2DD1C-DA72-40D4-B1CF-5DECE02EF9A3}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="9062.5"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.91032608695652"/>
+												<Property Name="LoopEnd" Type="Real64" Value="174.464070048309"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Waterfall\Waterfall_Far.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="278293338"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Waterfall_Far" ID="{EEA2DD1C-DA72-40D4-B1CF-5DECE02EF9A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Waterfall_Mid" ID="{4F856F28-EC7C-4B34-8436-B1378B68B55C}" ShortID="290012141">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Waterfall_Mid" ID="{4E26C48B-34B9-463D-B7EC-6B5366349768}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Waterfall_Mid" ID="{995DEFFC-514E-43C4-BF96-4A2EFBEA1919}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2276.485"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.49900892240954"/>
+												<Property Name="LoopEnd" Type="Real64" Value="35.9307896250288"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Waterfall\Waterfall_Mid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="724792826"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Waterfall_Mid" ID="{995DEFFC-514E-43C4-BF96-4A2EFBEA1919}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="Waterfall_Close" ID="{C9335A2F-BFA9-4C22-80E1-4600C051DF34}" ShortID="704164069">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Waterfall_Close" ID="{CD251DFB-227C-4CA1-93F6-63C92AD6E64C}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Waterfall_Close_Body" ID="{6654B541-A145-4C89-9F02-CB10A5895136}" ShortID="9724508">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Waterfall_Body_1" ID="{B259C907-3F4B-4ED1-A65B-0CB665D4675D}" ShortID="662579792">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Waterfall_Body_1" ID="{D858CA2F-C90E-44DF-9B52-0FF8C024E693}">
+															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="8558.06"/>
+																<Property Name="LoopBegin" Type="Real64" Value="5.19097467542271"/>
+																<Property Name="LoopEnd" Type="Real64" Value="60.8541954257246"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Waterfall\Waterfall_Body_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="577628238"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Waterfall_Body_1" ID="{D858CA2F-C90E-44DF-9B52-0FF8C024E693}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Waterfall_Body_2" ID="{381AF264-9791-416D-AA4B-9DEFE176D918}" ShortID="370451589">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Waterfall_Body_2" ID="{A280CC82-01CE-4499-8360-5627B0DFE0DB}">
+															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="8558.06"/>
+																<Property Name="LoopBegin" Type="Real64" Value="5.029065380938"/>
+																<Property Name="LoopEnd" Type="Real64" Value="47.5533144248188"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Waterfall\Waterfall_Body_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="431561397"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Waterfall_Body_2" ID="{A280CC82-01CE-4499-8360-5627B0DFE0DB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Waterfall_Body_3" ID="{BB21FB83-39C2-4416-956D-EA6053C7884B}" ShortID="389817154">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Waterfall_Body_3" ID="{AF57A5FE-BEAA-42A8-9F4D-7CFBB1AAD57B}">
+															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="8558.06"/>
+																<Property Name="LoopBegin" Type="Real64" Value="3.11898607336957"/>
+																<Property Name="LoopEnd" Type="Real64" Value="29.3800786911232"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Waterfall\Waterfall_Body_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="617600466"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Waterfall_Body_3" ID="{AF57A5FE-BEAA-42A8-9F4D-7CFBB1AAD57B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Waterfall_Body_4" ID="{060F58BA-8320-47EB-8BB8-1D870D329CAF}" ShortID="922295518">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Waterfall_Body_4" ID="{5992C6F9-AEF2-46E9-AEDA-9630AFC1D058}">
+															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="8558.06"/>
+																<Property Name="LoopBegin" Type="Real64" Value="15.5618726851852"/>
+																<Property Name="LoopEnd" Type="Real64" Value="146.319559027778"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Waterfall\Waterfall_Body_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="529191919"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Waterfall_Body_4" ID="{5992C6F9-AEF2-46E9-AEDA-9630AFC1D058}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<Sound Name="Waterfall_Close" ID="{D6112387-6D80-4C27-BF5C-69423A8B00DE}" ShortID="1039654346">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Waterfall_Veryclose" ID="{8A18E072-250D-4968-B90E-F6129A3DB0CA}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="10421.053"/>
+														<Property Name="LoopBegin" Type="Real64" Value="6.23188405797101"/>
+														<Property Name="LoopEnd" Type="Real64" Value="112.608695652174"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Waterfall\Waterfall_Veryclose.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="576345089"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Waterfall_Veryclose" ID="{8A18E072-250D-4968-B90E-F6129A3DB0CA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</BlendContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<RandomSequenceContainer Name="River_Idle" ID="{CC6AAE93-4906-4765-BB2B-4141DB5DA678}" ShortID="923261414">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Att_River" ID="{3960D197-4275-4245-A55F-2E1D98561424}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="River_Idle_01" ID="{0D26997E-9A63-4778-8ECC-441AD45A0C53}" ShortID="731613300">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_01" ID="{F5AA64EC-F3B1-42D4-A83C-ABCC4A3F73F0}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="125.639365294826"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="762090437"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_01" ID="{F5AA64EC-F3B1-42D4-A83C-ABCC4A3F73F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_02" ID="{7F4421C5-282F-4A5C-9D3B-E11F4A790D36}" ShortID="219866661">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_02" ID="{3085A6B8-F995-4537-81BE-1CC1F5B0FE77}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="125.360632843963"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="542306112"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_02" ID="{3085A6B8-F995-4537-81BE-1CC1F5B0FE77}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_03" ID="{40710591-1CA7-4793-BFC6-EDFB69427077}" ShortID="507067173">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_03" ID="{DD5F7908-19D9-4F29-893A-6B3181AC6C6D}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="120.980111383875"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="850085584"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_03" ID="{DD5F7908-19D9-4F29-893A-6B3181AC6C6D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_04" ID="{5BAB614C-8A90-4ED2-AFB7-9C33D6A3CE6E}" ShortID="1001140063">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_04" ID="{585D76B3-732D-42B5-BE61-D3AE213A8B17}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="129.448591127156"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="515504670"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_04" ID="{585D76B3-732D-42B5-BE61-D3AE213A8B17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_05" ID="{DA099BF1-ED9D-48FA-AD07-C13DDEE6FF20}" ShortID="758904680">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_05" ID="{82B9B299-0F46-4D2C-80DA-386B336A5952}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="145.057704645006"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="144463753"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_05" ID="{82B9B299-0F46-4D2C-80DA-386B336A5952}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_06" ID="{A6E298FE-77EE-43F5-BAC9-E17BAA3F2BE3}" ShortID="417629826">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_06" ID="{D8236BC1-AC92-4DF4-A73E-B248392EF8D5}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="110.683889963899"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="945919391"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_06" ID="{D8236BC1-AC92-4DF4-A73E-B248392EF8D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_07" ID="{7E7CD486-1D8F-45E6-8804-42029588A0D8}" ShortID="935568279">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_07" ID="{D266EAB3-88D7-475D-B86E-EB45BC89EC60}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="125.7958033213"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="429936926"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_07" ID="{D266EAB3-88D7-475D-B86E-EB45BC89EC60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_08" ID="{430A82AB-2C71-425E-A88A-56233330FC52}" ShortID="1036897524">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_08" ID="{30CBF8FD-F8CA-4D13-8CC8-3044DB149C01}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="121.885447576916"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="107523676"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_08" ID="{30CBF8FD-F8CA-4D13-8CC8-3044DB149C01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_09" ID="{9241C0D3-A196-412D-9209-E5E1765DBD68}" ShortID="993988475">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_09" ID="{8BE754B0-35E3-4165-A093-994AF908848C}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="108.915727462637"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="386426621"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_09" ID="{8BE754B0-35E3-4165-A093-994AF908848C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_10" ID="{877CA15E-EC55-4E93-89E5-2808B7548981}" ShortID="558708316">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_10" ID="{B17E431A-875E-4178-B5E1-32E9E982AB35}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="98.0017079085658"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="180993325"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_10" ID="{B17E431A-875E-4178-B5E1-32E9E982AB35}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_11" ID="{46F0A674-3A03-470D-A187-BAA10C471C97}" ShortID="384750722">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_11" ID="{FA765E11-F061-444A-96E3-9AA2757BC3AD}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="116.330941872508"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="490954706"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_11" ID="{FA765E11-F061-444A-96E3-9AA2757BC3AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="River_Idle_12" ID="{C20F06A7-6D2B-44D5-A3B3-C17FCC56B76F}" ShortID="679180803">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="River_Idle_12" ID="{2EE36E88-7CDF-4521-8501-ABF3294AE8B7}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5018.724"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.52"/>
+												<Property Name="LoopEnd" Type="Real64" Value="89.7618317382822"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>River_Idle_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="910781699"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="River_Idle_12" ID="{2EE36E88-7CDF-4521-8501-ABF3294AE8B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<Sound Name="Torch_Idle" ID="{1B2EAF57-6BEF-4484-B969-80BD629AC306}" ShortID="354449525">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-50</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Att_Torch" ID="{0A73958E-1265-4D3A-A11B-3F60242BA208}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Torch_Idle" ID="{3C74A732-D76E-4E1B-AFDC-711B727DE84F}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="710.256"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.386326201978376"/>
+										<Property Name="LoopEnd" Type="Real64" Value="9.58571888658845"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Torch_Idle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="354235380"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Torch_Idle" ID="{3C74A732-D76E-4E1B-AFDC-711B727DE84F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
@@ -26537,7 +27270,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

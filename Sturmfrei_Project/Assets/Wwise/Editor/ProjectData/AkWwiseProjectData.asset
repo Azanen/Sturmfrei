@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585509805254775808
+    m_lastTime: -8585509745924775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -1585,6 +1585,49 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0f3570692d49a340aa0521762e29f963
       Path: Events/Default Work Unit/Test_Footstep
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Torch_Idle
+      guid: efadb25137eba9488cabc2f90302820a
+      id: 668518050
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cedcc42e1e517c4c8888dbdd56061ae7
+      - ElementName: AMBIENCE
+        ObjectType: 4
+        guid: 7d205f63d823264492b03b1d5a09298f
+      - ElementName: Torch_Idle
+        ObjectType: 3
+        guid: efadb25137eba9488cabc2f90302820a
+      Path: Events/Default Work Unit/AMBIENCE/Torch_Idle
+      maxAttenuation: 25
+      maxDuration: -1
+      minDuration: -1
+    - name: Torch_Idle_Stop
+      guid: 6dad0273b4647946afd1073e59598936
+      id: 1641179489
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cedcc42e1e517c4c8888dbdd56061ae7
+      - ElementName: AMBIENCE
+        ObjectType: 4
+        guid: 7d205f63d823264492b03b1d5a09298f
+      - ElementName: Idle_Stop
+        ObjectType: 4
+        guid: 5d905d80edc3284a8deb20d991c05cd7
+      - ElementName: Torch_Idle_Stop
+        ObjectType: 3
+        guid: 6dad0273b4647946afd1073e59598936
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop/Torch_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
