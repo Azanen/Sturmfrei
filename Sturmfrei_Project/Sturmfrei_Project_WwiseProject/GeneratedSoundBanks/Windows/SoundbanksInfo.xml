@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="321934009">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1890384859">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -5655,6 +5655,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="780953876" Name="Map_Load" ObjectPath="\Events\Default Work Unit\Map_Load" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="760777789" Name="Menu_Click" ObjectPath="\Events\Default Work Unit\UI\Menu_Click" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="626954121" Name="Menu_Close" ObjectPath="\Events\Default Work Unit\UI\Menu_Close" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1287511387" Name="Menu_Open" ObjectPath="\Events\Default Work Unit\UI\Menu_Open" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -7939,7 +7940,7 @@
 				<Event Id="1304417945" Name="Tree_Idle_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\Tree_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1840923026" Name="Waterfall_Idle" ObjectPath="\Events\Default Work Unit\AMBIENCE\Waterfall_Idle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1084993841" Name="Waterfall_Idle_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\Waterfall_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3105165424" Name="Wind_Column" ObjectPath="\Events\Default Work Unit\AMBIENCE\Wind_Column" MaxAttenuation="70." DurationType="Infinite">
+				<Event Id="3105165424" Name="Wind_Column" ObjectPath="\Events\Default Work Unit\AMBIENCE\Wind_Column" MaxAttenuation="50." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="13143658" Language="SFX">
 							<ShortName>Wind_Column\Wind_Column_Spooky_07.wav</ShortName>

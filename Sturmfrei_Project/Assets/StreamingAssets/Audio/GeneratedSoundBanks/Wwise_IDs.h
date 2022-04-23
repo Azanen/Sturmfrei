@@ -47,6 +47,7 @@ namespace AK
         static const AkUniqueID MAGNET_IDLE = 1966150636U;
         static const AkUniqueID MAGNET_IDLE_STOP = 1652472027U;
         static const AkUniqueID MAGNET_RELEASE = 1373415169U;
+        static const AkUniqueID MAP_LOAD = 780953876U;
         static const AkUniqueID MENU_CLICK = 760777789U;
         static const AkUniqueID MENU_CLOSE = 626954121U;
         static const AkUniqueID MENU_OPEN = 1287511387U;

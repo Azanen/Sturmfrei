@@ -952,7 +952,7 @@
 								<Action Name="" ID="{3E2D6940-0C64-45C5-A2B8-47BBED82602A}" ShortID="287803825">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BreakWall_Stone" ID="{931B752D-ADF8-43D7-869E-26D8A5FC12E5}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+											<ObjectRef Name="BreakWall_Stone_Boss" ID="{F30A9CBB-2EE8-417A-8470-660CCBF802B2}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1467,6 +1467,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Map_Load" ID="{B6CB8CA8-5BC9-4EC3-9ACD-1088F8314FDE}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

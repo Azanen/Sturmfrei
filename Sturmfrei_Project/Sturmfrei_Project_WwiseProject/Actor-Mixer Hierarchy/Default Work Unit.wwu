@@ -15121,7 +15121,7 @@
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>33</Value>
+												<Value>9</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{F198DBDF-2292-4076-B7E0-A93F979F1FEB}" ShortID="387676721">
@@ -15158,7 +15158,7 @@
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>22</Value>
+												<Value>23</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{693857F6-078B-4A0A-BD5E-E8507DB830F8}" ShortID="1028955666">
@@ -24595,12 +24595,12 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>16</Value>
+										<Value>13</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>44</Value>
+										<Value>65</Value>
 									</ValueList>
 								</Property>
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
@@ -24617,6 +24617,11 @@
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -24681,6 +24686,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Player_Thud_11" ID="{9879E319-DFB0-4706-9931-B3696325F85A}" ShortID="1010231919">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -24773,6 +24785,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Player_Thud_15" ID="{34EDA89B-B06B-4177-8270-0F23214BB962}" ShortID="363118288">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -24796,6 +24815,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Player_Thud_16" ID="{19A039A0-3D87-4F28-BF72-D51D60816E49}" ShortID="676726292">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -25047,6 +25073,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Player_Thud_6" ID="{571DAC97-9371-467C-8623-FECBBAF91304}" ShortID="329317481">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -25080,6 +25113,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Player_Thud_7" ID="{147A2011-2F0E-472C-95AE-7A0242E9FEE2}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0422151022864019"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.064087419775371"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thud\Player_Thud_7.wav</AudioFile>
 											<MediaIDList>
@@ -25103,6 +25142,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Player_Thud_8" ID="{43138523-C156-4D96-8A98-6920B26CAD04}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0639794173686322"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thud\Player_Thud_8.wav</AudioFile>
 											<MediaIDList>
@@ -25126,6 +25170,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Player_Thud_9" ID="{15766F7C-9F73-4212-A459-F55681E72773}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.135771710790213"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thud\Player_Thud_9.wav</AudioFile>
 											<MediaIDList>
@@ -25336,6 +25385,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -26511,6 +26565,11 @@
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-400</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>5</Value>
@@ -26526,9 +26585,11 @@
 												<Effect Name="Wwise Parametric EQ (Custom)" ID="{FCAFBA75-0364-4E61-9847-A7DA1AB1B932}" ShortID="105122947" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<PropertyList>
 														<Property Name="FrequencyBand1" Type="Real32" Value="304"/>
-														<Property Name="FrequencyBand3" Type="Real32" Value="4230"/>
+														<Property Name="FrequencyBand2" Type="Real32" Value="2220"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="3368"/>
 														<Property Name="GainBand1" Type="Real32" Value="8.5"/>
-														<Property Name="GainBand3" Type="Real32" Value="3"/>
+														<Property Name="GainBand2" Type="Real32" Value="-2"/>
+														<Property Name="GainBand3" Type="Real32" Value="7.5"/>
 													</PropertyList>
 												</Effect>
 											</Custom>
@@ -29239,6 +29300,495 @@
 										<ActiveSource Name="BreakWall_EasterEgg" ID="{8792EED1-9C3A-4A0E-AB90-7A92775491CD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<BlendContainer Name="BreakWall_Stone_Boss" ID="{F30A9CBB-2EE8-417A-8470-660CCBF802B2}" ShortID="414713357">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Boss" ID="{20CAE0B0-7DC0-4902-A7DB-7D9DF404EB0B}" WorkUnitID="{A0B9786C-1472-4D1A-9332-4B7D3F876EDC}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="BreakWall_Stone_Dirt" ID="{2161F6D8-541E-48E4-B14A-94EB1A3A7FB5}" ShortID="620269595">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BreakWall_Stone_Dirt_01" ID="{0B8D7494-88FD-408D-BDE5-E3328F1868A6}" ShortID="239804054">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Dirt_01" ID="{30888499-F51C-447D-A906-721910DF3A78}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Dirt_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="581400872"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Dirt_01" ID="{30888499-F51C-447D-A906-721910DF3A78}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Dirt_02" ID="{F042D7CE-D2E2-46A9-82B9-A0D59A0FD372}" ShortID="75535942">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Dirt_02" ID="{277CB2B5-3CBC-4888-A919-A77500D67B1C}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Dirt_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="679810061"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Dirt_02" ID="{277CB2B5-3CBC-4888-A919-A77500D67B1C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Dirt_03" ID="{AB6128E8-4949-480D-AEA0-4EBAB6A07227}" ShortID="861912768">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Dirt_03" ID="{7D66FA1A-5D87-4082-8397-8EAE323A0309}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Dirt_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="409086708"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Dirt_03" ID="{7D66FA1A-5D87-4082-8397-8EAE323A0309}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BreakWall_Stone_Hybrid" ID="{64342804-95E7-4526-8D0E-83C1006D3BC3}" ShortID="247237146">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BreakWall_Stone_Hybrid_01" ID="{20779782-01B6-4B5E-BCB5-9CCD0C9A4263}" ShortID="350848821">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Hybrid_01" ID="{AC8A240F-F0B5-48EF-B370-DF2286AF275E}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Hybrid\BreakWall_Stone_Hybrid_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="47448798"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Hybrid_01" ID="{AC8A240F-F0B5-48EF-B370-DF2286AF275E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Hybrid_02" ID="{B399061E-60A1-4A84-8804-01F96D756DA1}" ShortID="315748757">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Hybrid_02" ID="{C9F59E8A-F056-4AE5-AAA3-BA7D8BD8835A}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Hybrid\BreakWall_Stone_Hybrid_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="912011783"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Hybrid_02" ID="{C9F59E8A-F056-4AE5-AAA3-BA7D8BD8835A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Hybrid_03" ID="{CF261E77-B8A9-485E-AEDA-6EFE29F03E46}" ShortID="263320587">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Hybrid_03" ID="{48306689-BD08-47D1-B46E-92460771FDC1}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Hybrid\BreakWall_Stone_Hybrid_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="816615792"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Hybrid_03" ID="{48306689-BD08-47D1-B46E-92460771FDC1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BreakWall_Stone_Impact" ID="{0BF45F98-E899-4714-BF2E-D0633EE0AAA9}" ShortID="1064328790">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BreakWall_Stone_Impact_01" ID="{E459F445-4B6B-4563-ADAB-CAC26A53F9E0}" ShortID="357223291">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Impact_01" ID="{8414A0BA-23CC-4061-9412-8DD6C81CC38A}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Impact\BreakWall_Stone_Impact_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="307837858"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Impact_01" ID="{8414A0BA-23CC-4061-9412-8DD6C81CC38A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Impact_02" ID="{7A77DED9-533D-4841-9E8A-041A95A35F06}" ShortID="291893606">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Impact_02" ID="{D9398ADA-709F-4386-86B8-CACBEE354E07}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Impact\BreakWall_Stone_Impact_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="986433313"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Impact_02" ID="{D9398ADA-709F-4386-86B8-CACBEE354E07}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Impact_03" ID="{B40D8747-2BC7-498F-A448-3F689BBA60F5}" ShortID="142019517">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Impact_03" ID="{F22C8C86-8158-43B7-8572-28C90030BD03}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Impact\BreakWall_Stone_Impact_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="509321598"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Impact_03" ID="{F22C8C86-8158-43B7-8572-28C90030BD03}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BreakWall_Stone_Residue" ID="{AB9188C5-A070-4DC5-8437-89B648DD673C}" ShortID="398585793">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BreakWall_Stone_Residue_01" ID="{4C4E6A11-206B-43F2-879E-D48C6D6FCB2E}" ShortID="488667990">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Residue_01" ID="{4B2AB3E4-F62E-4DAD-922D-5A2CA06941EE}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Residue\BreakWall_Stone_Residue_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="482437373"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Residue_01" ID="{4B2AB3E4-F62E-4DAD-922D-5A2CA06941EE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Residue_02" ID="{3CBC6743-155F-402A-B3E1-B11B4DFCE7A6}" ShortID="205502547">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Residue_02" ID="{E9D2229A-9D9E-4045-AC20-BEE01F7CCB3D}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Residue\BreakWall_Stone_Residue_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="256919588"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Residue_02" ID="{E9D2229A-9D9E-4045-AC20-BEE01F7CCB3D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Residue_03" ID="{05B1758C-788D-4952-A1D5-38C087A0CCF9}" ShortID="545149202">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Residue_03" ID="{2E42766C-477D-47BA-A032-BB769CC07225}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Residue\BreakWall_Stone_Residue_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="905441406"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Residue_03" ID="{2E42766C-477D-47BA-A032-BB769CC07225}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BreakWall_Stone_Rocks" ID="{34458377-70FA-494B-901C-A7E20B675FDB}" ShortID="49741969">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BreakWall_Stone_Rocks_01" ID="{573B316A-A03B-4061-A8A3-35DB808D0C5D}" ShortID="525272949">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Rocks_01" ID="{08CAB15C-DE2F-470A-89ED-3D47C775E1CD}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Rocks\BreakWall_Stone_Rocks_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="332667524"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Rocks_01" ID="{08CAB15C-DE2F-470A-89ED-3D47C775E1CD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Rocks_02" ID="{B7A81387-0082-45A7-A377-C2B1B0D95348}" ShortID="715338798">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Rocks_02" ID="{0401D7E5-E083-427D-B112-BDD0E7892EA1}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Rocks\BreakWall_Stone_Rocks_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="694742180"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Rocks_02" ID="{0401D7E5-E083-427D-B112-BDD0E7892EA1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Rocks_03" ID="{89A21961-95D3-437D-92C6-2891B792EEA8}" ShortID="939191918">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Rocks_03" ID="{0CD62335-F563-4929-AF1B-CC82BF5924AA}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Rocks\BreakWall_Stone_Rocks_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1026092089"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Rocks_03" ID="{0CD62335-F563-4929-AF1B-CC82BF5924AA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BreakWall_Stone_Wide" ID="{21F7B08D-8A6F-42C5-BF6B-DA3C4651DB3B}" ShortID="463548431">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BreakWall_Stone_Wide_01" ID="{5CB992F5-2056-4E84-9527-5B1DC8709F3A}" ShortID="774011246">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Wide_01" ID="{321DD7FA-EDEC-435B-9730-D7460FC5AC26}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Wide\BreakWall_Stone_Wide_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="115469768"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Wide_01" ID="{321DD7FA-EDEC-435B-9730-D7460FC5AC26}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BreakWall_Stone_Wide_02" ID="{B2FC0D14-5499-4DFD-857E-12D53CF2EB8A}" ShortID="1044669517">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BreakWall_Stone_Wide_02" ID="{9C3C62C2-DD15-4583-8298-0EDEDBF2063A}">
+															<Language>SFX</Language>
+															<AudioFile>BreakWall_Stone\BreakWall_Stone_Wide\BreakWall_Stone_Wide_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="154433258"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BreakWall_Stone_Wide_02" ID="{9C3C62C2-DD15-4583-8298-0EDEDBF2063A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</BlendContainer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
@@ -37721,6 +38271,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_01" ID="{2A1499F5-97C0-4422-B2DD-3973A3E5875C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_01.wav</AudioFile>
 													<MediaIDList>
@@ -37744,6 +38297,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_02" ID="{1DB365B4-D3BF-44D4-8310-20935526A260}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_02.wav</AudioFile>
 													<MediaIDList>
@@ -37767,6 +38323,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_03" ID="{A1F9519D-A27F-42BD-82BA-1527B90B8905}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_03.wav</AudioFile>
 													<MediaIDList>
@@ -37790,6 +38349,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_04" ID="{D004663A-441B-44A5-90C9-3C64690052FE}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_04.wav</AudioFile>
 													<MediaIDList>
@@ -37813,6 +38375,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_05" ID="{BD445184-9905-4C35-AB77-2396D3166546}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_05.wav</AudioFile>
 													<MediaIDList>
@@ -37836,6 +38401,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_06" ID="{7AEB71CD-FF4A-49FE-B591-460593D57EF5}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_06.wav</AudioFile>
 													<MediaIDList>
@@ -37859,6 +38427,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_07" ID="{E6C87E0E-43A1-45F5-AA41-5B1E86657D8A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_07.wav</AudioFile>
 													<MediaIDList>
@@ -37882,6 +38453,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_08" ID="{35E50183-B33E-4838-BB24-40E55E437CCB}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_08.wav</AudioFile>
 													<MediaIDList>
@@ -37905,6 +38479,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_09" ID="{9B599797-7D94-43E8-B638-67658E9F69BC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_09.wav</AudioFile>
 													<MediaIDList>
@@ -37928,6 +38505,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_10" ID="{48EC99D4-6825-42F9-8ED9-E0E30B70E0A2}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_10.wav</AudioFile>
 													<MediaIDList>
@@ -37951,6 +38531,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_11" ID="{1D4AFBC0-9E04-46B0-A6B3-1E20881A12E3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_11.wav</AudioFile>
 													<MediaIDList>
@@ -37974,6 +38557,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_12" ID="{DF42C273-F325-4555-A0D6-E7E75F5523DD}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_12.wav</AudioFile>
 													<MediaIDList>
@@ -37997,6 +38583,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_high_13" ID="{6706379D-1A6D-49BF-A0AD-A27BBDC0B4C9}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_High\L3_chord_high_13.wav</AudioFile>
 													<MediaIDList>
@@ -38033,6 +38622,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_mid_01" ID="{04CD87FE-1A3F-4CA3-9188-7A00139CB34D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_01.wav</AudioFile>
 													<MediaIDList>
@@ -38056,6 +38648,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_mid_02" ID="{74B0D368-FA21-4BBC-AC77-EA997A868ADC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_02.wav</AudioFile>
 													<MediaIDList>
@@ -38079,6 +38674,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_mid_03" ID="{35FA0886-4136-4795-B43A-9A4BE7102A87}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_03.wav</AudioFile>
 													<MediaIDList>
@@ -38102,6 +38700,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_mid_04" ID="{E735CC9C-C9C0-494F-B41D-97AB5F061FC3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_04.wav</AudioFile>
 													<MediaIDList>
@@ -38125,6 +38726,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_mid_05" ID="{8BFC340B-FC00-45FE-9447-54D6605EF921}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_05.wav</AudioFile>
 													<MediaIDList>
@@ -38148,6 +38752,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_mid_06" ID="{BDD7F119-20D9-4328-9244-61A2ED54BE6E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_06.wav</AudioFile>
 													<MediaIDList>
@@ -38171,6 +38778,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_mid_07" ID="{BEE2163B-F837-41BA-A2EF-CF2E742378C9}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_07.wav</AudioFile>
 													<MediaIDList>
@@ -38194,6 +38804,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_chord_mid_08" ID="{3BA75264-B767-44E9-A238-ED972CD8A9D2}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Chord_Mid\L3_chord_mid_08.wav</AudioFile>
 													<MediaIDList>
@@ -38230,6 +38843,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_intervals_01" ID="{C654E545-7729-42E2-9748-F56AC281444C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Intervals\L3_intervals_01.wav</AudioFile>
 													<MediaIDList>
@@ -38253,6 +38869,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_intervals_02" ID="{6E7233EA-E16E-40CF-BB22-C2FE66E6DD3B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Intervals\L3_intervals_02.wav</AudioFile>
 													<MediaIDList>
@@ -38276,6 +38895,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_intervals_03" ID="{5F49F231-E71C-4D6D-BEA2-3547CAE79D56}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Intervals\L3_intervals_03.wav</AudioFile>
 													<MediaIDList>
@@ -38299,6 +38921,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_intervals_04" ID="{D070E2EC-D266-4F02-84F9-4E9D62417EDA}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Intervals\L3_intervals_04.wav</AudioFile>
 													<MediaIDList>
@@ -38322,6 +38947,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_intervals_05" ID="{CFEA1965-4465-4B4B-9876-CC7AA15CBBA6}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Intervals\L3_intervals_05.wav</AudioFile>
 													<MediaIDList>
@@ -38345,6 +38973,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_intervals_06" ID="{25DCC2CE-E2B7-41C5-A0FB-2BB570A61EC3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Intervals\L3_intervals_06.wav</AudioFile>
 													<MediaIDList>
@@ -38368,6 +38999,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_intervals_07" ID="{E04B8BD3-54FC-4B9C-BEA6-22FC4D2E762B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Intervals\L3_intervals_07.wav</AudioFile>
 													<MediaIDList>
@@ -38391,6 +39025,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_intervals_08" ID="{AD73DECF-B506-4F87-8539-B930D1B82621}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Intervals\L3_intervals_08.wav</AudioFile>
 													<MediaIDList>
@@ -38427,6 +39064,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_01" ID="{EEA61501-76B3-45DE-94AF-6D73FDF3A685}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_01.wav</AudioFile>
 													<MediaIDList>
@@ -38450,6 +39090,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_02" ID="{06AB5A09-D501-4CC5-BFA6-75DF66D5D0C0}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_02.wav</AudioFile>
 													<MediaIDList>
@@ -38473,6 +39116,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_03" ID="{21090FF8-21AA-494F-8243-1692F74879FE}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_03.wav</AudioFile>
 													<MediaIDList>
@@ -38496,6 +39142,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_04" ID="{80A85812-5CD6-4F5F-A3ED-22F82768FB48}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_04.wav</AudioFile>
 													<MediaIDList>
@@ -38519,6 +39168,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_05" ID="{A3E4D9B6-AF76-4908-8928-99C539E89280}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_05.wav</AudioFile>
 													<MediaIDList>
@@ -38542,6 +39194,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_06" ID="{27E429EF-4E6D-4A4F-844C-7FF6F7F2216F}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_06.wav</AudioFile>
 													<MediaIDList>
@@ -38565,6 +39220,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_07" ID="{7E4AB377-7CBA-4F65-99DE-29F6E49DF325}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_07.wav</AudioFile>
 													<MediaIDList>
@@ -38588,6 +39246,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_08" ID="{FC08A2EB-E299-403F-BC02-DAD4D05CB063}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_08.wav</AudioFile>
 													<MediaIDList>
@@ -38611,6 +39272,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_09" ID="{13B3BB61-99AC-4530-A805-F629298EBE09}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_09.wav</AudioFile>
 													<MediaIDList>
@@ -38634,6 +39298,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_10" ID="{F446BB32-DD78-49DD-AB68-7A353DEC2227}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_10.wav</AudioFile>
 													<MediaIDList>
@@ -38657,6 +39324,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_11" ID="{8510BAB8-CB24-4245-A4B9-BD1D73BA1637}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_11.wav</AudioFile>
 													<MediaIDList>
@@ -38680,6 +39350,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_12" ID="{20D2BCCD-EC5E-4BD2-889A-6FA59F1C717F}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_12.wav</AudioFile>
 													<MediaIDList>
@@ -38703,6 +39376,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_13" ID="{F0CDEBE6-E66F-436B-B26E-F07215F91D07}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_13.wav</AudioFile>
 													<MediaIDList>
@@ -38726,6 +39402,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_14" ID="{37BDC1D8-707D-4021-B502-5F0A57227F77}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_14.wav</AudioFile>
 													<MediaIDList>
@@ -38749,6 +39428,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_15" ID="{06F9790D-8CFA-414A-9949-358F8F2BEAC7}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_15.wav</AudioFile>
 													<MediaIDList>
@@ -38772,6 +39454,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_16" ID="{655FFBB7-A996-48D1-BC5A-C9C037CD63F9}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_16.wav</AudioFile>
 													<MediaIDList>
@@ -38795,6 +39480,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_17" ID="{5016A32D-A936-4CDF-8CB6-1EAA020E65D4}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_17.wav</AudioFile>
 													<MediaIDList>
@@ -38818,6 +39506,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_18" ID="{5132A9A9-875E-4246-A455-55A1F86BE7A8}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_18.wav</AudioFile>
 													<MediaIDList>
@@ -38841,6 +39532,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_19" ID="{0047DD7B-52CD-44D9-825B-DAE96CC1AE46}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_19.wav</AudioFile>
 													<MediaIDList>
@@ -38864,6 +39558,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_20" ID="{372CBD54-77A4-481B-B1ED-83A4A884EE47}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_20.wav</AudioFile>
 													<MediaIDList>
@@ -38887,6 +39584,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_21" ID="{38FFE7E4-BAD1-4901-8821-FCCB71052911}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_21.wav</AudioFile>
 													<MediaIDList>
@@ -38910,6 +39610,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_22" ID="{A3E48555-59F7-4633-8CCF-57B77C652BF1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_22.wav</AudioFile>
 													<MediaIDList>
@@ -38933,6 +39636,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_23" ID="{017A2D00-CD74-4CCA-B276-54D678ECCAB0}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_23.wav</AudioFile>
 													<MediaIDList>
@@ -38956,6 +39662,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_24" ID="{A8BE5ECC-4C34-468E-B094-83CBF83DC51B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_24.wav</AudioFile>
 													<MediaIDList>
@@ -38979,6 +39688,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_25" ID="{1B3B849C-2BB6-454C-BFBC-D8D51773E079}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_25.wav</AudioFile>
 													<MediaIDList>
@@ -39002,6 +39714,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_26" ID="{E0A559B0-68B3-4966-AA58-F435A9BEAF81}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_26.wav</AudioFile>
 													<MediaIDList>
@@ -39025,6 +39740,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_27" ID="{94D19032-AD2C-41D5-980A-03FD7D83DC63}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_27.wav</AudioFile>
 													<MediaIDList>
@@ -39048,6 +39766,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_28" ID="{4943F6B4-0EC1-4BF1-8EBA-027B2B4B8DB3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_28.wav</AudioFile>
 													<MediaIDList>
@@ -39071,6 +39792,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_29" ID="{D96EB9DC-20BC-4E15-A3F8-B0108FAAE78A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_29.wav</AudioFile>
 													<MediaIDList>
@@ -39094,6 +39818,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_30" ID="{DBEAF90A-1310-4B5B-A6F9-0898DB822BCA}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_30.wav</AudioFile>
 													<MediaIDList>
@@ -39117,6 +39844,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_31" ID="{58E4ED87-E726-4D04-ACE1-8B3BF456BAD0}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_31.wav</AudioFile>
 													<MediaIDList>
@@ -39140,6 +39870,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_32" ID="{7B8D6D28-2CC8-40A0-99E1-1E91840DF4A0}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_32.wav</AudioFile>
 													<MediaIDList>
@@ -39163,6 +39896,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_33" ID="{D418166F-F510-4FB5-A199-9CB83342581D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_33.wav</AudioFile>
 													<MediaIDList>
@@ -39186,6 +39922,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_34" ID="{49F93D7F-F580-4878-AE47-BC4A6100F819}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_34.wav</AudioFile>
 													<MediaIDList>
@@ -39209,6 +39948,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_35" ID="{88D3A4C6-C807-4F48-B6CC-BC7AC087949F}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_35.wav</AudioFile>
 													<MediaIDList>
@@ -39232,6 +39974,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_36" ID="{29DEB47B-C894-4FAB-95A1-5D420D79D4B1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_36.wav</AudioFile>
 													<MediaIDList>
@@ -39255,6 +40000,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_37" ID="{0ACE5964-6E0C-4A15-9B61-B24EC6EC3FFC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_37.wav</AudioFile>
 													<MediaIDList>
@@ -39278,6 +40026,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_38" ID="{2FE7078F-1763-458C-93EB-FF198919AD76}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_38.wav</AudioFile>
 													<MediaIDList>
@@ -39301,6 +40052,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_39" ID="{533B7120-70FC-4EBF-B071-175D705010B9}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_39.wav</AudioFile>
 													<MediaIDList>
@@ -39324,6 +40078,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_40" ID="{539B130A-5774-4DB0-B9B7-186A0C3B2740}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_40.wav</AudioFile>
 													<MediaIDList>
@@ -39347,6 +40104,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_41" ID="{07EFEE8C-B93A-44AA-9B7B-E501A2F4247A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_41.wav</AudioFile>
 													<MediaIDList>
@@ -39370,6 +40130,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_42" ID="{CE818439-51F9-4B09-B75E-B3B8F0F42228}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_42.wav</AudioFile>
 													<MediaIDList>
@@ -39393,6 +40156,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_high_43" ID="{3CD7C64B-0BB8-4ADA-932D-5F53ACC708B0}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_High\L3_phrase_high_43.wav</AudioFile>
 													<MediaIDList>
@@ -39429,6 +40195,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_mid_01" ID="{151E1895-7987-406A-A37D-D5945D923B75}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_01.wav</AudioFile>
 													<MediaIDList>
@@ -39452,6 +40221,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_mid_02" ID="{A94CA8A7-DCA2-45A3-A611-4E0F2D361762}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_02.wav</AudioFile>
 													<MediaIDList>
@@ -39475,6 +40247,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_mid_03" ID="{BE2012ED-7741-4623-8BBD-62DEF9E8C56A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_03.wav</AudioFile>
 													<MediaIDList>
@@ -39498,6 +40273,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_mid_04" ID="{AE43D6D0-A3A7-4B1E-B75B-FD9C63014530}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_04.wav</AudioFile>
 													<MediaIDList>
@@ -39521,6 +40299,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_mid_05" ID="{A495702B-377C-40EC-8359-6C9A74C37421}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_05.wav</AudioFile>
 													<MediaIDList>
@@ -39544,6 +40325,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_mid_06" ID="{01CD3630-F5C2-4DC2-85DF-E8A99DA76685}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_06.wav</AudioFile>
 													<MediaIDList>
@@ -39567,6 +40351,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_mid_07" ID="{27A4936B-6033-40DF-A258-B6B6E18FC79D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_mid_07.wav</AudioFile>
 													<MediaIDList>
@@ -39603,6 +40390,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_01" ID="{390AAF55-6C09-451D-A66F-732BC8FD5289}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_01.wav</AudioFile>
 													<MediaIDList>
@@ -39626,6 +40416,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_02" ID="{7C0291B2-5F9B-4409-8DB1-5BE5510DA2CD}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_02.wav</AudioFile>
 													<MediaIDList>
@@ -39649,6 +40442,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_03" ID="{30A8A8DA-34A5-413E-9546-785CCBCCC548}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_03.wav</AudioFile>
 													<MediaIDList>
@@ -39672,6 +40468,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_04" ID="{B2B36ACD-D9F8-4715-918F-554478136B8E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_04.wav</AudioFile>
 													<MediaIDList>
@@ -39695,6 +40494,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_05" ID="{F8005404-D918-409A-8200-C69378754A64}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_05.wav</AudioFile>
 													<MediaIDList>
@@ -39718,6 +40520,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_06" ID="{9F6C03E1-F65D-4032-A6B7-1856309D4287}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_06.wav</AudioFile>
 													<MediaIDList>
@@ -39741,6 +40546,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_07" ID="{7294CD9F-419F-47E0-8ACA-A37D943ACC68}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_07.wav</AudioFile>
 													<MediaIDList>
@@ -39764,6 +40572,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_08" ID="{9A589BBB-80D4-4A9A-BD4B-1B3CF62E1941}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_08.wav</AudioFile>
 													<MediaIDList>
@@ -39787,6 +40598,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_09" ID="{B8389A71-1428-4C5F-B912-D2AA35A4E423}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_09.wav</AudioFile>
 													<MediaIDList>
@@ -39810,6 +40624,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_10" ID="{CBDB9891-66E9-40A2-A417-13E9DE5C97D1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_10.wav</AudioFile>
 													<MediaIDList>
@@ -39833,6 +40650,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_11" ID="{65532DBF-01A7-442A-8013-9BAECB240EA3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_11.wav</AudioFile>
 													<MediaIDList>
@@ -39856,6 +40676,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_singlenote_12" ID="{95342F2D-CA0B-45A1-8F14-CF4806E373B1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\single notes\L3_singlenote_12.wav</AudioFile>
 													<MediaIDList>
@@ -39892,6 +40715,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_widerange_01" ID="{08E9AA95-87A6-405B-810E-61A7172AAABB}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_01.wav</AudioFile>
 													<MediaIDList>
@@ -39915,6 +40741,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_widerange_02" ID="{7E23AFFF-4C75-4016-8858-7A2D192E1284}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_02.wav</AudioFile>
 													<MediaIDList>
@@ -39938,6 +40767,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_widerange_03" ID="{1E7924C6-10A6-4102-9140-0CC27961EEF7}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_03.wav</AudioFile>
 													<MediaIDList>
@@ -39961,6 +40793,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_widerange_04" ID="{7FBDA277-89E9-4516-90F4-666A43ED67C7}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_04.wav</AudioFile>
 													<MediaIDList>
@@ -39984,6 +40819,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_widerange_05" ID="{98F1965B-9AE6-4F72-A5CA-8D42B6B25FB1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_05.wav</AudioFile>
 													<MediaIDList>
@@ -40007,6 +40845,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_widerange_06" ID="{24FEFABE-0A4D-46FE-9110-640E32BC24D3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_06.wav</AudioFile>
 													<MediaIDList>
@@ -40030,6 +40871,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_widerange_07" ID="{30246FEC-A8E5-4164-9849-C9506F925052}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_07.wav</AudioFile>
 													<MediaIDList>
@@ -40053,6 +40897,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_widerange_08" ID="{2329D683-8695-488D-B8EF-B63F5E06336B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_widerange_08.wav</AudioFile>
 													<MediaIDList>
@@ -40101,6 +40948,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_pianobass_Bb_high" ID="{9CBE8C4B-69C9-48E4-8D57-DD1949920000}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>pianobass\L3_pianobass_Bb_high.wav</AudioFile>
 													<MediaIDList>
@@ -40131,6 +40981,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_pianobass_Bb_low" ID="{38E544DF-66FA-45AA-8603-DEE906BF70AC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>pianobass\L3_pianobass_Bb_low.wav</AudioFile>
 													<MediaIDList>
@@ -40161,6 +41014,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_pianobass_Bb_octave" ID="{525CD282-D88B-4EBF-9738-3D070C8E31F6}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>pianobass\L3_pianobass_Bb_octave.wav</AudioFile>
 													<MediaIDList>
@@ -40184,6 +41040,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_pianobass_C_high" ID="{48E330B9-3327-4043-9E6E-29838431C475}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>pianobass\L3_pianobass_C_high.wav</AudioFile>
 													<MediaIDList>
@@ -40214,6 +41073,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_pianobass_C_low" ID="{C772E45A-5587-4ECA-BCFD-2B4A6C5140F6}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>pianobass\L3_pianobass_C_low.wav</AudioFile>
 													<MediaIDList>
@@ -40237,6 +41099,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_pianobass_Eb-high" ID="{F8559F6E-F261-4151-87C3-F943463E1551}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>pianobass\L3_pianobass_Eb-high.wav</AudioFile>
 													<MediaIDList>
@@ -40260,6 +41125,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_pianobass_Eb_low" ID="{8E017194-5C21-423B-8EF1-44C9FEC78FDF}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>pianobass\L3_pianobass_Eb_low.wav</AudioFile>
 													<MediaIDList>
@@ -40283,6 +41151,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_pianobass_Eb_octave" ID="{0FE31527-38F3-4A12-9857-2CB3CC575D14}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>pianobass\L3_pianobass_Eb_octave.wav</AudioFile>
 													<MediaIDList>
@@ -40306,6 +41177,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_pianobass_octave" ID="{EB068F46-5DAC-4955-A858-1D20E5DF29AA}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>pianobass\L3_pianobass_octave.wav</AudioFile>
 													<MediaIDList>
@@ -40342,6 +41216,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_low_01" ID="{CF80504E-05C4-42BC-96D8-9B758521A446}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_01.wav</AudioFile>
 													<MediaIDList>
@@ -40365,6 +41242,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_low_02" ID="{C9320951-08A1-4F95-AFF7-CDC842E647B4}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_02.wav</AudioFile>
 													<MediaIDList>
@@ -40388,6 +41268,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_low_03" ID="{9D7373D0-30D2-4576-956A-1EEE50B6AD8C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_03.wav</AudioFile>
 													<MediaIDList>
@@ -40411,6 +41294,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_low_04" ID="{7478B9FA-314B-4B96-A84F-C4A8F0E1D2BF}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_04.wav</AudioFile>
 													<MediaIDList>
@@ -40434,6 +41320,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_low_05" ID="{1CF29EE7-8765-490A-AB0A-F291258D8D44}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_05.wav</AudioFile>
 													<MediaIDList>
@@ -40457,6 +41346,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L3_phrase_low_06" ID="{A3EF0BBE-BB39-4B1D-8DA3-99D6712E0C9D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Piano fragments\Phrase_Mid\L3_phrase_low_06.wav</AudioFile>
 													<MediaIDList>
@@ -40476,6 +41368,35 @@
 							<ObjectLists/>
 						</ActorMixer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Level" ID="{94DC4A26-7B88-48CD-A2F3-0E2F50494BF5}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Level_3" ID="{EEB84612-9773-43BE-8C4A-8C9C4C9336B9}"/>
+								<CustomState Name="" ID="{E8469F83-35DE-4EB9-A714-F1489E0450E2}" ShortID="22401015"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Level_2" ID="{7AEAFD6D-9549-4464-B120-69DDB04C0F1A}"/>
+								<CustomState Name="" ID="{928D2E61-1B2A-408B-A314-3383468B1ED2}" ShortID="168176139"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Level_1" ID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}"/>
+								<CustomState Name="" ID="{7543E417-D00C-4F4A-970B-1AA2884AF729}" ShortID="1031720397"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}"/>
+								<CustomState Name="" ID="{031C1EC1-2D4F-4A18-9DD8-EFED22E59E3B}" ShortID="311629910">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
 				<Sound Name="Test_wonder" ID="{60DEFA02-3435-4C23-8DE4-1351357D774A}" ShortID="593444581">

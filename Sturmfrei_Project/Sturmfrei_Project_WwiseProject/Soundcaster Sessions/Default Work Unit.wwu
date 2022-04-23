@@ -129,7 +129,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}"/>
-							<Value>50</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Hub_Poncho_Proximity" ID="{E0460973-4D16-4D24-AC75-FDF0D6D4E4D6}"/>
@@ -145,7 +145,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{B8CEDCD5-2905-4EF5-BA7A-DEEABCE1E1FE}"/>
+						<CurrentStateRef Name="Flying" ID="{C13402BE-0345-47CF-9776-BABCCF4E289C}"/>
 						<CurrentStateRef Name="None" ID="{CFD78839-E04F-4E73-95E3-4B046F157D03}"/>
 						<CurrentStateRef Name="None" ID="{362F49D5-B98D-4A01-9DD9-565618F8C672}"/>
 						<CurrentStateRef Name="None" ID="{38FA9B61-1EE0-4F36-834E-3647FCE41EC0}"/>

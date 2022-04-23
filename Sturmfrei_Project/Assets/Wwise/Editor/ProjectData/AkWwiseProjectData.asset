@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585509307844775808
+    m_lastTime: -8585509224634775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -862,6 +862,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.597722
       minDuration: 0.597722
+    - name: Map_Load
+      guid: a88ccbb6c95bc34e9acd1088f8314fde
+      id: 780953876
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cedcc42e1e517c4c8888dbdd56061ae7
+      - ElementName: Map_Load
+        ObjectType: 3
+        guid: a88ccbb6c95bc34e9acd1088f8314fde
+      Path: Events/Default Work Unit/Map_Load
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Menu_Click
       guid: 55074980fcb7d24eba5638a371820aa8
       id: 760777789
@@ -1832,7 +1849,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: f413bcad92b80c4a9dca013f7c3da6c8
     GuidInternal: 
-    m_lastTime: -8585509387714775808
+    m_lastTime: -8585509243174775808
     List:
     - name: Altitude
       guid: afc1a6cfa99f1b4e948bad35a1efd10b
