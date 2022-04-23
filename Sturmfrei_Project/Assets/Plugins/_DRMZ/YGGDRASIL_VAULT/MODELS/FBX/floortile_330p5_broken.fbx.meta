@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 49ca3c548d2b40a47a2ba49a71ff331f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: crunchedBtm
+    100002: crunchedTop
+    100004: floortile_330p5_base
+    100006: //RootNode
+    100008: pipeBent01
+    100010: pipeBent02
+    100012: pipeBent03
+    100014: pipeBent04
+    100016: pipeBent05
+    100018: pipeBent06
+    100020: crunchedBtm1
+    100022: crunchedTop1
+    400000: crunchedBtm
+    400002: crunchedTop
+    400004: floortile_330p5_base
+    400006: //RootNode
+    400008: pipeBent01
+    400010: pipeBent02
+    400012: pipeBent03
+    400014: pipeBent04
+    400016: pipeBent05
+    400018: pipeBent06
+    400020: crunchedBtm1
+    400022: crunchedTop1
+    2100000: lambert1
+    2300000: crunchedBtm
+    2300002: crunchedTop
+    2300004: floortile_330p5_base
+    2300006: pipeBent01
+    2300008: pipeBent02
+    2300010: pipeBent03
+    2300012: pipeBent04
+    2300014: pipeBent05
+    2300016: pipeBent06
+    2300018: crunchedBtm1
+    2300020: crunchedTop1
+    3300000: crunchedBtm
+    3300002: crunchedTop
+    3300004: floortile_330p5_base
+    3300006: pipeBent01
+    3300008: pipeBent02
+    3300010: pipeBent03
+    3300012: pipeBent04
+    3300014: pipeBent05
+    3300016: pipeBent06
+    3300018: crunchedBtm1
+    3300020: crunchedTop1
+    4300000: crunchedTop
+    4300002: pipeBent01
+    4300004: floortile_330p5_base
+    4300006: pipeBent02
+    4300008: crunchedBtm
+    4300010: pipeBent03
+    4300012: pipeBent04
+    4300014: pipeBent05
+    4300016: pipeBent06
+    4300018: crunchedTop1
+    4300020: crunchedBtm1
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
