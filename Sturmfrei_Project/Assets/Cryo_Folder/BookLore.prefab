@@ -5013,6 +5013,8 @@ GameObject:
   - component: {fileID: 4289871896645719466}
   - component: {fileID: 1638079900}
   - component: {fileID: 1931431407}
+  - component: {fileID: 2825482075328360952}
+  - component: {fileID: 3305535615905820478}
   m_Layer: 0
   m_Name: BookLore
   m_TagString: Untagged
@@ -5117,6 +5119,41 @@ MonoBehaviour:
     sentences: []
   Readable: 0
   pressedDialogInput: 0
+--- !u!114 &2825482075328360952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164766912681138014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2a19be470688945ac574cd47601828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider_Player: {fileID: 0}
+--- !u!114 &3305535615905820478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164766912681138014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fca08abb4b924278bf6e88c5651b761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &8590131293455614558
 GameObject:
   m_ObjectHideFlags: 0
