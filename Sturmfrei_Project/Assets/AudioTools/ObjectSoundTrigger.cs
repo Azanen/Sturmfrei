@@ -6,7 +6,7 @@ public class ObjectSoundTrigger : MonoBehaviour
 {
     public string eventName = "default";
 
-    void Start()
+    void Awake()
     {
         AkSoundEngine.RegisterGameObj(gameObject);
     }

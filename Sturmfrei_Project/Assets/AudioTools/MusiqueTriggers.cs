@@ -8,7 +8,7 @@ public class MusiqueTriggers : MonoBehaviour
     public UnityEvent Start_Event;
     public UnityEvent Musique_Event;
 
-    private void Start()
+    private void Awake()
     {
         Start_Event.Invoke();
     }

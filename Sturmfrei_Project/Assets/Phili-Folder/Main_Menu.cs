@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
 
 public class Main_Menu : MonoBehaviour
 {
     public UnityEvent eventMain;
+    public GameObject PremierBoutonMenu;
+    public GameObject PremierBoutonOption;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +18,7 @@ public class Main_Menu : MonoBehaviour
         eventMain.Invoke();
     }
 
-public void RemoveCursor()
+    public void RemoveCursor()
     {
         Cursor.lockState = CursorLockMode.Locked;
 
@@ -24,5 +27,17 @@ public void RemoveCursor()
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void SelectMainMenu()
+    {
+        EventSystem.current.SetSelectedGameObject(null);    //clear les selection
+        EventSystem.current.SetSelectedGameObject(PremierBoutonMenu);
+    }
+
+    public void SelectOptionMenu()
+    {
+        EventSystem.current.SetSelectedGameObject(null);    //clear les selection
+        EventSystem.current.SetSelectedGameObject(PremierBoutonOption);
     }
 }
