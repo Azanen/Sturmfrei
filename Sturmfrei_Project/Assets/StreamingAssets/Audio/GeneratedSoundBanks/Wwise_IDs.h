@@ -81,6 +81,7 @@ namespace AK
         static const AkUniqueID STATUE_IDLE = 979468870U;
         static const AkUniqueID STATUE_IDLE_STOP = 1859632405U;
         static const AkUniqueID STATUE_REBUILD = 3439923085U;
+        static const AkUniqueID STINGER_PONCHO = 1562262157U;
         static const AkUniqueID STURMFREI_RECHARGE = 4175312948U;
         static const AkUniqueID TEST_FOOTSTEP = 2649590838U;
         static const AkUniqueID TORCH_IDLE = 668518050U;

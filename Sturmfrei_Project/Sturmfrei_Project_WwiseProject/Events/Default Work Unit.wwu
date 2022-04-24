@@ -640,7 +640,24 @@
 						<Event Name="Amb_Level3" ID="{93F945EB-6743-4F24-BF71-DFF69A4A6595}"/>
 						<Event Name="Amb_Cave" ID="{620A2193-711F-4CD1-BC13-3F25BC0F829F}"/>
 						<Event Name="Amb_Sky" ID="{BBB33E0C-5989-422D-B8CE-A2ECA7B19DE7}"/>
-						<Event Name="Tree_Idle" ID="{8CF48BA3-E5AC-4030-932C-8042D2BA9E54}"/>
+						<Event Name="Tree_Idle" ID="{8CF48BA3-E5AC-4030-932C-8042D2BA9E54}">
+							<ChildrenList>
+								<Action Name="" ID="{1063AD7B-1C8E-4A80-80F7-C03BE7709A2C}" ShortID="148320136">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tree_Idle_Leaves" ID="{FD1EA7D6-DC7C-4E04-B52F-864C7BD95E12}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E579409C-88C4-4A1B-B63B-3F1880695309}" ShortID="858495646">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tree_Idle_WoodCreak" ID="{0EC739AD-714A-4E9C-B2C5-AB10BCF29221}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="River_Idle" ID="{5C79CBB8-7EFB-45FA-B657-B2E44A283978}"/>
 						<Event Name="Bridge_Crack" ID="{87B77034-03E8-45D4-A814-2726F80F8B3B}"/>
 						<Event Name="Wind_Turbine" ID="{D3ED819A-0B46-40C1-9515-60D7420BF34E}">
@@ -1393,6 +1410,7 @@
 								<Action Name="" ID="{562FDEA1-3591-4DB8-92F3-986E0EE19C6D}" ShortID="483587586">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="22"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1581,6 +1599,59 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Village" ID="{EDC877EC-A601-481E-8D41-1FB18B4D8541}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stinger_Poncho" ID="{FF2C280D-DF01-47D1-A261-96C7D3737387}">
+							<ChildrenList>
+								<Action Name="" ID="{8B80942B-2133-4F8A-BD7B-B33CFF3255FF}" ShortID="656591650">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho_Collect" ID="{DEFE1505-3D35-4B98-A83F-6FBB973F256D}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{02C3C73E-882A-4C34-974E-F04039A7D022}" ShortID="462826023">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="0"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho_Idle" ID="{D5659A77-1C30-45F0-AC8F-C668C2F24812}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DA5E90DB-11FA-42E8-AF30-FDA158814F96}" ShortID="557701070">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Equipped" ID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0771957A-2EA3-4381-931C-F7E45A0C9A26}" ShortID="177677640">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho" ID="{998AB218-EBEF-4DE7-AF20-E67F72015E0A}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{44C46C7E-1468-40B3-B00C-897FF7AADFAC}" ShortID="787954170">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Equipped" ID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

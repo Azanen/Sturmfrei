@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1062935014">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2432104713">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -5585,7 +5585,7 @@
 					<IncludedMemoryFiles>
 						<File Id="723114" Language="SFX">
 							<ShortName>L3_FX_02.wav</ShortName>
-							<Path>SFX/L3_FX_02_B1FF8C12.wem</Path>
+							<Path>SFX/L3_FX_02_F9FBFD65.wem</Path>
 						</File>
 						<File Id="7396132" Language="SFX">
 							<ShortName>L2_singlenotes_07.wav</ShortName>
@@ -5681,7 +5681,7 @@
 						</File>
 						<File Id="71302509" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_01_03DAD6A0.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_01_D2181CDA.wem</Path>
 						</File>
 						<File Id="71858187" Language="SFX">
 							<ShortName>L2_high_46.wav</ShortName>
@@ -5725,7 +5725,7 @@
 						</File>
 						<File Id="97942680" Language="SFX">
 							<ShortName>L2_widerange_14.wav</ShortName>
-							<Path>SFX/L2_widerange_14_75C97D80.wem</Path>
+							<Path>SFX/L2_widerange_14_ECC91F39.wem</Path>
 						</File>
 						<File Id="104053150" Language="SFX">
 							<ShortName>mid08.wav</ShortName>
@@ -5757,7 +5757,7 @@
 						</File>
 						<File Id="133308438" Language="SFX">
 							<ShortName>L2_widerange_06.wav</ShortName>
-							<Path>SFX/L2_widerange_06_309A9DA9.wem</Path>
+							<Path>SFX/L2_widerange_06_0301364A.wem</Path>
 						</File>
 						<File Id="134180214" Language="SFX">
 							<ShortName>L2_mid_25.wav</ShortName>
@@ -5765,7 +5765,7 @@
 						</File>
 						<File Id="139127436" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_05_C32EE3EE.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_05_E2D6087D.wem</Path>
 						</File>
 						<File Id="142605186" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_11.wav</ShortName>
@@ -5817,7 +5817,7 @@
 						</File>
 						<File Id="194107871" Language="SFX">
 							<ShortName>L2_widerange_15.wav</ShortName>
-							<Path>SFX/L2_widerange_15_4EF475FF.wem</Path>
+							<Path>SFX/L2_widerange_15_F06C314A.wem</Path>
 						</File>
 						<File Id="194887876" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_03.wav</ShortName>
@@ -5833,7 +5833,7 @@
 						</File>
 						<File Id="197985886" Language="SFX">
 							<ShortName>L2_widerange_09.wav</ShortName>
-							<Path>SFX/L2_widerange_09_E9AA40C5.wem</Path>
+							<Path>SFX/L2_widerange_09_02B90F8E.wem</Path>
 						</File>
 						<File Id="199853686" Language="SFX">
 							<ShortName>L2_mid_18.wav</ShortName>
@@ -5885,7 +5885,7 @@
 						</File>
 						<File Id="237770515" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_03_A276FE43.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_03_3CC43121.wem</Path>
 						</File>
 						<File Id="250314799" Language="SFX">
 							<ShortName>L2_mid_06.wav</ShortName>
@@ -5917,7 +5917,7 @@
 						</File>
 						<File Id="264007403" Language="SFX">
 							<ShortName>L3_FX_01.wav</ShortName>
-							<Path>SFX/L3_FX_01_D825898C.wem</Path>
+							<Path>SFX/L3_FX_01_B035132E.wem</Path>
 						</File>
 						<File Id="267469076" Language="SFX">
 							<ShortName>Hub_Tuto\Hub_Tuto_Contrebasse.wav</ShortName>
@@ -6013,11 +6013,11 @@
 						</File>
 						<File Id="329906644" Language="SFX">
 							<ShortName>L2_FX_02.wav</ShortName>
-							<Path>SFX/L2_FX_02_89D69487.wem</Path>
+							<Path>SFX/L2_FX_02_42833581.wem</Path>
 						</File>
 						<File Id="331252592" Language="SFX">
 							<ShortName>L2_widerange_12.wav</ShortName>
-							<Path>SFX/L2_widerange_12_C804D3E3.wem</Path>
+							<Path>SFX/L2_widerange_12_C2F5DD8F.wem</Path>
 						</File>
 						<File Id="337534716" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_05.wav</ShortName>
@@ -6045,11 +6045,11 @@
 						</File>
 						<File Id="344329819" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_04_3A457403.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_04_93F15FBC.wem</Path>
 						</File>
 						<File Id="345729983" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_06_C35D942E.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_06_EEFAF8CD.wem</Path>
 						</File>
 						<File Id="346767564" Language="SFX">
 							<ShortName>L2_singlenotes_02.wav</ShortName>
@@ -6285,7 +6285,7 @@
 						</File>
 						<File Id="537824780" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_06_FB5BE84C.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_06_52862304.wem</Path>
 						</File>
 						<File Id="538296863" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_39.wav</ShortName>
@@ -6361,7 +6361,7 @@
 						</File>
 						<File Id="579398620" Language="SFX">
 							<ShortName>L2_widerange_01.wav</ShortName>
-							<Path>SFX/L2_widerange_01_DA76CE96.wem</Path>
+							<Path>SFX/L2_widerange_01_BA90A819.wem</Path>
 						</File>
 						<File Id="583639403" Language="SFX">
 							<ShortName>mid28.wav</ShortName>
@@ -6381,7 +6381,7 @@
 						</File>
 						<File Id="593425009" Language="SFX">
 							<ShortName>L2_widerange_10.wav</ShortName>
-							<Path>SFX/L2_widerange_10_A81F9781.wem</Path>
+							<Path>SFX/L2_widerange_10_BD8282EB.wem</Path>
 						</File>
 						<File Id="594611527" Language="SFX">
 							<ShortName>L2_intervals_08.wav</ShortName>
@@ -6417,7 +6417,7 @@
 						</File>
 						<File Id="614787960" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_08.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_08_4419B172.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_08_02B7E94F.wem</Path>
 						</File>
 						<File Id="617500669" Language="SFX">
 							<ShortName>L1_pianobass_Bb_high.wav</ShortName>
@@ -6453,7 +6453,7 @@
 						</File>
 						<File Id="640480811" Language="SFX">
 							<ShortName>L2_widerange_03.wav</ShortName>
-							<Path>SFX/L2_widerange_03_6A7493D9.wem</Path>
+							<Path>SFX/L2_widerange_03_C582C069.wem</Path>
 						</File>
 						<File Id="642773075" Language="SFX">
 							<ShortName>L2_singlenotes_11.wav</ShortName>
@@ -6509,11 +6509,11 @@
 						</File>
 						<File Id="674817455" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_05_25F5373C.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_05_975F6707.wem</Path>
 						</File>
 						<File Id="677771697" Language="SFX">
 							<ShortName>L3_FX_03.wav</ShortName>
-							<Path>SFX/L3_FX_03_5AC5C42B.wem</Path>
+							<Path>SFX/L3_FX_03_C7B32DBA.wem</Path>
 						</File>
 						<File Id="679665888" Language="SFX">
 							<ShortName>L2_low_04.wav</ShortName>
@@ -6529,7 +6529,7 @@
 						</File>
 						<File Id="684301207" Language="SFX">
 							<ShortName>L2_widerange_04.wav</ShortName>
-							<Path>SFX/L2_widerange_04_5C072F7F.wem</Path>
+							<Path>SFX/L2_widerange_04_E869B3F8.wem</Path>
 						</File>
 						<File Id="688692363" Language="SFX">
 							<ShortName>6ths03.wav</ShortName>
@@ -6593,7 +6593,7 @@
 						</File>
 						<File Id="716664377" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_02_CEDC4073.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_02_745EB166.wem</Path>
 						</File>
 						<File Id="719890215" Language="SFX">
 							<ShortName>L2_high_19.wav</ShortName>
@@ -6637,7 +6637,7 @@
 						</File>
 						<File Id="746904752" Language="SFX">
 							<ShortName>L2_FX_03.wav</ShortName>
-							<Path>SFX/L2_FX_03_C7EE53E1.wem</Path>
+							<Path>SFX/L2_FX_03_73A2D33A.wem</Path>
 						</File>
 						<File Id="750631544" Language="SFX">
 							<ShortName>SingleNotes17.wav</ShortName>
@@ -6793,11 +6793,11 @@
 						</File>
 						<File Id="849898795" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_04_90600F69.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_04_BBFC79AC.wem</Path>
 						</File>
 						<File Id="853861763" Language="SFX">
 							<ShortName>L2_widerange_02.wav</ShortName>
-							<Path>SFX/L2_widerange_02_7BF8FAD2.wem</Path>
+							<Path>SFX/L2_widerange_02_F5CD5CD9.wem</Path>
 						</File>
 						<File Id="856249131" Language="SFX">
 							<ShortName>L2_pianobass_C_octave.wav</ShortName>
@@ -6909,7 +6909,7 @@
 						</File>
 						<File Id="935255294" Language="SFX">
 							<ShortName>L2_widerange_16.wav</ShortName>
-							<Path>SFX/L2_widerange_16_5942AB90.wem</Path>
+							<Path>SFX/L2_widerange_16_DED32ED3.wem</Path>
 						</File>
 						<File Id="936056966" Language="SFX">
 							<ShortName>L2_high_44.wav</ShortName>
@@ -6945,7 +6945,7 @@
 						</File>
 						<File Id="952766462" Language="SFX">
 							<ShortName>L2_widerange_13.wav</ShortName>
-							<Path>SFX/L2_widerange_13_92B23110.wem</Path>
+							<Path>SFX/L2_widerange_13_B6A2B26F.wem</Path>
 						</File>
 						<File Id="958557672" Language="SFX">
 							<ShortName>high16.wav</ShortName>
@@ -7073,7 +7073,7 @@
 						</File>
 						<File Id="1039486133" Language="SFX">
 							<ShortName>L2_widerange_05.wav</ShortName>
-							<Path>SFX/L2_widerange_05_14F039A5.wem</Path>
+							<Path>SFX/L2_widerange_05_D3A8FEB3.wem</Path>
 						</File>
 						<File Id="1043813097" Language="SFX">
 							<ShortName>L2_intervals_03.wav</ShortName>
@@ -7085,7 +7085,7 @@
 						</File>
 						<File Id="1045357432" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_01_3C2ECC4C.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_01_12EA5A23.wem</Path>
 						</File>
 						<File Id="1048324213" Language="SFX">
 							<ShortName>L2_high_31.wav</ShortName>
@@ -7093,7 +7093,7 @@
 						</File>
 						<File Id="1057154313" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_02_144EAEA1.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_02_B096C9D1.wem</Path>
 						</File>
 						<File Id="1057635692" Language="SFX">
 							<ShortName>L2_high_29.wav</ShortName>
@@ -7689,7 +7689,7 @@
 					<IncludedMemoryFiles>
 						<File Id="31252171" Language="SFX">
 							<ShortName>PurpleCloud\PurpleCloud_Damage_Loop.wav</ShortName>
-							<Path>SFX/PurpleCloud/PurpleCloud_Damage_Loop_BFEDDC46.wem</Path>
+							<Path>SFX/PurpleCloud/PurpleCloud_Damage_Loop_2A842B13.wem</Path>
 						</File>
 						<File Id="236393477" Language="SFX">
 							<ShortName>PurpleCloud\PurpleCloud_Damage_Start_Obscure\PurpleCloud_Damage_Start_Obscure_03.wav</ShortName>
@@ -7734,7 +7734,7 @@
 						</File>
 						<File Id="948646601" Language="SFX">
 							<ShortName>PurpleCloud\PurpleCloud_Idle_High.wav</ShortName>
-							<Path>SFX/PurpleCloud/PurpleCloud_Idle_High_56D2ED37.wem</Path>
+							<Path>SFX/PurpleCloud/PurpleCloud_Idle_High_F62E691C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -7855,6 +7855,18 @@
 						<ActionSetSwitchEntry Id="2917726846" Name="Activated" ObjectPath="\Switches\Default Work Unit\Statue\Activated"/>
 					</ActionSetSwitch>
 				</Event>
+				<Event Id="1562262157" Name="Stinger_Poncho" ObjectPath="\Events\Default Work Unit\MUSIC\Stinger_Poncho" DurationType="OneShot" DurationMin="10.360314" DurationMax="10.360314">
+					<IncludedMemoryFiles>
+						<File Id="467596883" Language="SFX">
+							<ShortName>Poncho\Poncho_Collect.wav</ShortName>
+							<Path>SFX/Poncho/Poncho_Collect_A26074DB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1422468564" Name="Poncho" ObjectPath="\States\Default Work Unit\Hub\Poncho"/>
+						<ActionSetStateEntry Id="1780230126" Name="Equipped" ObjectPath="\States\Default Work Unit\Poncho\Equipped"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="4175312948" Name="Sturmfrei_Recharge" ObjectPath="\Events\Default Work Unit\INGREDIENT\Sturmfrei_Recharge" DurationType="OneShot" DurationMin="0.875011" DurationMax="1.">
 					<IncludedMemoryFiles>
 						<File Id="155671342" Language="SFX">
@@ -7889,7 +7901,170 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1641179489" Name="Torch_Idle_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\Torch_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="291430954" Name="Tree_Idle" ObjectPath="\Events\Default Work Unit\AMBIENCE\Tree_Idle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="291430954" Name="Tree_Idle" ObjectPath="\Events\Default Work Unit\AMBIENCE\Tree_Idle" MaxAttenuation="50." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="10213719" Language="SFX">
+							<ShortName>355758-Bluezone-BC0254-wood-creaking-tree-loud-018.wav</ShortName>
+							<Path>SFX/355758-Bluezone-BC0254-wood-creaking-tree-loud-018_8BCE75A6.wem</Path>
+						</File>
+						<File Id="17760116" Language="SFX">
+							<ShortName>355736-Bluezone-BC0254-wood-creaking-tree-010.wav</ShortName>
+							<Path>SFX/355736-Bluezone-BC0254-wood-creaking-tree-010_557D5722.wem</Path>
+						</File>
+						<File Id="184214433" Language="SFX">
+							<ShortName>355740-Bluezone-BC0254-wood-creaking-tree-014.wav</ShortName>
+							<Path>SFX/355740-Bluezone-BC0254-wood-creaking-tree-014_06150C68.wem</Path>
+						</File>
+						<File Id="195694556" Language="SFX">
+							<ShortName>355738-Bluezone-BC0254-wood-creaking-tree-012.wav</ShortName>
+							<Path>SFX/355738-Bluezone-BC0254-wood-creaking-tree-012_0DD0BA37.wem</Path>
+						</File>
+						<File Id="212360671" Language="SFX">
+							<ShortName>355737-Bluezone-BC0254-wood-creaking-tree-011.wav</ShortName>
+							<Path>SFX/355737-Bluezone-BC0254-wood-creaking-tree-011_7AA89322.wem</Path>
+						</File>
+						<File Id="237979146" Language="SFX">
+							<ShortName>355739-Bluezone-BC0254-wood-creaking-tree-013.wav</ShortName>
+							<Path>SFX/355739-Bluezone-BC0254-wood-creaking-tree-013_7AA89322.wem</Path>
+						</File>
+						<File Id="239973517" Language="SFX">
+							<ShortName>202725-EFX_EXT_Branch_Movement_07.wav</ShortName>
+							<Path>SFX/202725-EFX_EXT_Branch_Movement_07_524AB8CA.wem</Path>
+						</File>
+						<File Id="301233170" Language="SFX">
+							<ShortName>355759-Bluezone-BC0254-wood-creaking-tree-loud-019.wav</ShortName>
+							<Path>SFX/355759-Bluezone-BC0254-wood-creaking-tree-loud-019_4B1C6B40.wem</Path>
+						</File>
+						<File Id="320874919" Language="SFX">
+							<ShortName>202720-EFX_EXT_Branch_Movement_02.wav</ShortName>
+							<Path>SFX/202720-EFX_EXT_Branch_Movement_02_B9E6EDBA.wem</Path>
+						</File>
+						<File Id="333627766" Language="SFX">
+							<ShortName>202719-EFX_EXT_Branch_Movement_01.wav</ShortName>
+							<Path>SFX/202719-EFX_EXT_Branch_Movement_01_44E8B23C.wem</Path>
+						</File>
+						<File Id="365329483" Language="SFX">
+							<ShortName>202718-EFX_EXT_Branch_Leaf_Movement_05.wav</ShortName>
+							<Path>SFX/202718-EFX_EXT_Branch_Leaf_Movement_05_D0A2E816.wem</Path>
+						</File>
+						<File Id="395970981" Language="SFX">
+							<ShortName>355729-Bluezone-BC0254-wood-creaking-tree-003.wav</ShortName>
+							<Path>SFX/355729-Bluezone-BC0254-wood-creaking-tree-003_9801435B.wem</Path>
+						</File>
+						<File Id="461488850" Language="SFX">
+							<ShortName>355744-Bluezone-BC0254-wood-creaking-tree-loud-004.wav</ShortName>
+							<Path>SFX/355744-Bluezone-BC0254-wood-creaking-tree-loud-004_F894A67A.wem</Path>
+						</File>
+						<File Id="465452085" Language="SFX">
+							<ShortName>355755-Bluezone-BC0254-wood-creaking-tree-loud-015.wav</ShortName>
+							<Path>SFX/355755-Bluezone-BC0254-wood-creaking-tree-loud-015_7EA56F67.wem</Path>
+						</File>
+						<File Id="486908562" Language="SFX">
+							<ShortName>355752-Bluezone-BC0254-wood-creaking-tree-loud-012.wav</ShortName>
+							<Path>SFX/355752-Bluezone-BC0254-wood-creaking-tree-loud-012_1A22CEF4.wem</Path>
+						</File>
+						<File Id="541480272" Language="SFX">
+							<ShortName>355760-Bluezone-BC0254-wood-creaking-tree-loud-020.wav</ShortName>
+							<Path>SFX/355760-Bluezone-BC0254-wood-creaking-tree-loud-020_31F0729E.wem</Path>
+						</File>
+						<File Id="541831315" Language="SFX">
+							<ShortName>355756-Bluezone-BC0254-wood-creaking-tree-loud-016.wav</ShortName>
+							<Path>SFX/355756-Bluezone-BC0254-wood-creaking-tree-loud-016_7AA89322.wem</Path>
+						</File>
+						<File Id="548451630" Language="SFX">
+							<ShortName>355731-Bluezone-BC0254-wood-creaking-tree-005.wav</ShortName>
+							<Path>SFX/355731-Bluezone-BC0254-wood-creaking-tree-005_1E78517F.wem</Path>
+						</File>
+						<File Id="577008159" Language="SFX">
+							<ShortName>355730-Bluezone-BC0254-wood-creaking-tree-004.wav</ShortName>
+							<Path>SFX/355730-Bluezone-BC0254-wood-creaking-tree-004_602A3099.wem</Path>
+						</File>
+						<File Id="621833029" Language="SFX">
+							<ShortName>202718-EFX_EXT_Branch_Leaf_Movement_05.wav</ShortName>
+							<Path>SFX/202718-EFX_EXT_Branch_Leaf_Movement_05_C47C7B89.wem</Path>
+						</File>
+						<File Id="639737757" Language="SFX">
+							<ShortName>355753-Bluezone-BC0254-wood-creaking-tree-loud-013.wav</ShortName>
+							<Path>SFX/355753-Bluezone-BC0254-wood-creaking-tree-loud-013_7AA89322.wem</Path>
+						</File>
+						<File Id="643606849" Language="SFX">
+							<ShortName>355732-Bluezone-BC0254-wood-creaking-tree-006.wav</ShortName>
+							<Path>SFX/355732-Bluezone-BC0254-wood-creaking-tree-006_62EC02D1.wem</Path>
+						</File>
+						<File Id="645203574" Language="SFX">
+							<ShortName>202718-EFX_EXT_Branch_Leaf_Movement_05.wav</ShortName>
+							<Path>SFX/202718-EFX_EXT_Branch_Leaf_Movement_05_F014879C.wem</Path>
+						</File>
+						<File Id="675322710" Language="SFX">
+							<ShortName>202729-EFX_EXT_Branch_Movement_11.wav</ShortName>
+							<Path>SFX/202729-EFX_EXT_Branch_Movement_11_9F8C9C6D.wem</Path>
+						</File>
+						<File Id="707053818" Language="SFX">
+							<ShortName>355762-Bluezone-BC0254-wood-creaking-tree-loud-022.wav</ShortName>
+							<Path>SFX/355762-Bluezone-BC0254-wood-creaking-tree-loud-022_2422C7F4.wem</Path>
+						</File>
+						<File Id="746284256" Language="SFX">
+							<ShortName>355735-Bluezone-BC0254-wood-creaking-tree-009.wav</ShortName>
+							<Path>SFX/355735-Bluezone-BC0254-wood-creaking-tree-009_9064A796.wem</Path>
+						</File>
+						<File Id="752016254" Language="SFX">
+							<ShortName>355728-Bluezone-BC0254-wood-creaking-tree-002.wav</ShortName>
+							<Path>SFX/355728-Bluezone-BC0254-wood-creaking-tree-002_90821D5C.wem</Path>
+						</File>
+						<File Id="758824410" Language="SFX">
+							<ShortName>202718-EFX_EXT_Branch_Leaf_Movement_05.wav</ShortName>
+							<Path>SFX/202718-EFX_EXT_Branch_Leaf_Movement_05_810C9590.wem</Path>
+						</File>
+						<File Id="777491370" Language="SFX">
+							<ShortName>202731-EFX_EXT_Branch_Movement_13.wav</ShortName>
+							<Path>SFX/202731-EFX_EXT_Branch_Movement_13_68738150.wem</Path>
+						</File>
+						<File Id="817461904" Language="SFX">
+							<ShortName>202726-EFX_EXT_Branch_Movement_08.wav</ShortName>
+							<Path>SFX/202726-EFX_EXT_Branch_Movement_08_A26074DB.wem</Path>
+						</File>
+						<File Id="858706746" Language="SFX">
+							<ShortName>355727-Bluezone-BC0254-wood-creaking-tree-001.wav</ShortName>
+							<Path>SFX/355727-Bluezone-BC0254-wood-creaking-tree-001_F5B0903C.wem</Path>
+						</File>
+						<File Id="888664046" Language="SFX">
+							<ShortName>355741-Bluezone-BC0254-wood-creaking-tree-loud-001.wav</ShortName>
+							<Path>SFX/355741-Bluezone-BC0254-wood-creaking-tree-loud-001_72C5CFCF.wem</Path>
+						</File>
+						<File Id="910019133" Language="SFX">
+							<ShortName>355747-Bluezone-BC0254-wood-creaking-tree-loud-007.wav</ShortName>
+							<Path>SFX/355747-Bluezone-BC0254-wood-creaking-tree-loud-007_3924E75D.wem</Path>
+						</File>
+						<File Id="921173925" Language="SFX">
+							<ShortName>355743-Bluezone-BC0254-wood-creaking-tree-loud-003.wav</ShortName>
+							<Path>SFX/355743-Bluezone-BC0254-wood-creaking-tree-loud-003_C31F38F1.wem</Path>
+						</File>
+						<File Id="978795930" Language="SFX">
+							<ShortName>202718-EFX_EXT_Branch_Leaf_Movement_05.wav</ShortName>
+							<Path>SFX/202718-EFX_EXT_Branch_Leaf_Movement_05_2E727085.wem</Path>
+						</File>
+						<File Id="982378151" Language="SFX">
+							<ShortName>355733-Bluezone-BC0254-wood-creaking-tree-007.wav</ShortName>
+							<Path>SFX/355733-Bluezone-BC0254-wood-creaking-tree-007_9826B2E4.wem</Path>
+						</File>
+						<File Id="985933244" Language="SFX">
+							<ShortName>355757-Bluezone-BC0254-wood-creaking-tree-loud-017.wav</ShortName>
+							<Path>SFX/355757-Bluezone-BC0254-wood-creaking-tree-loud-017_F0A1AC54.wem</Path>
+						</File>
+						<File Id="1017313707" Language="SFX">
+							<ShortName>355750-Bluezone-BC0254-wood-creaking-tree-loud-010.wav</ShortName>
+							<Path>SFX/355750-Bluezone-BC0254-wood-creaking-tree-loud-010_7AA89322.wem</Path>
+						</File>
+						<File Id="1022051944" Language="SFX">
+							<ShortName>355761-Bluezone-BC0254-wood-creaking-tree-loud-021.wav</ShortName>
+							<Path>SFX/355761-Bluezone-BC0254-wood-creaking-tree-loud-021_7AA89322.wem</Path>
+						</File>
+						<File Id="1065491519" Language="SFX">
+							<ShortName>355751-Bluezone-BC0254-wood-creaking-tree-loud-011.wav</ShortName>
+							<Path>SFX/355751-Bluezone-BC0254-wood-creaking-tree-loud-011_7AA89322.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1304417945" Name="Tree_Idle_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\Tree_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1840923026" Name="Waterfall_Idle" ObjectPath="\Events\Default Work Unit\AMBIENCE\Waterfall_Idle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1084993841" Name="Waterfall_Idle_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\Waterfall_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
