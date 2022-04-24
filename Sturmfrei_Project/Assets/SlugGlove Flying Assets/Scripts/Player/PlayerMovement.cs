@@ -1263,8 +1263,8 @@ public class PlayerMovement : MonoBehaviour
         isFalling = false;
         coroutRunning = false;
         purificationAbility = false;
-        upwardDashAbility = true;
-        frontDashAbility = true;
+        //upwardDashAbility = true;
+        //frontDashAbility = true;
         isTainted = false;
         TaintedTimer = 5;
         secondStaminaCooldown = 5;

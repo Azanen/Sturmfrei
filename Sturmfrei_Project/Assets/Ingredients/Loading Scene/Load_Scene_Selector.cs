@@ -6,6 +6,7 @@ public class Load_Scene_Selector : MonoBehaviour
 {
     public UnityEvent Test;
     public PlayerMovement player;
+    public UnityEvent optionalEvent;
     private void Start()
     {
         player = GameObject.Find("PonoPrefab#03").GetComponent<PlayerMovement>();
@@ -15,6 +16,7 @@ public class Load_Scene_Selector : MonoBehaviour
         if(other.tag == "Player")
         {
             StartCoroutine(LoadWithFadeToWhite());
+            if (optionalEvent != null) optionalEvent.Invoke();
             player.StartFadeWhite();
         }
     }
