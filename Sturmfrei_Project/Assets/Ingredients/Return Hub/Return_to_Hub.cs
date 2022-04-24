@@ -13,7 +13,7 @@ public class Return_to_Hub : MonoBehaviour
     {
         camFolTar = GameObject.Find("CameraFollow").GetComponent<CameraFollowTarget>();
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Player")
         {
