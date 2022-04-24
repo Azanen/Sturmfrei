@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="941256463">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1726023239">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -58,7 +58,7 @@
 						</File>
 						<File Id="330161831" Language="SFX">
 							<ShortName>Boss\Boss_Defeat_Loop.wav</ShortName>
-							<Path>SFX/Boss/Boss_Defeat_Loop_3A1787FF.wem</Path>
+							<Path>SFX/Boss/Boss_Defeat_Loop_2860DE22.wem</Path>
 						</File>
 						<File Id="332667524" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Rocks\BreakWall_Stone_Rocks_01.wav</ShortName>
@@ -82,7 +82,7 @@
 						</File>
 						<File Id="633465905" Language="SFX">
 							<ShortName>Boss\Boss_Defeat_Start.wav</ShortName>
-							<Path>SFX/Boss/Boss_Defeat_Start_63AA7EEE.wem</Path>
+							<Path>SFX/Boss/Boss_Defeat_Start_A0120F47.wem</Path>
 						</File>
 						<File Id="679810061" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Dirt_02.wav</ShortName>
@@ -2188,113 +2188,9 @@
 				</Event>
 				<Event Id="1556990097" Name="Flying_Start" ObjectPath="\Events\Default Work Unit\PLAYER\Flying_Start" DurationType="OneShot" DurationMin="87.116142" DurationMax="87.116142">
 					<IncludedMemoryFiles>
-						<File Id="11802040" Language="SFX">
-							<ShortName>high08.wav</ShortName>
-							<Path>SFX/high08_8AC860AD.wem</Path>
-						</File>
-						<File Id="116820437" Language="SFX">
-							<ShortName>high07.wav</ShortName>
-							<Path>SFX/high07_1930C6DB.wem</Path>
-						</File>
-						<File Id="165252916" Language="SFX">
-							<ShortName>high28.wav</ShortName>
-							<Path>SFX/high28_34064871.wem</Path>
-						</File>
-						<File Id="190430321" Language="SFX">
-							<ShortName>high02.wav</ShortName>
-							<Path>SFX/high02_44A5A2EE.wem</Path>
-						</File>
-						<File Id="236493759" Language="SFX">
-							<ShortName>high17.wav</ShortName>
-							<Path>SFX/high17_A26074DB.wem</Path>
-						</File>
-						<File Id="273226785" Language="SFX">
-							<ShortName>high27.wav</ShortName>
-							<Path>SFX/high27_A26074DB.wem</Path>
-						</File>
-						<File Id="315871350" Language="SFX">
-							<ShortName>high35.wav</ShortName>
-							<Path>SFX/high35_A26074DB.wem</Path>
-						</File>
-						<File Id="383168044" Language="SFX">
-							<ShortName>high23.wav</ShortName>
-							<Path>SFX/high23_A26074DB.wem</Path>
-						</File>
-						<File Id="429800478" Language="SFX">
-							<ShortName>high01.wav</ShortName>
-							<Path>SFX/high01_5F23EF9C.wem</Path>
-						</File>
-						<File Id="462620402" Language="SFX">
-							<ShortName>high12.wav</ShortName>
-							<Path>SFX/high12_0F2264AB.wem</Path>
-						</File>
 						<File Id="484142301" Language="SFX">
 							<ShortName>Poncho_Start\Poncho_Start_03.wav</ShortName>
 							<Path>SFX/Poncho_Start/Poncho_Start_03_153415FC.wem</Path>
-						</File>
-						<File Id="500093489" Language="SFX">
-							<ShortName>high36.wav</ShortName>
-							<Path>SFX/high36_A26074DB.wem</Path>
-						</File>
-						<File Id="529209562" Language="SFX">
-							<ShortName>high29.wav</ShortName>
-							<Path>SFX/high29_A26074DB.wem</Path>
-						</File>
-						<File Id="535121457" Language="SFX">
-							<ShortName>high22.wav</ShortName>
-							<Path>SFX/high22_A26074DB.wem</Path>
-						</File>
-						<File Id="558334459" Language="SFX">
-							<ShortName>high24.wav</ShortName>
-							<Path>SFX/high24_A26074DB.wem</Path>
-						</File>
-						<File Id="563302861" Language="SFX">
-							<ShortName>high32.wav</ShortName>
-							<Path>SFX/high32_A26074DB.wem</Path>
-						</File>
-						<File Id="563947465" Language="SFX">
-							<ShortName>high33.wav</ShortName>
-							<Path>SFX/high33_A26074DB.wem</Path>
-						</File>
-						<File Id="567770302" Language="SFX">
-							<ShortName>high09.wav</ShortName>
-							<Path>SFX/high09_A26074DB.wem</Path>
-						</File>
-						<File Id="585182303" Language="SFX">
-							<ShortName>high25.wav</ShortName>
-							<Path>SFX/high25_A26074DB.wem</Path>
-						</File>
-						<File Id="601744678" Language="SFX">
-							<ShortName>high05.wav</ShortName>
-							<Path>SFX/high05_0327FB6C.wem</Path>
-						</File>
-						<File Id="638264283" Language="SFX">
-							<ShortName>high30.wav</ShortName>
-							<Path>SFX/high30_A26074DB.wem</Path>
-						</File>
-						<File Id="666325603" Language="SFX">
-							<ShortName>high13.wav</ShortName>
-							<Path>SFX/high13_E86B2BAC.wem</Path>
-						</File>
-						<File Id="694008508" Language="SFX">
-							<ShortName>high15.wav</ShortName>
-							<Path>SFX/high15_65F397AB.wem</Path>
-						</File>
-						<File Id="731429798" Language="SFX">
-							<ShortName>high34.wav</ShortName>
-							<Path>SFX/high34_A26074DB.wem</Path>
-						</File>
-						<File Id="741828107" Language="SFX">
-							<ShortName>high26.wav</ShortName>
-							<Path>SFX/high26_A26074DB.wem</Path>
-						</File>
-						<File Id="806759278" Language="SFX">
-							<ShortName>high03.wav</ShortName>
-							<Path>SFX/high03_19ECFBE2.wem</Path>
-						</File>
-						<File Id="825813032" Language="SFX">
-							<ShortName>high31.wav</ShortName>
-							<Path>SFX/high31_A26074DB.wem</Path>
 						</File>
 						<File Id="846711260" Language="SFX">
 							<ShortName>Flying_Start_Wind_02.wav</ShortName>
@@ -2304,53 +2200,13 @@
 							<ShortName>Poncho_Start\Poncho_Start_01.wav</ShortName>
 							<Path>SFX/Poncho_Start/Poncho_Start_01_A69A8AB1.wem</Path>
 						</File>
-						<File Id="871587016" Language="SFX">
-							<ShortName>high04.wav</ShortName>
-							<Path>SFX/high04_6816FD20.wem</Path>
-						</File>
-						<File Id="879732874" Language="SFX">
-							<ShortName>high11.wav</ShortName>
-							<Path>SFX/high11_CD87E6C4.wem</Path>
-						</File>
-						<File Id="881267687" Language="SFX">
-							<ShortName>high20.wav</ShortName>
-							<Path>SFX/high20_878BFEFD.wem</Path>
-						</File>
 						<File Id="904011431" Language="SFX">
 							<ShortName>Poncho_Start\Poncho_Start_02.wav</ShortName>
 							<Path>SFX/Poncho_Start/Poncho_Start_02_B45C120A.wem</Path>
 						</File>
-						<File Id="921658397" Language="SFX">
-							<ShortName>high18.wav</ShortName>
-							<Path>SFX/high18_A26074DB.wem</Path>
-						</File>
-						<File Id="947417861" Language="SFX">
-							<ShortName>high14.wav</ShortName>
-							<Path>SFX/high14_A42982A4.wem</Path>
-						</File>
-						<File Id="958557672" Language="SFX">
-							<ShortName>high16.wav</ShortName>
-							<Path>SFX/high16_A26074DB.wem</Path>
-						</File>
 						<File Id="1005299959" Language="SFX">
 							<ShortName>Poncho_Start\Poncho_Start_04.wav</ShortName>
 							<Path>SFX/Poncho_Start/Poncho_Start_04_EF45ADF3.wem</Path>
-						</File>
-						<File Id="1008385867" Language="SFX">
-							<ShortName>high10.wav</ShortName>
-							<Path>SFX/high10_6AF90401.wem</Path>
-						</File>
-						<File Id="1026468589" Language="SFX">
-							<ShortName>high19.wav</ShortName>
-							<Path>SFX/high19_A26074DB.wem</Path>
-						</File>
-						<File Id="1036420497" Language="SFX">
-							<ShortName>high21.wav</ShortName>
-							<Path>SFX/high21_A26074DB.wem</Path>
-						</File>
-						<File Id="1038628369" Language="SFX">
-							<ShortName>high06.wav</ShortName>
-							<Path>SFX/high06_A26074DB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionSetState>
@@ -5722,77 +5578,12 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="780953876" Name="Map_Load" ObjectPath="\Events\Default Work Unit\Map_Load" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="760777789" Name="Menu_Click" ObjectPath="\Events\Default Work Unit\UI\Menu_Click" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="626954121" Name="Menu_Close" ObjectPath="\Events\Default Work Unit\UI\Menu_Close" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1287511387" Name="Menu_Open" ObjectPath="\Events\Default Work Unit\UI\Menu_Open" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1468236648" Name="MUS_Hub_PreVillage" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_PreVillage" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="337434664" Name="PreVillage" ObjectPath="\States\Default Work Unit\Hub\PreVillage"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1946661255" Name="MUS_Hub_Tuto" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_Tuto" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="646625282" Name="Hub" ObjectPath="\States\Default Work Unit\Level\Hub"/>
-						<ActionSetStateEntry Id="2413814047" Name="Unequipped" ObjectPath="\States\Default Work Unit\Poncho\Unequipped"/>
-						<ActionSetStateEntry Id="3037000007" Name="Tuto" ObjectPath="\States\Default Work Unit\Hub\Tuto"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1075809139" Name="MUS_Hub_Village" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_Village" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="3945572659" Name="Village" ObjectPath="\States\Default Work Unit\Hub\Village"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3243133041" Name="MUS_Level1_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
-						<ActionSetStateEntry Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\Level\Level_1"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3624297410" Name="MUS_Level1_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1462442152" Name="MUS_Level1_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2717839624" Name="MUS_Level2_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
-						<ActionSetStateEntry Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\Level\Level_2"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3886197287" Name="MUS_Level2_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2318407373" Name="MUS_Level2_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1200065475" Name="MUS_Level3_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
-						<ActionSetStateEntry Id="1290008371" Name="Level_3" ObjectPath="\States\Default Work Unit\Level\Level_3"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="4244769408" Name="MUS_Level3_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3336347158" Name="MUS_Level3_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1973954843" Name="MUS_Start" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Start" DurationType="Infinite">
+				<Event Id="780953876" Name="Map_Load" ObjectPath="\Events\Default Work Unit\Map_Load" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="723114" Language="SFX">
+							<ShortName>L3_FX_02.wav</ShortName>
+							<Path>SFX/L3_FX_02_B1FF8C12.wem</Path>
+						</File>
 						<File Id="7396132" Language="SFX">
 							<ShortName>L2_singlenotes_07.wav</ShortName>
 							<Path>SFX/L2_singlenotes_07_A5CA16D4.wem</Path>
@@ -5845,10 +5636,6 @@
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_05.wav</ShortName>
 							<Path>SFX/Piano fragments/Phrase_High/L3_phrase_high_05_A5CA16D4.wem</Path>
 						</File>
-						<File Id="38040106" Language="SFX">
-							<ShortName>L2_singlenotes_17.wav</ShortName>
-							<Path>SFX/L2_singlenotes_17_3E34F511.wem</Path>
-						</File>
 						<File Id="38912114" Language="SFX">
 							<ShortName>mid07.wav</ShortName>
 							<Path>SFX/mid07_11B367B0.wem</Path>
@@ -5891,7 +5678,7 @@
 						</File>
 						<File Id="71302509" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_01_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_01_03DAD6A0.wem</Path>
 						</File>
 						<File Id="71858187" Language="SFX">
 							<ShortName>L2_high_46.wav</ShortName>
@@ -5905,13 +5692,9 @@
 							<ShortName>Piano fragments\Intervals\L3_intervals_07.wav</ShortName>
 							<Path>SFX/Piano fragments/Intervals/L3_intervals_07_A5CA16D4.wem</Path>
 						</File>
-						<File Id="78160175" Language="SFX">
-							<ShortName>Piano fragments\single notes\L3_singlenote_12.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_12_A5CA16D4.wem</Path>
-						</File>
 						<File Id="81379998" Language="SFX">
 							<ShortName>L2_widerange_08.wav</ShortName>
-							<Path>SFX/L2_widerange_08_7684A535.wem</Path>
+							<Path>SFX/L2_widerange_08_28874E29.wem</Path>
 						</File>
 						<File Id="84553731" Language="SFX">
 							<ShortName>Hub_Transition\Hub_Transition_TremoloViola.wav</ShortName>
@@ -5939,7 +5722,7 @@
 						</File>
 						<File Id="97942680" Language="SFX">
 							<ShortName>L2_widerange_14.wav</ShortName>
-							<Path>SFX/L2_widerange_14_A26074DB.wem</Path>
+							<Path>SFX/L2_widerange_14_75C97D80.wem</Path>
 						</File>
 						<File Id="104053150" Language="SFX">
 							<ShortName>mid08.wav</ShortName>
@@ -5971,7 +5754,7 @@
 						</File>
 						<File Id="133308438" Language="SFX">
 							<ShortName>L2_widerange_06.wav</ShortName>
-							<Path>SFX/L2_widerange_06_17968933.wem</Path>
+							<Path>SFX/L2_widerange_06_309A9DA9.wem</Path>
 						</File>
 						<File Id="134180214" Language="SFX">
 							<ShortName>L2_mid_25.wav</ShortName>
@@ -5979,7 +5762,7 @@
 						</File>
 						<File Id="139127436" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_05_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_05_C32EE3EE.wem</Path>
 						</File>
 						<File Id="142605186" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_11.wav</ShortName>
@@ -6031,7 +5814,7 @@
 						</File>
 						<File Id="194107871" Language="SFX">
 							<ShortName>L2_widerange_15.wav</ShortName>
-							<Path>SFX/L2_widerange_15_E76FC2A2.wem</Path>
+							<Path>SFX/L2_widerange_15_4EF475FF.wem</Path>
 						</File>
 						<File Id="194887876" Language="SFX">
 							<ShortName>Piano fragments\single notes\L3_singlenote_03.wav</ShortName>
@@ -6047,7 +5830,7 @@
 						</File>
 						<File Id="197985886" Language="SFX">
 							<ShortName>L2_widerange_09.wav</ShortName>
-							<Path>SFX/L2_widerange_09_B36B5378.wem</Path>
+							<Path>SFX/L2_widerange_09_E9AA40C5.wem</Path>
 						</File>
 						<File Id="199853686" Language="SFX">
 							<ShortName>L2_mid_18.wav</ShortName>
@@ -6067,7 +5850,7 @@
 						</File>
 						<File Id="210857473" Language="SFX">
 							<ShortName>L2_widerange_07.wav</ShortName>
-							<Path>SFX/L2_widerange_07_A26074DB.wem</Path>
+							<Path>SFX/L2_widerange_07_758D9E51.wem</Path>
 						</File>
 						<File Id="215255041" Language="SFX">
 							<ShortName>Hub_Village\Hub_Village_Glok.wav</ShortName>
@@ -6099,11 +5882,7 @@
 						</File>
 						<File Id="237770515" Language="SFX">
 							<ShortName>Piano fragments\Intervals\L3_intervals_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Intervals/L3_intervals_03_A5CA16D4.wem</Path>
-						</File>
-						<File Id="246087423" Language="SFX">
-							<ShortName>L2_FX_04.wav</ShortName>
-							<Path>SFX/L2_FX_04_7B69AE5F.wem</Path>
+							<Path>SFX/Piano fragments/Intervals/L3_intervals_03_A276FE43.wem</Path>
 						</File>
 						<File Id="250314799" Language="SFX">
 							<ShortName>L2_mid_06.wav</ShortName>
@@ -6132,6 +5911,10 @@
 						<File Id="262950430" Language="SFX">
 							<ShortName>L2_high_12.wav</ShortName>
 							<Path>SFX/L2_high_12_FA493E34.wem</Path>
+						</File>
+						<File Id="264007403" Language="SFX">
+							<ShortName>L3_FX_01.wav</ShortName>
+							<Path>SFX/L3_FX_01_A5DE975F.wem</Path>
 						</File>
 						<File Id="267469076" Language="SFX">
 							<ShortName>Hub_Tuto\Hub_Tuto_Contrebasse.wav</ShortName>
@@ -6227,11 +6010,11 @@
 						</File>
 						<File Id="329906644" Language="SFX">
 							<ShortName>L2_FX_02.wav</ShortName>
-							<Path>SFX/L2_FX_02_E82321D7.wem</Path>
+							<Path>SFX/L2_FX_02_89D69487.wem</Path>
 						</File>
 						<File Id="331252592" Language="SFX">
 							<ShortName>L2_widerange_12.wav</ShortName>
-							<Path>SFX/L2_widerange_12_BA3F3FC8.wem</Path>
+							<Path>SFX/L2_widerange_12_C804D3E3.wem</Path>
 						</File>
 						<File Id="337534716" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_05.wav</ShortName>
@@ -6259,19 +6042,15 @@
 						</File>
 						<File Id="344329819" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_04_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_04_3A457403.wem</Path>
 						</File>
 						<File Id="345729983" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_06_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_06_C35D942E.wem</Path>
 						</File>
 						<File Id="346767564" Language="SFX">
 							<ShortName>L2_singlenotes_02.wav</ShortName>
 							<Path>SFX/L2_singlenotes_02_A5CA16D4.wem</Path>
-						</File>
-						<File Id="348120599" Language="SFX">
-							<ShortName>L2_singlenotes_12.wav</ShortName>
-							<Path>SFX/L2_singlenotes_12_A5CA16D4.wem</Path>
 						</File>
 						<File Id="351144161" Language="SFX">
 							<ShortName>L2_high_04.wav</ShortName>
@@ -6323,7 +6102,7 @@
 						</File>
 						<File Id="387096211" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_07.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_07_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_07_06026ACA.wem</Path>
 						</File>
 						<File Id="392236752" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_mid_02.wav</ShortName>
@@ -6445,10 +6224,6 @@
 							<ShortName>Piano fragments\single notes\L3_singlenote_07.wav</ShortName>
 							<Path>SFX/Piano fragments/single notes/L3_singlenote_07_A5CA16D4.wem</Path>
 						</File>
-						<File Id="505153702" Language="SFX">
-							<ShortName>Piano fragments\single notes\L3_singlenote_11.wav</ShortName>
-							<Path>SFX/Piano fragments/single notes/L3_singlenote_11_A5CA16D4.wem</Path>
-						</File>
 						<File Id="506345302" Language="SFX">
 							<ShortName>L2_high_20.wav</ShortName>
 							<Path>SFX/L2_high_20_A26074DB.wem</Path>
@@ -6463,7 +6238,7 @@
 						</File>
 						<File Id="508379136" Language="SFX">
 							<ShortName>L2_widerange_17.wav</ShortName>
-							<Path>SFX/L2_widerange_17_97C78114.wem</Path>
+							<Path>SFX/L2_widerange_17_268A3F39.wem</Path>
 						</File>
 						<File Id="509327897" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_16.wav</ShortName>
@@ -6507,7 +6282,7 @@
 						</File>
 						<File Id="537824780" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_06.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_06_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_06_FB5BE84C.wem</Path>
 						</File>
 						<File Id="538296863" Language="SFX">
 							<ShortName>Piano fragments\Phrase_High\L3_phrase_high_39.wav</ShortName>
@@ -6579,11 +6354,11 @@
 						</File>
 						<File Id="579290041" Language="SFX">
 							<ShortName>L2_widerange_11.wav</ShortName>
-							<Path>SFX/L2_widerange_11_7945FFFC.wem</Path>
+							<Path>SFX/L2_widerange_11_829ACA90.wem</Path>
 						</File>
 						<File Id="579398620" Language="SFX">
 							<ShortName>L2_widerange_01.wav</ShortName>
-							<Path>SFX/L2_widerange_01_CD7B0413.wem</Path>
+							<Path>SFX/L2_widerange_01_DA76CE96.wem</Path>
 						</File>
 						<File Id="583639403" Language="SFX">
 							<ShortName>mid28.wav</ShortName>
@@ -6603,7 +6378,7 @@
 						</File>
 						<File Id="593425009" Language="SFX">
 							<ShortName>L2_widerange_10.wav</ShortName>
-							<Path>SFX/L2_widerange_10_6EA4B793.wem</Path>
+							<Path>SFX/L2_widerange_10_A81F9781.wem</Path>
 						</File>
 						<File Id="594611527" Language="SFX">
 							<ShortName>L2_intervals_08.wav</ShortName>
@@ -6639,7 +6414,7 @@
 						</File>
 						<File Id="614787960" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_08.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_08_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_08_4419B172.wem</Path>
 						</File>
 						<File Id="617500669" Language="SFX">
 							<ShortName>L1_pianobass_Bb_high.wav</ShortName>
@@ -6675,7 +6450,7 @@
 						</File>
 						<File Id="640480811" Language="SFX">
 							<ShortName>L2_widerange_03.wav</ShortName>
-							<Path>SFX/L2_widerange_03_69A5C38F.wem</Path>
+							<Path>SFX/L2_widerange_03_6A7493D9.wem</Path>
 						</File>
 						<File Id="642773075" Language="SFX">
 							<ShortName>L2_singlenotes_11.wav</ShortName>
@@ -6731,11 +6506,11 @@
 						</File>
 						<File Id="674817455" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_05.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_05_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_05_25F5373C.wem</Path>
 						</File>
-						<File Id="674847059" Language="SFX">
-							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_03_A5CA16D4.wem</Path>
+						<File Id="677771697" Language="SFX">
+							<ShortName>L3_FX_03.wav</ShortName>
+							<Path>SFX/L3_FX_03_5AC5C42B.wem</Path>
 						</File>
 						<File Id="679665888" Language="SFX">
 							<ShortName>L2_low_04.wav</ShortName>
@@ -6751,7 +6526,7 @@
 						</File>
 						<File Id="684301207" Language="SFX">
 							<ShortName>L2_widerange_04.wav</ShortName>
-							<Path>SFX/L2_widerange_04_99BA7197.wem</Path>
+							<Path>SFX/L2_widerange_04_5C072F7F.wem</Path>
 						</File>
 						<File Id="688692363" Language="SFX">
 							<ShortName>6ths03.wav</ShortName>
@@ -6815,7 +6590,7 @@
 						</File>
 						<File Id="716664377" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_02_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_02_CEDC4073.wem</Path>
 						</File>
 						<File Id="719890215" Language="SFX">
 							<ShortName>L2_high_19.wav</ShortName>
@@ -6859,7 +6634,7 @@
 						</File>
 						<File Id="746904752" Language="SFX">
 							<ShortName>L2_FX_03.wav</ShortName>
-							<Path>SFX/L2_FX_03_D0B15B74.wem</Path>
+							<Path>SFX/L2_FX_03_C7EE53E1.wem</Path>
 						</File>
 						<File Id="750631544" Language="SFX">
 							<ShortName>SingleNotes17.wav</ShortName>
@@ -6932,10 +6707,6 @@
 						<File Id="785247267" Language="SFX">
 							<ShortName>L1_pianobass_C_high.wav</ShortName>
 							<Path>SFX/L1_pianobass_C_high_A26074DB.wem</Path>
-						</File>
-						<File Id="786475906" Language="SFX">
-							<ShortName>L2_singlenotes_15.wav</ShortName>
-							<Path>SFX/L2_singlenotes_15_A5CA16D4.wem</Path>
 						</File>
 						<File Id="795997332" Language="SFX">
 							<ShortName>L3_SynthDrone_01.wav</ShortName>
@@ -7019,11 +6790,11 @@
 						</File>
 						<File Id="849898795" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_04.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_04_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_04_90600F69.wem</Path>
 						</File>
 						<File Id="853861763" Language="SFX">
 							<ShortName>L2_widerange_02.wav</ShortName>
-							<Path>SFX/L2_widerange_02_3053E1B1.wem</Path>
+							<Path>SFX/L2_widerange_02_7BF8FAD2.wem</Path>
 						</File>
 						<File Id="856249131" Language="SFX">
 							<ShortName>L2_pianobass_C_octave.wav</ShortName>
@@ -7036,10 +6807,6 @@
 						<File Id="871587016" Language="SFX">
 							<ShortName>high04.wav</ShortName>
 							<Path>SFX/high04_6816FD20.wem</Path>
-						</File>
-						<File Id="872443413" Language="SFX">
-							<ShortName>L2_singlenotes_14.wav</ShortName>
-							<Path>SFX/L2_singlenotes_14_A5CA16D4.wem</Path>
 						</File>
 						<File Id="875683849" Language="SFX">
 							<ShortName>SingleNotes02.wav</ShortName>
@@ -7101,10 +6868,6 @@
 							<ShortName>Hub_PreVillage_FluteBells.wav</ShortName>
 							<Path>SFX/Hub_PreVillage_FluteBells_A26A3599.wem</Path>
 						</File>
-						<File Id="913407173" Language="SFX">
-							<ShortName>L2_singlenotes_16.wav</ShortName>
-							<Path>SFX/L2_singlenotes_16_A5CA16D4.wem</Path>
-						</File>
 						<File Id="914938688" Language="SFX">
 							<ShortName>Piano fragments\Chord_Mid\L3_chord_mid_02.wav</ShortName>
 							<Path>SFX/Piano fragments/Chord_Mid/L3_chord_mid_02_A5CA16D4.wem</Path>
@@ -7143,7 +6906,7 @@
 						</File>
 						<File Id="935255294" Language="SFX">
 							<ShortName>L2_widerange_16.wav</ShortName>
-							<Path>SFX/L2_widerange_16_6147FB91.wem</Path>
+							<Path>SFX/L2_widerange_16_5942AB90.wem</Path>
 						</File>
 						<File Id="936056966" Language="SFX">
 							<ShortName>L2_high_44.wav</ShortName>
@@ -7179,7 +6942,7 @@
 						</File>
 						<File Id="952766462" Language="SFX">
 							<ShortName>L2_widerange_13.wav</ShortName>
-							<Path>SFX/L2_widerange_13_A26074DB.wem</Path>
+							<Path>SFX/L2_widerange_13_92B23110.wem</Path>
 						</File>
 						<File Id="958557672" Language="SFX">
 							<ShortName>high16.wav</ShortName>
@@ -7279,7 +7042,7 @@
 						</File>
 						<File Id="1008070626" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_widerange_03.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_03_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_widerange_03_24810D5D.wem</Path>
 						</File>
 						<File Id="1008385867" Language="SFX">
 							<ShortName>high10.wav</ShortName>
@@ -7307,7 +7070,7 @@
 						</File>
 						<File Id="1039486133" Language="SFX">
 							<ShortName>L2_widerange_05.wav</ShortName>
-							<Path>SFX/L2_widerange_05_1715B133.wem</Path>
+							<Path>SFX/L2_widerange_05_14F039A5.wem</Path>
 						</File>
 						<File Id="1043813097" Language="SFX">
 							<ShortName>L2_intervals_03.wav</ShortName>
@@ -7319,7 +7082,7 @@
 						</File>
 						<File Id="1045357432" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_01.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_01_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_01_3C2ECC4C.wem</Path>
 						</File>
 						<File Id="1048324213" Language="SFX">
 							<ShortName>L2_high_31.wav</ShortName>
@@ -7327,7 +7090,7 @@
 						</File>
 						<File Id="1057154313" Language="SFX">
 							<ShortName>Piano fragments\Phrase_Mid\L3_phrase_low_02.wav</ShortName>
-							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_02_A5CA16D4.wem</Path>
+							<Path>SFX/Piano fragments/Phrase_Mid/L3_phrase_low_02_144EAEA1.wem</Path>
 						</File>
 						<File Id="1057635692" Language="SFX">
 							<ShortName>L2_high_29.wav</ShortName>
@@ -7557,7 +7320,6 @@
 												<File Id="30969407"/>
 												<File Id="31418767"/>
 												<File Id="31822655"/>
-												<File Id="38040106"/>
 												<File Id="44842209"/>
 												<File Id="49380424"/>
 												<File Id="59604068"/>
@@ -7572,6 +7334,7 @@
 												<File Id="133308438"/>
 												<File Id="134180214"/>
 												<File Id="150658131"/>
+												<File Id="172939683"/>
 												<File Id="194107871"/>
 												<File Id="195575905"/>
 												<File Id="197985886"/>
@@ -7580,7 +7343,6 @@
 												<File Id="210857473"/>
 												<File Id="222327238"/>
 												<File Id="235797297"/>
-												<File Id="246087423"/>
 												<File Id="250314799"/>
 												<File Id="251184483"/>
 												<File Id="252087568"/>
@@ -7599,7 +7361,6 @@
 												<File Id="331252592"/>
 												<File Id="337930529"/>
 												<File Id="346767564"/>
-												<File Id="348120599"/>
 												<File Id="351144161"/>
 												<File Id="371866325"/>
 												<File Id="374637273"/>
@@ -7661,7 +7422,6 @@
 												<File Id="777136871"/>
 												<File Id="780329995"/>
 												<File Id="781162920"/>
-												<File Id="786475906"/>
 												<File Id="799418366"/>
 												<File Id="804871224"/>
 												<File Id="805931935"/>
@@ -7671,10 +7431,8 @@
 												<File Id="853861763"/>
 												<File Id="856249131"/>
 												<File Id="860057354"/>
-												<File Id="872443413"/>
 												<File Id="893589115"/>
 												<File Id="894177052"/>
-												<File Id="913407173"/>
 												<File Id="920502521"/>
 												<File Id="922776357"/>
 												<File Id="924765392"/>
@@ -7708,13 +7466,13 @@
 									<Children>
 										<SwitchContainer SwitchValue="{0DC93320-273F-422B-9905-FD76CA37718B}">
 											<Media>
+												<File Id="723114"/>
 												<File Id="28918012"/>
 												<File Id="29692940"/>
 												<File Id="34812147"/>
 												<File Id="60743127"/>
 												<File Id="71302509"/>
 												<File Id="74806089"/>
-												<File Id="78160175"/>
 												<File Id="85156049"/>
 												<File Id="107337020"/>
 												<File Id="128430240"/>
@@ -7729,6 +7487,7 @@
 												<File Id="237770515"/>
 												<File Id="251183523"/>
 												<File Id="252087568"/>
+												<File Id="264007403"/>
 												<File Id="270383119"/>
 												<File Id="278063365"/>
 												<File Id="313553640"/>
@@ -7754,7 +7513,6 @@
 												<File Id="485610135"/>
 												<File Id="486727282"/>
 												<File Id="500640156"/>
-												<File Id="505153702"/>
 												<File Id="507230777"/>
 												<File Id="509327897"/>
 												<File Id="511243405"/>
@@ -7776,7 +7534,7 @@
 												<File Id="670460860"/>
 												<File Id="670839940"/>
 												<File Id="674817455"/>
-												<File Id="674847059"/>
+												<File Id="677771697"/>
 												<File Id="693823468"/>
 												<File Id="695349597"/>
 												<File Id="698718325"/>
@@ -7834,6 +7592,75 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="760777789" Name="Menu_Click" ObjectPath="\Events\Default Work Unit\UI\Menu_Click" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="626954121" Name="Menu_Close" ObjectPath="\Events\Default Work Unit\UI\Menu_Close" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1287511387" Name="Menu_Open" ObjectPath="\Events\Default Work Unit\UI\Menu_Open" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1468236648" Name="MUS_Hub_PreVillage" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_PreVillage" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="337434664" Name="PreVillage" ObjectPath="\States\Default Work Unit\Hub\PreVillage"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1946661255" Name="MUS_Hub_Tuto" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_Tuto" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="646625282" Name="Hub" ObjectPath="\States\Default Work Unit\Level\Hub"/>
+						<ActionSetStateEntry Id="2413814047" Name="Unequipped" ObjectPath="\States\Default Work Unit\Poncho\Unequipped"/>
+						<ActionSetStateEntry Id="3037000007" Name="Tuto" ObjectPath="\States\Default Work Unit\Hub\Tuto"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1075809139" Name="MUS_Hub_Village" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_Village" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3945572659" Name="Village" ObjectPath="\States\Default Work Unit\Hub\Village"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3243133041" Name="MUS_Level1_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
+						<ActionSetStateEntry Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\Level\Level_1"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3624297410" Name="MUS_Level1_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1462442152" Name="MUS_Level1_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2717839624" Name="MUS_Level2_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
+						<ActionSetStateEntry Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\Level\Level_2"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3886197287" Name="MUS_Level2_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2318407373" Name="MUS_Level2_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1200065475" Name="MUS_Level3_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
+						<ActionSetStateEntry Id="1290008371" Name="Level_3" ObjectPath="\States\Default Work Unit\Level\Level_3"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4244769408" Name="MUS_Level3_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3336347158" Name="MUS_Level3_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1973954843" Name="MUS_Start" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Start" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="493504551" Name="Poncho_Collect" ObjectPath="\Events\Default Work Unit\INGREDIENT\Poncho_Collect" DurationType="OneShot" DurationMin="10.360314" DurationMax="10.360314">
 					<IncludedMemoryFiles>
 						<File Id="467596883" Language="SFX">

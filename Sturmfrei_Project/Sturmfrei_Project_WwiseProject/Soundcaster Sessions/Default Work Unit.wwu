@@ -327,6 +327,10 @@
 							<ObjectRef Name="MUS_Level3_BossPuzzle" ID="{3BB24B2F-777A-4DCC-B7EF-214658CD15D2}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="4" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Map_Load" ID="{B6CB8CA8-5BC9-4EC3-9ACD-1088F8314FDE}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="4" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -349,7 +353,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Flying" ID="{C13402BE-0345-47CF-9776-BABCCF4E289C}"/>
 						<CurrentStateRef Name="Poncho" ID="{998AB218-EBEF-4DE7-AF20-E67F72015E0A}"/>
-						<CurrentStateRef Name="Level_1" ID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}"/>
+						<CurrentStateRef Name="Level_2" ID="{7AEAFD6D-9549-4464-B120-69DDB04C0F1A}"/>
 						<CurrentStateRef Name="Equipped" ID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}"/>
 						<CurrentStateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
 					</CurrentStateList>

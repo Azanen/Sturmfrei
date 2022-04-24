@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: a0eb939991cab54283f0b00a0bea6597
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: a0eb939991cab54283f0b00a0bea6597
     GuidInternal: 
-    m_lastTime: -8585508699518413318
+    m_lastTime: -8585527364824775808
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 0f24a9abdf06504e856608752cd179ae
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 0f24a9abdf06504e856608752cd179ae
     GuidInternal: 
-    m_lastTime: -8585508699804304712
+    m_lastTime: -8585527364824775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,10 +63,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 173ff7f8f10a4748b46ad31433fb4c25
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 173ff7f8f10a4748b46ad31433fb4c25
     GuidInternal: 
-    m_lastTime: -8585508699518493101
+    m_lastTime: -8585526728664775808
     List:
     - name: Main
       guid: ddb70ac7f37e254f94f4bc69d9811643
@@ -81,9 +81,9 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
         guid: ddb70ac7f37e254f94f4bc69d9811643
-      Path: SoundBanks\Default Work Unit\Main
+      Path: SoundBanks/Default Work Unit/Main
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -91,10 +91,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: cedcc42e1e517c4c8888dbdd56061ae7
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: cedcc42e1e517c4c8888dbdd56061ae7
     GuidInternal: 
-    m_lastTime: -8585508587110242081
+    m_lastTime: -8585508252924775808
     List:
     - name: Amb_Cave
       guid: 93210a621f71d14cbc133f25bc0f829f
@@ -112,7 +112,7 @@ MonoBehaviour:
       - ElementName: Amb_Cave
         ObjectType: 3
         guid: 93210a621f71d14cbc133f25bc0f829f
-      Path: Events\Default Work Unit\AMBIENCE\Amb_Cave
+      Path: Events/Default Work Unit/AMBIENCE/Amb_Cave
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
       - ElementName: Amb_Cave_Stop
         ObjectType: 3
         guid: d87de5571e6b914db3fb9d4f4942af72
-      Path: Events\Default Work Unit\AMBIENCE\Idle_Stop\Amb_Cave_Stop
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop/Amb_Cave_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
       - ElementName: Amb_Hub
         ObjectType: 3
         guid: d7ec058c50101743825c71574da60b61
-      Path: Events\Default Work Unit\AMBIENCE\Amb_Hub
+      Path: Events/Default Work Unit/AMBIENCE/Amb_Hub
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -175,7 +175,7 @@ MonoBehaviour:
       - ElementName: Amb_Level1
         ObjectType: 3
         guid: ed17cb09a6e86c47a196d37441b95d7d
-      Path: Events\Default Work Unit\AMBIENCE\Amb_Level1
+      Path: Events/Default Work Unit/AMBIENCE/Amb_Level1
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
       - ElementName: Amb_Level2
         ObjectType: 3
         guid: 1bc21767694e5e4a885ade2d96d96db0
-      Path: Events\Default Work Unit\AMBIENCE\Amb_Level2
+      Path: Events/Default Work Unit/AMBIENCE/Amb_Level2
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
       - ElementName: Amb_Level3
         ObjectType: 3
         guid: eb45f9934367244fbf71dff69a4a6595
-      Path: Events\Default Work Unit\AMBIENCE\Amb_Level3
+      Path: Events/Default Work Unit/AMBIENCE/Amb_Level3
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -235,7 +235,7 @@ MonoBehaviour:
       - ElementName: Amb_Sky
         ObjectType: 3
         guid: 0c3eb3bb89592d42b8cea2eca7b19de7
-      Path: Events\Default Work Unit\AMBIENCE\Amb_Sky
+      Path: Events/Default Work Unit/AMBIENCE/Amb_Sky
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
       - ElementName: Amb_Sky_Stop
         ObjectType: 3
         guid: dc385f5604c89e47954e3a10bac7985f
-      Path: Events\Default Work Unit\AMBIENCE\Idle_Stop\Amb_Sky_Stop
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop/Amb_Sky_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -275,7 +275,7 @@ MonoBehaviour:
       - ElementName: AMBIENCE
         ObjectType: 4
         guid: 7d205f63d823264492b03b1d5a09298f
-      Path: Events\Default Work Unit\AMBIENCE
+      Path: Events/Default Work Unit/AMBIENCE
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -295,7 +295,7 @@ MonoBehaviour:
       - ElementName: Boss_Defeat
         ObjectType: 3
         guid: 4654887e5eb06f46b67a721b066a92c2
-      Path: Events\Default Work Unit\INGREDIENT\Boss_Defeat
+      Path: Events/Default Work Unit/INGREDIENT/Boss_Defeat
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -315,7 +315,7 @@ MonoBehaviour:
       - ElementName: Boss_Idle
         ObjectType: 3
         guid: 85d66c9fe83a0047a6fe09afd51d73c6
-      Path: Events\Default Work Unit\INGREDIENT\Boss_Idle
+      Path: Events/Default Work Unit/INGREDIENT/Boss_Idle
       maxAttenuation: 250
       maxDuration: -1
       minDuration: -1
@@ -338,7 +338,7 @@ MonoBehaviour:
       - ElementName: Boss_Idle_Stop
         ObjectType: 3
         guid: 15452a49891da84081e67ecacd8d3cba
-      Path: Events\Default Work Unit\INGREDIENT\Idle_Stop\Boss_Idle_Stop
+      Path: Events/Default Work Unit/INGREDIENT/Idle_Stop/Boss_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -358,7 +358,7 @@ MonoBehaviour:
       - ElementName: Boss_ReturnHub
         ObjectType: 3
         guid: 9c66861de4ffa548999abfdcc86a7ab1
-      Path: Events\Default Work Unit\INGREDIENT\Boss_ReturnHub
+      Path: Events/Default Work Unit/INGREDIENT/Boss_ReturnHub
       maxAttenuation: 0
       maxDuration: 7.25
       minDuration: 7.25
@@ -378,7 +378,7 @@ MonoBehaviour:
       - ElementName: BreakWall_EasterEgg
         ObjectType: 3
         guid: 7f4d39a549a4634da1948704108ac3e9
-      Path: Events\Default Work Unit\INGREDIENT\BreakWall_EasterEgg
+      Path: Events/Default Work Unit/INGREDIENT/BreakWall_EasterEgg
       maxAttenuation: 0
       maxDuration: 1.4935
       minDuration: 1.4935
@@ -398,7 +398,7 @@ MonoBehaviour:
       - ElementName: BreakWall_Ice
         ObjectType: 3
         guid: 1f92f8f50554304a9521142fdc10aad9
-      Path: Events\Default Work Unit\INGREDIENT\BreakWall_Ice
+      Path: Events/Default Work Unit/INGREDIENT/BreakWall_Ice
       maxAttenuation: 60
       maxDuration: 3.926848
       minDuration: 2.594807
@@ -418,7 +418,7 @@ MonoBehaviour:
       - ElementName: BreakWall_Stone
         ObjectType: 3
         guid: 8e5e22b01edb424687e0e87d8dda3016
-      Path: Events\Default Work Unit\INGREDIENT\BreakWall_Stone
+      Path: Events/Default Work Unit/INGREDIENT/BreakWall_Stone
       maxAttenuation: 60
       maxDuration: 3.056508
       minDuration: 2.506667
@@ -438,7 +438,7 @@ MonoBehaviour:
       - ElementName: Bridge_Crack
         ObjectType: 3
         guid: 3470b787e803d445a8142726f80f8b3b
-      Path: Events\Default Work Unit\AMBIENCE\Bridge_Crack
+      Path: Events/Default Work Unit/AMBIENCE/Bridge_Crack
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
       - ElementName: Fall_Respawn
         ObjectType: 3
         guid: aa31af78be113b40b7327533a26f56ee
-      Path: Events\Default Work Unit\PLAYER\Fall_Respawn
+      Path: Events/Default Work Unit/PLAYER/Fall_Respawn
       maxAttenuation: 0
       maxDuration: 6.176304
       minDuration: 4.882313
@@ -478,7 +478,7 @@ MonoBehaviour:
       - ElementName: Flying_Dash
         ObjectType: 3
         guid: ef33b1df23a1f74687990ee47a73f85d
-      Path: Events\Default Work Unit\PLAYER\Flying_Dash
+      Path: Events/Default Work Unit/PLAYER/Flying_Dash
       maxAttenuation: 0
       maxDuration: 5.517072
       minDuration: 1.939815
@@ -498,7 +498,7 @@ MonoBehaviour:
       - ElementName: Flying_Idle
         ObjectType: 3
         guid: 01feaa0c1431764998cd94c9a2f7b1ef
-      Path: Events\Default Work Unit\PLAYER\Flying_Idle
+      Path: Events/Default Work Unit/PLAYER/Flying_Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -518,7 +518,7 @@ MonoBehaviour:
       - ElementName: Flying_Landing
         ObjectType: 3
         guid: 86844506e04b5a448ee1fff36ea42280
-      Path: Events\Default Work Unit\PLAYER\Flying_Landing
+      Path: Events/Default Work Unit/PLAYER/Flying_Landing
       maxAttenuation: 0
       maxDuration: 1.275548
       minDuration: 0.636177
@@ -538,7 +538,7 @@ MonoBehaviour:
       - ElementName: Flying_Start
         ObjectType: 3
         guid: 548dfc6df1e8094ba62524839b936240
-      Path: Events\Default Work Unit\PLAYER\Flying_Start
+      Path: Events/Default Work Unit/PLAYER/Flying_Start
       maxAttenuation: 0
       maxDuration: 87.11614
       minDuration: 87.11614
@@ -558,7 +558,7 @@ MonoBehaviour:
       - ElementName: Flying_Stop
         ObjectType: 3
         guid: 3f6ede02b314a348a3d7bb186eedb6c8
-      Path: Events\Default Work Unit\PLAYER\Flying_Stop
+      Path: Events/Default Work Unit/PLAYER/Flying_Stop
       maxAttenuation: 0
       maxDuration: 0.483874
       minDuration: 0.275265
@@ -578,7 +578,7 @@ MonoBehaviour:
       - ElementName: Flying_Stunned
         ObjectType: 3
         guid: a97df9527e5961478478342a159385ae
-      Path: Events\Default Work Unit\PLAYER\Flying_Stunned
+      Path: Events/Default Work Unit/PLAYER/Flying_Stunned
       maxAttenuation: 0
       maxDuration: 3.084376
       minDuration: 1.468209
@@ -598,7 +598,7 @@ MonoBehaviour:
       - ElementName: Foot_DashJump
         ObjectType: 3
         guid: 0587cbae5873fa44a09b304f3af98658
-      Path: Events\Default Work Unit\PLAYER\Foot_DashJump
+      Path: Events/Default Work Unit/PLAYER/Foot_DashJump
       maxAttenuation: 0
       maxDuration: 5.517072
       minDuration: 1.939815
@@ -618,7 +618,7 @@ MonoBehaviour:
       - ElementName: Foot_Elevator
         ObjectType: 3
         guid: 8b9f1adb62d2624b8e4b230366bf1d36
-      Path: Events\Default Work Unit\PLAYER\Foot_Elevator
+      Path: Events/Default Work Unit/PLAYER/Foot_Elevator
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -638,7 +638,7 @@ MonoBehaviour:
       - ElementName: Foot_Falling
         ObjectType: 3
         guid: 423f0fa2cff37346b80e45a7969c2c05
-      Path: Events\Default Work Unit\PLAYER\Foot_Falling
+      Path: Events/Default Work Unit/PLAYER/Foot_Falling
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -658,7 +658,7 @@ MonoBehaviour:
       - ElementName: Foot_Idle
         ObjectType: 3
         guid: 8179fc27938f5c4d9baeb0ba71c05d4a
-      Path: Events\Default Work Unit\PLAYER\Foot_Idle
+      Path: Events/Default Work Unit/PLAYER/Foot_Idle
       maxAttenuation: 0
       maxDuration: 1.478817
       minDuration: 0.31318
@@ -678,7 +678,7 @@ MonoBehaviour:
       - ElementName: Foot_Interaction
         ObjectType: 3
         guid: aa9d1bf7bb2ce841ba99226f6f8bfa65
-      Path: Events\Default Work Unit\PLAYER\Foot_Interaction
+      Path: Events/Default Work Unit/PLAYER/Foot_Interaction
       maxAttenuation: 0
       maxDuration: 1.717755
       minDuration: 0.786349
@@ -698,7 +698,7 @@ MonoBehaviour:
       - ElementName: Foot_Jump
         ObjectType: 3
         guid: 778baa3611a0d947b7f16f3d94ad5874
-      Path: Events\Default Work Unit\PLAYER\Foot_Jump
+      Path: Events/Default Work Unit/PLAYER/Foot_Jump
       maxAttenuation: 0
       maxDuration: 0.329819
       minDuration: 0.259569
@@ -718,7 +718,7 @@ MonoBehaviour:
       - ElementName: Foot_Landing
         ObjectType: 3
         guid: 0dea89dc0fbce54ab12927a6aff7aa91
-      Path: Events\Default Work Unit\PLAYER\Foot_Landing
+      Path: Events/Default Work Unit/PLAYER/Foot_Landing
       maxAttenuation: 0
       maxDuration: 1.175548
       minDuration: 0.068164
@@ -738,7 +738,7 @@ MonoBehaviour:
       - ElementName: Foot_Walk
         ObjectType: 3
         guid: d95a795e563b4a4ca9584632ed0d2709
-      Path: Events\Default Work Unit\PLAYER\Foot_Walk
+      Path: Events/Default Work Unit/PLAYER/Foot_Walk
       maxAttenuation: 0
       maxDuration: 0.769326
       minDuration: 0.057186
@@ -758,7 +758,7 @@ MonoBehaviour:
       - ElementName: Idle_Stop
         ObjectType: 4
         guid: 731f8e77c1417c499731bfa39556bf77
-      Path: Events\Default Work Unit\INGREDIENT\Idle_Stop
+      Path: Events/Default Work Unit/INGREDIENT/Idle_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -778,7 +778,7 @@ MonoBehaviour:
       - ElementName: Idle_Stop
         ObjectType: 4
         guid: 5d905d80edc3284a8deb20d991c05cd7
-      Path: Events\Default Work Unit\AMBIENCE\Idle_Stop
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -795,7 +795,7 @@ MonoBehaviour:
       - ElementName: INGREDIENT
         ObjectType: 4
         guid: 43f232c92267dc4285689f1c1b452d43
-      Path: Events\Default Work Unit\INGREDIENT
+      Path: Events/Default Work Unit/INGREDIENT
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -815,7 +815,7 @@ MonoBehaviour:
       - ElementName: Magnet_Activate
         ObjectType: 3
         guid: 05abe9e81214734da599c40b879fdb3a
-      Path: Events\Default Work Unit\INGREDIENT\Magnet_Activate
+      Path: Events/Default Work Unit/INGREDIENT/Magnet_Activate
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -835,7 +835,7 @@ MonoBehaviour:
       - ElementName: Magnet_Idle
         ObjectType: 3
         guid: 5cd0501ea5644540a6965be25ef8d1bd
-      Path: Events\Default Work Unit\INGREDIENT\Magnet_Idle
+      Path: Events/Default Work Unit/INGREDIENT/Magnet_Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -858,7 +858,7 @@ MonoBehaviour:
       - ElementName: Magnet_Idle_Stop
         ObjectType: 3
         guid: e7a8f9d311d02e4eaa8540b14cd3528f
-      Path: Events\Default Work Unit\INGREDIENT\Idle_Stop\Magnet_Idle_Stop
+      Path: Events/Default Work Unit/INGREDIENT/Idle_Stop/Magnet_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -878,7 +878,7 @@ MonoBehaviour:
       - ElementName: Magnet_Release
         ObjectType: 3
         guid: 9ad80965cb9b7048915f206dd863482e
-      Path: Events\Default Work Unit\INGREDIENT\Magnet_Release
+      Path: Events/Default Work Unit/INGREDIENT/Magnet_Release
       maxAttenuation: 0
       maxDuration: 0.597722
       minDuration: 0.597722
@@ -895,10 +895,10 @@ MonoBehaviour:
       - ElementName: Map_Load
         ObjectType: 3
         guid: a88ccbb6c95bc34e9acd1088f8314fde
-      Path: Events\Default Work Unit\Map_Load
+      Path: Events/Default Work Unit/Map_Load
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Menu_Click
       guid: 55074980fcb7d24eba5638a371820aa8
       id: 760777789
@@ -915,7 +915,7 @@ MonoBehaviour:
       - ElementName: Menu_Click
         ObjectType: 3
         guid: 55074980fcb7d24eba5638a371820aa8
-      Path: Events\Default Work Unit\UI\Menu_Click
+      Path: Events/Default Work Unit/UI/Menu_Click
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -935,7 +935,7 @@ MonoBehaviour:
       - ElementName: Menu_Close
         ObjectType: 3
         guid: 41499ab236c9974b8987edc76bb9dea6
-      Path: Events\Default Work Unit\UI\Menu_Close
+      Path: Events/Default Work Unit/UI/Menu_Close
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
       - ElementName: Menu_Open
         ObjectType: 3
         guid: 97d39fdf6a4a614293527317a5cf5394
-      Path: Events\Default Work Unit\UI\Menu_Open
+      Path: Events/Default Work Unit/UI/Menu_Open
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -975,7 +975,7 @@ MonoBehaviour:
       - ElementName: MUS_Hub_PreVillage
         ObjectType: 3
         guid: ada95d6a562f754e920c8e196687501a
-      Path: Events\Default Work Unit\MUSIC\MUS_Hub_PreVillage
+      Path: Events/Default Work Unit/MUSIC/MUS_Hub_PreVillage
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -995,7 +995,7 @@ MonoBehaviour:
       - ElementName: MUS_Hub_Tuto
         ObjectType: 3
         guid: 24ae57abcfec33409016e62a6655d4bc
-      Path: Events\Default Work Unit\MUSIC\MUS_Hub_Tuto
+      Path: Events/Default Work Unit/MUSIC/MUS_Hub_Tuto
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1015,7 +1015,7 @@ MonoBehaviour:
       - ElementName: MUS_Hub_Village
         ObjectType: 3
         guid: 6a731e745e7ce34ca5d8dcb7c40147d3
-      Path: Events\Default Work Unit\MUSIC\MUS_Hub_Village
+      Path: Events/Default Work Unit/MUSIC/MUS_Hub_Village
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1035,7 +1035,7 @@ MonoBehaviour:
       - ElementName: MUS_Level1_Ambiance
         ObjectType: 3
         guid: 3ceabc22a3af034485bb998d43fa9a9e
-      Path: Events\Default Work Unit\MUSIC\MUS_Level1_Ambiance
+      Path: Events/Default Work Unit/MUSIC/MUS_Level1_Ambiance
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1055,7 +1055,7 @@ MonoBehaviour:
       - ElementName: MUS_Level1_BossPuzzle
         ObjectType: 3
         guid: d47b8ef2f134dc4eac7c502423dae8fe
-      Path: Events\Default Work Unit\MUSIC\MUS_Level1_BossPuzzle
+      Path: Events/Default Work Unit/MUSIC/MUS_Level1_BossPuzzle
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1075,7 +1075,7 @@ MonoBehaviour:
       - ElementName: MUS_Level1_Wonder
         ObjectType: 3
         guid: af151a44039b85449da9c0074c57c026
-      Path: Events\Default Work Unit\MUSIC\MUS_Level1_Wonder
+      Path: Events/Default Work Unit/MUSIC/MUS_Level1_Wonder
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1095,7 +1095,7 @@ MonoBehaviour:
       - ElementName: MUS_Level2_Ambiance
         ObjectType: 3
         guid: 82cc4f93605dc748bdb1d7a1c06717e9
-      Path: Events\Default Work Unit\MUSIC\MUS_Level2_Ambiance
+      Path: Events/Default Work Unit/MUSIC/MUS_Level2_Ambiance
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1115,7 +1115,7 @@ MonoBehaviour:
       - ElementName: MUS_Level2_BossPuzzle
         ObjectType: 3
         guid: 25549b2d31dc1d40aa8f3781baaf12a2
-      Path: Events\Default Work Unit\MUSIC\MUS_Level2_BossPuzzle
+      Path: Events/Default Work Unit/MUSIC/MUS_Level2_BossPuzzle
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1135,7 +1135,7 @@ MonoBehaviour:
       - ElementName: MUS_Level2_Wonder
         ObjectType: 3
         guid: d70ce38903532940b5e2ee002d35e317
-      Path: Events\Default Work Unit\MUSIC\MUS_Level2_Wonder
+      Path: Events/Default Work Unit/MUSIC/MUS_Level2_Wonder
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1155,7 +1155,7 @@ MonoBehaviour:
       - ElementName: MUS_Level3_Ambiance
         ObjectType: 3
         guid: e7ca0ee6eb436e4e86d009e411601f5a
-      Path: Events\Default Work Unit\MUSIC\MUS_Level3_Ambiance
+      Path: Events/Default Work Unit/MUSIC/MUS_Level3_Ambiance
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1175,7 +1175,7 @@ MonoBehaviour:
       - ElementName: MUS_Level3_BossPuzzle
         ObjectType: 3
         guid: 2f4bb23b7a77cc4db7ef214658cd15d2
-      Path: Events\Default Work Unit\MUSIC\MUS_Level3_BossPuzzle
+      Path: Events/Default Work Unit/MUSIC/MUS_Level3_BossPuzzle
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1195,7 +1195,7 @@ MonoBehaviour:
       - ElementName: MUS_Level3_Wonder
         ObjectType: 3
         guid: 85b5d786fcd8af41b6fd0d57ffe57112
-      Path: Events\Default Work Unit\MUSIC\MUS_Level3_Wonder
+      Path: Events/Default Work Unit/MUSIC/MUS_Level3_Wonder
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1215,10 +1215,10 @@ MonoBehaviour:
       - ElementName: MUS_Start
         ObjectType: 3
         guid: 77615dbb8f924b48a580d888200c2aa9
-      Path: Events\Default Work Unit\MUSIC\MUS_Start
+      Path: Events/Default Work Unit/MUSIC/MUS_Start
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: MUSIC
       guid: bb58a563bebaee4c8515db0cf579ce25
       id: 3991942870
@@ -1232,7 +1232,7 @@ MonoBehaviour:
       - ElementName: MUSIC
         ObjectType: 4
         guid: bb58a563bebaee4c8515db0cf579ce25
-      Path: Events\Default Work Unit\MUSIC
+      Path: Events/Default Work Unit/MUSIC
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1249,7 +1249,7 @@ MonoBehaviour:
       - ElementName: PLAYER
         ObjectType: 4
         guid: 3013852555dc5d4fb093c1103b1d0a67
-      Path: Events\Default Work Unit\PLAYER
+      Path: Events/Default Work Unit/PLAYER
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1269,7 +1269,7 @@ MonoBehaviour:
       - ElementName: Poncho_Collect
         ObjectType: 3
         guid: c4ce8b0c99ab8b4e86f96833353bdf07
-      Path: Events\Default Work Unit\INGREDIENT\Poncho_Collect
+      Path: Events/Default Work Unit/INGREDIENT/Poncho_Collect
       maxAttenuation: 0
       maxDuration: 10.360314
       minDuration: 10.360314
@@ -1289,7 +1289,7 @@ MonoBehaviour:
       - ElementName: Poncho_Idle
         ObjectType: 3
         guid: 92dfc3032a607542bcac0caaa8b249a8
-      Path: Events\Default Work Unit\INGREDIENT\Poncho_Idle
+      Path: Events/Default Work Unit/INGREDIENT/Poncho_Idle
       maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
@@ -1312,7 +1312,7 @@ MonoBehaviour:
       - ElementName: Poncho_Idle_Stop
         ObjectType: 3
         guid: a3cab85b2ec2ef49b20f34ff12d7f23f
-      Path: Events\Default Work Unit\INGREDIENT\Idle_Stop\Poncho_Idle_Stop
+      Path: Events/Default Work Unit/INGREDIENT/Idle_Stop/Poncho_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1332,7 +1332,7 @@ MonoBehaviour:
       - ElementName: PurpleCloud_Damage_Start
         ObjectType: 3
         guid: d5f33ef07b3a744b83f43321ea10bb1c
-      Path: Events\Default Work Unit\INGREDIENT\PurpleCloud_Damage_Start
+      Path: Events/Default Work Unit/INGREDIENT/PurpleCloud_Damage_Start
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1352,7 +1352,7 @@ MonoBehaviour:
       - ElementName: PurpleCloud_Damage_Stop
         ObjectType: 3
         guid: 7be5c656b7323e4ea0f1e2c1e562cdd0
-      Path: Events\Default Work Unit\INGREDIENT\PurpleCloud_Damage_Stop
+      Path: Events/Default Work Unit/INGREDIENT/PurpleCloud_Damage_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1372,7 +1372,7 @@ MonoBehaviour:
       - ElementName: PurpleCloud_Idle
         ObjectType: 3
         guid: 9aacc7813b35d14b8acbb1d956b6cd55
-      Path: Events\Default Work Unit\INGREDIENT\PurpleCloud_Idle
+      Path: Events/Default Work Unit/INGREDIENT/PurpleCloud_Idle
       maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
@@ -1395,7 +1395,7 @@ MonoBehaviour:
       - ElementName: PurpleCloud_Idle_Stop
         ObjectType: 3
         guid: e25789ca18bbd14cac14960b8c2a6c28
-      Path: Events\Default Work Unit\INGREDIENT\Idle_Stop\PurpleCloud_Idle_Stop
+      Path: Events/Default Work Unit/INGREDIENT/Idle_Stop/PurpleCloud_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1415,7 +1415,7 @@ MonoBehaviour:
       - ElementName: River_Idle
         ObjectType: 3
         guid: b8cb795cfb7efa45b657b2e44a283978
-      Path: Events\Default Work Unit\AMBIENCE\River_Idle
+      Path: Events/Default Work Unit/AMBIENCE/River_Idle
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1438,7 +1438,7 @@ MonoBehaviour:
       - ElementName: River_Idle_Stop
         ObjectType: 3
         guid: f7eed79fa7b33e4ea7280c7a1d3ad6c0
-      Path: Events\Default Work Unit\AMBIENCE\Idle_Stop\River_Idle_Stop
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop/River_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1458,7 +1458,7 @@ MonoBehaviour:
       - ElementName: Soul_Collect
         ObjectType: 3
         guid: 384e849bb9e38d43a2358c84545d2dd4
-      Path: Events\Default Work Unit\INGREDIENT\Soul_Collect
+      Path: Events/Default Work Unit/INGREDIENT/Soul_Collect
       maxAttenuation: 0
       maxDuration: 2.360332
       minDuration: 1.037775
@@ -1478,7 +1478,7 @@ MonoBehaviour:
       - ElementName: Soul_Idle
         ObjectType: 3
         guid: c5f294b23e890446b42e785c8b7700be
-      Path: Events\Default Work Unit\INGREDIENT\Soul_Idle
+      Path: Events/Default Work Unit/INGREDIENT/Soul_Idle
       maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
@@ -1501,7 +1501,7 @@ MonoBehaviour:
       - ElementName: Soul_Idle_Stop
         ObjectType: 3
         guid: 3dd339889255a84fa066d7784b0af91e
-      Path: Events\Default Work Unit\INGREDIENT\Idle_Stop\Soul_Idle_Stop
+      Path: Events/Default Work Unit/INGREDIENT/Idle_Stop/Soul_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1521,7 +1521,7 @@ MonoBehaviour:
       - ElementName: Start_Game
         ObjectType: 3
         guid: 7af0036e57b3094c8b1540526a512a2f
-      Path: Events\Default Work Unit\UI\Start_Game
+      Path: Events/Default Work Unit/UI/Start_Game
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1541,7 +1541,7 @@ MonoBehaviour:
       - ElementName: Statue_Idle
         ObjectType: 3
         guid: 5ba89be3d2c42a4fa50b147d2877ad28
-      Path: Events\Default Work Unit\INGREDIENT\Statue_Idle
+      Path: Events/Default Work Unit/INGREDIENT/Statue_Idle
       maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
@@ -1564,7 +1564,7 @@ MonoBehaviour:
       - ElementName: Statue_Idle_Stop
         ObjectType: 3
         guid: a454548455d33d43a6532042aa0f7a67
-      Path: Events\Default Work Unit\INGREDIENT\Idle_Stop\Statue_Idle_Stop
+      Path: Events/Default Work Unit/INGREDIENT/Idle_Stop/Statue_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1584,7 +1584,7 @@ MonoBehaviour:
       - ElementName: Statue_Rebuild
         ObjectType: 3
         guid: 9ea2d19bae00fd4e99cf149bdd9dbd40
-      Path: Events\Default Work Unit\INGREDIENT\Statue_Rebuild
+      Path: Events/Default Work Unit/INGREDIENT/Statue_Rebuild
       maxAttenuation: 50
       maxDuration: 4.943091
       minDuration: 4.209786
@@ -1604,7 +1604,7 @@ MonoBehaviour:
       - ElementName: Sturmfrei_Recharge
         ObjectType: 3
         guid: 1384a18ee2da3347a6a7f7d43c9361e5
-      Path: Events\Default Work Unit\INGREDIENT\Sturmfrei_Recharge
+      Path: Events/Default Work Unit/INGREDIENT/Sturmfrei_Recharge
       maxAttenuation: 0
       maxDuration: 1
       minDuration: 0.875011
@@ -1621,7 +1621,7 @@ MonoBehaviour:
       - ElementName: Test_Footstep
         ObjectType: 3
         guid: 0f3570692d49a340aa0521762e29f963
-      Path: Events\Default Work Unit\Test_Footstep
+      Path: Events/Default Work Unit/Test_Footstep
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1641,7 +1641,7 @@ MonoBehaviour:
       - ElementName: Torch_Idle
         ObjectType: 3
         guid: efadb25137eba9488cabc2f90302820a
-      Path: Events\Default Work Unit\AMBIENCE\Torch_Idle
+      Path: Events/Default Work Unit/AMBIENCE/Torch_Idle
       maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
@@ -1664,7 +1664,7 @@ MonoBehaviour:
       - ElementName: Torch_Idle_Stop
         ObjectType: 3
         guid: 6dad0273b4647946afd1073e59598936
-      Path: Events\Default Work Unit\AMBIENCE\Idle_Stop\Torch_Idle_Stop
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop/Torch_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1684,7 +1684,7 @@ MonoBehaviour:
       - ElementName: Tree_Idle
         ObjectType: 3
         guid: a38bf48cace53040932c8042d2ba9e54
-      Path: Events\Default Work Unit\AMBIENCE\Tree_Idle
+      Path: Events/Default Work Unit/AMBIENCE/Tree_Idle
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1707,7 +1707,7 @@ MonoBehaviour:
       - ElementName: Tree_Idle_Stop
         ObjectType: 3
         guid: c2279d3be33758488d3a6b2459558348
-      Path: Events\Default Work Unit\AMBIENCE\Idle_Stop\Tree_Idle_Stop
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop/Tree_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1724,7 +1724,7 @@ MonoBehaviour:
       - ElementName: UI
         ObjectType: 4
         guid: 8d7a178c32fb4c468dbae688af208f1a
-      Path: Events\Default Work Unit\UI
+      Path: Events/Default Work Unit/UI
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1744,7 +1744,7 @@ MonoBehaviour:
       - ElementName: Waterfall_Idle
         ObjectType: 3
         guid: 886e805ebafd2941aff179bf7b85c195
-      Path: Events\Default Work Unit\AMBIENCE\Waterfall_Idle
+      Path: Events/Default Work Unit/AMBIENCE/Waterfall_Idle
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1767,7 +1767,7 @@ MonoBehaviour:
       - ElementName: Waterfall_Idle_Stop
         ObjectType: 3
         guid: c1562cbc76e05e4eaec4370b54cdef67
-      Path: Events\Default Work Unit\AMBIENCE\Idle_Stop\Waterfall_Idle_Stop
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop/Waterfall_Idle_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1787,7 +1787,7 @@ MonoBehaviour:
       - ElementName: Wind_Column
         ObjectType: 3
         guid: f1bf4ea40f052c488f459ddb7cb7d128
-      Path: Events\Default Work Unit\AMBIENCE\Wind_Column
+      Path: Events/Default Work Unit/AMBIENCE/Wind_Column
       maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
@@ -1810,7 +1810,7 @@ MonoBehaviour:
       - ElementName: Wind_Column_Stop
         ObjectType: 3
         guid: 3b9382b3bd12724487155cd1f3d43282
-      Path: Events\Default Work Unit\AMBIENCE\Idle_Stop\Wind_Column_Stop
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop/Wind_Column_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1830,7 +1830,7 @@ MonoBehaviour:
       - ElementName: Wind_Turbine
         ObjectType: 3
         guid: 9a81edd3460bc140951560d7420bf34e
-      Path: Events\Default Work Unit\AMBIENCE\Wind_Turbine
+      Path: Events/Default Work Unit/AMBIENCE/Wind_Turbine
       maxAttenuation: 70
       maxDuration: -1
       minDuration: -1
@@ -1853,12 +1853,12 @@ MonoBehaviour:
       - ElementName: Wind_Turbine_Stop
         ObjectType: 3
         guid: d2bd0682b6a7234abe55dacb5cf50bb0
-      Path: Events\Default Work Unit\AMBIENCE\Idle_Stop\Wind_Turbine_Stop
+      Path: Events/Default Work Unit/AMBIENCE/Idle_Stop/Wind_Turbine_Stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -1866,10 +1866,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f413bcad92b80c4a9dca013f7c3da6c8
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: f413bcad92b80c4a9dca013f7c3da6c8
     GuidInternal: 
-    m_lastTime: -8585508699811684979
+    m_lastTime: -8585509243174775808
     List:
     - name: Altitude
       guid: afc1a6cfa99f1b4e948bad35a1efd10b
@@ -1884,7 +1884,7 @@ MonoBehaviour:
       - ElementName: Altitude
         ObjectType: 13
         guid: afc1a6cfa99f1b4e948bad35a1efd10b
-      Path: Game Parameters\Default Work Unit\Altitude
+      Path: Game Parameters/Default Work Unit/Altitude
     - name: Foot_Idle_Wait
       guid: a580af77b1389d4f96cb218ebfe38c45
       id: 417177826
@@ -1898,7 +1898,7 @@ MonoBehaviour:
       - ElementName: Foot_Idle_Wait
         ObjectType: 13
         guid: a580af77b1389d4f96cb218ebfe38c45
-      Path: Game Parameters\Default Work Unit\Foot_Idle_Wait
+      Path: Game Parameters/Default Work Unit/Foot_Idle_Wait
     - name: Hub_Poncho_Proximity
       guid: 730946e0164d244dac75fdf0d6d4e4d6
       id: 758209454
@@ -1912,7 +1912,7 @@ MonoBehaviour:
       - ElementName: Hub_Poncho_Proximity
         ObjectType: 13
         guid: 730946e0164d244dac75fdf0d6d4e4d6
-      Path: Game Parameters\Default Work Unit\Hub_Poncho_Proximity
+      Path: Game Parameters/Default Work Unit/Hub_Poncho_Proximity
     - name: Inclination
       guid: 5997570853d24d469cdd800e7a21c796
       id: 1322591463
@@ -1926,9 +1926,9 @@ MonoBehaviour:
       - ElementName: Inclination
         ObjectType: 13
         guid: 5997570853d24d469cdd800e7a21c796
-      Path: Game Parameters\Default Work Unit\Inclination
+      Path: Game Parameters/Default Work Unit/Inclination
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -1936,10 +1936,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 65cc8b185887034ab4e469bfd420466d
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: 65cc8b185887034ab4e469bfd420466d
     GuidInternal: 
-    m_lastTime: -8585508699518463187
+    m_lastTime: -8585509948714775808
     List:
     - name: Hub
       guid: 2033c90d3f272b429905fd76ca37718b
@@ -1954,7 +1954,7 @@ MonoBehaviour:
       - ElementName: Hub
         ObjectType: 9
         guid: 2033c90d3f272b429905fd76ca37718b
-      Path: States\Default Work Unit\Hub
+      Path: States/Default Work Unit/Hub
       values:
       - name: None
         guid: 3988d7cf4fe0734e95e34b046f157d03
@@ -2052,7 +2052,7 @@ MonoBehaviour:
       - ElementName: Level
         ObjectType: 9
         guid: 264adc94887bcd48a2f30e2f50494bf5
-      Path: States\Default Work Unit\Level
+      Path: States/Default Work Unit/Level
       values:
       - name: Hub
         guid: 74e46bc69186b74f940b9d539a992bc4
@@ -2150,7 +2150,7 @@ MonoBehaviour:
       - ElementName: Mode
         ObjectType: 9
         guid: e0811729514c614093bdf1be6ed37af7
-      Path: States\Default Work Unit\Mode
+      Path: States/Default Work Unit/Mode
       values:
       - name: Flying
         guid: be0234c14503cf479776babccf4e289c
@@ -2216,7 +2216,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 9
         guid: 3029ff1fc0e49a4d8b262d35e145462c
-      Path: States\Default Work Unit\Music
+      Path: States/Default Work Unit/Music
       values:
       - name: Ambience
         guid: fed1bbaf4ceef74899b7f2b02edb3279
@@ -2298,7 +2298,7 @@ MonoBehaviour:
       - ElementName: Poncho
         ObjectType: 9
         guid: 0b52192c43eb294aa6cae012bb3e7ba9
-      Path: States\Default Work Unit\Poncho
+      Path: States/Default Work Unit/Poncho
       values:
       - name: Equipped
         guid: c9d9cf62e845074eb46ccbb127f40e15
@@ -2352,7 +2352,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -2360,10 +2360,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 3ac45f07cba5e14f8ffe546d82acb279
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: 3ac45f07cba5e14f8ffe546d82acb279
     GuidInternal: 
-    m_lastTime: -8585508699518423195
+    m_lastTime: -8585511782664775808
     List:
     - name: Statue
       guid: fa4db6d4369d014da4818c2972b996f1
@@ -2378,7 +2378,7 @@ MonoBehaviour:
       - ElementName: Statue
         ObjectType: 11
         guid: fa4db6d4369d014da4818c2972b996f1
-      Path: Switches\Default Work Unit\Statue
+      Path: Switches/Default Work Unit/Statue
       values:
       - name: Activated
         guid: 4d39082d5e280343ab6473c2384e659b
@@ -2428,7 +2428,7 @@ MonoBehaviour:
       - ElementName: Surface
         ObjectType: 11
         guid: 2850ae8925ce1a488f39454f10a0242d
-      Path: Switches\Default Work Unit\Surface
+      Path: Switches/Default Work Unit/Surface
       values:
       - name: Dirt
         guid: 9e1ea0bb163b724f8787aa9e1aee5a80
@@ -2546,7 +2546,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -2554,14 +2554,14 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 08461f09f8983e48a7c99b611a9ba847
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: 08461f09f8983e48a7c99b611a9ba847
     GuidInternal: 
-    m_lastTime: -8585508699518413318
+    m_lastTime: -8585527364824775808
     List: []
-  ExpandedFileSystemItemIds: 05000000060000000800000057000000580000005c000000
-  ExpandedWaapiItemIds: 05000000060000000800000057000000580000005c000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

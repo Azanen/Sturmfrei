@@ -89,6 +89,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{DE452DB2-B124-4DE3-8CFE-E40F08CE6CA8}" ShortID="633893121">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Foot_Jump" ID="{36AA8B77-A011-47D9-B7F1-6F3D94AD5874}">
@@ -171,6 +181,11 @@
 								<Action Name="" ID="{7B826745-150B-4FDF-B99C-71B0DE309752}" ShortID="478057964">
 									<PropertyList>
 										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1338,6 +1353,13 @@
 						<Event Name="MUS_Start" ID="{BB5D6177-928F-484B-A580-D888200C2AA9}">
 							<ChildrenList>
 								<Action Name="" ID="{0A85D551-D16E-41A2-A683-2DFA2CA0B58F}" ShortID="677514758">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music_Switch" ID="{E22C8E22-50D9-4441-878F-3552A19093EB}" WorkUnitID="{1F8F360E-7579-4F1F-A979-AB25E0722E84}"/>
@@ -1566,7 +1588,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Map_Load" ID="{B6CB8CA8-5BC9-4EC3-9ACD-1088F8314FDE}"/>
+				<Event Name="Map_Load" ID="{B6CB8CA8-5BC9-4EC3-9ACD-1088F8314FDE}">
+					<ChildrenList>
+						<Action Name="" ID="{6316BE68-F7F8-4E7A-9B10-A7FF8D69B1D6}" ShortID="128658539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Switch" ID="{E22C8E22-50D9-4441-878F-3552A19093EB}" WorkUnitID="{1F8F360E-7579-4F1F-A979-AB25E0722E84}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
