@@ -5260,7 +5260,8 @@ GameObject:
   - component: {fileID: 6311980169110934773}
   - component: {fileID: 367193218}
   - component: {fileID: 367193217}
-  m_Layer: 5
+  - component: {fileID: 1275084647}
+  m_Layer: 14
   m_Name: LORE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5604,8 +5605,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 2000
-      minScalar: 1000
+      scalar: 1800
+      minScalar: 800
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5984,7 +5985,7 @@ ParticleSystem:
     angle: 21.04
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 0.23
+    radiusThickness: 0.1
     donutRadius: 0.13
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
@@ -6067,7 +6068,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 200
+      value: 170
       mode: 0
       spread: 0
       speed:
@@ -10126,6 +10127,25 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!95 &1275084647
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6311980169110934775}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4afb9ae4fef10466baac5278495a1f58, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6311980169426932465
 GameObject:
   m_ObjectHideFlags: 0
@@ -10250,7 +10270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 6311980170760121253}
   loreText: {fileID: 6311980169426932479}
-  animator: {fileID: 6311980170645879616}
+  animator: {fileID: 1275084647}
 --- !u!1 &6311980170470158495
 GameObject:
   m_ObjectHideFlags: 0
@@ -10439,7 +10459,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6311980170645879618}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4afb9ae4fef10466baac5278495a1f58, type: 2}
   m_CullingMode: 0

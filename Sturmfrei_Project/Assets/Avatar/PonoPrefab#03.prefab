@@ -20514,7 +20514,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 9
   WallDistance: 1
-  groundMaterial: empty
   checkGround2: 0
 --- !u!114 &5401864734109634383
 MonoBehaviour:
@@ -20775,6 +20774,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1155904176089904823, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.maxCurve.m_Curve.Array.data[1].time
+      value: 0.23672485
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.maxCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.maxCurve.m_Curve.Array.data[1].inSlope
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.maxCurve.m_Curve.Array.data[0].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.maxCurve.m_Curve.Array.data[1].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.maxCurve.m_Curve.Array.data[1].outSlope
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.maxCurve.m_Curve.Array.data[0].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828604158676781797, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
+      propertyPath: EmissionModule.rateOverDistance.maxCurve.m_Curve.Array.data[1].outWeight
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8143455714043184572, guid: c8864e7f538616541ae64666cc5e3b93, type: 3}
@@ -22196,6 +22235,7 @@ MonoBehaviour:
   ponoAnim: {fileID: 0}
   anim: {fileID: 0}
   pono: {fileID: 0}
+  hasRespawned: 1
 --- !u!114 &987910514
 MonoBehaviour:
   m_ObjectHideFlags: 0
