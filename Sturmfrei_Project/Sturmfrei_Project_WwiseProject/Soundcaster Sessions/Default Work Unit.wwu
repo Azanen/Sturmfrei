@@ -258,11 +258,11 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}"/>
-						<CurrentStateRef Name="Tuto" ID="{2B8A6238-899D-455D-9E8C-79CE0540DBDD}"/>
-						<CurrentStateRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}"/>
+						<CurrentStateRef Name="Flying" ID="{C13402BE-0345-47CF-9776-BABCCF4E289C}"/>
+						<CurrentStateRef Name="None" ID="{CFD78839-E04F-4E73-95E3-4B046F157D03}"/>
+						<CurrentStateRef Name="Level_3" ID="{EEB84612-9773-43BE-8C4A-8C9C4C9336B9}"/>
 						<CurrentStateRef Name="None" ID="{38FA9B61-1EE0-4F36-834E-3647FCE41EC0}"/>
-						<CurrentStateRef Name="None" ID="{79C8C9C9-C580-4BAB-9655-74656E2A89F4}"/>
+						<CurrentStateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>

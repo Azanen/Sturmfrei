@@ -147,10 +147,12 @@ Custom State	ID	Name	State Group	Owner		Notes
 	269070332	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level3_Ambient\L3_Phrase_Start\Synth_Mid		
 	269525045	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level2_Ambient\L2_Phrase_05\Synth_Low		
 	272096253	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level3_Ambient\L3_Phrase_06\Synth_High		
+	276389500	Foot	Mode	\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_3\L3_Textures		
 	280303953	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level2_Ambient\L2_Phrase_Start\Perc		
 	290991987	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level1_Ambient\L1_Phrase_02\FX		
 	296997620	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level3_Ambient\L3_Phrase_04\Synth_High		
 	311629910	Hub	Level	\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music		
+	321959086	Foot	Mode	\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_2\L2_Textures		
 	331719455	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level2_Ambient\L2_Phrase_03\FX		
 	334897764	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level2_Ambient\L2_Phrase_04\FX		
 	335992492	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level3_Ambient\L3_Phrase_Start\L3_PianoBass		
@@ -178,6 +180,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	640203300	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level3_Ambient\L3_Phrase_01\Synth_Low		
 	646137103	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level3_Ambient\L3_Phrase_01\Synth_High		
 	653735636	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level2_Ambient\L2_Phrase_01\Perc		
+	677046373	Foot	Mode	\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_1\L1_Textures		
 	682761168	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level3_Ambient\L3_Phrase_04\L3_FX		
 	697055702	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level3_Ambient\L3_Phrase_03\L3_PianoBass		
 	700405182	Foot	Mode	\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Level2_Ambient\L2_Phrase_01\Synth_High		
@@ -457,7 +460,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	262309289	L2_high_37	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\L2_high_37_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_2\L2_Piano\L2_High\L2_high_37		34860
 	262617672	PurpleCloud_Damage_Start_Obscure_05	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\PurpleCloud\PurpleCloud_Damage_Start_Obscure\PurpleCloud_Damage_Start_Obscure_05_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\PurpleCloud\PlurpleCloud_Damage\PurpleCloud_Damage_Start\PurpleCloud_Damage_Start_Obscure\PurpleCloud_Damage_Start_Obscure_05		18541
 	262950430	L2_high_12	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\L2_high_12_FA493E34.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_2\L2_Piano\L2_High\L2_high_12		80881
-	264007403	L3_FX_01	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\L3_FX_01_A5DE975F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_3\L3_Textures\L3_FX\L3_FX_01		69457
+	264007403	L3_FX_01	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\L3_FX_01_D825898C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_3\L3_Textures\L3_FX\L3_FX_01		63676
 	267469076	Hub_Tuto_Contrebasse	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Hub_Tuto\Hub_Tuto_Contrebasse_A26A3599.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Hub_Tuto\Hub_Tuto_Loop\Hub_Tuto_Contrebasse		361811
 	268511693	Hub_bowed xylophone01	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Hub_bowed xylophone01_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Hub\Hub_BowedXylo\Hub_bowed xylophone01		52071
 	269201914	Boss_Idle_Rocks_02	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Boss_Idle_Rocks_02_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\Boss\Boss_Idle\Boss_Idle_Rocks\Boss_Idle_Rocks_02		35115
@@ -1136,7 +1139,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	943748592	BreakWall_Ice_Crack_13	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\BreakWall_Ice\BreakWall_Ice_Crack_13_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\BreakWall_Ice\BreakWall_Ice\BreakWall_Ice_Crack\BreakWall_Ice_Crack_13		21446
 	947417861	high14	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\high14_A42982A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_1\L1_Piano\L1_High\high14		49205
 	947798963	Footstep_Wood_30	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Footsteps_Wood\Footstep_Wood_30_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Wood\Footstep_Wood_30		4358
-	948646601	PurpleCloud_Idle_High	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\PurpleCloud\PurpleCloud_Idle_High_F2E072D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\PurpleCloud\PurpleCloud_Idle\PurpleCloud_Idle_High		765070
+	948646601	PurpleCloud_Idle_High	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\PurpleCloud\PurpleCloud_Idle_High_56D2ED37.wem		\Actor-Mixer Hierarchy\Default Work Unit\INGREDIENT\PurpleCloud\PurpleCloud_Idle\PurpleCloud_Idle_High		701511
 	950258945	L3_phrase_high_15	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Piano fragments\Phrase_High\L3_phrase_high_15_A5CA16D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_3\L3_Piano\L3_Phrase_High\L3_phrase_high_15		79807
 	951070509	Footsteps_Snow_02	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\Footsteps_Snow\Footsteps_Snow_02_A26074DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player_Footsteps\Footsteps_Snow\Footsteps_Snow_02		5791
 	951892699	L2_mid_20	Y:\Desktop\Udem\MCSJV 2\sturmfrei\Sturmfrei_Project\Sturmfrei_Project_WwiseProject\.cache\Windows\SFX\L2_mid_20_AEEDA349.wem		\Actor-Mixer Hierarchy\Default Work Unit\Procedural_Music\Level_2\L2_Piano\L2_Mid\L2_mid_20		68337

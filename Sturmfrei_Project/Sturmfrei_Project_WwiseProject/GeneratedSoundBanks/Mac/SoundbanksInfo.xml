@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1726023239">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1062935014">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -5544,6 +5544,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="3031504797" Name="Foot" ObjectPath="\States\Default Work Unit\Mode\Foot"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="1640886257" Name="Magnet_Activate" ObjectPath="\Events\Default Work Unit\INGREDIENT\Magnet_Activate" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -5914,7 +5917,7 @@
 						</File>
 						<File Id="264007403" Language="SFX">
 							<ShortName>L3_FX_01.wav</ShortName>
-							<Path>SFX/L3_FX_01_A5DE975F.wem</Path>
+							<Path>SFX/L3_FX_01_D825898C.wem</Path>
 						</File>
 						<File Id="267469076" Language="SFX">
 							<ShortName>Hub_Tuto\Hub_Tuto_Contrebasse.wav</ShortName>
@@ -7731,7 +7734,7 @@
 						</File>
 						<File Id="948646601" Language="SFX">
 							<ShortName>PurpleCloud\PurpleCloud_Idle_High.wav</ShortName>
-							<Path>SFX/PurpleCloud/PurpleCloud_Idle_High_F2E072D4.wem</Path>
+							<Path>SFX/PurpleCloud/PurpleCloud_Idle_High_56D2ED37.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
