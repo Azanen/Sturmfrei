@@ -8,6 +8,9 @@ public class soul_collect : MonoBehaviour
     //public AudioSource collectsound;
     private PlayerCollisionSphere playCol;
     private PlayerMovement playerMov;
+
+    public GameObject fullSoul;
+    public GameObject soulTransparent;
     //private PonchoColourChange ponchoColor;
 
    private void OnTriggerEnter(Collider other)
@@ -17,15 +20,20 @@ public class soul_collect : MonoBehaviour
         //ponchoColor = playerMov.gameObject.GetComponent<PonchoColourChange>();
         //ponchoColor.GoldPoncho();
         //collectsound.Play();
-        StartCoroutine(detroy());
+        if (fullSoul != null)
+        {
+            StartCoroutine(detroy());
+        }
     }
 
     private IEnumerator detroy()
     {
-        this.gameObject.GetComponent<ObjectSoundTrigger>().PlaySound();
-        yield return new WaitForSeconds(0.1f);
-        Destroy(gameObject);
-        
+            this.gameObject.GetComponent<ObjectSoundTrigger>().PlaySound();
+            yield return new WaitForSeconds(0.1f);
+        //Destroy(fullSoul);
+        fullSoul.SetActive(false);
+            yield return new WaitForSeconds(5f);
+            soulTransparent.SetActive(true);
     }
 }
 
