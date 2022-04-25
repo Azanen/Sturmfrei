@@ -1651,6 +1651,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{A0AAD884-0115-496C-A261-A80B8AD30846}" ShortID="668007007">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_2D_Switch" ID="{DC3445C7-A556-4E3D-858F-F70E83C616AB}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="MUS_Hub_Tuto" ID="{AB57AE24-ECCF-4033-9016-E62A6655D4BC}">
