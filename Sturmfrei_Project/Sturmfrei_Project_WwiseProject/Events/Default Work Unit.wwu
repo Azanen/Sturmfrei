@@ -656,6 +656,18 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{50F2EA2A-B99D-459E-9420-C5ED72DDAA41}" ShortID="103753065">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Foot_Interaction_Wonder" ID="{0C086F57-6E4A-406F-A435-83028E79275A}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{AD0C0E79-C088-4233-8954-B20ABD0EAD5B}" ShortID="336698927">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="4"/>
@@ -709,11 +721,60 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{E4725249-F20F-4AD2-AD45-03DF77FAD2DC}" ShortID="422514353">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}" WorkUnitID="{075FC43A-A5CB-4FE1-8FFE-546D82ACB279}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Amb_Level1" ID="{09CB17ED-E8A6-476C-A196-D37441B95D7D}"/>
-						<Event Name="Amb_Level2" ID="{6717C21B-4E69-4A5E-885A-DE2D96D96DB0}"/>
-						<Event Name="Amb_Level3" ID="{93F945EB-6743-4F24-BF71-DFF69A4A6595}"/>
+						<Event Name="Amb_Level1" ID="{09CB17ED-E8A6-476C-A196-D37441B95D7D}">
+							<ChildrenList>
+								<Action Name="" ID="{AAC09B23-3312-4BFA-9588-46A3768F0CF7}" ShortID="241933889">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grass" ID="{B2761D87-EADF-4DEF-B6D2-B343B90E34C6}" WorkUnitID="{075FC43A-A5CB-4FE1-8FFE-546D82ACB279}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Level2" ID="{6717C21B-4E69-4A5E-885A-DE2D96D96DB0}">
+							<ChildrenList>
+								<Action Name="" ID="{23A3C921-0778-4133-935B-6E30044E4E74}" ShortID="60186487">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stone" ID="{C5112161-F393-4A1D-8649-501FCF4BECD2}" WorkUnitID="{075FC43A-A5CB-4FE1-8FFE-546D82ACB279}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Level3" ID="{93F945EB-6743-4F24-BF71-DFF69A4A6595}">
+							<ChildrenList>
+								<Action Name="" ID="{7743C6F1-71B5-4653-BAC4-007A2DADBBC9}" ShortID="184772282">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snow" ID="{B350A0A8-3382-42F8-9E8C-5AEA6F02DDC3}" WorkUnitID="{075FC43A-A5CB-4FE1-8FFE-546D82ACB279}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Amb_Cave" ID="{620A2193-711F-4CD1-BC13-3F25BC0F829F}"/>
 						<Event Name="Amb_Sky" ID="{BBB33E0C-5989-422D-B8CE-A2ECA7B19DE7}"/>
 						<Event Name="Tree_Idle" ID="{8CF48BA3-E5AC-4030-932C-8042D2BA9E54}">
@@ -969,6 +1030,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Soul_Collect" ID="{9E6AF6EC-4430-462B-8217-211D97F60FA5}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B46EF241-1639-4E9E-BEC1-C926C287AF78}" ShortID="585606790">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Collectible" ID="{900C3DD1-4EFD-4ED0-8F19-8F283EC43807}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1321,6 +1392,38 @@
 											<ObjectRef Name="Boss_Defeat" ID="{35C574D9-65D9-48E9-BC96-A4B1EFFE8354}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{314B8874-D3C9-46F6-B296-772D953A846A}" ShortID="12873917">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMBIENCE" ID="{84DC08EB-6F14-4DAE-8B17-E612CABEACF3}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A6871A59-3EE2-4A0C-A317-76E30A16F0F8}" ShortID="1013147457">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="Delay" Type="Real64" Value="4"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="INGREDIENT" ID="{36976808-81C9-410D-BDF5-4FB7B9B11B46}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BEC302F8-ED1A-42E6-9C63-2F72DA2791D8}" ShortID="240792321">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="6"/>
+										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList/>
 								</Action>
 							</ChildrenList>
 						</Event>
@@ -1839,9 +1942,31 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{A65F0A37-A626-4E1F-9242-11B5AF9006CD}" ShortID="731004759">
+						<Action Name="" ID="{8D6C21ED-5B31-4BC0-BFB1-2FE8288FA97A}" ShortID="532718830">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{21F0794E-705A-4347-A01D-198619206726}" ShortID="479110961">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Poncho_Flying" ID="{9CB1B918-0799-416A-BCC7-203309EFA094}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A65F0A37-A626-4E1F-9242-11B5AF9006CD}" ShortID="731004759">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -1851,13 +1976,24 @@
 						</Action>
 						<Action Name="" ID="{BDB8E3AF-EED5-4A56-9D42-2F1D77C2C141}" ShortID="13180105">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="INGREDIENT" ID="{36976808-81C9-410D-BDF5-4FB7B9B11B46}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 								</Reference>
 							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{827B7633-8E81-4C63-9F8A-27BFA2D5B537}" ShortID="162938394">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="6"/>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>

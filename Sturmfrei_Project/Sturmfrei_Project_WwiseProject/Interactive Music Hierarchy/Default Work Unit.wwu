@@ -30476,20 +30476,6 @@
 																				</MusicClip>
 																			</Local>
 																		</Reference>
-																		<Reference>
-																			<Local>
-																				<MusicEventCue Name="" ID="{C1C93CAB-ECC6-4EA6-8A76-3585F09284FE}" ShortID="894037730">
-																					<PropertyList>
-																						<Property Name="PlayAt" Type="Real64" Value="71707.3170731707"/>
-																					</PropertyList>
-																					<ReferenceList>
-																						<Reference Name="PostEventTarget">
-																							<ObjectRef Name="MUS_Level1_Ambiance" ID="{22BCEA3C-AFA3-4403-85BB-998D43FA9A9E}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
-																						</Reference>
-																					</ReferenceList>
-																				</MusicEventCue>
-																			</Local>
-																		</Reference>
 																	</ObjectList>
 																</ObjectLists>
 															</MusicTrackSequence>
@@ -30599,6 +30585,20 @@
 																						</PropertyCurve>
 																					</PropertyCurveList>
 																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicEventCue Name="" ID="{DEABFC9A-28FB-4DA5-8353-91C3AEEF7BC0}" ShortID="192830838">
+																					<PropertyList>
+																						<Property Name="PlayAt" Type="Real64" Value="72073.1707317073"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="PostEventTarget">
+																							<ObjectRef Name="MUS_Level2_Ambiance" ID="{934FCC82-5D60-48C7-BDB1-D7A1C06717E9}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicEventCue>
 																			</Local>
 																		</Reference>
 																	</ObjectList>
@@ -32335,6 +32335,20 @@
 																				</MusicClip>
 																			</Local>
 																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicEventCue Name="" ID="{7228AC23-6DCA-43B0-AD44-A6AC5874DE3E}" ShortID="829616409">
+																					<PropertyList>
+																						<Property Name="PlayAt" Type="Real64" Value="71707.3170731707"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="PostEventTarget">
+																							<ObjectRef Name="MUS_Level3_Ambiance" ID="{E60ECAE7-43EB-4E6E-86D0-09E411601F5A}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicEventCue>
+																			</Local>
+																		</Reference>
 																	</ObjectList>
 																</ObjectLists>
 															</MusicTrackSequence>
@@ -32456,20 +32470,6 @@
 																						</PropertyCurve>
 																					</PropertyCurveList>
 																				</MusicClip>
-																			</Local>
-																		</Reference>
-																		<Reference>
-																			<Local>
-																				<MusicEventCue Name="" ID="{738EB6BD-0A27-432C-8DEC-98F80457DE46}" ShortID="1000144165">
-																					<PropertyList>
-																						<Property Name="PlayAt" Type="Real64" Value="71707.3170731707"/>
-																					</PropertyList>
-																					<ReferenceList>
-																						<Reference Name="PostEventTarget">
-																							<ObjectRef Name="MUS_Level1_Ambiance" ID="{22BCEA3C-AFA3-4403-85BB-998D43FA9A9E}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
-																						</Reference>
-																					</ReferenceList>
-																				</MusicEventCue>
 																			</Local>
 																		</Reference>
 																	</ObjectList>

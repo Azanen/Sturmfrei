@@ -277,7 +277,7 @@
 						<CurrentStateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>
+						<CurrentSwitchRef Name="Ice" ID="{18AE0B58-48B5-4828-89F6-2417B453B37D}"/>
 						<CurrentSwitchRef Name="Activated" ID="{2D08394D-285E-4303-AB64-73C2384E659B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
