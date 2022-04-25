@@ -23,6 +23,7 @@ public class soul_collect : MonoBehaviour
         if (fullSoul != null)
         {
             StartCoroutine(detroy());
+            //playerMov.ActSpeed = playerMov.ActSpeed + 5;
         }
     }
 
