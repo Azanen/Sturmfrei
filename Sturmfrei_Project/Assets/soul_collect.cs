@@ -35,6 +35,7 @@ public class soul_collect : MonoBehaviour
         fullSoul.SetActive(false);
             yield return new WaitForSeconds(5f);
             soulTransparent.SetActive(true);
+        this.gameObject.GetComponent<SphereCollider>().enabled = false;
     }
 }
 
