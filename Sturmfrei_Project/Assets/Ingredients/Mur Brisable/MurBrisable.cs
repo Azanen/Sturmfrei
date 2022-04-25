@@ -43,7 +43,8 @@ private void Start()
     {
         this.gameObject.GetComponent<ObjectSoundTrigger>().PlaySound();
         MurSolide.SetActive(false);
-        MurBrise.SetActive(true); 
+        MurBrise.SetActive(true);
+        this.gameObject.GetComponent<BoxCollider>().enabled = false;
         foreach(GameObject childObjects in childObjects)
         {
             int flyup = Random.Range(5, 15);
