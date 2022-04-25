@@ -151,9 +151,9 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Flying" ID="{C13402BE-0345-47CF-9776-BABCCF4E289C}"/>
 						<CurrentStateRef Name="Tuto" ID="{2B8A6238-899D-455D-9E8C-79CE0540DBDD}"/>
-						<CurrentStateRef Name="Level_1" ID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}"/>
+						<CurrentStateRef Name="Level_3" ID="{EEB84612-9773-43BE-8C4A-8C9C4C9336B9}"/>
 						<CurrentStateRef Name="Unequipped" ID="{3EDD2C56-E3D3-4BFF-807D-16C6F87A24A5}"/>
-						<CurrentStateRef Name="Wonder" ID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}"/>
+						<CurrentStateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>
@@ -179,6 +179,10 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Fall_Respawn" ID="{78AF31AA-11BE-403B-B732-7533A26F56EE}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="PurpleCloud_Damage_Start" ID="{F03EF3D5-3A7B-4B74-83F4-3321EA10BB1C}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -193,6 +197,10 @@
 						<Module>
 							<ObjectRef Name="Boss_Defeat" ID="{7E885446-B05E-466F-B67A-721B066A92C2}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
 							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flying_Landing" ID="{06458486-4BE0-445A-8EE1-FFF36EA42280}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
+							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="PurpleCloud_Damage_Stop" ID="{56C6E57B-32B7-4E3E-A0F1-E2C1E562CDD0}" WorkUnitID="{2EC4DCCE-511E-4C7C-8888-DBDD56061AE7}"/>
@@ -246,7 +254,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Inclination" ID="{08579759-D253-464D-9CDD-800E7A21C796}"/>
-							<Value>59.9133448873484</Value>
+							<Value>80.4412041248851</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Hub_Poncho_Proximity" ID="{E0460973-4D16-4D24-AC75-FDF0D6D4E4D6}"/>
@@ -263,10 +271,10 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Foot" ID="{C8118710-BE62-45D3-A5B9-95DE4F64D1DD}"/>
-						<CurrentStateRef Name="Poncho" ID="{998AB218-EBEF-4DE7-AF20-E67F72015E0A}"/>
-						<CurrentStateRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}"/>
-						<CurrentStateRef Name="Equipped" ID="{62CFD9C9-45E8-4E07-B46C-CBB127F40E15}"/>
-						<CurrentStateRef Name="None" ID="{79C8C9C9-C580-4BAB-9655-74656E2A89F4}"/>
+						<CurrentStateRef Name="None" ID="{CFD78839-E04F-4E73-95E3-4B046F157D03}"/>
+						<CurrentStateRef Name="Level_1" ID="{4AF86F3E-2F72-4BE1-B566-3C9FFF18A0BE}"/>
+						<CurrentStateRef Name="None" ID="{38FA9B61-1EE0-4F36-834E-3647FCE41EC0}"/>
+						<CurrentStateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{BBA01E9E-3B16-4F72-8787-AA9E1AEE5A80}"/>

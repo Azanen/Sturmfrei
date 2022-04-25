@@ -8111,6 +8111,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="VO_Flying_Idle" ID="{735AECC9-A689-4A74-AE87-4C10946328DD}" ShortID="449406665">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
@@ -8159,8 +8164,8 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>72.2238</XPos>
-																		<YPos>-200</YPos>
+																		<XPos>0.001</XPos>
+																		<YPos>-0.04657</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -11858,6 +11863,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -27561,6 +27567,11 @@
 										<Value>-50</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -27597,6 +27608,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -32402,6 +32418,32 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{02CE1BF7-3B3A-46FE-A931-40D224FA4D38}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="51"/>
+															<Property Name="Min" Type="Real64" Value="-51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{953E1A2F-F085-4A13-BA6A-9F87D41F96EF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -32416,6 +32458,34 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="BreakWall_Stone_Dirt" ID="{AE760318-319C-4920-AA52-0B8CC6C54BE4}" ShortID="322587159">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{29BF88B9-E964-4541-BF37-EDE2B384E593}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{89D889C6-69EC-4E02-A70A-06092AFB9C9F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -32498,6 +32568,34 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="BreakWall_Stone_Hybrid" ID="{E716102E-10FF-40E5-9CCD-2971F62533C8}" ShortID="146630593">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F60AA49F-2D4A-40B6-98C5-D2F2E6DAE672}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5480CD80-B358-45BE-BFCE-2EF431936AB9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -32580,6 +32678,34 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="BreakWall_Stone_Impact" ID="{C508ED74-7E76-46C6-B0CC-09A6070EC9F8}" ShortID="860312495">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7A5C2063-445B-4801-B1DC-DC2EFB90A7D6}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{08D59366-6932-47D4-8BF1-5BE01DD846EF}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -32662,6 +32788,34 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="BreakWall_Stone_Residue" ID="{6D5AB0A3-7370-41DE-B26E-3E1911B07130}" ShortID="837162911">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4C02EBBC-A57C-4B11-A108-AA4ECFF8203A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A6CB9CE1-43E2-4DA0-A035-13587B864F55}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -32744,6 +32898,34 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="BreakWall_Stone_Rocks" ID="{472C31DA-6938-4E78-B93B-977B57BBA4B1}" ShortID="556811175">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D0F2076E-A8F8-4DBD-8EC7-2FA98BC558A5}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D7EB323E-2357-4E84-A322-92C1E1A9E151}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -32826,6 +33008,34 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="BreakWall_Stone_Wide" ID="{CC643D7F-8792-4D2F-9E9E-872C8B96D8E7}" ShortID="817907037">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5B951566-2AA7-4161-94D1-C53AE50C0B7D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{30EAB81A-E09F-4D08-AC19-1B1DAB5DFDF1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
@@ -37591,6 +37801,31 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Music" ID="{1FFF2930-E4C0-4D9A-8B26-2D35E145462C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Wonder" ID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}"/>
+												<CustomState Name="" ID="{86C8F883-F577-443A-B2CA-80F06CB280FC}" ShortID="120905521">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-16"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
+												<CustomState Name="" ID="{0413F51C-5826-4165-88C8-C40C50D0E6C5}" ShortID="167141376"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Boss" ID="{53F18CA2-BA87-4DB6-8AD7-A4F2E1613F14}"/>
+												<CustomState Name="" ID="{76F2A7DB-869A-4C7C-B65E-6D2C1C540EC2}" ShortID="839472488"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="L1_Textures" ID="{92DA8CBE-F795-4249-8CBF-0C95B9BC366A}" ShortID="720392463">
@@ -41334,6 +41569,31 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Music" ID="{1FFF2930-E4C0-4D9A-8B26-2D35E145462C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Wonder" ID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}"/>
+												<CustomState Name="" ID="{021470DC-CF43-4D98-8A58-893EB4B48198}" ShortID="800871444">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-14"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
+												<CustomState Name="" ID="{7FA9972E-B7E5-4713-B39D-B232689A40AC}" ShortID="99823079"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Boss" ID="{53F18CA2-BA87-4DB6-8AD7-A4F2E1613F14}"/>
+												<CustomState Name="" ID="{D3F2F873-EDE7-4BD1-A03F-62E990FFBACF}" ShortID="76114833"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="L2_Textures" ID="{5EA9627A-0F2B-40A2-8D86-15DC904F1078}" ShortID="598934383">
@@ -45182,6 +45442,31 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Music" ID="{1FFF2930-E4C0-4D9A-8B26-2D35E145462C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Wonder" ID="{1C08A910-D655-46C5-ABF9-174C70BFCB8D}"/>
+												<CustomState Name="" ID="{F4DF9F73-B317-48FE-9C33-DEF050072AB2}" ShortID="28384886">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-15"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ambience" ID="{AFBBD1FE-EE4C-48F7-99B7-F2B02EDB3279}"/>
+												<CustomState Name="" ID="{8E9CFE2C-5DE5-414F-8B72-40460ED7B430}" ShortID="332872553"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Boss" ID="{53F18CA2-BA87-4DB6-8AD7-A4F2E1613F14}"/>
+												<CustomState Name="" ID="{35E8A0F2-9CE0-43E2-A4C1-1A4A3AF270E1}" ShortID="267454159"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="L3_Textures" ID="{95FF4897-1B96-4A26-A065-2106C2D57C2A}" ShortID="941500093">

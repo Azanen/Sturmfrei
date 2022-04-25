@@ -304,6 +304,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{D0425C8A-C123-4D3E-88F7-E204D9F00C0A}" ShortID="902627660">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Flying_Idle" ID="{735AECC9-A689-4A74-AE87-4C10946328DD}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Flying_Landing" ID="{06458486-4BE0-445A-8EE1-FFF36EA42280}">
@@ -580,13 +590,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{0971AEE6-7D64-4D7A-A333-EA323A649EEF}" ShortID="913074911">
+								<Action Name="" ID="{2E86FF0F-2481-4F93-B9C6-5375955739E6}" ShortID="744456800">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Foot_Idle_Wait" ID="{77AF80A5-38B1-4F9D-96CB-218EBFE38C45}" WorkUnitID="{ADBC13F4-B892-4A0C-9DCA-013F7C3DA6C8}"/>
+											<ObjectRef Name="VO_Flying_Idle" ID="{735AECC9-A689-4A74-AE87-4C10946328DD}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -599,6 +609,72 @@
 											<ObjectRef Name="VO_Flying_Stunned" ID="{FCFC8F72-F3FF-4412-B45A-E1C11D4466D4}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0971AEE6-7D64-4D7A-A333-EA323A649EEF}" ShortID="913074911">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foot_Idle_Wait" ID="{77AF80A5-38B1-4F9D-96CB-218EBFE38C45}" WorkUnitID="{ADBC13F4-B892-4A0C-9DCA-013F7C3DA6C8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E3ADDBC3-5E2A-48B7-8358-35FC0A1CE640}" ShortID="512111738">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho_Landing" ID="{8DE7B422-B919-4F88-8428-D282017AB503}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B089F867-5034-4E2C-AFC3-6A6CF6DB8B12}" ShortID="694100152">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Flying_Landing" ID="{405DAB7F-B673-422D-B011-C5EC67E1C837}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{017DFE9E-7CED-4A0C-8135-15700358B3C0}" ShortID="645548461">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Footsteps_Landing" ID="{B129E110-F174-41D0-B9A4-4171804B4A1F}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AD0C0E79-C088-4233-8954-B20ABD0EAD5B}" ShortID="336698927">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="INGREDIENT" ID="{36976808-81C9-410D-BDF5-4FB7B9B11B46}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DCEACC9A-6CD0-4F90-91CB-37C6AD7E25F0}" ShortID="957867334">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="6"/>
+										<Property Name="Delay" Type="Real64" Value="4"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
 								</Action>
 							</ChildrenList>
 						</Event>
@@ -1334,6 +1410,34 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Lore_Idle_Stop" ID="{56586A2C-62D2-4331-8C86-A778E29AF7EF}">
+									<ChildrenList>
+										<Action Name="" ID="{D4C00A35-3547-47F9-A040-9BA5BB8787DE}" ShortID="467174139">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Book_Idle_Stop" ID="{1854CE81-DF0E-4B3D-8C2C-879BCB231795}">
+									<ChildrenList>
+										<Action Name="" ID="{8F0EECC7-4BA4-4FCE-A4C4-63557AB59E53}" ShortID="60210396">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Event Name="BreakWall_EasterEgg" ID="{A5394D7F-A449-4D63-A194-8704108AC3E9}">
@@ -1342,6 +1446,74 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BreakWall_EasterEgg" ID="{5518067C-6B7F-4B68-866D-7E7F5DCCCB8B}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Lore_Idle" ID="{3F72A0A6-3DE8-4BEC-933C-8A903EAF235F}">
+							<ChildrenList>
+								<Action Name="" ID="{7CEDB245-E7EA-401F-BE6E-32C76135F834}" ShortID="11406744">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C4223671-3282-4C44-9DFD-830F9734D1F9}" ShortID="404566630">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EE480561-46B7-4740-942D-CC78711F632C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="45"/>
+															<Property Name="Min" Type="Real64" Value="-45"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Book_Idle" ID="{1430CC56-EF06-485C-BF70-8DD5F158A351}">
+							<ChildrenList>
+								<Action Name="" ID="{97FAA846-62A2-4426-B06D-690E199A6C80}" ShortID="651665375">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{54770131-6CAD-4CDF-B7D4-D3A7578542AA}" ShortID="446335859">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6A1E46AE-806F-41A7-AA78-EB8BF37A635A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="45"/>
+															<Property Name="Min" Type="Real64" Value="-45"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Statue_Idle" ID="{8D1F13F1-8F38-4BE2-832A-2BA3D03E1333}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1370,13 +1542,6 @@
 						<Event Name="MUS_Start" ID="{BB5D6177-928F-484B-A580-D888200C2AA9}">
 							<ChildrenList>
 								<Action Name="" ID="{0A85D551-D16E-41A2-A683-2DFA2CA0B58F}" ShortID="677514758">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music_Switch" ID="{E22C8E22-50D9-4441-878F-3552A19093EB}" WorkUnitID="{1F8F360E-7579-4F1F-A979-AB25E0722E84}"/>
@@ -1410,7 +1575,6 @@
 								<Action Name="" ID="{562FDEA1-3591-4DB8-92F3-986E0EE19C6D}" ShortID="483587586">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="22"/>
-										<Property Name="Delay" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1662,9 +1826,36 @@
 				<Event Name="Map_Load" ID="{B6CB8CA8-5BC9-4EC3-9ACD-1088F8314FDE}">
 					<ChildrenList>
 						<Action Name="" ID="{6316BE68-F7F8-4E7A-9B10-A7FF8D69B1D6}" ShortID="128658539">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music_Switch" ID="{E22C8E22-50D9-4441-878F-3552A19093EB}" WorkUnitID="{1F8F360E-7579-4F1F-A979-AB25E0722E84}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A65F0A37-A626-4E1F-9242-11B5AF9006CD}" ShortID="731004759">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLAYER" ID="{6E187433-80BB-46D0-82BA-17031ECAAF89}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BDB8E3AF-EED5-4A56-9D42-2F1D77C2C141}" ShortID="13180105">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="INGREDIENT" ID="{36976808-81C9-410D-BDF5-4FB7B9B11B46}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

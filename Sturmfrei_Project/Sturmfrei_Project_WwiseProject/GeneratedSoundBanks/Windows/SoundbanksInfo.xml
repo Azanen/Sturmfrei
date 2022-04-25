@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="173653901">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1631349186">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -34,6 +34,19 @@
 				<Event Id="4059733423" Name="Amb_Level3" ObjectPath="\Events\Default Work Unit\AMBIENCE\Amb_Level3" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3820074413" Name="Amb_Sky" ObjectPath="\Events\Default Work Unit\AMBIENCE\Amb_Sky" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="4206107360" Name="Amb_Sky_Stop" ObjectPath="\Events\Default Work Unit\AMBIENCE\Idle_Stop\Amb_Sky_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2074894303" Name="Book_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Book_Idle" MaxAttenuation="50." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="504223982" Language="SFX">
+							<ShortName>Statue_Idle_Magic.wav</ShortName>
+							<Path>SFX/Statue_Idle_Magic_E7DD39E0.wem</Path>
+						</File>
+						<File Id="723665693" Language="SFX">
+							<ShortName>Statue_Idle_Sturmfrei.wav</ShortName>
+							<Path>SFX/Statue_Idle_Sturmfrei_D1634464.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1079746154" Name="Book_Idle_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\Idle_Stop\Book_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3026592080" Name="Boss_Defeat" ObjectPath="\Events\Default Work Unit\INGREDIENT\Boss_Defeat" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="47448798" Language="SFX">
@@ -271,7 +284,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3555376460" Name="BreakWall_Stone" ObjectPath="\Events\Default Work Unit\INGREDIENT\BreakWall_Stone" MaxAttenuation="60." DurationType="OneShot" DurationMin="2.506667" DurationMax="3.056508">
+				<Event Id="3555376460" Name="BreakWall_Stone" ObjectPath="\Events\Default Work Unit\INGREDIENT\BreakWall_Stone" MaxAttenuation="60." DurationType="OneShot" DurationMin="2.295969" DurationMax="3.336998">
 					<IncludedMemoryFiles>
 						<File Id="47448798" Language="SFX">
 							<ShortName>BreakWall_Stone\BreakWall_Stone_Hybrid\BreakWall_Stone_Hybrid_01.wav</ShortName>
@@ -605,10 +618,6 @@
 				</Event>
 				<Event Id="3902909597" Name="Flying_Idle" ObjectPath="\Events\Default Work Unit\PLAYER\Flying_Idle" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="234222720" Language="SFX">
-							<ShortName>VO_Flying_Start\VO_Flying_Start_03.wav</ShortName>
-							<Path>SFX/VO_Flying_Start/VO_Flying_Start_03_A26074DB.wem</Path>
-						</File>
 						<File Id="292225591" Language="SFX">
 							<ShortName>Poncho_Flying\Poncho_Flying_02.wav</ShortName>
 							<Path>SFX/Poncho_Flying/Poncho_Flying_02_CC75EFE2.wem</Path>
@@ -620,22 +629,6 @@
 						<File Id="483640076" Language="SFX">
 							<ShortName>Poncho_Flying\Poncho_Flying_01.wav</ShortName>
 							<Path>SFX/Poncho_Flying/Poncho_Flying_01_85B62132.wem</Path>
-						</File>
-						<File Id="558242039" Language="SFX">
-							<ShortName>VO_Flying_Start\VO_Flying_Start_01.wav</ShortName>
-							<Path>SFX/VO_Flying_Start/VO_Flying_Start_01_733824D6.wem</Path>
-						</File>
-						<File Id="621927675" Language="SFX">
-							<ShortName>VO_Flying_Start\VO_Flying_Start_04.wav</ShortName>
-							<Path>SFX/VO_Flying_Start/VO_Flying_Start_04_A26074DB.wem</Path>
-						</File>
-						<File Id="837465029" Language="SFX">
-							<ShortName>VO_Flying_Start\VO_Flying_Start_02.wav</ShortName>
-							<Path>SFX/VO_Flying_Start/VO_Flying_Start_02_A26074DB.wem</Path>
-						</File>
-						<File Id="1008875722" Language="SFX">
-							<ShortName>VO_Flying_Start\VO_Flying_Start_05.wav</ShortName>
-							<Path>SFX/VO_Flying_Start/VO_Flying_Start_05_A26074DB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -5548,6 +5541,19 @@
 						<ActionSetStateEntry Id="3031504797" Name="Foot" ObjectPath="\States\Default Work Unit\Mode\Foot"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="606888806" Name="Lore_Idle" ObjectPath="\Events\Default Work Unit\INGREDIENT\Lore_Idle" MaxAttenuation="50." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="504223982" Language="SFX">
+							<ShortName>Statue_Idle_Magic.wav</ShortName>
+							<Path>SFX/Statue_Idle_Magic_E7DD39E0.wem</Path>
+						</File>
+						<File Id="723665693" Language="SFX">
+							<ShortName>Statue_Idle_Sturmfrei.wav</ShortName>
+							<Path>SFX/Statue_Idle_Sturmfrei_D1634464.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3974082677" Name="Lore_Idle_Stop" ObjectPath="\Events\Default Work Unit\INGREDIENT\Idle_Stop\Lore_Idle_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1640886257" Name="Magnet_Activate" ObjectPath="\Events\Default Work Unit\INGREDIENT\Magnet_Activate" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="202407243" Language="SFX">
@@ -5581,7 +5587,76 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="780953876" Name="Map_Load" ObjectPath="\Events\Default Work Unit\Map_Load" DurationType="Infinite">
+				<Event Id="780953876" Name="Map_Load" ObjectPath="\Events\Default Work Unit\Map_Load" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="760777789" Name="Menu_Click" ObjectPath="\Events\Default Work Unit\UI\Menu_Click" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="626954121" Name="Menu_Close" ObjectPath="\Events\Default Work Unit\UI\Menu_Close" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1287511387" Name="Menu_Open" ObjectPath="\Events\Default Work Unit\UI\Menu_Open" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1468236648" Name="MUS_Hub_PreVillage" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_PreVillage" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="337434664" Name="PreVillage" ObjectPath="\States\Default Work Unit\Hub\PreVillage"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1946661255" Name="MUS_Hub_Tuto" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_Tuto" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="646625282" Name="Hub" ObjectPath="\States\Default Work Unit\Level\Hub"/>
+						<ActionSetStateEntry Id="2413814047" Name="Unequipped" ObjectPath="\States\Default Work Unit\Poncho\Unequipped"/>
+						<ActionSetStateEntry Id="3037000007" Name="Tuto" ObjectPath="\States\Default Work Unit\Hub\Tuto"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1075809139" Name="MUS_Hub_Village" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_Village" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3945572659" Name="Village" ObjectPath="\States\Default Work Unit\Hub\Village"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3243133041" Name="MUS_Level1_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
+						<ActionSetStateEntry Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\Level\Level_1"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3624297410" Name="MUS_Level1_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1462442152" Name="MUS_Level1_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2717839624" Name="MUS_Level2_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
+						<ActionSetStateEntry Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\Level\Level_2"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3886197287" Name="MUS_Level2_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2318407373" Name="MUS_Level2_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1200065475" Name="MUS_Level3_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
+						<ActionSetStateEntry Id="1290008371" Name="Level_3" ObjectPath="\States\Default Work Unit\Level\Level_3"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4244769408" Name="MUS_Level3_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3336347158" Name="MUS_Level3_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1973954843" Name="MUS_Start" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Start" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="723114" Language="SFX">
 							<ShortName>L3_FX_02.wav</ShortName>
@@ -6162,10 +6237,6 @@
 						<File Id="400714104" Language="SFX">
 							<ShortName>SingleNotes07.wav</ShortName>
 							<Path>SFX/SingleNotes07_A26074DB.wem</Path>
-						</File>
-						<File Id="402211980" Language="SFX">
-							<ShortName>Wonder_L1_164BPM (6-4)\Wonder_L1_LowStrings(1).wav</ShortName>
-							<Path>SFX/Wonder_L1_164BPM (6-4)/Wonder_L1_LowStrings(1)_A26A3599.wem</Path>
 						</File>
 						<File Id="404859819" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_02.wav</ShortName>
@@ -7389,23 +7460,14 @@
 									<Children>
 										<SwitchContainer SwitchValue="{0DC93320-273F-422B-9905-FD76CA37718B}">
 											<Media>
-												<File Id="30171538"/>
-												<File Id="74710153"/>
 												<File Id="203686847"/>
 												<File Id="281561396"/>
 												<File Id="298764452"/>
 												<File Id="319013741"/>
-												<File Id="325226270"/>
 												<File Id="390325435"/>
-												<File Id="395374072"/>
-												<File Id="402211980"/>
-												<File Id="409750429"/>
 												<File Id="414949940"/>
 												<File Id="430436682"/>
 												<File Id="459637675"/>
-												<File Id="645371660"/>
-												<File Id="685176950"/>
-												<File Id="700128339"/>
 												<File Id="704385946"/>
 											</Media>
 										</SwitchContainer>
@@ -7580,15 +7642,12 @@
 												<File Id="325226270"/>
 												<File Id="390325435"/>
 												<File Id="395374072"/>
-												<File Id="402211980"/>
 												<File Id="409750429"/>
 												<File Id="414949940"/>
-												<File Id="430436682"/>
 												<File Id="459637675"/>
 												<File Id="645371660"/>
 												<File Id="685176950"/>
 												<File Id="700128339"/>
-												<File Id="704385946"/>
 											</Media>
 										</SwitchContainer>
 									</Children>
@@ -7731,24 +7790,12 @@
 									<Children>
 										<SwitchContainer SwitchValue="{0DC93320-273F-422B-9905-FD76CA37718B}">
 											<Media>
-												<File Id="30171538"/>
-												<File Id="74710153"/>
 												<File Id="203686847"/>
 												<File Id="281561396"/>
-												<File Id="298764452"/>
 												<File Id="319013741"/>
-												<File Id="325226270"/>
 												<File Id="390325435"/>
-												<File Id="395374072"/>
-												<File Id="402211980"/>
-												<File Id="409750429"/>
 												<File Id="414949940"/>
-												<File Id="430436682"/>
 												<File Id="459637675"/>
-												<File Id="645371660"/>
-												<File Id="685176950"/>
-												<File Id="700128339"/>
-												<File Id="704385946"/>
 											</Media>
 										</SwitchContainer>
 									</Children>
@@ -7757,75 +7804,6 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="760777789" Name="Menu_Click" ObjectPath="\Events\Default Work Unit\UI\Menu_Click" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="626954121" Name="Menu_Close" ObjectPath="\Events\Default Work Unit\UI\Menu_Close" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1287511387" Name="Menu_Open" ObjectPath="\Events\Default Work Unit\UI\Menu_Open" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1468236648" Name="MUS_Hub_PreVillage" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_PreVillage" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="337434664" Name="PreVillage" ObjectPath="\States\Default Work Unit\Hub\PreVillage"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1946661255" Name="MUS_Hub_Tuto" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_Tuto" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="646625282" Name="Hub" ObjectPath="\States\Default Work Unit\Level\Hub"/>
-						<ActionSetStateEntry Id="2413814047" Name="Unequipped" ObjectPath="\States\Default Work Unit\Poncho\Unequipped"/>
-						<ActionSetStateEntry Id="3037000007" Name="Tuto" ObjectPath="\States\Default Work Unit\Hub\Tuto"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1075809139" Name="MUS_Hub_Village" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Hub_Village" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="3945572659" Name="Village" ObjectPath="\States\Default Work Unit\Hub\Village"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3243133041" Name="MUS_Level1_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
-						<ActionSetStateEntry Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\Level\Level_1"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3624297410" Name="MUS_Level1_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1462442152" Name="MUS_Level1_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level1_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2717839624" Name="MUS_Level2_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
-						<ActionSetStateEntry Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\Level\Level_2"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3886197287" Name="MUS_Level2_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2318407373" Name="MUS_Level2_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level2_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1200065475" Name="MUS_Level3_Ambiance" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="85412153" Name="Ambience" ObjectPath="\States\Default Work Unit\Music\Ambience"/>
-						<ActionSetStateEntry Id="1290008371" Name="Level_3" ObjectPath="\States\Default Work Unit\Level\Level_3"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="4244769408" Name="MUS_Level3_BossPuzzle" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_BossPuzzle" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Music\Boss"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3336347158" Name="MUS_Level3_Wonder" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Level3_Wonder" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2976041628" Name="Wonder" ObjectPath="\States\Default Work Unit\Music\Wonder"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1973954843" Name="MUS_Start" ObjectPath="\Events\Default Work Unit\MUSIC\MUS_Start" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="493504551" Name="Poncho_Collect" ObjectPath="\Events\Default Work Unit\INGREDIENT\Poncho_Collect" DurationType="OneShot" DurationMin="10.360314" DurationMax="10.360314">
 					<IncludedMemoryFiles>
 						<File Id="467596883" Language="SFX">

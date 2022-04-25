@@ -21,6 +21,8 @@ namespace AK
         static const AkUniqueID AMB_LEVEL3 = 4059733423U;
         static const AkUniqueID AMB_SKY = 3820074413U;
         static const AkUniqueID AMB_SKY_STOP = 4206107360U;
+        static const AkUniqueID BOOK_IDLE = 2074894303U;
+        static const AkUniqueID BOOK_IDLE_STOP = 1079746154U;
         static const AkUniqueID BOSS_DEFEAT = 3026592080U;
         static const AkUniqueID BOSS_IDLE = 3167145899U;
         static const AkUniqueID BOSS_IDLE_STOP = 1582029286U;
@@ -44,6 +46,8 @@ namespace AK
         static const AkUniqueID FOOT_JUMP = 761314172U;
         static const AkUniqueID FOOT_LANDING = 1633218881U;
         static const AkUniqueID FOOT_WALK = 2176935827U;
+        static const AkUniqueID LORE_IDLE = 606888806U;
+        static const AkUniqueID LORE_IDLE_STOP = 3974082677U;
         static const AkUniqueID MAGNET_ACTIVATE = 1640886257U;
         static const AkUniqueID MAGNET_IDLE = 1966150636U;
         static const AkUniqueID MAGNET_IDLE_STOP = 1652472027U;
