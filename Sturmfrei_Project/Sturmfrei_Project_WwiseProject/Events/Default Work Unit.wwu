@@ -1252,6 +1252,7 @@
 										<Property Name="ActionType" Type="int16" Value="2"/>
 										<Property Name="FadeOutCurve" Type="int16" Value="0"/>
 										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1294,6 +1295,29 @@
 						<Event Name="Poncho_Idle" ID="{03C3DF92-602A-4275-BCAC-0CAAA8B249A8}">
 							<ChildrenList>
 								<Action Name="" ID="{62706700-496B-4153-8E96-612FDCB5FBDE}" ShortID="990369693">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho_Idle" ID="{D5659A77-1C30-45F0-AC8F-C668C2F24812}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0DB09E8B-92BB-4CB3-B029-B8224ED09505}" ShortID="1013085558">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2B216791-F21B-4E4C-9D8B-1C2CD7015B06}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="40"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Poncho_Idle" ID="{D5659A77-1C30-45F0-AC8F-C668C2F24812}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
@@ -1420,10 +1444,32 @@
 								<Action Name="" ID="{BEC302F8-ED1A-42E6-9C63-2F72DA2791D8}" ShortID="240792321">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="6"/>
-										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
 										<Property Name="FadeTime" Type="Real64" Value="2"/>
 									</PropertyList>
 									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{58A9BE5A-7F69-439A-AB53-405076B721B4}" ShortID="169634496">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hub" ID="{C66BE474-8691-4FB7-940B-9D539A992BC4}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{804D1ED9-B3DE-4CD4-87C3-235CE6C4B5A3}" ShortID="213996693">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tuto" ID="{2B8A6238-899D-455D-9E8C-79CE0540DBDD}" WorkUnitID="{188BCC65-8758-4A03-B4E4-69BFD420466D}"/>
+										</Reference>
+									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
@@ -1890,6 +1936,19 @@
 								<Action Name="" ID="{02C3C73E-882A-4C34-974E-F04039A7D022}" ShortID="462826023">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="0"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poncho_Idle" ID="{D5659A77-1C30-45F0-AC8F-C668C2F24812}" WorkUnitID="{916F91C2-C878-413A-8918-76E9E5F3DC89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F7FD7E7D-AE1E-4360-B8EC-4E5399E5F3B0}" ShortID="597212124">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
 										<Property Name="FadeOutCurve" Type="int16" Value="0"/>
 										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>

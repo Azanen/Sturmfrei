@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1494047070">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3254506795">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -194,6 +194,10 @@
 							<Path>SFX/Boss_ReturnHub_Magic_723A18D1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="646625282" Name="Hub" ObjectPath="\States\Default Work Unit\Level\Hub"/>
+						<ActionSetStateEntry Id="3037000007" Name="Tuto" ObjectPath="\States\Default Work Unit\Hub\Tuto"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="4250271610" Name="BreakWall_EasterEgg" ObjectPath="\Events\Default Work Unit\INGREDIENT\BreakWall_EasterEgg" DurationType="OneShot" DurationMin="1.4935" DurationMax="1.4935">
 					<IncludedMemoryFiles>
@@ -5911,7 +5915,7 @@
 						</File>
 						<File Id="163212180" Language="SFX">
 							<ShortName>510480-AMBISONICS-A_EXT_Green_Mountain_Montana_Day_01_STEREO.wav</ShortName>
-							<Path>SFX/510480-AMBISONICS-A_EXT_Green_Mountain_Montana_Day_01_STEREO_AD5F4271.wem</Path>
+							<Path>SFX/510480-AMBISONICS-A_EXT_Green_Mountain_Montana_Day_01_STEREO_2361438B.wem</Path>
 						</File>
 						<File Id="165252916" Language="SFX">
 							<ShortName>high28.wav</ShortName>
@@ -5919,7 +5923,7 @@
 						</File>
 						<File Id="167283073" Language="SFX">
 							<ShortName>Hub_bowed xylophone02.wav</ShortName>
-							<Path>SFX/Hub_bowed xylophone02_723A18D1.wem</Path>
+							<Path>SFX/Hub_bowed xylophone02_C4258BF8.wem</Path>
 						</File>
 						<File Id="172939683" Language="SFX">
 							<ShortName>L1_SynthDrone_02.wav</ShortName>
@@ -6055,7 +6059,7 @@
 						</File>
 						<File Id="268511693" Language="SFX">
 							<ShortName>Hub_bowed xylophone01.wav</ShortName>
-							<Path>SFX/Hub_bowed xylophone01_723A18D1.wem</Path>
+							<Path>SFX/Hub_bowed xylophone01_C4258BF8.wem</Path>
 						</File>
 						<File Id="270094856" Language="SFX">
 							<ShortName>L2_high_07.wav</ShortName>
@@ -6183,7 +6187,7 @@
 						</File>
 						<File Id="341789411" Language="SFX">
 							<ShortName>Hub_bowed xylophone04.wav</ShortName>
-							<Path>SFX/Hub_bowed xylophone04_723A18D1.wem</Path>
+							<Path>SFX/Hub_bowed xylophone04_C4258BF8.wem</Path>
 						</File>
 						<File Id="342243215" Language="SFX">
 							<ShortName>Piano fragments\Chord_High\L3_chord_high_05.wav</ShortName>
@@ -6359,7 +6363,7 @@
 						</File>
 						<File Id="457266099" Language="SFX">
 							<ShortName>346055-PWL04_0029_SOUNDSNAP_ALASKA_2.wav</ShortName>
-							<Path>SFX/346055-PWL04_0029_SOUNDSNAP_ALASKA_2_949E6C8D.wem</Path>
+							<Path>SFX/346055-PWL04_0029_SOUNDSNAP_ALASKA_2_917D513B.wem</Path>
 						</File>
 						<File Id="459637675" Language="SFX">
 							<ShortName>Wonder_L1_164BPM (6-4)\Wonder_L1_Vibraphone.wav</ShortName>
@@ -6519,7 +6523,7 @@
 						</File>
 						<File Id="566689373" Language="SFX">
 							<ShortName>396167-Countryside-Meadow-Wind-Trees-Rustle-30_kph-ORTF.wav</ShortName>
-							<Path>SFX/396167-Countryside-Meadow-Wind-Trees-Rustle-30_kph-ORTF_7266CBDF.wem</Path>
+							<Path>SFX/396167-Countryside-Meadow-Wind-Trees-Rustle-30_kph-ORTF_0FEB07D6.wem</Path>
 						</File>
 						<File Id="566880474" Language="SFX">
 							<ShortName>L2_low_06.wav</ShortName>
@@ -7315,7 +7319,7 @@
 						</File>
 						<File Id="1070696707" Language="SFX">
 							<ShortName>Hub_bowed xylophone03.wav</ShortName>
-							<Path>SFX/Hub_bowed xylophone03_723A18D1.wem</Path>
+							<Path>SFX/Hub_bowed xylophone03_C4258BF8.wem</Path>
 						</File>
 						<File Id="1072000622" Language="SFX">
 							<ShortName>Hub_Tuto\Hub_Tuto_Woodblock.wav</ShortName>
@@ -7971,7 +7975,7 @@
 					<IncludedMemoryFiles>
 						<File Id="69010834" Language="SFX">
 							<ShortName>VO_Foot_Interaction_Happy\VO_Foot_Interaction_Happy_03.wav</ShortName>
-							<Path>SFX/VO_Foot_Interaction_Happy/VO_Foot_Interaction_Happy_03_0481A176.wem</Path>
+							<Path>SFX/VO_Foot_Interaction_Happy/VO_Foot_Interaction_Happy_03_B678979D.wem</Path>
 						</File>
 						<File Id="87375842" Language="SFX">
 							<ShortName>VO_Foot_Interaction_Happy\VO_Foot_Interaction_Happy_10.wav</ShortName>
@@ -8071,11 +8075,11 @@
 						</File>
 						<File Id="1034297451" Language="SFX">
 							<ShortName>VO_Foot_Interaction_Happy\VO_Foot_Interaction_Happy_11.wav</ShortName>
-							<Path>SFX/VO_Foot_Interaction_Happy/VO_Foot_Interaction_Happy_11_C3E1C085.wem</Path>
+							<Path>SFX/VO_Foot_Interaction_Happy/VO_Foot_Interaction_Happy_11_1BEDEDAE.wem</Path>
 						</File>
 						<File Id="1046074104" Language="SFX">
 							<ShortName>VO_Foot_Interaction_Happy\VO_Foot_Interaction_Happy_01.wav</ShortName>
-							<Path>SFX/VO_Foot_Interaction_Happy/VO_Foot_Interaction_Happy_01_5EA391A0.wem</Path>
+							<Path>SFX/VO_Foot_Interaction_Happy/VO_Foot_Interaction_Happy_01_82842CE4.wem</Path>
 						</File>
 						<File Id="1048644368" Language="SFX">
 							<ShortName>Soul_Collect_17.wav</ShortName>

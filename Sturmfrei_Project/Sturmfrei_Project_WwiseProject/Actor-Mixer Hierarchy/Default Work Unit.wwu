@@ -71,7 +71,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-8</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -8500,6 +8500,9 @@
 											<ObjectLists/>
 											<Playlist>
 												<ItemRef Name="VO_Flying_Idle" ID="{2C9E697F-A7A0-49DB-A35C-A0030CC037AA}"/>
+												<ItemRef Name="Silence" ID="{8F202890-D973-4C44-84F1-193102B26FB8}"/>
+												<ItemRef Name="Silence" ID="{8F202890-D973-4C44-84F1-193102B26FB8}"/>
+												<ItemRef Name="Silence" ID="{8F202890-D973-4C44-84F1-193102B26FB8}"/>
 												<ItemRef Name="Silence" ID="{8F202890-D973-4C44-84F1-193102B26FB8}"/>
 												<ItemRef Name="Silence" ID="{8F202890-D973-4C44-84F1-193102B26FB8}"/>
 												<ItemRef Name="Silence" ID="{8F202890-D973-4C44-84F1-193102B26FB8}"/>
@@ -34424,8 +34427,25 @@
 								<Sound Name="Poncho_Idle" ID="{D5659A77-1C30-45F0-AC8F-C668C2F24812}" ShortID="753596177">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -35775,7 +35795,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -42891,9 +42911,12 @@
 							<ObjectLists/>
 						</ActorMixer>
 						<ActorMixer Name="Hub" ID="{03191150-88D1-4168-93E1-8451FDA2DF9A}" ShortID="502298176">
+							<PropertyList>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Meh" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
+									<ObjectRef Name="Quality" ID="{85ED1A63-5502-40EC-9921-A55775F6348C}" WorkUnitID="{E9FDA9D7-2829-4506-A992-7D5E6325408E}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ABA9240F-06DF-4E50-8566-08752CD179AE}"/>

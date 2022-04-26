@@ -21104,11 +21104,6 @@
 								<MusicSegment Name="Hub_PreVillage_B" ID="{DAB00735-3677-49A2-A4F0-9B21C13F6E88}" ShortID="656870816">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="25717.0294494238"/>
-										<Property Name="PlaybackSpeed" Type="Real64">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Tempo" Type="Real64" Value="140"/>
 										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 										<Property Name="Volume" Type="Real64">
@@ -28957,7 +28952,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
