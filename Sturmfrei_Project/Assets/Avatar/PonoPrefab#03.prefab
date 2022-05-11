@@ -20342,6 +20342,7 @@ GameObject:
   - component: {fileID: 4380297262392692885}
   - component: {fileID: 7045777193086347245}
   - component: {fileID: 8442326331438352602}
+  - component: {fileID: 4444088248844310290}
   m_Layer: 11
   m_Name: PonoPrefab#03
   m_TagString: Player
@@ -20725,6 +20726,42 @@ MonoBehaviour:
   ponchoMat:
   - {fileID: 2100000, guid: a0cf1329626fd7748a40fa8ab0440969, type: 2}
   - {fileID: 2100000, guid: b166ca54306d6d84883dbaab171f6bbc, type: 2}
+--- !u!114 &4444088248844310290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401864734109634382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 196e9881cf8d494478ea62a59ed8488e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EmissionZero: {fileID: 2800000, guid: 369026b8fb099da4f8ad0dd4173c8cca, type: 3}
+  EmissionOne: {fileID: 2800000, guid: 333669855d7bf094181503a6afaaaaf3, type: 3}
+  EmissionTwo: {fileID: 2800000, guid: f96be0f50537e904ba5494eb23c3771d, type: 3}
+  EmissionThree: {fileID: 2800000, guid: 72f055edcf35fb845a4c9c7f4a24ef21, type: 3}
+  poncho: {fileID: 6891959600313871423}
+  ponchoMat: {fileID: 2100000, guid: a0cf1329626fd7748a40fa8ab0440969, type: 2}
+  ponchoSwitchStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4444088248844310290}
+        m_TargetAssemblyTypeName: PonchoEmissionChange, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ponchoSwitch:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1292401723250723185
 PrefabInstance:
   m_ObjectHideFlags: 0
